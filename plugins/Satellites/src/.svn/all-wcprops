@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/6054/trunk/stellarium/plugins/Satellites/src
+END
+Satellites.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/6054/trunk/stellarium/plugins/Satellites/src/Satellites.hpp
+END
+Satellite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/5742/trunk/stellarium/plugins/Satellites/src/Satellite.cpp
+END
+Satellites.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/6054/trunk/stellarium/plugins/Satellites/src/Satellites.cpp
+END
+Satellite.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/Satellite.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/5664/trunk/stellarium/plugins/Satellites/src/CMakeLists.txt
+END

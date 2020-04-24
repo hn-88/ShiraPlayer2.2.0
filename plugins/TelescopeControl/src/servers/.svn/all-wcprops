@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/5989/trunk/stellarium/plugins/TelescopeControl/src/servers
+END
+Connection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/stellarium/!svn/ver/5721/trunk/stellarium/plugins/TelescopeControl/src/servers/Connection.cpp
+END
+NexStarConnection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/stellarium/!svn/ver/5754/trunk/stellarium/plugins/TelescopeControl/src/servers/NexStarConnection.cpp
+END
+Lx200Command.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/stellarium/!svn/ver/5754/trunk/stellarium/plugins/TelescopeControl/src/servers/Lx200Command.cpp
+END
+GNU_LGPL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/stellarium/!svn/ver/5671/trunk/stellarium/plugins/TelescopeControl/src/servers/GNU_LGPL.txt
+END
+Connection.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/stellarium/!svn/ver/5671/trunk/stellarium/plugins/TelescopeControl/src/servers/Connection.hpp
+END
+Server.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5748/trunk/stellarium/plugins/TelescopeControl/src/servers/Server.cpp
+END
+NexStarConnection.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/stellarium/!svn/ver/5671/trunk/stellarium/plugins/TelescopeControl/src/servers/NexStarConnection.hpp
+END
+Lx200Command.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/stellarium/!svn/ver/5749/trunk/stellarium/plugins/TelescopeControl/src/servers/Lx200Command.hpp
+END
+Server.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5671/trunk/stellarium/plugins/TelescopeControl/src/servers/Server.hpp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/stellarium/!svn/ver/5671/trunk/stellarium/plugins/TelescopeControl/src/servers/README
+END
+LogFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/stellarium/!svn/ver/5721/trunk/stellarium/plugins/TelescopeControl/src/servers/LogFile.cpp
+END
+NexStarCommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/stellarium/!svn/ver/5754/trunk/stellarium/plugins/TelescopeControl/src/servers/NexStarCommand.cpp
+END
+SerialPort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/stellarium/!svn/ver/5985/trunk/stellarium/plugins/TelescopeControl/src/servers/SerialPort.cpp
+END
+Lx200Connection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/stellarium/!svn/ver/5754/trunk/stellarium/plugins/TelescopeControl/src/servers/Lx200Connection.cpp
+END
+LogFile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/stellarium/!svn/ver/5721/trunk/stellarium/plugins/TelescopeControl/src/servers/LogFile.hpp
+END
+NexStarCommand.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/stellarium/!svn/ver/5749/trunk/stellarium/plugins/TelescopeControl/src/servers/NexStarCommand.hpp
+END
+Socket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5985/trunk/stellarium/plugins/TelescopeControl/src/servers/Socket.cpp
+END
+SerialPort.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/stellarium/!svn/ver/5985/trunk/stellarium/plugins/TelescopeControl/src/servers/SerialPort.hpp
+END
+Lx200Connection.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/stellarium/!svn/ver/5671/trunk/stellarium/plugins/TelescopeControl/src/servers/Lx200Connection.hpp
+END
+Socket.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5989/trunk/stellarium/plugins/TelescopeControl/src/servers/Socket.hpp
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4
+END
+sgp_in.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/sgp_in.c
+END
+solar.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/solar.c
+END
+sgp_math.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/sgp_math.c
+END
+1_COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/1_COPYING
+END
+sgp_time.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/sgp_time.c
+END
+sgp4sdp4.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/sgp4sdp4.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/README
+END
+sgp_obs.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/sgp_obs.c
+END
+2_README
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/2_README
+END
+sgp4sdp4.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/sgp4sdp4/sgp4sdp4.h
+END

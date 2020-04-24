@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src/gui
+END
+telescopeDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src/gui/telescopeDialog.ui
+END
+TelescopeConfigurationDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/stellarium/!svn/ver/5663/trunk/stellarium/plugins/TelescopeControl/src/gui/TelescopeConfigurationDialog.hpp
+END
+StelDialogTelescopeControl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/stellarium/!svn/ver/5663/trunk/stellarium/plugins/TelescopeControl/src/gui/StelDialogTelescopeControl.hpp
+END
+TelescopeDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src/gui/TelescopeDialog.cpp
+END
+telescopeConfigurationDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui
+END
+TelescopeDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src/gui/TelescopeDialog.hpp
+END
+TelescopeConfigurationDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/stellarium/!svn/ver/6054/trunk/stellarium/plugins/TelescopeControl/src/gui/TelescopeConfigurationDialog.cpp
+END
+StelDialogTelescopeControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/stellarium/!svn/ver/5739/trunk/stellarium/plugins/TelescopeControl/src/gui/StelDialogTelescopeControl.cpp
+END

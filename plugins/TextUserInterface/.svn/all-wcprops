@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/6073/trunk/stellarium/plugins/TextUserInterface
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/6073/trunk/stellarium/plugins/TextUserInterface/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/5673/trunk/stellarium/plugins/TextUserInterface/COPYING
+END
+TextUserInterface.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5673/trunk/stellarium/plugins/TextUserInterface/TextUserInterface.qrc
+END
+installer.iss
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5673/trunk/stellarium/plugins/TextUserInterface/installer.iss
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/6073/trunk/stellarium/plugins/TextUserInterface/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/5673/trunk/stellarium/plugins/TextUserInterface/README
+END

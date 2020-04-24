@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/6054/trunk/stellarium/plugins/Satellites/src/gui
+END
+SatellitesDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/6053/trunk/stellarium/plugins/Satellites/src/gui/SatellitesDialog.hpp
+END
+satellitesDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/gui/satellitesDialog.ui
+END
+StelDialogPlugin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/gui/StelDialogPlugin.cpp
+END
+SatellitesDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/6054/trunk/stellarium/plugins/Satellites/src/gui/SatellitesDialog.cpp
+END
+StelDialogPlugin.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/src/gui/StelDialogPlugin.hpp
+END

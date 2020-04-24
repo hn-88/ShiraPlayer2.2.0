@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/util
+END
+ini2json.pl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/util/ini2json.pl
+END
+predict2ini.pl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/util/predict2ini.pl
+END
+get.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/util/get.sh
+END

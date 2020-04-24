@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src
+END
+TelescopeControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src/TelescopeControl.cpp
+END
+TelescopeControl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/stellarium/!svn/ver/6110/trunk/stellarium/plugins/TelescopeControl/src/TelescopeControl.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/stellarium/!svn/ver/6035/trunk/stellarium/plugins/TelescopeControl/src/CMakeLists.txt
+END
+TelescopeControlGlobals.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/stellarium/!svn/ver/5985/trunk/stellarium/plugins/TelescopeControl/src/TelescopeControlGlobals.hpp
+END
