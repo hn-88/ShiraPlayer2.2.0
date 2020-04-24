@@ -29,7 +29,7 @@ SET(TextUserInterface_SRCS
 	TextUserInterface.cpp)
 
 SET(TextUserInterface_RES ../TextUserInterface.qrc)
-QT4_ADD_RESOURCES(TextUserInterface_RES_CXX ${TextUserInterface_RES})
+QT5_ADD_RESOURCES(TextUserInterface_RES_CXX ${TextUserInterface_RES})
 
 # Add here all the files which require moc compilation
 # that is, all the headers with SIGNAL/SLOTS/PLUGIN_INTERFACE etc..
@@ -48,7 +48,7 @@ SET(TextUserInterface_MOC_HDRS
 	TextUserInterface.hpp)
 
 # After this call, TextUserInterface_MOC_SRCS = moc_TextUserInterface.cxx
-QT4_WRAP_CPP(TextUserInterface_MOC_SRCS ${TextUserInterface_MOC_HDRS})
+QT5_WRAP_CPP(TextUserInterface_MOC_SRCS ${TextUserInterface_MOC_HDRS})
 SET(extLinkerOption ${QT_LIBRARIES} ${OPENGL_LIBRARIES} ${ICONV_LIBRARIES} ${INTL_LIBRARIES})
 
 ############### For building the dynamic library ######################
