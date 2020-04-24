@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/stellarium/!svn/ver/6066/trunk/stellarium/plugins/Oculars/src/gui
+END
+StelDialogOculars.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/stellarium/!svn/ver/5667/trunk/stellarium/plugins/Oculars/src/gui/StelDialogOculars.cpp
+END
+ocularDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5667/trunk/stellarium/plugins/Oculars/src/gui/ocularDialog.ui
+END
+OcularDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/6066/trunk/stellarium/plugins/Oculars/src/gui/OcularDialog.cpp
+END
+StelDialogOculars.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/stellarium/!svn/ver/5667/trunk/stellarium/plugins/Oculars/src/gui/StelDialogOculars.hpp
+END
+OcularDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5667/trunk/stellarium/plugins/Oculars/src/gui/OcularDialog.hpp
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/5728/trunk/stellarium/plugins/LogBook/src/models
+END
+FieldConcatModel.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/models/FieldConcatModel.hpp
+END
+FieldConcatModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5728/trunk/stellarium/plugins/LogBook/src/models/FieldConcatModel.cpp
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/stellarium/!svn/ver/5763/trunk/stellarium/plugins/LogBook/src/gui
+END
+TargetsDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/TargetsDialog.hpp
+END
+OpticsWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/OpticsWidget.ui
+END
+LogBookConfigDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5763/trunk/stellarium/plugins/LogBook/src/gui/LogBookConfigDialog.cpp
+END
+StelDialogLogBook.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/StelDialogLogBook.cpp
+END
+OcularsWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/OcularsWidget.ui
+END
+LogBookDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/LogBookDialog.ui
+END
+LogBookConfigDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/LogBookConfigDialog.hpp
+END
+FiltersWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/FiltersWidget.ui
+END
+BarlowsWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/BarlowsWidget.ui
+END
+StelDialogLogBook.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/StelDialogLogBook.hpp
+END
+ObserversWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/ObserversWidget.ui
+END
+LogBookDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/LogBookDialog.cpp
+END
+LogBookDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/LogBookDialog.hpp
+END
+TargetsDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/TargetsDialog.ui
+END
+ImagersWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/ImagersWidget.ui
+END
+SitesWidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/SitesWidget.ui
+END
+TargetsDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/TargetsDialog.cpp
+END
+LogBookConfigDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/stellarium/!svn/ver/5763/trunk/stellarium/plugins/LogBook/src/gui/LogBookConfigDialog.ui
+END

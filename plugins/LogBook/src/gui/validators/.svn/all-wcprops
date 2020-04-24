@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/validators
+END
+LimitingDoubleValidator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/validators/LimitingDoubleValidator.hpp
+END
+LimitingIntValidator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/validators/LimitingIntValidator.hpp
+END
+NonEmptyStringValidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/validators/NonEmptyStringValidator.cpp
+END
+NonEmptyStringValidator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/validators/NonEmptyStringValidator.hpp
+END
+LimitingDoubleValidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/validators/LimitingDoubleValidator.cpp
+END
+LimitingIntValidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/validators/LimitingIntValidator.cpp
+END

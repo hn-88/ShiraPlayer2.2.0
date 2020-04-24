@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/stellarium/!svn/ver/6066/trunk/stellarium/plugins/Oculars/src
+END
+Telescope.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/5728/trunk/stellarium/plugins/Oculars/src/Telescope.cpp
+END
+Ocular.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5728/trunk/stellarium/plugins/Oculars/src/Ocular.cpp
+END
+Oculars.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/6065/trunk/stellarium/plugins/Oculars/src/Oculars.cpp
+END
+Telescope.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/5667/trunk/stellarium/plugins/Oculars/src/Telescope.hpp
+END
+Ocular.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5667/trunk/stellarium/plugins/Oculars/src/Ocular.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/Oculars/src/CMakeLists.txt
+END
+Oculars.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/6065/trunk/stellarium/plugins/Oculars/src/Oculars.hpp
+END

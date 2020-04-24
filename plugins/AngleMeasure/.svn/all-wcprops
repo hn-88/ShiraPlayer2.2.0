@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/stellarium/!svn/ver/5669/trunk/stellarium/plugins/AngleMeasure
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/COPYING
+END
+bt_anglemeasure_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/bt_anglemeasure_off.png
+END
+installer.iss
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/installer.iss
+END
+AngleMeasure.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/AngleMeasure.qrc
+END
+bt_anglemeasure_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/bt_anglemeasure_on.png
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/5655/trunk/stellarium/plugins/AngleMeasure/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/README
+END

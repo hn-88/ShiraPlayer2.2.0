@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/6051/trunk/stellarium/plugins/Oculars/resources
+END
+normalStyle.css
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/6051/trunk/stellarium/plugins/Oculars/resources/normalStyle.css
+END
+nightStyle.css
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/6051/trunk/stellarium/plugins/Oculars/resources/nightStyle.css
+END
+bt_ocular_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/stellarium/!svn/ver/5723/trunk/stellarium/plugins/Oculars/resources/bt_ocular_off.png
+END
+default_ocular.ini
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/stellarium/!svn/ver/5723/trunk/stellarium/plugins/Oculars/resources/default_ocular.ini
+END
+bt_ocular_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/stellarium/!svn/ver/5723/trunk/stellarium/plugins/Oculars/resources/bt_ocular_on.png
+END
+Oculars.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/6051/trunk/stellarium/plugins/Oculars/resources/Oculars.qrc
+END

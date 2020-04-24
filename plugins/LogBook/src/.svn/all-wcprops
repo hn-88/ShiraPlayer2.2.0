@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/stellarium/!svn/ver/5763/trunk/stellarium/plugins/LogBook/src
+END
+LogBook.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/5731/trunk/stellarium/plugins/LogBook/src/LogBook.hpp
+END
+LogBookCommon.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/LogBookCommon.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5725/trunk/stellarium/plugins/LogBook/src/CMakeLists.txt
+END
+LogBook.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/5763/trunk/stellarium/plugins/LogBook/src/LogBook.cpp
+END

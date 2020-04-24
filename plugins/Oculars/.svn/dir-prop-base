@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 7
+builds
+
+K 13
+svn:mergeinfo
+V 37
+/branches/extmodules/Ocular:5471-5472
+END

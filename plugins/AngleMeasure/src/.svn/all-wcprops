@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/5669/trunk/stellarium/plugins/AngleMeasure/src
+END
+AngleMeasure.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5669/trunk/stellarium/plugins/AngleMeasure/src/AngleMeasure.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5652/trunk/stellarium/plugins/AngleMeasure/src/CMakeLists.txt
+END
+AngleMeasure.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/AngleMeasure/src/AngleMeasure.hpp
+END

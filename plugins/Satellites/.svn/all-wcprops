@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/stellarium/!svn/ver/6072/trunk/stellarium/plugins/Satellites
+END
+bt_comms_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_comms_off.png
+END
+nightStyle.css
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/6053/trunk/stellarium/plugins/Satellites/nightStyle.css
+END
+satellites.json
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5786/trunk/stellarium/plugins/Satellites/satellites.json
+END
+bt_comms_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_comms_on.png
+END
+bt_right_one.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_right_one.png
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/6072/trunk/stellarium/plugins/Satellites/ChangeLog
+END
+plugin_config.h.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/plugin_config.h.cmake
+END
+installer.iss
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/installer.iss
+END
+bt_left_all.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_left_all.png
+END
+satellite_hint.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/satellite_hint.png
+END
+Satellites.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/6053/trunk/stellarium/plugins/Satellites/Satellites.qrc
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/README
+END
+bt_add.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_add.png
+END
+normalStyle.css
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/6053/trunk/stellarium/plugins/Satellites/normalStyle.css
+END
+bt_left_one.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_left_one.png
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/COPYING
+END
+bt_delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_delete.png
+END
+bt_satellites_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_satellites_off.png
+END
+bt_satellites_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_satellites_on.png
+END
+bt_right_all.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/5660/trunk/stellarium/plugins/Satellites/bt_right_all.png
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/6072/trunk/stellarium/plugins/Satellites/CMakeLists.txt
+END

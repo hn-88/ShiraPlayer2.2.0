@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/stellarium/!svn/ver/5669/trunk/stellarium/plugins/CompassMarks
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/ChangeLog
+END
+CompassMarks.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/CompassMarks.qrc
+END
+bt_compass_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/bt_compass_off.png
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/COPYING
+END
+bt_compass_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/bt_compass_on.png
+END
+installer.iss
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/installer.iss
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/5655/trunk/stellarium/plugins/CompassMarks/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/README
+END

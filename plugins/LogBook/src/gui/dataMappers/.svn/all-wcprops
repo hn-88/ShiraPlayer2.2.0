@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers
+END
+ObserversDataMapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/ObserversDataMapper.hpp
+END
+OpticsDataMapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/OpticsDataMapper.cpp
+END
+OpticsDataMapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/OpticsDataMapper.hpp
+END
+ImagersDataMapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/ImagersDataMapper.cpp
+END
+SitesDataMapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/SitesDataMapper.cpp
+END
+FiltersDataMapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/FiltersDataMapper.cpp
+END
+OcularsDataMapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/OcularsDataMapper.cpp
+END
+BarlowsDataMapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/BarlowsDataMapper.cpp
+END
+ObserversDataMapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/stellarium/!svn/ver/5729/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/ObserversDataMapper.cpp
+END
+ImagersDataMapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/ImagersDataMapper.hpp
+END
+SitesDataMapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/SitesDataMapper.hpp
+END
+FiltersDataMapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/FiltersDataMapper.hpp
+END
+OcularsDataMapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/OcularsDataMapper.hpp
+END
+BarlowsDataMapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/src/gui/dataMappers/BarlowsDataMapper.hpp
+END

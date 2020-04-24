@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/5789/trunk/stellarium/plugins/LogBook/resources
+END
+002.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/resources/002.sql
+END
+003.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/resources/003.sql
+END
+LogBook.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/5789/trunk/stellarium/plugins/LogBook/resources/LogBook.qrc
+END
+bt_Logbook_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/stellarium/!svn/ver/5740/trunk/stellarium/plugins/LogBook/resources/bt_Logbook_on.png
+END
+about.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/5763/trunk/stellarium/plugins/LogBook/resources/about.html
+END
+001.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/resources/001.sql
+END
+bt_Logbook_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/stellarium/!svn/ver/5740/trunk/stellarium/plugins/LogBook/resources/bt_Logbook_off.png
+END
+default_logbook.ini
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/stellarium/!svn/ver/5724/trunk/stellarium/plugins/LogBook/resources/default_logbook.ini
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/5669/trunk/stellarium/plugins/CompassMarks/src
+END
+CompassMarks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5669/trunk/stellarium/plugins/CompassMarks/src/CompassMarks.cpp
+END
+CompassMarks.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/5648/trunk/stellarium/plugins/CompassMarks/src/CompassMarks.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/5652/trunk/stellarium/plugins/CompassMarks/src/CMakeLists.txt
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/5652/trunk/stellarium/plugins/HelloStelModule/src
+END
+HelloStelModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5646/trunk/stellarium/plugins/HelloStelModule/src/HelloStelModule.cpp
+END
+HelloStelModule.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/stellarium/!svn/ver/5646/trunk/stellarium/plugins/HelloStelModule/src/HelloStelModule.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/stellarium/!svn/ver/5652/trunk/stellarium/plugins/HelloStelModule/src/CMakeLists.txt
+END
