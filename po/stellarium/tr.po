@@ -1,0 +1,3556 @@
+# translation of stellarium.po to
+# Copyright (C) YEAR Fabien Chereau (c) 2005
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ali Işıngör <isingor@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: stellarium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-22 07:22+0200\n"
+"PO-Revision-Date: 2015-02-22 09:41+0200\n"
+"Last-Translator: Asaf Yurdakul <asafyurdakul@gmail.com>\n"
+"Language-Team:  <tr@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-03-31 16:53+0000\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural= (1 != 1);\n"
+"X-Poedit-SearchPath-0: C:\\prog\\stellarium\\src\\gui\n"
+
+#: src/modules/LandscapeMgr.cpp:144 src/translations.h:64
+msgid "N"
+msgstr "K"
+
+#: src/modules/LandscapeMgr.cpp:145 src/translations.h:65
+msgid "S"
+msgstr "G"
+
+#: src/modules/LandscapeMgr.cpp:146 src/translations.h:66
+msgid "E"
+msgstr "D"
+
+#: src/modules/LandscapeMgr.cpp:147 src/translations.h:67
+msgid "W"
+msgstr "B"
+
+#: src/modules/LandscapeMgr.cpp:509
+msgid "Author: "
+msgstr "Yazar: "
+
+#: src/modules/LandscapeMgr.cpp:512
+msgid "Location: "
+msgstr "Konum: "
+
+#: src/modules/LandscapeMgr.cpp:517
+#, qt-format
+msgid ", %1 m"
+msgstr ", %1 metre"
+
+#: src/modules/LandscapeMgr.cpp:520
+msgid "Planet: "
+msgstr "Gezegen: "
+
+#: src/modules/Nebula.cpp:93
+#, qt-format
+msgid "Type: <b>%1</b>"
+msgstr "Türü: <b>%1</b>"
+
+#: src/modules/Nebula.cpp:96 src/modules/Planet.cpp:172
+#, qt-format
+msgid "Magnitude: <b>%1</b>"
+msgstr "Büyüklük: <b>%1</b>"
+
+#: src/modules/Nebula.cpp:101
+#, qt-format
+msgid "Size: %1"
+msgstr "Boyut: %1"
+
+#: src/modules/Nebula.cpp:271 src/catalogpages/messierwindow.cpp:64
+msgid "Galaxy"
+msgstr "Gökada"
+
+#: src/modules/Nebula.cpp:274 src/catalogpages/messierwindow.cpp:67
+msgid "Open cluster"
+msgstr "Açık yıldız kümesi"
+
+#: src/modules/Nebula.cpp:277 src/catalogpages/messierwindow.cpp:70
+msgid "Globular cluster"
+msgstr "Küresel yıldız kümesi"
+
+#: src/modules/Nebula.cpp:280 src/catalogpages/messierwindow.cpp:73
+msgid "Nebula"
+msgstr "Bulutsu"
+
+#: src/modules/Nebula.cpp:283 src/catalogpages/messierwindow.cpp:76
+msgid "Planetary nebula"
+msgstr "Gezegenimsi bulutsu"
+
+#: src/modules/Nebula.cpp:286 src/catalogpages/messierwindow.cpp:79
+msgid "Cluster associated with nebulosity"
+msgstr "Bulutsuluğa bağlı küme"
+
+#: src/modules/Nebula.cpp:289
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: src/modules/Nebula.cpp:292
+msgid "Undocumented type"
+msgstr "Belgelenmemiş tür"
+
+#: src/modules/Planet.cpp:175 src/modules/StarWrapper.cpp:115
+#, qt-format
+msgid "Absolute Magnitude: %1"
+msgstr "Mutlak Büyüklük: %1"
+
+#: src/modules/Planet.cpp:182
+#, no-c-format, qt-format
+msgid "Distance: %1AU"
+msgstr "Uzaklık: %1 AU (1 AU = 149,597,870.691 kilometre)"
+
+#: src/modules/Planet.cpp:186
+#, qt-format
+msgid "Apparent diameter: %1"
+msgstr "Görünürdeki Çap: %1"
+
+#: src/modules/StarWrapper.cpp:54 src/modules/StarWrapper.cpp:111
+#, qt-format
+msgid "Magnitude: <b>%1</b> (B-V: %2)"
+msgstr "Büyüklük: <b>%1</b> (B-V: %2)"
+
+#: src/modules/StarWrapper.cpp:121
+#, qt-format
+msgid "Spectral Type: %1"
+msgstr "Tayf Örneği: %1"
+
+#: src/modules/StarWrapper.cpp:125
+#, qt-format
+msgid "Distance: %1 Light Years"
+msgstr "Uzaklık: %1 Işık Yılı"
+
+#: src/modules/StarWrapper.cpp:128
+#, qt-format
+msgid "Parallax: %1\""
+msgstr "Iraklık açısı: %1\""
+
+#: src/modules/TextUI.cpp:63
+msgid "Set Location "
+msgstr "Konumu Ayarla "
+
+#: src/modules/TextUI.cpp:64
+msgid "Set Time "
+msgstr "Saati Ayarla "
+
+#: src/modules/TextUI.cpp:65
+msgid "General "
+msgstr "Genel "
+
+#: src/modules/TextUI.cpp:66
+msgid "Stars "
+msgstr "Yıldızlar "
+
+#: src/modules/TextUI.cpp:67
+msgid "Colors "
+msgstr "Renkler "
+
+#: src/modules/TextUI.cpp:68
+msgid "Effects "
+msgstr "Efektler "
+
+#: src/modules/TextUI.cpp:69
+msgid "Scripts "
+msgstr "Betikler "
+
+#: src/modules/TextUI.cpp:70
+msgid "Administration "
+msgstr "Yönetim "
+
+#: src/modules/TextUI.cpp:73
+msgid "Latitude: "
+msgstr "Enlem: "
+
+#: src/modules/TextUI.cpp:74
+msgid "Longitude: "
+msgstr "Boylam: "
+
+#: src/modules/TextUI.cpp:75
+msgid "Altitude (m): "
+msgstr "Rakım (m): "
+
+#: src/modules/TextUI.cpp:76
+msgid "Solar System Body: "
+msgstr "Güneş Sistemi Nesnesi "
+
+#: src/modules/TextUI.cpp:79
+msgid "Sky Time: "
+msgstr "Gök Zamanı: "
+
+#: src/modules/TextUI.cpp:80
+msgid "Set Time Zone: "
+msgstr "Zaman Dilimini Ayarla: "
+
+#: src/modules/TextUI.cpp:81
+msgid "Day keys: "
+msgstr "Gün anahtarları "
+
+#: src/modules/TextUI.cpp:82
+msgid "Calendar"
+msgstr "Takvim"
+
+#: src/modules/TextUI.cpp:83
+msgid "Sidereal"
+msgstr "Yıldızlara İlişkin"
+
+#: src/modules/TextUI.cpp:84
+msgid "Preset Sky Time: "
+msgstr "Gök Zamanı Ön Ayarı: "
+
+#: src/modules/TextUI.cpp:85
+msgid "Sky Time At Start-up: "
+msgstr "Açılışta Gök Zamanı: "
+
+#: src/modules/TextUI.cpp:86
+msgid "Actual Time"
+msgstr "Şu anki zaman"
+
+#: src/modules/TextUI.cpp:87
+msgid "Preset Time"
+msgstr "Saat Ön Ayarı"
+
+#: src/modules/TextUI.cpp:88
+msgid "Time Display Format: "
+msgstr "Zaman Gösterim Biçimi: "
+
+#: src/modules/TextUI.cpp:89
+msgid "Date Display Format: "
+msgstr "Tarih Gösterim Biçimi: "
+
+#: src/modules/TextUI.cpp:92
+msgid "Sky Culture: "
+msgstr "Gök Kültürü: "
+
+#: src/modules/TextUI.cpp:93
+msgid "Sky Language: "
+msgstr "Gök Dili: "
+
+#: src/modules/TextUI.cpp:96
+msgid "Show: "
+msgstr "Göster: "
+
+#: src/modules/TextUI.cpp:97
+msgid "Star Value Multiplier: "
+msgstr "Yıldız Değeri Çarpanı: "
+
+#: src/modules/TextUI.cpp:98
+msgid "Magnitude Sizing Multiplier: "
+msgstr "Kadir Numarası Çarpanı: "
+
+#: src/modules/TextUI.cpp:99
+msgid "Maximum Magnitude to Label: "
+msgstr "Etiketlenecek En Yüksek Büyüklük: "
+
+#: src/modules/TextUI.cpp:100
+msgid "Twinkling: "
+msgstr "Pırıldama: "
+
+#: src/modules/TextUI.cpp:101
+msgid "Limiting Magnitude: "
+msgstr "Boyutu Sınırlandırma: "
+
+#: src/modules/TextUI.cpp:104
+msgid "Constellation Lines"
+msgstr "Takımyıldızı Çizgileri"
+
+#: src/modules/TextUI.cpp:105
+msgid "Constellation Names"
+msgstr "Takımyıldızı Adları"
+
+#: src/modules/TextUI.cpp:106
+msgid "Constellation Art Intensity"
+msgstr "Takımyıldızı Göstergesi Yoğunluğu"
+
+#: src/modules/TextUI.cpp:107
+msgid "Constellation Boundaries"
+msgstr "Takımyıldızı Sınırları"
+
+#: src/modules/TextUI.cpp:108
+msgid "Cardinal Points"
+msgstr "Ana Yönler"
+
+#: src/modules/TextUI.cpp:109
+msgid "Planet Names"
+msgstr "Gezegen Adları"
+
+#: src/modules/TextUI.cpp:110
+msgid "Planet Orbits"
+msgstr "Gezegen Yörüngeleri"
+
+#: src/modules/TextUI.cpp:111
+msgid "Planet Trails"
+msgstr "Gezegen İzleri"
+
+#: src/modules/TextUI.cpp:112
+msgid "Meridian Line"
+msgstr "Meridyen Çizgisi"
+
+#: src/modules/TextUI.cpp:113
+msgid "Azimuthal Grid"
+msgstr "Azimutal İzdüşüm"
+
+#: src/modules/TextUI.cpp:114
+msgid "Equatorial Grid"
+msgstr "Ekvatoral İzdüşüm"
+
+#: src/modules/TextUI.cpp:115
+msgid "Equator Line"
+msgstr "Ekvator Çizgisi"
+
+#: src/modules/TextUI.cpp:116
+msgid "Ecliptic Line"
+msgstr "Yörünge Çizgisi"
+
+#: src/modules/TextUI.cpp:117
+msgid "Nebula Names"
+msgstr "Bulutsu Adları"
+
+#: src/modules/TextUI.cpp:118
+msgid "Nebula Circles"
+msgstr "Bulutsu Çemberleri"
+
+#: src/modules/TextUI.cpp:121
+msgid "Light Pollution Luminance: "
+msgstr "Işık Kirliliği Parlaklığı: "
+
+#: src/modules/TextUI.cpp:122
+msgid "Landscape: "
+msgstr "Yeryüzü Şekli: "
+
+#: src/modules/TextUI.cpp:123
+msgid "Manual zoom: "
+msgstr "Elle büyütme: "
+
+#: src/modules/TextUI.cpp:124
+msgid "Object Sizing Rule: "
+msgstr "Cisim Boyutlama Kuralı: "
+
+#: src/modules/TextUI.cpp:125
+msgid "Magnitude Scaling Multiplier: "
+msgstr "Kadir Ölçekleme Çarpanı: "
+
+#: src/modules/TextUI.cpp:126
+msgid "Milky Way intensity: "
+msgstr "Samanyolu Yoğunluğu: "
+
+#: src/modules/TextUI.cpp:127
+msgid "Maximum Nebula Magnitude to Label: "
+msgstr "En Yüksek Bulutsu Kadir Oranı: "
+
+#: src/modules/TextUI.cpp:128
+msgid "Zoom Duration: "
+msgstr "Büyütme Süresi: "
+
+#: src/modules/TextUI.cpp:129
+msgid "Cursor Timeout: "
+msgstr "İmleç Gecikmesi: "
+
+#: src/modules/TextUI.cpp:130
+msgid "Correct for light travel time: "
+msgstr "Işık seyahat süresi için düzeltiniz. "
+
+#: src/modules/TextUI.cpp:133
+msgid "Local Script: "
+msgstr "Yerel Betik: "
+
+#: src/modules/TextUI.cpp:134
+msgid "CD/DVD Script: "
+msgstr "CD/DVD Betikleri: "
+
+#: src/modules/TextUI.cpp:135
+msgid "USB Script: "
+msgstr "USB Betiği: "
+
+#: src/modules/TextUI.cpp:136
+msgid "Arrow down to load list."
+msgstr "Listeyi görüntülemek için aşağı yön tuşuna basın."
+
+#: src/modules/TextUI.cpp:137
+msgid "Select and exit to run."
+msgstr "Başlatmak için seç ve çık"
+
+#: src/modules/TextUI.cpp:140
+msgid "Load Default Configuration: "
+msgstr "Öntanımlı Yapılandırmayı Yükle: "
+
+#: src/modules/TextUI.cpp:141
+msgid "Save Current Configuration as Default: "
+msgstr "Mevcut Yapılandırmayı Öntanımlı Olarak Ata: "
+
+#: src/modules/TextUI.cpp:142
+msgid "Shut Down: "
+msgstr "Kapat: "
+
+#: src/modules/TextUI.cpp:143
+msgid "Update me via Internet: "
+msgstr "İnternet aracılığı ile güncelle: "
+
+#: src/modules/TextUI.cpp:144
+msgid "Set UI Locale: "
+msgstr "Yerel Saate Ayarla: "
+
+#: src/core/StelProjector.cpp:65
+msgid "Maximum FOV: "
+msgstr "Maksimum Görünür Alan: "
+
+#: src/core/StelProjectorClasses.cpp:26
+msgid "Perspective"
+msgstr "Perspektif"
+
+#: src/core/StelProjectorClasses.cpp:31
+msgid ""
+"Perspective projection keeps the horizon a straight line. The mathematical "
+"name for this projection method is <i>gnomonic projection</i>."
+msgstr ""
+"Perspektif izdüşümü ufku düz bir çizgi konumunda tutar. Bu izdüşümün "
+"matematiksel ingilizce adı <i>gnomonic projection</i>'dır."
+
+#: src/core/StelProjectorClasses.cpp:64
+msgid "Equal Area"
+msgstr "Eşit Alan"
+
+#: src/core/StelProjectorClasses.cpp:69
+msgid ""
+"The full name of this projection method is, <i>Lambert azimuthal equal-area "
+"projection</i>. It preserves the area but not the angle."
+msgstr ""
+"Bu izdüşüm tekniğinin tam adı <i>Lambert azimut eşit-alan izdüşümüdür.</i>. "
+"Bu izdüşümü açıyı korumaz fakat alanı korur."
+
+#: src/core/StelProjectorClasses.cpp:109
+msgid "Stereographic"
+msgstr "Stereografik"
+
+#: src/core/StelProjectorClasses.cpp:114
+msgid ""
+"Stereographic projection is known since the antiquity and was originally "
+"known as the planisphere projection. It preserves the angles at which curves "
+"cross each other but it does not preserve area."
+msgstr ""
+"Stereografik izdüşüm antik zamanlardan beri bilinir ve aslında düzlemküre "
+"izdüşümü olarak bilinir. Birbirini kesen eğriler arasındaki açıyı korur "
+"fakat alanı korumaz."
+
+#: src/core/StelProjectorClasses.cpp:146
+msgid "Fish-eye"
+msgstr "Balık-gözü mercek"
+
+#: src/core/StelProjectorClasses.cpp:151
+msgid ""
+"In fish-eye projection, or <i>azimuthal equidistant projection</i>, straight "
+"lines become curves when they appear a large angular distance from the "
+"centre of the field of view (like the distortions seen with very wide angle "
+"camera lenses)."
+msgstr ""
+"Balıkgözü izdüşümünde, veya <i> yatay eşit mesafeli izdüşümde</i>, doğru "
+"çizgiler, (çok geniş açılı kamera merceklerinde görülen bozulmalar gibi) "
+"görüş alanı merkezinden çok geniş açıda görüldüğü zaman eğriler haline gelir."
+
+#: src/core/StelProjectorClasses.cpp:183
+msgid "Hammer-Aitoff"
+msgstr "Hammer-Aitoff"
+
+#: src/core/StelProjectorClasses.cpp:188
+msgid ""
+"The Hammer projection is an equal-area map projection, described by Ernst "
+"Hammer in 1892 and directly inspired by the Aitoff projection."
+msgstr ""
+"Hammer izdüşümü, 1892 yılında Ernst Hammer tarafından açıklanan eş-alan "
+"harita izdüşümüdür ve Aitoff izdüşümünden ilham alınarak yapılmıştır."
+
+#: src/core/StelProjectorClasses.cpp:224
+msgid "Cylinder"
+msgstr "Silindir"
+
+#: src/core/StelProjectorClasses.cpp:229
+msgid ""
+"The full name of this projection mode is <i>cylindrical equidistant "
+"projection</i>. With this projection all parallels are equally spaced."
+msgstr ""
+"Bu izdüşüm türünün tam adı, 'silindirik eşuzaklik izdüşümüdür'. Bu izdüşüm "
+"ile tüm paraleller eşit uzaklıktadır."
+
+#: src/core/StelProjectorClasses.cpp:271
+msgid "Mercator"
+msgstr "Merkator"
+
+#: src/core/StelProjectorClasses.cpp:276
+msgid ""
+"The mercator projection is one of the most used world map projection. It "
+"preserves direction and shapes but distorts size, in an increasing degree "
+"away from the equator."
+msgstr ""
+"Mercator izdüşümü en çok kullanılan dünyü haritası izdüşümüdür. Yön ve "
+"şekilleri korumakla birlikte, Ekvator'dan uzaklaştıkça artan derecede, "
+"ölçüleri bozmaktadır."
+
+#: src/core/StelProjectorClasses.cpp:323
+msgid "Orthographic"
+msgstr "Ortografik"
+
+#: src/core/StelProjectorClasses.cpp:328
+msgid ""
+"Orthographic projection is related to perspective projection, but the point "
+"of perspective is set to an infinite distance."
+msgstr ""
+"Ortografik izdüşüm perspektif izdüşüm ile ilgilidir ancak perspektif noktası "
+"sonsuz bir uzaklıkta belirlenmiştir."
+
+#: src/core/StelObject.cpp:65
+#, qt-format
+msgid "RA/DE (J2000): %1/%2"
+msgstr "RA/DE (J2000): %1/%2"
+
+#: src/core/StelObject.cpp:72
+#, qt-format
+msgid "RA/DE (of date): %1/%2"
+msgstr "RA/DE (tarihinden): %1/%2"
+
+#: src/core/StelObject.cpp:80
+#, qt-format
+msgid "Hour angle/DE: %1/%2"
+msgstr "Saat açi/DE: %1 %2"
+
+#: src/core/StelObject.cpp:91
+#, qt-format
+msgid "Az/Alt: %1/%2"
+msgstr "Ufuk açısı/Yükseklik %1 %2"
+
+#: src/gui/ConfigurationDialog.cpp:79 src/gui/ConfigurationDialog.cpp:171
+#: src/ui_configurationDialog.h:1281 src/ui_configurationDialog.h:1423
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#: src/gui/ConfigurationDialog.cpp:80 src/ui_configurationDialog.h:1283
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: src/gui/ConfigurationDialog.cpp:81 src/ui_configurationDialog.h:1284
+msgid "Program Language"
+msgstr "Program dili"
+
+#: src/gui/ConfigurationDialog.cpp:82 src/ui_configurationDialog.h:1285
+msgid "Fulldome File Path :"
+msgstr "Fulldome Dosya Yolu:"
+
+#: src/gui/ConfigurationDialog.cpp:83 src/ui_configurationDialog.h:1290
+msgid "Flat Media Path :"
+msgstr "Düzlem Medya Yolu:"
+
+#: src/gui/ConfigurationDialog.cpp:84 src/ui_configurationDialog.h:1295
+msgid "Projector Screen "
+msgstr "Projektör Ekranı"
+
+#: src/gui/ConfigurationDialog.cpp:85 src/ui_configurationDialog.h:1296
+msgid "Left :"
+msgstr "Sol Kenar:"
+
+#: src/gui/ConfigurationDialog.cpp:86 src/ui_configurationDialog.h:1297
+msgid "Top :"
+msgstr "En üst:"
+
+#: src/gui/ConfigurationDialog.cpp:87 src/gui/ConfigurationDialog.cpp:90
+#: src/ui_configurationDialog.h:1298 src/ui_configurationDialog.h:1301
+msgid "Width :"
+msgstr "En:"
+
+#: src/gui/ConfigurationDialog.cpp:88 src/gui/ConfigurationDialog.cpp:91
+#: src/gui/ConfigurationDialog.cpp:93 src/ui_configurationDialog.h:1299
+#: src/ui_configurationDialog.h:1302 src/ui_configurationDialog.h:1304
+msgid "Height :"
+msgstr "Boy:"
+
+#: src/gui/ConfigurationDialog.cpp:89 src/ui_configurationDialog.h:1300
+msgid "Preview Screen"
+msgstr "Önizleme Ekranı"
+
+#: src/gui/ConfigurationDialog.cpp:92 src/ui_configurationDialog.h:1303
+msgid "Console Screen"
+msgstr "Konsol Ekranı"
+
+#: src/gui/ConfigurationDialog.cpp:94 src/ui_configurationDialog.h:1307
+msgid "Selected object information"
+msgstr "Secilen cisim bilgileri"
+
+#: src/gui/ConfigurationDialog.cpp:95 src/ui_configurationDialog.h:1309
+msgid "Display no information"
+msgstr "Bilgi gösterme"
+
+#: src/gui/ConfigurationDialog.cpp:96 src/ui_configurationDialog.h:1311
+msgid "None"
+msgstr "Hiçbiri"
+
+#: src/gui/ConfigurationDialog.cpp:97 src/ui_configurationDialog.h:1313
+msgid "Display less information"
+msgstr "Daha az bilgi göster"
+
+#: src/gui/ConfigurationDialog.cpp:98 src/ui_configurationDialog.h:1315
+msgid "Short"
+msgstr "Kısa"
+
+#: src/gui/ConfigurationDialog.cpp:99 src/ui_configurationDialog.h:1317
+msgid "Display all information available"
+msgstr "Mümkün olan tüm bilgiyi göster"
+
+#: src/gui/ConfigurationDialog.cpp:100 src/ui_configurationDialog.h:1319
+msgid "All available"
+msgstr "Mumkun olan hepsi"
+
+#: src/gui/ConfigurationDialog.cpp:101 src/ui_configurationDialog.h:1320
+msgid "Default options"
+msgstr "Varsayilan secenekler"
+
+#: src/gui/ConfigurationDialog.cpp:102 src/ui_configurationDialog.h:1322
+msgid ""
+"Save the settings you've changed this session to be the same the next time "
+"you start Stellarium"
+msgstr ""
+"Bu oturumda değiştirdiğiniz ayarları sonraki Stellarium açılışı için sakla"
+
+#: src/gui/ConfigurationDialog.cpp:103 src/ui_configurationDialog.h:1324
+msgid "Save settings"
+msgstr "Ayarlari kaydet"
+
+#: src/gui/ConfigurationDialog.cpp:104 src/ui_configurationDialog.h:1326
+msgid "Restore the default settings that came with Stellarium"
+msgstr "Stellarium ile gelen varsayılan ayarlara dön"
+
+#: src/gui/ConfigurationDialog.cpp:105 src/ui_configurationDialog.h:1328
+msgid "Restore defaults"
+msgstr "Varsayilanlari geri yukle"
+
+#: src/gui/ConfigurationDialog.cpp:106 src/ui_configurationDialog.h:1329
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Restoring default settings requires a restart of ShiraPlayer. "
+"Saving all the current options for use at next startup.</span></p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Varsayılan ayarları geri yüklemek veya kaydettiğiniz ayarların "
+"uygulanması için ShiraPlayer'ı yeniden başlatmanız gerekir. </span></p></"
+"body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:111 src/ui_configurationDialog.h:1335
+msgid "The width of your view when Stellarium starts"
+msgstr "Stellarium başladığında görüş genişliğin"
+
+#: src/gui/ConfigurationDialog.cpp:112 src/ui_configurationDialog.h:1337
+msgid "Startup FOV: XX"
+msgstr "Baslangic FOV: XX"
+
+#: src/gui/ConfigurationDialog.cpp:113 src/ui_configurationDialog.h:1339
+msgid "The direction you're looking when Stellarium starts"
+msgstr "Stellarium başladığında bakış doğrultun"
+
+#: src/gui/ConfigurationDialog.cpp:114 src/ui_configurationDialog.h:1341
+msgid "Startup direction of view: xxxx"
+msgstr "Goruntunun baslangic yonu: xxxx"
+
+#: src/gui/ConfigurationDialog.cpp:115 src/ui_configurationDialog.h:1342
+msgid "Control"
+msgstr "Denetim"
+
+#: src/gui/ConfigurationDialog.cpp:116 src/ui_configurationDialog.h:1344
+msgid "Allow mouse to pan (drag) and zoom (mousewheel)"
+msgstr "Fare ile genisletmeyi (surukle) ve odaklamayi (fare topu) etkinlestir."
+
+#: src/gui/ConfigurationDialog.cpp:117 src/ui_configurationDialog.h:1346
+msgid "Enable mouse navigation"
+msgstr "Fare ile gezinmeyi etkinlestir."
+
+#: src/gui/ConfigurationDialog.cpp:118 src/ui_configurationDialog.h:1348
+msgid "Allow keyboard to pan and zoom"
+msgstr "Klavyeden genisletme ve odaklamaya izin ver."
+
+#: src/gui/ConfigurationDialog.cpp:119 src/ui_configurationDialog.h:1350
+msgid "Enable keyboard navigation"
+msgstr "Klavye ile gezinmeyi etkinlestir."
+
+#: src/gui/ConfigurationDialog.cpp:120 src/ui_configurationDialog.h:1351
+msgid "Startup date and time"
+msgstr "Başlangıç günü ve saati"
+
+#: src/gui/ConfigurationDialog.cpp:121 src/ui_configurationDialog.h:1353
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Starts ShiraPlayer at system clock date and time</span></p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">ShiraPlayer'ı sistem tarih ve saati ile başlat.</span></p></"
+"body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:126 src/ui_configurationDialog.h:1359
+msgid "System date and time"
+msgstr "Sistem tarih ve saati"
+
+#: src/gui/ConfigurationDialog.cpp:127 src/ui_configurationDialog.h:1361
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Sets the simulation time to the next instance of this time of "
+"day when ShiraPlayer starts</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">ShiraPlayer başladığında şu anki gün ve saati kullan.</span></"
+"p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:132 src/ui_configurationDialog.h:1367
+msgid "System date at:"
+msgstr "Sistem Tarihi:"
+
+#: src/gui/ConfigurationDialog.cpp:133 src/ui_configurationDialog.h:1369
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Use a specific date and time when ShiraPlayer starts up</span></"
+"p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">ShiraPlayer başladığında bu gün ve saat ayarlarını kullan.</"
+"span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:138 src/ui_configurationDialog.h:1375
+msgid "Other:"
+msgstr "Diğer:"
+
+#: src/gui/ConfigurationDialog.cpp:139 src/ui_configurationDialog.h:1376
+msgid "use current"
+msgstr "varsayılanı kullan"
+
+#: src/gui/ConfigurationDialog.cpp:140 src/ui_configurationDialog.h:1377
+msgid "Other"
+msgstr "Diğer"
+
+#: src/gui/ConfigurationDialog.cpp:141 src/ui_configurationDialog.h:1379
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Diket ve yatay resim cevirme tuslarini degistir."
+
+#: src/gui/ConfigurationDialog.cpp:142 src/ui_configurationDialog.h:1381
+msgid "Show flip buttons"
+msgstr "Cevirme tuslarini goster."
+
+#: src/gui/ConfigurationDialog.cpp:143 src/ui_configurationDialog.h:1383
+msgid "Hides the mouse cursor when inactive"
+msgstr "Etkin degilken, fare ve isikli gostergeyi sakla"
+
+#: src/gui/ConfigurationDialog.cpp:144 src/ui_configurationDialog.h:1385
+msgid "Mouse cursor timeout (seconds):"
+msgstr "Fare, isikli gosterge zaman asimi (saniye):"
+
+#: src/gui/ConfigurationDialog.cpp:145 src/ui_configurationDialog.h:1386
+msgid "Star catalog updates"
+msgstr "Yıldız Fihristi Güncellemeleri"
+
+#: src/gui/ConfigurationDialog.cpp:146 src/ui_configurationDialog.h:1388
+msgid "Click here to start downloading"
+msgstr "İndirmeye başlamak için buraya tıklayın"
+
+#: src/gui/ConfigurationDialog.cpp:147 src/ui_configurationDialog.h:1390
+msgid "Get catalog x of y"
+msgstr "y 'nin x fihristini al"
+
+#: src/gui/ConfigurationDialog.cpp:148 src/ui_configurationDialog.h:1391
+msgid "Download this file to view even more stars"
+msgstr "Daha fazla yıldız görmek için bu dosyayı indirin"
+
+#: src/gui/ConfigurationDialog.cpp:149 src/ui_configurationDialog.h:1392
+msgid "xxx"
+msgstr "xxx"
+
+#: src/gui/ConfigurationDialog.cpp:150 src/ui_configurationDialog.h:1394
+msgid "Restart the download"
+msgstr "İndirmeyi baştan başlat"
+
+#: src/gui/ConfigurationDialog.cpp:151 src/ui_configurationDialog.h:1396
+msgid "Retry"
+msgstr "Tekrar Dene"
+
+#: src/gui/ConfigurationDialog.cpp:152 src/ui_configurationDialog.h:1398
+msgid "Stop the download. You can always restart it later"
+msgstr "İndirmeyi durdur. Sonra yeniden başlatabilirsin"
+
+#: src/gui/ConfigurationDialog.cpp:153 src/ui_configurationDialog.h:1400
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#: src/gui/ConfigurationDialog.cpp:154 src/ui_configurationDialog.h:1401
+msgid "Planetarium options"
+msgstr "Gezegen gozlemevi secenekleri"
+
+#: src/gui/ConfigurationDialog.cpp:155 src/ui_configurationDialog.h:1402
+msgid "Spherical mirror distortion"
+msgstr "Kuresel ayna bozulmasi"
+
+#: src/gui/ConfigurationDialog.cpp:156 src/ui_configurationDialog.h:1403
+msgid "Stellarium base distortion"
+msgstr "Stellarium temelli bozulma"
+
+#: src/gui/ConfigurationDialog.cpp:157 src/ui_configurationDialog.h:1404
+msgid "Use Custom data file "
+msgstr "Özel örgü dosyasını kullan"
+
+#: src/gui/ConfigurationDialog.cpp:158 src/ui_configurationDialog.h:1405
+msgid "Custom File Name"
+msgstr "Özel Dosya Adı"
+
+#: src/gui/ConfigurationDialog.cpp:159 src/gui/servermanager.cpp:900
+#: src/ui_configurationDialog.h:1287 src/ui_configurationDialog.h:1292
+#: src/ui_configurationDialog.h:1407 src/ui_servermanager.h:1738
+msgid "Open Flat Media project file"
+msgstr "Düzlem Medya Projesi Aç"
+
+#: src/gui/ConfigurationDialog.cpp:161 src/ui_configurationDialog.h:1410
+msgid "Custom data texture Mirror"
+msgstr "Özel Çözgü dosyasını aynala"
+
+#: src/gui/ConfigurationDialog.cpp:162 src/ui_configurationDialog.h:1411
+msgid "Vertical"
+msgstr "Dikey"
+
+#: src/gui/ConfigurationDialog.cpp:163 src/ui_configurationDialog.h:1412
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: src/gui/ConfigurationDialog.cpp:164 src/ui_configurationDialog.h:1414
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Spheric mirror distortion is used when projecting ShiraPlayer "
+"onto a spheric mirror for low-cost planetarium systems.</span></p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Düşük maliyetli planetaryum sistemleri için küresel ayna "
+"üzerinde ShiraPlayer kullanılırken küresel ayna bozulması kullanılır.</"
+"span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:169 src/ui_configurationDialog.h:1420
+msgid "Apply Spheric mirror distortion"
+msgstr "Kuresel ayna bozulmasinı uygula"
+
+#: src/gui/ConfigurationDialog.cpp:170 src/ui_configurationDialog.h:1421
+msgid "Fine-tune the distortion"
+msgstr "Distorsiyon Hassas Ayarlama "
+
+#: src/gui/ConfigurationDialog.cpp:172 src/ui_configurationDialog.h:1424
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: src/gui/ConfigurationDialog.cpp:173 src/gui/servermanager.cpp:899
+#: src/ui_configurationDialog.h:1425 src/ui_servermanager.h:1736
+msgid "Save"
+msgstr "Kaydet"
+
+#: src/gui/ConfigurationDialog.cpp:174 src/gui/LocationDialog.cpp:65
+#: src/ui_locationDialogGui.h:392 src/ui_configurationDialog.h:1426
+msgid "Delete"
+msgstr "Sil"
+
+#: src/gui/ConfigurationDialog.cpp:175 src/ui_configurationDialog.h:1428
+msgid ""
+"When enabled, the \"auto zoom out\" key will also set the initial viewing "
+"direction"
+msgstr ""
+"Aktif haldeyken, 'otomatik uzaklastirma' tusu, baslangic goruntuleme yonunu "
+"de belirleyecektir."
+
+#: src/gui/ConfigurationDialog.cpp:176 src/ui_configurationDialog.h:1430
+msgid "Auto zoom out returns to initial direction of view"
+msgstr "Otomatik uzaklastirma, goruntunun baslangic yonunu verir"
+
+#: src/gui/ConfigurationDialog.cpp:177 src/ui_configurationDialog.h:1432
+msgid "Align labels with the horizon"
+msgstr "Etiketleri ufka hizala"
+
+#: src/gui/ConfigurationDialog.cpp:178 src/ui_configurationDialog.h:1434
+msgid "Gravity labels"
+msgstr "Yercekimi etiketleri"
+
+#: src/gui/ConfigurationDialog.cpp:179 src/ui_configurationDialog.h:1436
+msgid "Mask out everything outside a central circle in the main view"
+msgstr "Ana goruntudeki merkez daire disindaki herseyi yok say."
+
+#: src/gui/ConfigurationDialog.cpp:180 src/ui_configurationDialog.h:1438
+msgid "Disc viewport"
+msgstr "Goruntu kapisi diski"
+
+#: src/gui/ConfigurationDialog.cpp:181 src/ui_configurationDialog.h:1440
+msgid "Hide other constellations when you click one"
+msgstr "Bir takımyıldıza tıkladığımda diğerlerini gizle"
+
+#: src/gui/ConfigurationDialog.cpp:182 src/ui_configurationDialog.h:1442
+msgid "Select single constellation"
+msgstr "Tek takımyıldız seç"
+
+#: src/gui/ConfigurationDialog.cpp:183 src/ui_configurationDialog.h:1443
+msgid "Screenshots"
+msgstr "Ekran Görüntüleri"
+
+#: src/gui/ConfigurationDialog.cpp:184 src/ui_configurationDialog.h:1444
+msgid "Invert colors"
+msgstr "Renkleri Ters Çevir"
+
+#: src/gui/ConfigurationDialog.cpp:185 src/ui_configurationDialog.h:1445
+msgid "Screenshot Directory"
+msgstr "Ekran goruntusu dizini"
+
+#: src/gui/ConfigurationDialog.cpp:187 src/gui/ConfigurationDialog.cpp:194
+#: src/gui/ViewDialog.cpp:152 src/gui/ViewDialog.cpp:159
+#: src/gui/ViewDialog.cpp:161 src/ui_viewDialog.h:1697
+#: src/ui_viewDialog.h:1704 src/ui_viewDialog.h:1706
+#: src/ui_configurationDialog.h:1447 src/ui_configurationDialog.h:1458
+msgid "Options"
+msgstr "Seçenekler"
+
+#: src/gui/ConfigurationDialog.cpp:189 src/ui_configurationDialog.h:1449
+msgid "Close window when script runs"
+msgstr "Betik çalışırken penceriyi kapat"
+
+#: src/gui/ConfigurationDialog.cpp:190 src/ui_configurationDialog.h:1451
+msgid "Run the selected script"
+msgstr "Seçili betiği çalıştır"
+
+#: src/gui/ConfigurationDialog.cpp:192 src/ui_configurationDialog.h:1455
+msgid "Stop a running script"
+msgstr "Çalışan bir betiği durdur"
+
+#: src/gui/ConfigurationDialog.cpp:195 src/ui_configurationDialog.h:1459
+msgid "Load at startup"
+msgstr "Başlangıçta Aşırı Yüklenme"
+
+#: src/gui/ConfigurationDialog.cpp:196 src/ui_configurationDialog.h:1460
+msgid "configure"
+msgstr "ayarla"
+
+#: src/gui/ConfigurationDialog.cpp:199 src/ui_configurationDialog.h:1465
+msgid "Main"
+msgstr "Ana"
+
+#: src/gui/ConfigurationDialog.cpp:201 src/ui_configurationDialog.h:1467
+msgid "Navigation"
+msgstr "Gezinme"
+
+#: src/gui/ConfigurationDialog.cpp:203 src/ui_configurationDialog.h:1469
+msgid "Tools"
+msgstr "Araçlar"
+
+#: src/gui/ConfigurationDialog.cpp:205 src/ui_configurationDialog.h:1471
+msgid "Scripts"
+msgstr "Betikler"
+
+#: src/gui/ConfigurationDialog.cpp:207 src/ui_configurationDialog.h:1473
+msgid "Plugins"
+msgstr "Eklentiler"
+
+#: src/gui/ConfigurationDialog.cpp:515
+msgid "Select screenshot directory"
+msgstr "Ekran görüntüsü dizinini seçin"
+
+#: src/gui/ConfigurationDialog.cpp:766
+msgid "Authors"
+msgstr "Y"
+
+#: src/gui/ConfigurationDialog.cpp:770 src/gui/ViewDialog.cpp:583
+msgid "Contact"
+msgstr "İletişim"
+
+#: src/gui/ConfigurationDialog.cpp:842
+msgid "Author"
+msgstr "Yazar"
+
+#: src/gui/ConfigurationDialog.cpp:843
+msgid "License"
+msgstr "Lisans"
+
+#: src/gui/ConfigurationDialog.cpp:874
+msgid "Running script: "
+msgstr "Script Çalıştırılıyor: "
+
+#: src/gui/ConfigurationDialog.cpp:881
+msgid "Running script: [none]"
+msgstr "Script Çalıştırılıyor: [Hiçbiri]"
+
+#: src/gui/ConfigurationDialog.cpp:924
+msgid "Finished downloading all star catalogs!"
+msgstr "Tüm yıldız kataloglarının indirilmesi tamamlandı!"
+
+#: src/gui/ConfigurationDialog.cpp:933
+#, qt-format
+msgid "Get catalog %1 of %2"
+msgstr "%1 'nin %2 fihristini al"
+
+#: src/gui/ConfigurationDialog.cpp:937
+#, qt-format
+msgid ""
+"Download size: %1MB\n"
+"Star count: %2 Million\n"
+"Magnitude range: %3 - %4"
+msgstr ""
+"İndirme boyutu: %1MB\n"
+"Yıldız sayısı: %2 Million\n"
+"Parlaklık menzili: %3 - %4"
+
+#: src/gui/ConfigurationDialog.cpp:952
+msgid ""
+"Finished downloading new star catalogs!\n"
+"Restart ShiraPlayer to display them."
+msgstr ""
+"Yeni yıldız kataloglarını indirme tamamlandı! Bunları görmek için "
+"ShiraPlayer'ı yeniden başlatın."
+
+#: src/gui/ConfigurationDialog.cpp:990 src/gui/ConfigurationDialog.cpp:1024
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"%2"
+msgstr ""
+"%1 Dosyası indirilirken hata yaşandı:\n"
+"%2"
+
+#: src/gui/ConfigurationDialog.cpp:995
+#, qt-format
+msgid ""
+"Downloading %1...\n"
+"(You can close this window.)"
+msgstr "%1 indiriliyor..."
+
+#: src/gui/ConfigurationDialog.cpp:1075
+msgid "Verifying file integrity..."
+msgstr "Dosya bütünlüğü kontrol ediliyor..."
+
+#: src/gui/ConfigurationDialog.cpp:1079
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"File is corrupted."
+msgstr ""
+"%1 Dosyası indirilirken hata yaşandı:\n"
+"Dosya bozuk"
+
+#: src/gui/ConfigurationDialog.cpp:1130 src/gui/ConfigurationDialog.cpp:1146
+#: src/gui/ConfigurationDialog.cpp:1162 src/gui/StelGui.cpp:1098
+#: src/gui/ViewDialog.cpp:813 src/gui/ViewDialog.cpp:881
+#: src/gui/ViewDialog.cpp:1000 src/shiraplayerform.cpp:119
+#: src/shiraplayerform.cpp:156 src/gui/recordmanager.cpp:145
+#: src/gui/servermanager.cpp:1721 src/gui/servermanager.cpp:1850
+#: src/gui/servermanager.cpp:1896 src/gui/servermanager.cpp:2005
+#: src/previewutil/previewform.cpp:107 src/previewutil/previewform.cpp:187
+#: src/previewutil/previewform.cpp:203 src/previewutil/previewform.cpp:218
+#: src/previewutil/previewform.cpp:245
+msgid "Warning!"
+msgstr "Uyarı!"
+
+#: src/gui/ConfigurationDialog.cpp:1131
+msgid "Reset Fine-Tune settings?"
+msgstr "Hassas-Ayar sıfırlansın mı?"
+
+#: src/gui/ConfigurationDialog.cpp:1147
+msgid "Save Fine-Tune settings?"
+msgstr "Hassas Ayarları kaydet?"
+
+#: src/gui/ConfigurationDialog.cpp:1163
+msgid "Delete Fine-Tune settings?"
+msgstr "Hassas-Ayar silinsin mi?"
+
+#: src/gui/HelpDialog.cpp:52 src/gui/StelGuiItems.cpp:284
+#: src/gui/StelGuiItems.cpp:639
+msgid "Space"
+msgstr "Uzay"
+
+#: src/gui/HelpDialog.cpp:53
+msgid "Arrow keys & left mouse drag"
+msgstr "Ok tuşları ve sol fare sürükleme"
+
+#: src/gui/HelpDialog.cpp:54
+msgid "Page Up/Down"
+msgstr "Sayfa Yukarı/Aşağı"
+
+#: src/gui/HelpDialog.cpp:55
+msgid "CTRL + Up/Down"
+msgstr "CTRL + Yukarı/Aşağı"
+
+#: src/gui/HelpDialog.cpp:56
+msgid "Left click"
+msgstr "Sol tıklama"
+
+#: src/gui/HelpDialog.cpp:57
+msgid "Right click"
+msgstr "Sağ tıklama"
+
+#: src/gui/HelpDialog.cpp:58
+msgid "CTRL + Left click"
+msgstr "CTRL + Sol tıklama"
+
+#: src/gui/HelpDialog.cpp:61 src/gui/StelGui.cpp:174
+msgid "Movement and Selection"
+msgstr "Seçim ve Hareket"
+
+#: src/gui/HelpDialog.cpp:62
+msgid "Pan view around the sky"
+msgstr "Gökyüzünün geniş görüntüsü"
+
+#: src/gui/HelpDialog.cpp:63 src/gui/HelpDialog.cpp:64
+msgid "Zoom in/out"
+msgstr "Yaklaş/Uzaklaş"
+
+#: src/gui/HelpDialog.cpp:65
+msgid "Select object"
+msgstr "Nesne seçin"
+
+#: src/gui/HelpDialog.cpp:66 src/gui/HelpDialog.cpp:68
+msgid "Clear selection"
+msgstr "Seçimi temizle"
+
+#: src/gui/HelpDialog.cpp:71
+msgid "When a Script is Running"
+msgstr "Bir Yazılım Çalışırken"
+
+#: src/gui/HelpDialog.cpp:72 src/gui/StelGui.cpp:153
+msgid "Slow down the script execution rate"
+msgstr "Yazılım çalıştırma hızını düşürünüz"
+
+#: src/gui/HelpDialog.cpp:73 src/gui/StelGui.cpp:154
+msgid "Speed up the script execution rate"
+msgstr "Yazılım çalıştırma hızını artırınız"
+
+#: src/gui/HelpDialog.cpp:74 src/gui/StelGui.cpp:155
+msgid "Set the normal script execution rate"
+msgstr "Normal yazılım hızı ayarına geçiniz"
+
+#: src/gui/HelpDialog.cpp:89 src/gui/HelpDialog.cpp:94
+#: src/gui/stellamanager.cpp:82 src/ui_helpDialogGui.h:259
+#: src/ui_helpDialogGui.h:265 src/ui_stellamanager.h:1018
+msgid "Help"
+msgstr "Yardım"
+
+#: src/gui/HelpDialog.cpp:96 src/ui_helpDialogGui.h:267
+msgid "About"
+msgstr "Hakkında"
+
+#: src/gui/HelpDialog.cpp:98 src/ui_helpDialogGui.h:269
+msgid "Log"
+msgstr "Kayıtlar"
+
+#: src/gui/HelpDialog.cpp:100 src/ui_helpDialogGui.h:272
+msgid "Refresh"
+msgstr "Yenile"
+
+#: src/gui/HelpDialog.cpp:190
+msgid "Shiraplayer Help"
+msgstr "ShiraPlayer Yardım"
+
+#: src/gui/HelpDialog.cpp:191
+msgid "Keys"
+msgstr "Tuşlar"
+
+#: src/gui/HelpDialog.cpp:199
+msgid "www.sureyyasoft.com"
+msgstr "www.sureyyasoft.com"
+
+#: src/gui/HelpDialog.cpp:263 src/gui/HelpDialog.cpp:321
+#: src/gui/HelpDialog.cpp:323 src/gui/StelGui.cpp:193
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+#: src/gui/StelGui.cpp:104
+msgid "Display Options"
+msgstr "Görünüm Seçenekleri"
+
+#: src/gui/StelGui.cpp:105
+msgid "Constellation lines"
+msgstr "Takimyildiz hatlari"
+
+#: src/gui/StelGui.cpp:106
+msgid "Constellation art"
+msgstr "Takimyildiz Gosterisi"
+
+#: src/gui/StelGui.cpp:107
+msgid "Constellation labels"
+msgstr "Takimyildiz Etiketleri"
+
+#: src/gui/StelGui.cpp:108
+msgid "Constellation boundaries"
+msgstr "Takimyildiz sinirlari"
+
+#: src/gui/StelGui.cpp:110 src/gui/ViewDialog.cpp:136 src/ui_viewDialog.h:1681
+msgid "Azimuthal grid"
+msgstr "Eğiklik Izgaraları"
+
+#: src/gui/StelGui.cpp:111 src/gui/ViewDialog.cpp:134 src/ui_viewDialog.h:1679
+msgid "Equatorial grid"
+msgstr "Ekvatorsal cizgiler"
+
+#: src/gui/StelGui.cpp:112 src/gui/ViewDialog.cpp:135 src/ui_viewDialog.h:1680
+msgid "Equatorial J2000 grid"
+msgstr "Ekvatoryal J2000 cizgisi"
+
+#: src/gui/StelGui.cpp:113
+msgid "Galactic grid"
+msgstr "Galaktik Izgara"
+
+#: src/gui/StelGui.cpp:114 src/gui/ViewDialog.cpp:139 src/ui_viewDialog.h:1684
+msgid "Ecliptic line"
+msgstr "Ekliptik Hat"
+
+#: src/gui/StelGui.cpp:115 src/gui/ViewDialog.cpp:137 src/ui_viewDialog.h:1682
+msgid "Equator line"
+msgstr "Ekvator cizgisi"
+
+#: src/gui/StelGui.cpp:116 src/gui/ViewDialog.cpp:138 src/ui_viewDialog.h:1683
+msgid "Meridian line"
+msgstr "Meridyen cizgisi"
+
+#: src/gui/StelGui.cpp:117 src/gui/ViewDialog.cpp:140 src/ui_viewDialog.h:1685
+msgid "Cardinal points"
+msgstr "Kardinal noktalar"
+
+#: src/gui/StelGui.cpp:119 src/gui/stellamanager.cpp:68
+#: src/ui_stellamanager.h:992
+msgid "Ground"
+msgstr "Yeryüzü"
+
+#: src/gui/StelGui.cpp:120 src/gui/ViewDialog.cpp:128
+#: src/gui/stellamanager.cpp:67 src/ui_viewDialog.h:1673
+#: src/ui_stellamanager.h:991
+msgid "Atmosphere"
+msgstr "Atmosfer"
+
+#: src/gui/StelGui.cpp:121 src/gui/stellamanager.cpp:69
+#: src/ui_stellamanager.h:993
+msgid "Fog"
+msgstr "Sis"
+
+#: src/gui/StelGui.cpp:123 src/gui/ViewDialog.cpp:118 src/ui_viewDialog.h:1663
+msgid "Nebulas"
+msgstr "Nebula"
+
+#: src/gui/StelGui.cpp:124
+msgid "Nebulas background images"
+msgstr "Nebula artalan goruntuleri"
+
+#: src/gui/StelGui.cpp:125 src/gui/ViewDialog.cpp:92
+#: src/gui/ViewDialog.cpp:117 src/ui_viewDialog.h:1637
+#: src/ui_viewDialog.h:1662
+msgid "Stars"
+msgstr "Yıldızlar"
+
+#: src/gui/StelGui.cpp:126 src/gui/stellamanager.cpp:65
+#: src/ui_stellamanager.h:989
+msgid "Star Labels"
+msgstr "Yıdız Etiketleri"
+
+#: src/gui/StelGui.cpp:127 src/gui/ViewDialog.cpp:119
+#: src/gui/stellamanager.cpp:63 src/ui_viewDialog.h:1664
+#: src/ui_stellamanager.h:987
+msgid "Planets"
+msgstr "Gezegenler"
+
+#: src/gui/StelGui.cpp:128
+msgid "Planets labels"
+msgstr "Gezegen etiketleri"
+
+#: src/gui/StelGui.cpp:129
+msgid "Planet orbits"
+msgstr "Gezegen yörüngeleri"
+
+#: src/gui/StelGui.cpp:130
+msgid "Planet trails"
+msgstr "Gezegen İzleri"
+
+#: src/gui/StelGui.cpp:132
+msgid "Night mode"
+msgstr "Gece modu"
+
+#: src/gui/StelGui.cpp:134
+msgid "Flip scene horizontally"
+msgstr "Goruntuyu yatay olarak cevir"
+
+#: src/gui/StelGui.cpp:135
+msgid "Flip scene vertically"
+msgstr "Manzarayi dikey olarak cevir."
+
+#: src/gui/StelGui.cpp:137
+msgid "Windows"
+msgstr "Windows"
+
+#: src/gui/StelGui.cpp:139
+msgid "Configuration window"
+msgstr "Yapılandırma Penceresi"
+
+#: src/gui/StelGui.cpp:141
+msgid "Sky and viewing options window"
+msgstr "Gokyuzu ve goruntuleme secenekleri penceresi"
+
+#: src/gui/StelGui.cpp:145
+msgid "Server Manager"
+msgstr "Sunucu Yönetimi"
+
+#: src/gui/StelGui.cpp:152 src/ui_dateTimeDialogGui.h:381
+msgid "Date and Time"
+msgstr "Tarih ve Zaman"
+
+#: src/gui/StelGui.cpp:156
+msgid "Decrease time speed"
+msgstr "Zaman hizini dusur"
+
+#: src/gui/StelGui.cpp:157
+msgid "Increase time speed"
+msgstr "Zaman hizini artir"
+
+#: src/gui/StelGui.cpp:158
+msgid "Set normal time rate"
+msgstr "Normal zaman hizina ayarla"
+
+#: src/gui/StelGui.cpp:159
+msgid "Decrease time speed (a little)"
+msgstr "Zaman hızını (bir miktar) azaltınız."
+
+#: src/gui/StelGui.cpp:160
+msgid "Increase time speed (a little)"
+msgstr "Zaman hızını (bir miktar) artırınız."
+
+#: src/gui/StelGui.cpp:161
+msgid "Set time rate to zero"
+msgstr "Saat oranını sıfıra ayarlayın."
+
+#: src/gui/StelGui.cpp:162
+msgid "Set time to now"
+msgstr "Zamani simdiye ayarla"
+
+#: src/gui/StelGui.cpp:163
+msgid "Add 1 solar hour"
+msgstr "1 gunes saati ekle"
+
+#: src/gui/StelGui.cpp:164
+msgid "Subtract 1 solar hour"
+msgstr "1 gunes saati cikar"
+
+#: src/gui/StelGui.cpp:165
+msgid "Add 1 solar day"
+msgstr "1 gunes gunu ekle"
+
+#: src/gui/StelGui.cpp:166
+msgid "Subtract 1 solar day"
+msgstr "1 gunes gunu cikar"
+
+#: src/gui/StelGui.cpp:167
+msgid "Add 1 solar week"
+msgstr "1 gunes haftasi ekle"
+
+#: src/gui/StelGui.cpp:168
+msgid "Subtract 1 solar week"
+msgstr "1 gunes haftasi cikar"
+
+#: src/gui/StelGui.cpp:169
+msgid "Add 1 sidereal day"
+msgstr "1 yildiz gunu ekle"
+
+#: src/gui/StelGui.cpp:170
+msgid "Subtract 1 sidereal day"
+msgstr "1 yildiz gunu cikar"
+
+#: src/gui/StelGui.cpp:171
+msgid "Add 1 sidereal week"
+msgstr "1 yildiz haftasi ekle"
+
+#: src/gui/StelGui.cpp:172
+msgid "Subtract 1 sidereal week"
+msgstr "1 yildiz haftasi cikar"
+
+#: src/gui/StelGui.cpp:175
+msgid "Center on selected object"
+msgstr "Secilmis nesne uzerine"
+
+#: src/gui/StelGui.cpp:176
+msgid "Track object"
+msgstr "Nesne Izleme"
+
+#: src/gui/StelGui.cpp:177
+msgid "Zoom in on selected object"
+msgstr "Secilmis nesneye yakinlas."
+
+#: src/gui/StelGui.cpp:178
+msgid "Zoom out"
+msgstr "Uzaklaş"
+
+#: src/gui/StelGui.cpp:179
+msgid "Set home planet to selected planet"
+msgstr "Yerel gezegeni secilen secilen gezegene gore ayarla"
+
+#: src/gui/StelGui.cpp:181
+msgid "Telescope Control"
+msgstr "Teleskop Kontrolü"
+
+#: src/gui/StelGui.cpp:194
+msgid "Switch between equatorial and azimuthal mount"
+msgstr "Ekvatoryal ve ufuk acisi arasinda degisim"
+
+#: src/gui/StelGui.cpp:195 src/gui/servermanager.cpp:841
+#: src/ui_servermanager.h:1663
+msgid "Quit"
+msgstr "Bitir"
+
+#: src/gui/StelGui.cpp:199
+msgid "Auto hide horizontal button bar"
+msgstr "Yatay arac cubugunu otomatik sakla"
+
+#: src/gui/StelGui.cpp:200
+msgid "Auto hide vertical button bar"
+msgstr "Dikey arac cubugunu otomatik sakla"
+
+#: src/gui/StelGui.cpp:201
+msgid "Toggle visibility of GUI"
+msgstr "GUI  göster/gizle"
+
+#: src/gui/StelGui.cpp:203
+msgid "Fade_on Fade_Off"
+msgstr "Karartma Açık /Kapalı"
+
+#: src/gui/StelGui.cpp:1099 src/shiraplayerform.cpp:157
+#: src/gui/servermanager.cpp:1722 src/previewutil/previewform.cpp:108
+#: src/previewutil/previewform.cpp:246
+msgid "Are you sure want to quit?"
+msgstr "Çıkmak istediğinize eminmisiniz?"
+
+#: src/gui/StelGuiItems.cpp:540
+#, no-c-format, qt-format
+msgid "%1m"
+msgstr "%1 m"
+
+#: src/gui/ViewDialog.cpp:74 src/ui_viewDialog.h:1618
+msgid "View"
+msgstr "Görünüm"
+
+#: src/gui/ViewDialog.cpp:79 src/ui_viewDialog.h:1624
+msgid "Sky"
+msgstr "Gökyüzü"
+
+#: src/gui/ViewDialog.cpp:81 src/ui_viewDialog.h:1626
+msgid "Markings"
+msgstr "Isaretler"
+
+#: src/gui/ViewDialog.cpp:83 src/ui_viewDialog.h:1628
+msgid "Landscape"
+msgstr "Gorunum"
+
+#: src/gui/ViewDialog.cpp:85 src/ui_viewDialog.h:1630
+msgid "Starlore"
+msgstr "Yildiz bilgisi"
+
+#: src/gui/ViewDialog.cpp:93 src/ui_viewDialog.h:1638
+msgid "Absolute scale:"
+msgstr "Mutlak olcu:"
+
+#: src/gui/ViewDialog.cpp:94 src/ui_viewDialog.h:1639
+msgid "Relative scale:"
+msgstr "Bagil olcek"
+
+#: src/gui/ViewDialog.cpp:95 src/ui_viewDialog.h:1640
+msgid "Twinkle:"
+msgstr "Pirilti"
+
+#: src/gui/ViewDialog.cpp:97 src/ui_viewDialog.h:1642
+msgid "Dim faint stars when a very bright object is visible"
+msgstr ""
+"Cok parlak bir nesnenin gozlenebilirligi durumunda zayif yildizlari "
+"donuklastir"
+
+#: src/gui/ViewDialog.cpp:99 src/ui_viewDialog.h:1644
+msgid "Dynamic eye adaptation"
+msgstr "Dinamik goz uygunlugu"
+
+#: src/gui/ViewDialog.cpp:100 src/ui_viewDialog.h:1645
+msgid "Planets and satellites"
+msgstr "Gezegenler ve Uydular"
+
+#: src/gui/ViewDialog.cpp:101 src/ui_viewDialog.h:1646
+msgid "Show planets"
+msgstr "Gezegenleri goster."
+
+#: src/gui/ViewDialog.cpp:102 src/ui_viewDialog.h:1647
+msgid "Show planet markers"
+msgstr "Gezegen isaretlerini goster"
+
+#: src/gui/ViewDialog.cpp:103 src/ui_viewDialog.h:1648
+msgid "Show planet orbits"
+msgstr "Gezegen yorungelerini goster"
+
+#: src/gui/ViewDialog.cpp:104 src/ui_viewDialog.h:1649
+msgid "Simulate light speed"
+msgstr "Isik hizini simule et."
+
+#: src/gui/ViewDialog.cpp:105 src/ui_viewDialog.h:1650
+msgid "Scale Moon"
+msgstr "Ayi olceklendir"
+
+#: src/gui/ViewDialog.cpp:106 src/ui_viewDialog.h:1651
+msgid "Scale Planets-"
+msgstr "Gezegenleri Ölçekle-"
+
+#: src/gui/ViewDialog.cpp:107 src/translations.h:37
+#: src/flybyutil/flybymanager.cpp:101 src/ui_viewDialog.h:1652
+#: src/ui_flybymanager.h:893
+msgid "Earth"
+msgstr "Dünya"
+
+#: src/gui/ViewDialog.cpp:108 src/translations.h:35
+#: src/flybyutil/flybymanager.cpp:105 src/ui_viewDialog.h:1653
+#: src/ui_flybymanager.h:901
+msgid "Mercury"
+msgstr "Merkür"
+
+#: src/gui/ViewDialog.cpp:109 src/translations.h:36
+#: src/flybyutil/flybymanager.cpp:97 src/ui_viewDialog.h:1654
+#: src/ui_flybymanager.h:885
+msgid "Venus"
+msgstr "Venüs"
+
+#: src/gui/ViewDialog.cpp:110 src/translations.h:39
+#: src/flybyutil/flybymanager.cpp:91 src/ui_viewDialog.h:1655
+#: src/ui_flybymanager.h:873
+msgid "Mars"
+msgstr "Mars"
+
+#: src/gui/ViewDialog.cpp:111 src/translations.h:42
+#: src/flybyutil/flybymanager.cpp:87 src/ui_viewDialog.h:1656
+#: src/ui_flybymanager.h:865
+msgid "Jupiter"
+msgstr "Jüpiter"
+
+#: src/gui/ViewDialog.cpp:112 src/translations.h:47
+#: src/flybyutil/flybymanager.cpp:93 src/ui_viewDialog.h:1657
+#: src/ui_flybymanager.h:877
+msgid "Saturn"
+msgstr "Satürn"
+
+#: src/gui/ViewDialog.cpp:113 src/translations.h:59
+#: src/flybyutil/flybymanager.cpp:107 src/ui_viewDialog.h:1658
+#: src/ui_flybymanager.h:905
+msgid "Pluto"
+msgstr "Plüton"
+
+#: src/gui/ViewDialog.cpp:114 src/ui_viewDialog.h:1659
+msgid "Neptun"
+msgstr "Neptün"
+
+#: src/gui/ViewDialog.cpp:115 src/translations.h:58
+#: src/flybyutil/flybymanager.cpp:103 src/ui_viewDialog.h:1660
+#: src/ui_flybymanager.h:897
+msgid "Uranus"
+msgstr "Uranüs"
+
+#: src/gui/ViewDialog.cpp:116 src/ui_viewDialog.h:1661
+msgid "Labels and Markers"
+msgstr "Etiketler ve Isaretler"
+
+#: src/gui/ViewDialog.cpp:120 src/ui_viewDialog.h:1665
+msgid "Shooting Stars"
+msgstr "Karsi gelen yldizlar"
+
+#: src/gui/ViewDialog.cpp:121 src/ui_viewDialog.h:1666
+msgid "Hourly zenith rate:"
+msgstr "Saatlik basucu noktasi orani"
+
+#: src/gui/ViewDialog.cpp:122 src/ui_viewDialog.h:1667
+msgid "0"
+msgstr "0"
+
+#: src/gui/ViewDialog.cpp:123 src/ui_viewDialog.h:1668
+msgid "10"
+msgstr "10"
+
+#: src/gui/ViewDialog.cpp:124 src/ui_viewDialog.h:1669
+msgid "80"
+msgstr "80"
+
+#: src/gui/ViewDialog.cpp:125 src/ui_viewDialog.h:1670
+msgid "10000"
+msgstr "10000"
+
+#: src/gui/ViewDialog.cpp:126 src/ui_viewDialog.h:1671
+msgid "144000"
+msgstr "144000"
+
+#: src/gui/ViewDialog.cpp:129 src/ui_viewDialog.h:1674
+msgid "Show atmosphere"
+msgstr "Atmosferi goster"
+
+#: src/gui/ViewDialog.cpp:130 src/ui_viewDialog.h:1675
+msgid "Light pollution: "
+msgstr "Isik kirliligi "
+
+#: src/gui/ViewDialog.cpp:131 src/ui_viewDialog.h:1676
+msgid "Show milkyway"
+msgstr "Samanyolu'nu Göster"
+
+#: src/gui/ViewDialog.cpp:132 src/ui_viewDialog.h:1677
+msgid "Milkyway intensity"
+msgstr "Samanyolu Yoğunluğu: "
+
+#: src/gui/ViewDialog.cpp:133 src/ui_viewDialog.h:1678
+msgid "Celestial Sphere"
+msgstr "Goksel kure"
+
+#: src/gui/ViewDialog.cpp:141 src/previewutil/previewform.cpp:102
+#: src/ui_viewDialog.h:1686 src/ui_previewform.h:881
+msgid "Constellations"
+msgstr "Takımyıldızları"
+
+#: src/gui/ViewDialog.cpp:142 src/ui_viewDialog.h:1687
+msgid "Show lines"
+msgstr "Cizgileri goster"
+
+#: src/gui/ViewDialog.cpp:143 src/ui_viewDialog.h:1688
+msgid "Show labels"
+msgstr "Etiketleri göster"
+
+#: src/gui/ViewDialog.cpp:144 src/ui_viewDialog.h:1689
+msgid "Show boundaries"
+msgstr "Limitleri goster"
+
+#: src/gui/ViewDialog.cpp:145 src/ui_viewDialog.h:1690
+msgid "Show art"
+msgstr "Gorselleri goster"
+
+#: src/gui/ViewDialog.cpp:146 src/ui_viewDialog.h:1691
+msgid "Art brightness: "
+msgstr "Gorsel parlakligi "
+
+#: src/gui/ViewDialog.cpp:147 src/ui_viewDialog.h:1692
+msgid "Dome Show Informations"
+msgstr "Kubbe gösteri bilgisi"
+
+#: src/gui/ViewDialog.cpp:148 src/ui_viewDialog.h:1693
+msgid "Date-Time"
+msgstr "Tarih ve Zaman"
+
+#: src/gui/ViewDialog.cpp:149 src/gui/LocationDialog.cpp:61
+#: src/gui/stellamanager.cpp:77 src/ui_locationDialogGui.h:386
+#: src/ui_viewDialog.h:1694 src/ui_stellamanager.h:1009
+msgid "Location"
+msgstr "Konum"
+
+#: src/gui/ViewDialog.cpp:150 src/ui_viewDialog.h:1695
+msgid "Selected Object Properties"
+msgstr "Seçilen cisim bilgileri"
+
+#: src/gui/ViewDialog.cpp:151 src/ui_viewDialog.h:1696
+msgid "Projection"
+msgstr "İzdüşüm"
+
+#: src/gui/ViewDialog.cpp:153 src/ui_viewDialog.h:1698
+msgid "Show ground"
+msgstr "Yeryuzunu goster"
+
+#: src/gui/ViewDialog.cpp:154 src/ui_viewDialog.h:1699
+msgid "Show fog"
+msgstr "Sis goster"
+
+#: src/gui/ViewDialog.cpp:155 src/ui_viewDialog.h:1700
+msgid "Use associated planet and position"
+msgstr "Karsi gelen gezegen ve konumu kullan"
+
+#: src/gui/ViewDialog.cpp:156 src/ui_viewDialog.h:1701
+msgid "Use this landscape as default"
+msgstr "Gorunumu varsayilan olarak kullan"
+
+#: src/gui/ViewDialog.cpp:157 src/gui/servermanager.cpp:849
+#: src/previewutil/previewform.cpp:100 src/ui_viewDialog.h:1702
+#: src/ui_previewform.h:868 src/ui_servermanager.h:1672
+msgid "Video"
+msgstr "Video"
+
+#: src/gui/ViewDialog.cpp:158 src/ui_viewDialog.h:1703
+msgid "Picture"
+msgstr "Resim"
+
+#: src/gui/ViewDialog.cpp:160 src/ui_viewDialog.h:1705
+msgid "Use this sky culture as default"
+msgstr "Bu gokyuzu kulturunu varsayilan olarak kullan"
+
+#: src/gui/ViewDialog.cpp:162 src/ui_viewDialog.h:1707
+msgid "Visible"
+msgstr "Görünür"
+
+#: src/gui/ViewDialog.cpp:163 src/ui_viewDialog.h:1708
+msgid "Warping Settings"
+msgstr "Warp Ayarları"
+
+#: src/gui/ViewDialog.cpp:165 src/ui_viewDialog.h:1710
+msgid "Save Warp Settings"
+msgstr "Warp Ayarlarını kaydet"
+
+#: src/gui/ViewDialog.cpp:166 src/ui_viewDialog.h:1711
+msgid "Mode"
+msgstr "Mod"
+
+#: src/gui/ViewDialog.cpp:169 src/ui_viewDialog.h:1714
+msgid "Show Mode"
+msgstr "Show Mode"
+
+#: src/gui/ViewDialog.cpp:170 src/ui_viewDialog.h:1715
+msgid "Distortion Warp Mode"
+msgstr "Distortion Warp Mode"
+
+#: src/gui/ViewDialog.cpp:171 src/ui_viewDialog.h:1716
+msgid "Blend Warp Mode"
+msgstr "Blend Warp Mode"
+
+#: src/gui/ViewDialog.cpp:173 src/ui_viewDialog.h:1718
+msgid "Reset Warp"
+msgstr "Çözgü Sıfırla"
+
+#: src/gui/ViewDialog.cpp:174 src/ui_viewDialog.h:1719
+msgid "FOV:"
+msgstr "FOV:"
+
+#: src/gui/ViewDialog.cpp:175 src/ui_viewDialog.h:1720
+#, qt-format
+msgid "Fov Width Rate(%0.1-1.0)"
+msgstr "Fov En Oranı (%0.1-1.0)"
+
+#: src/gui/ViewDialog.cpp:176 src/ui_viewDialog.h:1721
+#, qt-format
+msgid "Fov Height Rate(%0.1-1.0)"
+msgstr "Fov Yükseklik Oranı(%0.1-1.0)"
+
+#: src/gui/ViewDialog.cpp:177 src/ui_viewDialog.h:1722
+msgid "Configure Clients"
+msgstr "İstemcileri yapılandır"
+
+#: src/gui/ViewDialog.cpp:178 src/ui_viewDialog.h:1723
+msgid "Channel Settings"
+msgstr "Kanal Ayarları"
+
+#: src/gui/ViewDialog.cpp:179 src/ui_viewDialog.h:1724
+msgid "Channel as Hostname"
+msgstr "Kanal PC Adı"
+
+#: src/gui/ViewDialog.cpp:180 src/ui_viewDialog.h:1725
+msgid "Add"
+msgstr "Ekle"
+
+#: src/gui/ViewDialog.cpp:181 src/ui_viewDialog.h:1726
+msgid "Remove"
+msgstr "Kaldır"
+
+#: src/gui/ViewDialog.cpp:182 src/ui_viewDialog.h:1727
+msgid "Channel Properties"
+msgstr "Kanal Özellikleri"
+
+#: src/gui/ViewDialog.cpp:183 src/ui_viewDialog.h:1728
+msgid "Width"
+msgstr "En"
+
+#: src/gui/ViewDialog.cpp:184 src/ui_viewDialog.h:1729
+msgid "Height"
+msgstr "Boy"
+
+#: src/gui/ViewDialog.cpp:186 src/ui_viewDialog.h:1731
+msgid "Show Name"
+msgstr "İsmini Göster"
+
+#: src/gui/ViewDialog.cpp:637
+msgid "No description"
+msgstr "Açıklama yok"
+
+#: src/gui/ViewDialog.cpp:705
+msgid "No shooting stars"
+msgstr "Karsi gelen yildiz yok"
+
+#: src/gui/ViewDialog.cpp:708
+msgid "Normal rate"
+msgstr "Normal oran"
+
+#: src/gui/ViewDialog.cpp:711
+msgid "Standard Perseids rate"
+msgstr "Standart Perseid orani"
+
+#: src/gui/ViewDialog.cpp:714
+msgid "Exceptional Leonid rate"
+msgstr "Istisnai Leonid orani"
+
+#: src/gui/ViewDialog.cpp:717
+msgid "Highest rate ever (1966 Leonids)"
+msgstr "En yuksek oran (1966 Leonid)"
+
+#: src/gui/ViewDialog.cpp:813
+msgid "Are you sure want to save All Channel settings?"
+msgstr "Tüm kanal ayarları kaydedilsin mi?"
+
+#: src/gui/ViewDialog.cpp:881
+msgid "Are you sure want to remove selected Channel?"
+msgstr "Seçili kanalı kaldırmak istediğinize eminmisiniz?"
+
+#: src/gui/ViewDialog.cpp:1000
+msgid "Are you sure want to reset selected Warp setting?"
+msgstr "Çözgü ayarı sıfırlansın mı? "
+
+#: src/gui/LocationDialog.cpp:63 src/ui_locationDialogGui.h:390
+msgid "Current location information"
+msgstr "Mevcut konum bilgileri"
+
+#: src/gui/LocationDialog.cpp:64 src/ui_locationDialogGui.h:391
+msgid "Use as default"
+msgstr "Varsayilan olarak kullan."
+
+#: src/gui/LocationDialog.cpp:66 src/ui_locationDialogGui.h:393
+msgid "Add to list"
+msgstr "Listeye ekle"
+
+#: src/gui/LocationDialog.cpp:67 src/ui_locationDialogGui.h:394
+msgid "Latitude:"
+msgstr "Enlem:"
+
+#: src/gui/LocationDialog.cpp:68 src/gui/LocationDialog.cpp:70
+#: src/ui_locationDialogGui.h:396 src/ui_locationDialogGui.h:400
+msgid ""
+"You can enter values in decimal degrees, or using dms format, for example: "
+"+1d 12m 8s"
+msgstr ""
+"Degerleri ondalik derecelerle veya dms formati kullanarak girebilirsiniz. "
+"Ornegin; +1d 12m 8s"
+
+#: src/gui/LocationDialog.cpp:69 src/ui_locationDialogGui.h:398
+msgid "Longitude:"
+msgstr "Boylam:"
+
+#: src/gui/LocationDialog.cpp:71 src/ui_locationDialogGui.h:402
+msgid "Altitude:"
+msgstr "Yukseklik"
+
+#: src/gui/LocationDialog.cpp:72 src/ui_locationDialogGui.h:404
+msgid "Enter the altitude in meter"
+msgstr "Yuksekligi metre cinsinden giriniz"
+
+#: src/gui/LocationDialog.cpp:73 src/ui_locationDialogGui.h:406
+msgid " m"
+msgstr " m"
+
+#: src/gui/LocationDialog.cpp:74 src/ui_locationDialogGui.h:407
+msgid "Name/City:"
+msgstr "Isim/Sehir"
+
+#: src/gui/LocationDialog.cpp:75 src/ui_locationDialogGui.h:408
+msgid "Country:"
+msgstr "Ülke:"
+
+#: src/gui/LocationDialog.cpp:76 src/ui_locationDialogGui.h:409
+msgid "Planet:"
+msgstr "Gezegen"
+
+#: src/gui/LocationDialog.cpp:377
+msgid "New Location"
+msgstr "Yeni Konum"
+
+#: src/gui/ScriptConsole.cpp:56
+msgid "Script console"
+msgstr "Yazılım destek penceresi"
+
+#: src/gui/ScriptConsole.cpp:57
+msgid "load script from file"
+msgstr "Lütfen bir script dosyası seçiniz!"
+
+#: src/gui/ScriptConsole.cpp:58
+msgid "Ctrl+O"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:59
+msgid "save script to file"
+msgstr "script dosyasını kaydet"
+
+#: src/gui/ScriptConsole.cpp:60
+msgid "Ctrl+S"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:62
+msgid "clear script"
+msgstr "temizle"
+
+#: src/gui/ScriptConsole.cpp:63
+msgid "pre-process script using SSC preprocessor"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:64
+msgid "SSC"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:66
+msgid "pre-process script using STS preprocessor"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:67
+msgid "STS"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:69
+msgid "quickly load and run a utility script"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:71
+msgid "run script"
+msgstr "script çalıştır"
+
+#: src/gui/ScriptConsole.cpp:72
+msgid "Ctrl+Return"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:74
+msgid "stop script"
+msgstr "script durdur"
+
+#: src/gui/ScriptConsole.cpp:75
+msgid "Ctrl+C"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:76
+msgid ""
+"QTabBar::tab {\n"
+"\tmin-height: 28px;\n"
+"}"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:79 src/gui/servermanager.cpp:847
+#: src/previewutil/previewform.cpp:94 src/ui_previewform.h:864
+#: src/ui_servermanager.h:1670
+msgid "Script"
+msgstr "Betikler"
+
+#: src/gui/ScriptConsole.cpp:80
+msgid "Output"
+msgstr "Çıkış"
+
+#: src/gui/ScriptConsole.cpp:82
+msgid "Cursor position"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:83
+msgid "R:0 C:0"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:84
+msgid "Include dir:"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:85 src/presenter/qimagepropwidget.cpp:714
+#: src/presenter/qimagepropwidget.cpp:716
+#: src/presenter/qimagepropwidget.cpp:719
+#: src/presenter/qimagepropwidget.cpp:721
+#: src/presenter/qimagepropwidget.cpp:723
+#: src/presenter/qimagepropwidget.cpp:725 src/ui_qimagepropwidget.h:1227
+#: src/ui_qimagepropwidget.h:1231 src/ui_qimagepropwidget.h:1238
+#: src/ui_qimagepropwidget.h:1242 src/ui_qimagepropwidget.h:1246
+#: src/ui_qimagepropwidget.h:1250
+msgid "..."
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:106
+msgid "quickrun..."
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:107
+msgid "selected text"
+msgstr "seçili metin "
+
+#: src/gui/ScriptConsole.cpp:108
+msgid "clear text"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:109
+msgid "clear images"
+msgstr "temizle"
+
+#: src/gui/ScriptConsole.cpp:110
+msgid "natural"
+msgstr "doğal"
+
+#: src/gui/ScriptConsole.cpp:111
+msgid "starchart"
+msgstr ""
+
+#: src/main.cpp:340
+msgid "This system does not support OpenGL."
+msgstr "Bu sistem OpenGL'i desteklemiyor."
+
+#: src/shiraplayerform.cpp:90
+msgid "Window List"
+msgstr "Pencere Listesi"
+
+#: src/shiraplayerform.cpp:92 src/shiraplayerform.cpp:126
+msgid "Media Manager"
+msgstr "Medya Yönetimi"
+
+#: src/shiraplayerform.cpp:94 src/shiraplayerform.cpp:130
+msgid "Preview Window"
+msgstr "Kontrol Ve Önizleme Penceresi"
+
+#: src/shiraplayerform.cpp:96 src/shiraplayerform.cpp:113
+#: src/shiraplayerform.cpp:135
+msgid "Configration Window"
+msgstr "Yapılandırma Penceresi"
+
+#: src/shiraplayerform.cpp:97 src/shiraplayerform.cpp:114
+#: src/shiraplayerform.cpp:137
+msgid "View Options Window"
+msgstr "Gokyuzu ve goruntuleme secenekleri penceresi"
+
+#: src/shiraplayerform.cpp:101 src/shiraplayerform.cpp:115
+#: src/shiraplayerform.cpp:145
+msgid "Script Console"
+msgstr "Yazılım destek penceresi"
+
+#: src/shiraplayerform.cpp:104 src/shiraplayerform.cpp:150
+msgid "Projector Settings"
+msgstr "Projektör Ayarları"
+
+#: src/shiraplayerform.cpp:107 src/shiraplayerform.cpp:153
+#: src/previewutil/previewform.cpp:85 src/previewutil/previewform.cpp:86
+#: src/ui_previewform.h:844 src/ui_previewform.h:877
+msgid "Exit"
+msgstr "Çıkış"
+
+#: src/shiraplayerform.cpp:119 src/previewutil/previewform.cpp:187
+#: src/previewutil/previewform.cpp:203 src/previewutil/previewform.cpp:218
+msgid "Please complete flyby operations first!"
+msgstr "Lütfen öncelikle Alçak Uçuş modundan çıkınız!"
+
+#: src/shiraplayerform.cpp:128
+msgid "Media Record Manager"
+msgstr "Madya Kayıt Yönetimi"
+
+#: src/shiraplayerform.cpp:139
+msgid "Search Window"
+msgstr "Arama Penceresi"
+
+#: src/shiraplayerform.cpp:141
+msgid "Date/Time Window"
+msgstr "Tarih/Zaman penceresi"
+
+#: src/shiraplayerform.cpp:143
+msgid "Location Window"
+msgstr "Konum penceresi"
+
+#: src/shiraplayerform.cpp:147
+msgid "Help Window"
+msgstr "Yardım penceresi"
+
+#: src/translations.h:34 src/flybyutil/flybymanager.cpp:95
+#: src/ui_flybymanager.h:881
+msgid "Sun"
+msgstr "Güneş"
+
+#: src/translations.h:38 src/flybyutil/flybymanager.cpp:99
+#: src/ui_flybymanager.h:889
+msgid "Moon"
+msgstr "Ay"
+
+#: src/translations.h:40
+msgid "Deimos"
+msgstr "Deimos"
+
+#: src/translations.h:41
+msgid "Phobos"
+msgstr "Phobos"
+
+#: src/translations.h:43
+msgid "Io"
+msgstr "Io"
+
+#: src/translations.h:44
+msgid "Europa"
+msgstr "Europa"
+
+#: src/translations.h:45
+msgid "Ganymede"
+msgstr "Ganymede"
+
+#: src/translations.h:46
+msgid "Callisto"
+msgstr "Callisto"
+
+#: src/translations.h:48
+msgid "Mimas"
+msgstr "Mimas"
+
+#: src/translations.h:49
+msgid "Enceladus"
+msgstr "Enceladus"
+
+#: src/translations.h:50
+msgid "Tethys"
+msgstr "Tethys"
+
+#: src/translations.h:51
+msgid "Dione"
+msgstr "Dione"
+
+#: src/translations.h:52
+msgid "Rhea"
+msgstr "Rhea"
+
+#: src/translations.h:53
+msgid "Titan"
+msgstr "Titan"
+
+#: src/translations.h:54
+msgid "Hyperion"
+msgstr "Hyperion"
+
+#: src/translations.h:55
+msgid "Iapetus"
+msgstr "Iapetus"
+
+#: src/translations.h:56
+msgid "Phoebe"
+msgstr "Phoebe"
+
+#: src/translations.h:57 src/flybyutil/flybymanager.cpp:89
+#: src/ui_flybymanager.h:869
+msgid "Neptune"
+msgstr "Neptün"
+
+#: src/translations.h:60
+msgid "Charon"
+msgstr "Kharon"
+
+#: src/translations.h:61
+msgid "Solar System Observer"
+msgstr "Güneş Sistemi Gözlemevi"
+
+#: src/translations.h:70
+msgid "Aztec"
+msgstr "Aztec"
+
+#: src/translations.h:71
+msgid "Chinese"
+msgstr "Çin"
+
+#: src/translations.h:72
+msgid "Egyptian"
+msgstr "Mısır"
+
+#: src/translations.h:73
+msgid "Inuit"
+msgstr "Eskimo"
+
+#: src/translations.h:74
+msgid "Korean"
+msgstr "Kore"
+
+#: src/translations.h:75
+msgid "Lakota"
+msgstr "Lakota (Kuzey Amerika yerlileri)"
+
+#: src/translations.h:76
+msgid "Maori"
+msgstr "Maori"
+
+#: src/translations.h:77
+msgid "Navajo"
+msgstr "Navajo"
+
+#: src/translations.h:78
+msgid "Norse"
+msgstr "Viking"
+
+#: src/translations.h:79
+msgid "Polynesian"
+msgstr "Polinezya"
+
+#: src/translations.h:80
+msgid "Western"
+msgstr "Batı"
+
+#: src/translations.h:81
+msgid "Tupi-Guarani"
+msgstr "Tupi-Guarani"
+
+#: src/gui/recordmanager.cpp:106 src/ui_recordmanager.h:305
+msgid "Record Window"
+msgstr "Kayıt Penceresi"
+
+#: src/gui/recordmanager.cpp:107 src/gui/servermanager.cpp:880
+#: src/presenter/qimagepropwidget.cpp:680 src/ui_recordmanager.h:307
+#: src/ui_servermanager.h:1704 src/ui_qimagepropwidget.h:1170
+msgid "Properties"
+msgstr "Özellik"
+
+#: src/gui/recordmanager.cpp:108 src/gui/servermanager.cpp:902
+#: src/ui_recordmanager.h:308 src/ui_servermanager.h:1744
+msgid "File Name:"
+msgstr "Dosya Adı:"
+
+#: src/gui/recordmanager.cpp:109 src/ui_recordmanager.h:309
+msgid "Select File"
+msgstr "Dosyayı seç"
+
+#: src/gui/recordmanager.cpp:110 src/ui_recordmanager.h:310
+msgid "FPS : "
+msgstr "FPS:"
+
+#: src/gui/recordmanager.cpp:111 src/ui_recordmanager.h:311
+msgid "Stopped"
+msgstr "Durduruldu"
+
+#: src/gui/recordmanager.cpp:112 src/ui_recordmanager.h:313
+msgid "Rec"
+msgstr "Kayıt"
+
+#: src/gui/recordmanager.cpp:113 src/gui/servermanager.cpp:882
+#: src/gui/servermanager.cpp:1250 src/ui_recordmanager.h:314
+#: src/ui_servermanager.h:1707
+msgid "Pause"
+msgstr "Duraklat"
+
+#: src/gui/recordmanager.cpp:114 src/gui/servermanager.cpp:883
+#: src/flybyutil/flybymanager.cpp:153 src/ui_recordmanager.h:315
+#: src/ui_servermanager.h:1708
+msgid "Stop"
+msgstr "Durdur"
+
+#: src/gui/recordmanager.cpp:115 src/gui/servermanager.cpp:837
+#: src/ui_recordmanager.h:316 src/ui_servermanager.h:1659
+msgid "UnLicensed Use.."
+msgstr "Lisanssız Kullanıcı"
+
+#: src/gui/recordmanager.cpp:116 src/ui_recordmanager.h:317
+msgid "Register Module"
+msgstr "Kayıt Modülü"
+
+#: src/gui/recordmanager.cpp:145
+msgid "This file is exist.Do you want to overwrite?"
+msgstr "Bu dosya mevcut. Üzerine yazılsın mı?"
+
+#: src/gui/recordmanager.cpp:151 src/gui/recordmanager.cpp:157
+#: src/gui/servermanager.cpp:1770
+msgid "Error"
+msgstr "Hata"
+
+#: src/gui/recordmanager.cpp:151 src/gui/recordmanager.cpp:157
+msgid "Please select a file to record! Record is cancelled."
+msgstr "Lütfen kayıt için bir dosya belirleyiniz! Kayıt iptal edildi."
+
+#: src/gui/servermanager.cpp:385 src/gui/servermanager.cpp:424
+msgid "Size: "
+msgstr "Boyut:"
+
+#: src/gui/servermanager.cpp:438 src/gui/servermanager.cpp:485
+msgid "Opacity: "
+msgstr "Saydamlık:"
+
+#: src/gui/servermanager.cpp:478
+msgid "Opacity: 0.00"
+msgstr "Saydamlık: 0.00"
+
+#: src/gui/servermanager.cpp:480
+msgid "Opacity: 1.00"
+msgstr "Saydamlık: 1.00"
+
+#: src/gui/servermanager.cpp:834 src/previewutil/previewform.cpp:287
+#, qt-format
+msgid "%0-Manager Window"
+msgstr "%0-Yönetim Penceresi"
+
+#: src/gui/servermanager.cpp:836 src/ui_servermanager.h:1658
+msgid "ShiraPlayer Version :"
+msgstr "ShiraPlayer Sürüm :"
+
+#: src/gui/servermanager.cpp:838 src/ui_qlisansform.h:194
+#: src/ui_servermanager.h:1660
+msgid "Register"
+msgstr "Lisans Kaydı"
+
+#: src/gui/servermanager.cpp:839 src/ui_servermanager.h:1661
+msgid "Init - Fade On/Off"
+msgstr ""
+"Başlangıç \n"
+"Karartma Efekti"
+
+#: src/gui/servermanager.cpp:840 src/gui/stellamanager.cpp:80
+#: src/previewutil/previewform.cpp:84 src/ui_stellamanager.h:1014
+#: src/ui_previewform.h:843 src/ui_servermanager.h:1662
+msgid "Night View"
+msgstr "Gece modu"
+
+#: src/gui/servermanager.cpp:842 src/ui_servermanager.h:1664
+msgid "Time Server"
+msgstr "Zaman Sunucusu "
+
+#: src/gui/servermanager.cpp:843 src/ui_servermanager.h:1665
+msgid "FTP Server"
+msgstr "FTP Sunucusu"
+
+#: src/gui/servermanager.cpp:851 src/previewutil/previewform.cpp:92
+#: src/ui_previewform.h:848 src/ui_servermanager.h:1674
+msgid "Fisheye Image"
+msgstr "Balık-gözü Resim"
+
+#: src/gui/servermanager.cpp:853 src/previewutil/previewform.cpp:96
+#: src/ui_previewform.h:876 src/ui_servermanager.h:1676
+msgid "Flat Media"
+msgstr "Düzlem Medya"
+
+#: src/gui/servermanager.cpp:855 src/ui_servermanager.h:1678
+msgid "Admin"
+msgstr "Yönetici"
+
+#: src/gui/servermanager.cpp:857 src/previewutil/previewform.cpp:88
+#: src/ui_previewform.h:852 src/ui_servermanager.h:1680
+msgid "Stellarium"
+msgstr "Stellarium"
+
+#: src/gui/servermanager.cpp:859 src/previewutil/previewform.cpp:79
+#: src/ui_previewform.h:838 src/ui_servermanager.h:1683
+msgid "Apply"
+msgstr "Uygula"
+
+#: src/gui/servermanager.cpp:860 src/ui_servermanager.h:1684
+msgid "Live Mode"
+msgstr "Canlı Mod"
+
+#: src/gui/servermanager.cpp:861 src/ui_servermanager.h:1685
+msgid "Favorites"
+msgstr "Sık Kullanılanlar"
+
+#: src/gui/servermanager.cpp:862 src/ui_servermanager.h:1686
+msgid "Apply Favorites"
+msgstr "Uygula"
+
+#: src/gui/servermanager.cpp:863 src/ui_servermanager.h:1687
+msgid "Stop Favorites"
+msgstr "Durdur"
+
+#: src/gui/servermanager.cpp:864 src/ui_servermanager.h:1688
+msgid "High Video Performance"
+msgstr "Yüksek Vİdeo Performası"
+
+#: src/gui/servermanager.cpp:865 src/ui_servermanager.h:1689
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S : With this function software use GPU "
+"processors.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">It needs high level display card.</span></p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">Not : Bu fonksiyon GPU özelliklerini kullanılır."
+"</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">Yüksek seviyeli Ekran Kartı gerekir.</span></p></"
+"body></html>"
+
+#: src/gui/servermanager.cpp:871 src/ui_servermanager.h:1695
+msgid "Skip Next Frame"
+msgstr "Film Karesi Atla"
+
+#: src/gui/servermanager.cpp:872 src/ui_servermanager.h:1696
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S :If we hit the lower bound, we skip next "
+"frame</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">Not : Performans için diğer resim karesine geç</"
+"span></p></body></html>"
+
+#: src/gui/servermanager.cpp:877 src/ui_servermanager.h:1701
+msgid "Show Video FPS"
+msgstr "Video FPS Göster"
+
+#: src/gui/servermanager.cpp:878 src/ui_servermanager.h:1702
+msgid "Prewarped"
+msgstr "Prewarped"
+
+#: src/gui/servermanager.cpp:879 src/ui_servermanager.h:1703
+msgid "Refresh List"
+msgstr "Listeyi Yenile"
+
+#: src/gui/servermanager.cpp:881 src/flybyutil/flybymanager.cpp:222
+#: src/ui_servermanager.h:1706
+msgid "Start"
+msgstr "Başlat"
+
+#: src/gui/servermanager.cpp:884 src/ui_servermanager.h:1709
+msgid "Status"
+msgstr "Durum"
+
+#: src/gui/servermanager.cpp:885 src/ui_servermanager.h:1710
+msgid "Volume"
+msgstr "Ses Düzeyi"
+
+#: src/gui/servermanager.cpp:886 src/gui/servermanager.cpp:895
+#: src/ui_servermanager.h:1711 src/ui_servermanager.h:1722
+msgid "Send Media to Terminals"
+msgstr "Send Media to Terminals"
+
+#: src/gui/servermanager.cpp:887 src/ui_servermanager.h:1712
+msgid "PushButton-2"
+msgstr ""
+
+#: src/gui/servermanager.cpp:888 src/ui_servermanager.h:1713
+msgid "PushButton"
+msgstr ""
+
+#: src/gui/servermanager.cpp:889 src/ui_servermanager.h:1714
+msgid "Fade Time:"
+msgstr "Karartma Süresi"
+
+#: src/gui/servermanager.cpp:890 src/ui_servermanager.h:1715
+msgid "sec"
+msgstr "sn."
+
+#: src/gui/servermanager.cpp:891 src/ui_servermanager.h:1716
+msgid "Cross Fade"
+msgstr ""
+
+#: src/gui/servermanager.cpp:892 src/ui_servermanager.h:1717
+msgid "Show with Daylight"
+msgstr "Günışığı ile beraber göster"
+
+#: src/gui/servermanager.cpp:893 src/ui_servermanager.h:1718
+msgid "Clear Frame"
+msgstr "Kareyi kaldır."
+
+#: src/gui/servermanager.cpp:896 src/ui_servermanager.h:1724
+msgid "New Flat Media project file"
+msgstr "Yeni düzlem medya projesi"
+
+#: src/gui/servermanager.cpp:897 src/ui_servermanager.h:1729
+msgid "New"
+msgstr "Yeni"
+
+#: src/gui/servermanager.cpp:898 src/ui_servermanager.h:1731
+msgid "Save Flat Media project file"
+msgstr "Düzlem medya projesi kaydet"
+
+#: src/gui/servermanager.cpp:901 src/ui_servermanager.h:1743
+msgid "Load"
+msgstr "Yükle"
+
+#: src/gui/servermanager.cpp:903 src/ui_servermanager.h:1745
+msgid "Admin PCs and Projectors"
+msgstr ""
+
+#: src/gui/servermanager.cpp:904 src/ui_servermanager.h:1746
+msgid "Projector Controls"
+msgstr "Projektör Kontrolleri"
+
+#: src/gui/servermanager.cpp:905 src/ui_servermanager.h:1747
+msgid "Power On"
+msgstr ""
+
+#: src/gui/servermanager.cpp:906 src/ui_servermanager.h:1748
+msgid "Power Off"
+msgstr ""
+
+#: src/gui/servermanager.cpp:907 src/ui_servermanager.h:1749
+msgid "Blank"
+msgstr ""
+
+#: src/gui/servermanager.cpp:908 src/ui_servermanager.h:1750
+msgid "Display"
+msgstr "Göster"
+
+#: src/gui/servermanager.cpp:909 src/ui_servermanager.h:1751
+msgid "Client Computers"
+msgstr ""
+
+#: src/gui/servermanager.cpp:910 src/ui_servermanager.h:1752
+msgid "Power On All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:911 src/ui_servermanager.h:1753
+msgid "Refresh All"
+msgstr "Tümünü Yenile"
+
+#: src/gui/servermanager.cpp:912 src/ui_servermanager.h:1754
+msgid "Close All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:913 src/ui_servermanager.h:1755
+msgid "Update All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:914 src/ui_servermanager.h:1760
+msgid ""
+"Clear\n"
+"All"
+msgstr ""
+"Tümünü\n"
+"Sil"
+
+#: src/gui/servermanager.cpp:915 src/ui_servermanager.h:1762
+msgid "Color Palette"
+msgstr "Renk Paleti"
+
+#: src/gui/servermanager.cpp:916 src/ui_servermanager.h:1763
+msgid "Stroke Size"
+msgstr "Fırça Boyutu"
+
+#: src/gui/servermanager.cpp:917 src/ui_servermanager.h:1764
+msgid "Opacity"
+msgstr "Saydamlık"
+
+#: src/gui/servermanager.cpp:1107 src/gui/servermanager.cpp:1445
+#: src/gui/servermanager.cpp:1452
+msgid "Warning"
+msgstr "Uyarı"
+
+#: src/gui/servermanager.cpp:1107 src/gui/servermanager.cpp:1445
+msgid "Please select a media file!"
+msgstr "Lütfen bir medya dosyası seçiniz!"
+
+#: src/gui/servermanager.cpp:1250
+msgid "Continue"
+msgstr "Devam"
+
+#: src/gui/servermanager.cpp:1318
+#, qt-format
+msgid ""
+"Current Time: %1 \n"
+"Total Time: %2 Video FPS: %3"
+msgstr ""
+"Geçerli Zaman: %1 \n"
+"Toplam Süre: %2 Video FPS: %3"
+
+#: src/gui/servermanager.cpp:1433 src/gui/servermanager.cpp:1577
+#: src/gui/servermanager.cpp:1614 src/gui/servermanager.cpp:1626
+#: src/gui/servermanager.cpp:1650
+msgid "Information"
+msgstr "Bilgi"
+
+#: src/gui/servermanager.cpp:1434
+msgid "Do you want to send media file to all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1452
+msgid "Please select a frame file!"
+msgstr "Lütfen bir kare dosyası seçiniz!"
+
+#: src/gui/servermanager.cpp:1578
+msgid "Do you want to send program update files to all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1615
+msgid "Do you want to restart program on all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1627
+msgid "Do you want to shutdown all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1651
+msgid "Do you want to shutdown all projectors?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1686
+msgid "Flat Media Library : Drag and drop into the Active Images window"
+msgstr "Düzlem Medya Kütüphanesi : Aktif Medyalar penceresine sürükle ve bırak"
+
+#: src/gui/servermanager.cpp:1704
+msgid "Default Display Properties"
+msgstr "Varsayılan Görüntü Özellikleri"
+
+#: src/gui/servermanager.cpp:1753
+msgid "Load Presentation File"
+msgstr "Sunum Dosyası Yükle"
+
+#: src/gui/servermanager.cpp:1755
+msgid "Presentation Files(*.xml)"
+msgstr "Sunum Dosyaları(*.xml)"
+
+#: src/gui/servermanager.cpp:1770
+msgid "Wrong ShiraPlayer Flat Present project file!"
+msgstr "Hatalı ShiraPlayer Düzlem Medya proje dosyası!"
+
+#: src/gui/servermanager.cpp:1850
+msgid "Are you sure want to save available Presentations ?"
+msgstr "Ekrandaki sunum dosyaların kaydetmek istiyormusunuz?"
+
+#: src/gui/servermanager.cpp:1896
+msgid ""
+"Active Images not saved.\n"
+"Do you want to save as a Presentation?"
+msgstr ""
+"Aktif Medya kaydedilmedi.\n"
+"Sunum dosyasını kaydetmek istiyormusunuz?"
+
+#: src/gui/servermanager.cpp:2006
+msgid "Clear All?"
+msgstr ""
+"Tümünü\n"
+"Sil ?"
+
+#: src/gui/stellamanager.cpp:55 src/ui_stellamanager.h:971
+msgid ""
+"Equatorial\n"
+"Grid"
+msgstr ""
+"Ekvatoral\n"
+"İzdüşüm"
+
+#: src/gui/stellamanager.cpp:56 src/ui_stellamanager.h:973
+msgid ""
+"Azimuthal\n"
+"Grid"
+msgstr ""
+"Azimutal\n"
+"İzdüşüm"
+
+#: src/gui/stellamanager.cpp:57 src/ui_stellamanager.h:975
+msgid ""
+"Ecliptic\n"
+"Line"
+msgstr ""
+"Yörünge\n"
+"Çizgisi"
+
+#: src/gui/stellamanager.cpp:58 src/ui_stellamanager.h:977
+msgid ""
+"Meridian\n"
+"Line"
+msgstr ""
+"Meridyen\n"
+"Çizgisi"
+
+#: src/gui/stellamanager.cpp:59 src/ui_stellamanager.h:979
+msgid ""
+"Constellation\n"
+"Lines"
+msgstr ""
+"Takımyıldızı\n"
+"Çizgileri"
+
+#: src/gui/stellamanager.cpp:60 src/ui_stellamanager.h:981
+msgid ""
+"Constellation\n"
+"Labels"
+msgstr ""
+"Takimyildiz\n"
+"Etiketleri"
+
+#: src/gui/stellamanager.cpp:61 src/ui_stellamanager.h:983
+msgid ""
+"Constellation\n"
+"Arts"
+msgstr "Takımyıldızlar"
+
+#: src/gui/stellamanager.cpp:62 src/ui_stellamanager.h:985
+msgid ""
+"Constellation \n"
+"Boundaries"
+msgstr ""
+"Takımyıldızı\n"
+"Sınırları"
+
+#: src/gui/stellamanager.cpp:64 src/ui_stellamanager.h:988
+msgid "Nebulae"
+msgstr "Bulutsu"
+
+#: src/gui/stellamanager.cpp:66 src/ui_stellamanager.h:990
+msgid "Satellites"
+msgstr "Uydular"
+
+#: src/gui/stellamanager.cpp:70 src/previewutil/previewform.cpp:87
+#: src/ui_stellamanager.h:995 src/ui_previewform.h:850
+msgid "B1"
+msgstr "B1"
+
+#: src/gui/stellamanager.cpp:71 src/ui_stellamanager.h:997
+msgid "Date Time"
+msgstr "Tarih ve Zaman"
+
+#: src/gui/stellamanager.cpp:72 src/previewutil/previewform.cpp:99
+#: src/ui_stellamanager.h:999 src/ui_previewform.h:866
+msgid "B2"
+msgstr "B2"
+
+#: src/gui/stellamanager.cpp:73 src/ui_stellamanager.h:1001
+msgid "Search"
+msgstr "Arama penceresi"
+
+#: src/gui/stellamanager.cpp:74 src/previewutil/previewform.cpp:91
+#: src/ui_stellamanager.h:1003 src/ui_previewform.h:846
+msgid "B3"
+msgstr "B3"
+
+#: src/gui/stellamanager.cpp:75 src/ui_stellamanager.h:1005
+msgid "Go To"
+msgstr "Şuraya Git "
+
+#: src/gui/stellamanager.cpp:76 src/previewutil/previewform.cpp:95
+#: src/ui_stellamanager.h:1007 src/ui_previewform.h:874
+msgid "B4"
+msgstr "B4"
+
+#: src/gui/stellamanager.cpp:78 src/previewutil/previewform.cpp:93
+#: src/ui_stellamanager.h:1011 src/ui_previewform.h:862
+msgid "B5"
+msgstr "B5"
+
+#: src/gui/stellamanager.cpp:79 src/ui_stellamanager.h:1013
+msgid "Record"
+msgstr "Kayıt"
+
+#: src/gui/stellamanager.cpp:81 src/previewutil/previewform.cpp:89
+#: src/ui_stellamanager.h:1016 src/ui_previewform.h:854
+msgid "B6"
+msgstr "B6"
+
+#: src/presenter/qimagepropwidget.cpp:674 src/ui_qimagepropwidget.h:1162
+msgid "Display Properties"
+msgstr "Görünüm Seçenekleri"
+
+#: src/presenter/qimagepropwidget.cpp:676 src/ui_qimagepropwidget.h:1164
+msgid "Video Control"
+msgstr "Video Kontrolü"
+
+#: src/presenter/qimagepropwidget.cpp:678 src/ui_qimagepropwidget.h:1168
+msgid "image"
+msgstr "resim"
+
+#: src/presenter/qimagepropwidget.cpp:679 src/ui_qimagepropwidget.h:1169
+msgid "File Name"
+msgstr "Dosya Adı"
+
+#: src/presenter/qimagepropwidget.cpp:681 src/ui_qimagepropwidget.h:1171
+msgid "Resize %"
+msgstr "Boyutlandır %"
+
+#: src/presenter/qimagepropwidget.cpp:682 src/ui_qimagepropwidget.h:1172
+msgid "Azimuth"
+msgstr "Azimut"
+
+#: src/presenter/qimagepropwidget.cpp:683 src/ui_qimagepropwidget.h:1173
+msgid "Altitude"
+msgstr "Yükseklik"
+
+#: src/presenter/qimagepropwidget.cpp:684 src/ui_qimagepropwidget.h:1174
+msgid "Fade In/Out"
+msgstr "Karartma Aç/Kapat"
+
+#: src/presenter/qimagepropwidget.cpp:685 src/ui_qimagepropwidget.h:1175
+msgid "On Sky"
+msgstr "Gökyüzünde"
+
+#: src/presenter/qimagepropwidget.cpp:686 src/ui_qimagepropwidget.h:1176
+msgid "On Dome"
+msgstr "Kubbede"
+
+#: src/presenter/qimagepropwidget.cpp:687 src/ui_qimagepropwidget.h:1178
+msgid "Rotate"
+msgstr "Döndür"
+
+#: src/presenter/qimagepropwidget.cpp:688 src/ui_qimagepropwidget.h:1179
+msgid "lblFlatPath"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:689 src/ui_qimagepropwidget.h:1180
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Flat Path :</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Düzlem Dosya Yolu :</span></p></body></html>"
+
+#: src/presenter/qimagepropwidget.cpp:694 src/ui_qimagepropwidget.h:1185
+msgid "Video Properties"
+msgstr "Video Özelllikleri"
+
+#: src/presenter/qimagepropwidget.cpp:695 src/ui_qimagepropwidget.h:1186
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: src/presenter/qimagepropwidget.cpp:696 src/ui_qimagepropwidget.h:1187
+msgid "Brightness"
+msgstr "Parlaklık"
+
+#: src/presenter/qimagepropwidget.cpp:697 src/ui_qimagepropwidget.h:1188
+msgid "Saturation"
+msgstr "Doygunluk"
+
+#: src/presenter/qimagepropwidget.cpp:698 src/ui_qimagepropwidget.h:1190
+msgid "Current frame time"
+msgstr "Şu an ki kare"
+
+#: src/presenter/qimagepropwidget.cpp:699 src/ui_qimagepropwidget.h:1193
+msgid "Sets the IN mark at the current time"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:700 src/ui_qimagepropwidget.h:1195
+msgid "Mark IN"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:701 src/ui_qimagepropwidget.h:1196
+#, fuzzy
+msgid "I"
+msgstr "Io"
+
+#: src/presenter/qimagepropwidget.cpp:702 src/ui_qimagepropwidget.h:1198
+msgid "Resets the IN mark at the start of file."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:703 src/ui_qimagepropwidget.h:1201
+msgid "Sets the OUT mark at the current time"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:704 src/ui_qimagepropwidget.h:1203
+msgid "Mark OUT"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:705 src/ui_qimagepropwidget.h:1204
+msgid "O"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:706 src/ui_qimagepropwidget.h:1206
+msgid "Reset the OUT mark at the end of file."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:707 src/ui_qimagepropwidget.h:1209
+msgid "Time line"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:708 src/ui_qimagepropwidget.h:1212
+msgid "Placement of the mark IN"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:709 src/ui_qimagepropwidget.h:1215
+msgid "Placement of the mark OUT"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:710 src/ui_qimagepropwidget.h:1218
+msgid "Start / stops updating"
+msgstr "Güncellemeleri Başlat /Durdur"
+
+#: src/presenter/qimagepropwidget.cpp:711 src/ui_qimagepropwidget.h:1221
+msgid "Starts / stops updating"
+msgstr "Güncellemeleri Başlat /Durdur"
+
+#: src/presenter/qimagepropwidget.cpp:712 src/ui_qimagepropwidget.h:1223
+msgid "Play"
+msgstr "Oynat"
+
+#: src/presenter/qimagepropwidget.cpp:713 src/ui_qimagepropwidget.h:1225
+msgid "Jump backward to movie start."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:715 src/ui_qimagepropwidget.h:1229
+msgid "Jump backward"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:717
+#: src/presenter/qimagepropwidget.cpp:718 src/ui_qimagepropwidget.h:1233
+#: src/ui_qimagepropwidget.h:1236
+msgid "Pause/resume play"
+msgstr "Oynatmayı Duraklat/Devam Et"
+
+#: src/presenter/qimagepropwidget.cpp:720 src/ui_qimagepropwidget.h:1240
+msgid "Step by 1 frame"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:722 src/ui_qimagepropwidget.h:1244
+msgid "Jump forward"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:724 src/ui_qimagepropwidget.h:1248
+msgid "Loop to mark-in playback"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:726
+#: src/presenter/qimagepropwidget.cpp:733 src/ui_qimagepropwidget.h:1252
+#: src/ui_qimagepropwidget.h:1261
+msgid "Play speed"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:727 src/ui_qimagepropwidget.h:1254
+msgid "1/4"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:728 src/ui_qimagepropwidget.h:1255
+msgid "1/3"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:729 src/ui_qimagepropwidget.h:1256
+msgid "1/2"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:730 src/ui_qimagepropwidget.h:1257
+msgid "1x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:731 src/ui_qimagepropwidget.h:1258
+msgid "2x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:732 src/ui_qimagepropwidget.h:1259
+msgid "3x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:734 src/ui_qimagepropwidget.h:1263
+msgid "A"
+msgstr ""
+
+#: src/presenter/qplayimagewidget.cpp:107
+msgid "Active Images"
+msgstr "Aktif Medyalar"
+
+#: src/previewutil/previewform.cpp:75 src/ui_previewform.h:833
+msgid "Control and Preview Window"
+msgstr "Kontrol Ve Önizleme Penceresi"
+
+#: src/previewutil/previewform.cpp:76 src/ui_previewform.h:834
+msgid "Selected Object Information"
+msgstr "Secilen cisim bilgileri"
+
+#: src/previewutil/previewform.cpp:77 src/ui_previewform.h:836
+msgid "Real Time"
+msgstr "Şu anki zaman"
+
+#: src/previewutil/previewform.cpp:78 src/ui_previewform.h:837
+msgid "Fade On/Off"
+msgstr "Karartma Aç/Kapat"
+
+#: src/previewutil/previewform.cpp:80 src/ui_previewform.h:839
+msgid "With Fade Effect"
+msgstr "Karartma efekti ile"
+
+#: src/previewutil/previewform.cpp:81 src/ui_previewform.h:840
+msgid ""
+"Lock \n"
+"Mouse-Key\n"
+"Client"
+msgstr ""
+"Projektörde\n"
+"Mouse Hareketlerini\n"
+"Kilitle"
+
+#: src/previewutil/previewform.cpp:90 src/ui_previewform.h:856
+msgid "Sky Writer"
+msgstr "Gökyüzü Yazıcısı "
+
+#: src/previewutil/previewform.cpp:97 src/ui_previewform.h:858
+msgid "B7"
+msgstr "B7"
+
+#: src/previewutil/previewform.cpp:98 src/ui_previewform.h:860
+msgid "Flyby Planets"
+msgstr "Alçak Uçuş"
+
+#: src/previewutil/previewform.cpp:101 src/ui_previewform.h:872
+msgid "Messier Catalog"
+msgstr "Messier Kütüphanesi"
+
+#: src/flybyutil/flybymanager.cpp:59 src/flybyutil/flybymanager.cpp:148
+#: src/ui_flybymanager.h:832
+msgid "Start Tracking"
+msgstr "İzlemeyi Başlat"
+
+#: src/flybyutil/flybymanager.cpp:60 src/ui_flybymanager.h:833
+msgid "Velocity :"
+msgstr "Hız :"
+
+#: src/flybyutil/flybymanager.cpp:61 src/ui_flybymanager.h:834
+msgid "font: 14pt \"MS Shell Dlg 2\";"
+msgstr "font: 14pt \"MS Shell Dlg 2\";"
+
+#: src/flybyutil/flybymanager.cpp:62 src/ui_flybymanager.h:835
+msgid "Altitude :"
+msgstr "Yukseklik :"
+
+#: src/flybyutil/flybymanager.cpp:63 src/ui_flybymanager.h:836
+msgid "Show Orbits"
+msgstr "Yörüngeleri Göster"
+
+#: src/flybyutil/flybymanager.cpp:64 src/ui_flybymanager.h:837
+msgid "Show Atm"
+msgstr "Atmosferi Göster"
+
+#: src/flybyutil/flybymanager.cpp:65 src/ui_flybymanager.h:838
+msgid ""
+"Date Time\n"
+"Flow Rate:"
+msgstr ""
+"Tarih Saat\n"
+"Akış Oranı:"
+
+#: src/flybyutil/flybymanager.cpp:68 src/ui_dateTimeDialogGui.h:395
+#: src/ui_flybymanager.h:842
+msgid "Time Flow"
+msgstr "Zaman Akışı"
+
+#: src/flybyutil/flybymanager.cpp:69 src/ui_dateTimeDialogGui.h:396
+#: src/ui_flybymanager.h:843
+msgid "  1x(Real Time)"
+msgstr "1x(Gerçek Zaman)"
+
+#: src/flybyutil/flybymanager.cpp:70 src/ui_dateTimeDialogGui.h:397
+#: src/ui_flybymanager.h:844
+msgid "  30x"
+msgstr "  30x"
+
+#: src/flybyutil/flybymanager.cpp:71 src/ui_dateTimeDialogGui.h:398
+#: src/ui_flybymanager.h:845
+msgid "  300x"
+msgstr "  300x"
+
+#: src/flybyutil/flybymanager.cpp:72 src/ui_dateTimeDialogGui.h:399
+#: src/ui_flybymanager.h:846
+msgid "  3000x"
+msgstr "  3000x"
+
+#: src/flybyutil/flybymanager.cpp:73 src/ui_dateTimeDialogGui.h:400
+#: src/ui_flybymanager.h:847
+msgid "  30000x"
+msgstr "  30000x"
+
+#: src/flybyutil/flybymanager.cpp:74 src/ui_dateTimeDialogGui.h:401
+#: src/ui_flybymanager.h:848
+msgid "Discrete Time Steps"
+msgstr "Ayrık Zaman Adımları"
+
+#: src/flybyutil/flybymanager.cpp:75 src/ui_dateTimeDialogGui.h:402
+#: src/ui_flybymanager.h:849
+msgid "  seconds"
+msgstr "  saniye"
+
+#: src/flybyutil/flybymanager.cpp:76 src/ui_dateTimeDialogGui.h:403
+#: src/ui_flybymanager.h:850
+msgid "  minutes"
+msgstr "  dakika"
+
+#: src/flybyutil/flybymanager.cpp:77 src/ui_dateTimeDialogGui.h:404
+#: src/ui_flybymanager.h:851
+msgid "  hours"
+msgstr "  saat"
+
+#: src/flybyutil/flybymanager.cpp:78 src/ui_dateTimeDialogGui.h:405
+#: src/ui_flybymanager.h:852
+msgid "  days"
+msgstr "  gün"
+
+#: src/flybyutil/flybymanager.cpp:79 src/ui_dateTimeDialogGui.h:406
+#: src/ui_flybymanager.h:853
+msgid "  years"
+msgstr "  yıl"
+
+#: src/flybyutil/flybymanager.cpp:81 src/ui_flybymanager.h:855
+msgid "Outer Planets"
+msgstr "Dış Gezegenler"
+
+#: src/flybyutil/flybymanager.cpp:82 src/ui_flybymanager.h:856
+msgid "Inner Planets"
+msgstr "İç Gezegenler"
+
+#: src/flybyutil/flybymanager.cpp:83 src/ui_flybymanager.h:858
+msgid "FLYBY-SS"
+msgstr "FLYBY-SS"
+
+#: src/flybyutil/flybymanager.cpp:84 src/ui_flybymanager.h:860
+msgid "Solar System"
+msgstr "Güneş Sistemi"
+
+#: src/flybyutil/flybymanager.cpp:85 src/flybyutil/flybymanager.cpp:226
+#: src/flybyutil/flybymanager.cpp:251 src/ui_flybymanager.h:861
+msgid "Prepare for flyby"
+msgstr "Alçak Uçuş'a Hazırla"
+
+#: src/flybyutil/flybymanager.cpp:86 src/ui_flybymanager.h:863
+msgid "FLYBY-Jupiter"
+msgstr "FLYBY-Jupiter"
+
+#: src/flybyutil/flybymanager.cpp:88 src/ui_flybymanager.h:867
+msgid "FLYBY-Neptune"
+msgstr "FLYBY-Neptune"
+
+#: src/flybyutil/flybymanager.cpp:90 src/ui_flybymanager.h:871
+msgid "FLYBY-Mars"
+msgstr "FLYBY-Mars"
+
+#: src/flybyutil/flybymanager.cpp:92 src/ui_flybymanager.h:875
+msgid "FLYBY-Saturn"
+msgstr "FLYBY-Saturn"
+
+#: src/flybyutil/flybymanager.cpp:94 src/ui_flybymanager.h:879
+msgid "FLYBY-Sun"
+msgstr "FLYBY-Sun"
+
+#: src/flybyutil/flybymanager.cpp:96 src/ui_flybymanager.h:883
+msgid "FLYBY-Venus"
+msgstr "FLYBY-Venus"
+
+#: src/flybyutil/flybymanager.cpp:98 src/ui_flybymanager.h:887
+msgid "FLYBY-Moon"
+msgstr "FLYBY-Moon"
+
+#: src/flybyutil/flybymanager.cpp:100 src/ui_flybymanager.h:891
+msgid "FLYBY-Earth"
+msgstr "FLYBY-Earth"
+
+#: src/flybyutil/flybymanager.cpp:102 src/ui_flybymanager.h:895
+msgid "FLYBY-Uranus"
+msgstr "FLYBY-Uranus"
+
+#: src/flybyutil/flybymanager.cpp:104 src/ui_flybymanager.h:899
+msgid "FLYBY-Mercury"
+msgstr "FLYBY-Mercury"
+
+#: src/flybyutil/flybymanager.cpp:106 src/ui_flybymanager.h:903
+msgid "FLYBY-Pluto"
+msgstr "FLYBY-Pluto"
+
+#: src/flybyutil/flybymanager.cpp:161 src/flybyutil/flybymanager.cpp:266
+#, qt-format
+msgid "Altitude: %0 km"
+msgstr "Yukseklik: %0 km"
+
+#: src/flybyutil/flybymanager.cpp:192
+#, qt-format
+msgid "Velocity: %0 km/s"
+msgstr "Hız :%0 km/s"
+
+#: src/flybyutil/flybymanager.cpp:239
+msgid "Go Home"
+msgstr "Eve Dön"
+
+#: src/catalogpages/messierwindow.cpp:39 src/ui_messierwindow.h:132
+msgid "Move to Object"
+msgstr "Nesneye Hareket et"
+
+#: src/catalogpages/messierwindow.cpp:40 src/ui_messierwindow.h:133
+msgid "Hide Landscape && Atmosphere"
+msgstr "Yeryüzü ve Atmosferi gizle"
+
+#: src/catalogpages/messierwindow.cpp:41 src/ui_messierwindow.h:134
+msgid "Hide All"
+msgstr "Tümünü Gizle"
+
+#: src/catalogpages/constellationwindow.cpp:357
+#, fuzzy
+msgid "Line Color :"
+msgstr "Lisans Kodu:"
+
+#: src/catalogpages/constellationwindow.cpp:370
+#, fuzzy
+msgid "Line Width :"
+msgstr "En:"
+
+#: src/catalogpages/constellationwindow.cpp:385
+#, fuzzy
+msgid "Art Brightness :"
+msgstr "Gorsel parlakligi "
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Spring Const.\n"
+"All On"
+msgstr ""
+"İlkbahar Takımı\n"
+"Tümünü Aç"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Summer Const.\n"
+"All On"
+msgstr ""
+"Yaz Takımı\n"
+"Tümünü Aç"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Autumn Const.\n"
+"All On"
+msgstr ""
+"Sonbahar Takımı\n"
+"Tümünü Aç"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Winter Const.\n"
+"All On"
+msgstr ""
+"Kış Takımı\n"
+"Tümünü Aç"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Change\n"
+"Art->Line"
+msgstr "Sanatsal->ÇizgiDeğiştir"
+
+#: src/catalogpages/constellationwindow.cpp:415
+#, fuzzy
+msgid ""
+"Ecliptical\n"
+"Const."
+msgstr "Ekliptik Hat"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid "All Const."
+msgstr "Tüm Takımyıdlzlar"
+
+#: src/ui_dateTimeDialogGui.h:380 src/ui_helpDialogGui.h:258
+#: src/ui_locationDialogGui.h:385 src/ui_viewDialog.h:1617
+#: src/ui_configurationDialog.h:1280 src/ui_stellamanager.h:970
+#: src/ui_splashScreen.h:80 src/ui_previewform.h:832 src/ui_flybymanager.h:831
+#: src/ui_servermanager.h:1654 src/ui_messierwindow.h:131
+#: src/ui_constellationwindow.h:87
+msgid "Form"
+msgstr "Biçim"
+
+#: src/ui_dateTimeDialogGui.h:383 src/ui_dateTimeDialogGui.h:384
+msgid "/"
+msgstr "/"
+
+#: src/ui_dateTimeDialogGui.h:385 src/ui_dateTimeDialogGui.h:386
+msgid ":"
+msgstr ":"
+
+#: src/ui_dateTimeDialogGui.h:392
+msgid "Flow Rate"
+msgstr "Akış Hızı"
+
+#: src/ui_searchDialogGui.h:237 src/ui_searchDialogGui.h:238
+msgid "Find Object"
+msgstr "Nesneyi Bul"
+
+#: src/ui_searchDialogGui.h:241
+msgid "Move"
+msgstr "Hareket et"
+
+#: src/ui_searchDialogGui.h:244
+msgid "RA/Dec (J2000):"
+msgstr "RA/Dec (J2000):"
+
+#: src/ui_viewDialog.h:1632
+msgid "Sky Items"
+msgstr "Gökyüzü Nesneleri"
+
+#: src/ui_viewDialog.h:1634
+msgid "Warping"
+msgstr "Çözgü"
+
+#: src/ui_configurationDialog.h:1422
+msgid "Start with Fine-tune"
+msgstr ""
+
+#: src/ui_recordmanager.h:304
+msgid "Dialog"
+msgstr "Pencere"
+
+#: src/ui_qlisansform.h:192
+msgid "Lisans Kodu Ver"
+msgstr "Lisans Kodu Ver"
+
+#: src/ui_qlisansform.h:193 src/ui_splashScreen.h:82
+msgid "User Name:"
+msgstr "Kullanıcı Adı:"
+
+#: src/ui_qlisansform.h:195
+msgid "Date:"
+msgstr "Tarih:"
+
+#: src/ui_qlisansform.h:196
+msgid "License Code:"
+msgstr "Lisans Kodu:"
+
+#: src/ui_qlisansform.h:197
+msgid "The user name must be no more then 20 characters."
+msgstr "Kullanıcı adı 20 karakterden fazla olmamalı."
+
+#: src/ui_qlisansform.h:198
+msgid "License Dialog"
+msgstr "Lisans Penceresi"
+
+#: src/ui_splashScreen.h:83
+msgid "ver :"
+msgstr "sürüm:"
+
+#: src/ui_splashScreen.h:84
+msgid "for Hakoniwa"
+msgstr ""
+
+#: src/ui_previewform.h:870
+msgid "B8"
+msgstr ""
+
+#: src/ui_previewform.h:879
+msgid "B9"
+msgstr ""
+
+#: src/ui_servermanager.h:1655
+msgid "Stellarium-Manager Window"
+msgstr "Stellarium-Yönetim Penceresi"
+
+#: src/ui_qimagepropwidget.h:1157
+msgid "QImagePropWidget"
+msgstr ""
+
+#~ msgid "Loading catalog %1 from file %2"
+#~ msgstr "%2 dosyasından %1 kataloğu yükleniyor"
+
+#~ msgid "Loading NGC catalog: %1/%2"
+#~ msgstr "NGC kataloğu: %1/%2 yükleniyor"
+
+#~ msgid "Loading NGC catalog"
+#~ msgstr "NGC kataloğu yükleniyor"
+
+#~ msgid "Startup FOV: %1%2"
+#~ msgstr "Baslangıç FOV: %1 %2"
+
+#~ msgid "Startup direction of view Az/Alt: %1/%2"
+#~ msgstr "Görünümün başlangıç yönü Az/Alt:%1/%2"
+
+#~ msgid "Further Reading"
+#~ msgstr "Daha fazla bilgi için..."
+
+#~ msgid ""
+#~ "The following links are external web links, and will launch your web "
+#~ "browser:\n"
+#~ msgstr ""
+#~ "Belirtilen linkler dış kaynaklı ağ bağlantılarıdır ve ağ tarayıcınızı "
+#~ "başlatacaktır:\n"
+
+#~ msgid "{Frequently Asked Questions} about Stellarium.  Answers too."
+#~ msgstr "{Sık Sorulan Sorular} Stellarium hakkında. Cevaplar dahil..."
+
+#~ msgid ""
+#~ "{The Stellarium Wiki} - General information.  You can also find user-"
+#~ "contributed landscapes and scripts here."
+#~ msgstr ""
+#~ "{Stellarium Viki} - Genel bilgiler. Kullanıcı tanımlı görünümleri ve "
+#~ "komut dosyalarını buradan da görebilirsiniz."
+
+#~ msgid ""
+#~ "{Support ticket system} - if you need help using Stellarium, post a "
+#~ "support request here and we'll try to help."
+#~ msgstr ""
+#~ "{Bilet sistemi desteği} - Eger Stellarium kullanımı ile ilgili yardıma "
+#~ "ihtiyacınız varsa, destek için buraya yazınız ve size yardım etmeye "
+#~ "çalışalım."
+
+#~ msgid "{Forums} - discuss Stellarium with other users."
+#~ msgstr "{Forumlar}- Diğer kullanıcılarla Stellarium'u tartışın."
+
+#~ msgid "Developers"
+#~ msgstr "Geliştiriciler"
+
+#~ msgid "Project coordinator & lead developer: %1"
+#~ msgstr "Proje eşgüdüm sorumlusu ve baş geliştirici: %1"
+
+#~ msgid "Doc author/developer: %1"
+#~ msgstr "Dosya yazici/gelistirici: %1"
+
+#~ msgid "Graphic/other designer: %1"
+#~ msgstr "Grafik/ diger tasarimci: %1"
+
+#~ msgid "Developer: %1"
+#~ msgstr "Geliştirici:%1"
+
+#~ msgid "OSX Developer: %1"
+#~ msgstr "OSX gelistirici: %1"
+
+#~ msgid "Full-screen mode"
+#~ msgstr "Tam ekran modu"
+
+#~ msgid "Move telescope #0 to selected object"
+#~ msgstr "Teleskop #0'ı seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #1 to selected object"
+#~ msgstr "Teleskop #1'i seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #2 to selected object"
+#~ msgstr "Teleskop #2'yi seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #3 to selected object"
+#~ msgstr "Teleskop #3'ü seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #4 to selected object"
+#~ msgstr "Teleskop #4'ü seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #5 to selected object"
+#~ msgstr "Teleskop #5'i seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #6 to selected object"
+#~ msgstr "Teleskop #6'yı seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #7 to selected object"
+#~ msgstr "Teleskop #7'yi seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #8 to selected object"
+#~ msgstr "Teleskop #8'i seçilmiş objeye taşı"
+
+#~ msgid "Move telescope #9 to selected object"
+#~ msgstr "Teleskop #9'u seçilmiş objeye taşı"
+
+#~ msgid "Save screenshot"
+#~ msgstr "Ekran görüntüsünü kaydet"
+
+#~ msgid ""
+#~ "Restoring default settings requires a restart of Stellarium. Saving all "
+#~ "the current options includes the current FOV and direction of view for "
+#~ "use at next startup."
+#~ msgstr ""
+#~ "Varsayilan ayarlari geri yuklemek Stellarium'u yeniden baslatmayi "
+#~ "gerektiriyor. Sonraki baslangicta kullanilmak uzere guncel secenekler "
+#~ "kopyalanirken guncel FOV ve gorunum yonu de kopyalanmaktadir."
+
+#~ msgid "Starts Stellarium at system clock date and time"
+#~ msgstr "Stellarium'u sistem tarih ve saati ile başlatır."
+
+#~ msgid ""
+#~ "Sets the simulation time to the next instance of this time of day when "
+#~ "Stellarium starts"
+#~ msgstr ""
+#~ "Benzetim zamanını, Gökküre'nin başladığı günün zamanından bir sonraki an "
+#~ "olarak belirler."
+
+#~ msgid "Use a specific date and time when Stellarium starts up"
+#~ msgstr "Stellatium basladiginda ozel gun ve saat kullan"
+
+#~ msgid ""
+#~ "Spheric mirror distortion is used when projecting Stellarium onto a "
+#~ "spheric mirror for low-cost planetarium systems."
+#~ msgstr ""
+#~ "Gukkure kuresel ayna uzerine izdusurulurken, dusuk maaliyetli gozlemevi "
+#~ "secenekleri icin, kuresel ayna bozulmasi kullanilmistir."

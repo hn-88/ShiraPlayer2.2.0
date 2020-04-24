@@ -1,0 +1,1834 @@
+# Breton translation for stellarium
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the stellarium package.
+# Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>, 2010.
+# Jérémy AR FLOC'H <jeremy.lefloch@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: stellarium\n"
+"Report-Msgid-Bugs-To: Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>\n"
+"POT-Creation-Date: 2010-01-28 17:53+0100\n"
+"PO-Revision-Date: 2010-02-11 17:09+0000\n"
+"Last-Translator: Jérémy Le Floc'h <jeremy.lefloch@gmail.com>\n"
+"Language-Team: Breton <jeremy.lefloch@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-03-31 16:53+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/modules/StarMgr.cpp:396
+#, qt-format
+msgid "Loading catalog %1 from file %2"
+msgstr "O kargañ ar c'hatalog %1 adalek ar restr %2"
+
+#: src/modules/LandscapeMgr.cpp:425
+msgid "Author: "
+msgstr "Aozer : "
+
+#: src/modules/LandscapeMgr.cpp:428
+msgid "Location: "
+msgstr "Lec'hiadur : "
+
+#: src/modules/LandscapeMgr.cpp:433
+#, qt-format
+msgid ", %1 m"
+msgstr ", %1 m"
+
+#: src/modules/LandscapeMgr.cpp:436
+msgid "Planet: "
+msgstr "Planedenn : "
+
+#: src/modules/Nebula.cpp:92
+#, qt-format
+msgid "Type: <b>%1</b>"
+msgstr "Seurt : <b>%1</b>"
+
+#: src/modules/Nebula.cpp:95 src/modules/Planet.cpp:130
+#, qt-format
+msgid "Magnitude: <b>%1</b>"
+msgstr "Meurez : <b>%1</b>"
+
+#: src/modules/Nebula.cpp:100
+#, qt-format
+msgid "Size: %1"
+msgstr "Ment : %1"
+
+#: src/modules/Nebula.cpp:269
+msgid "Galaxy"
+msgstr "Galaksienn"
+
+#: src/modules/Nebula.cpp:272
+msgid "Open cluster"
+msgstr "Druilhad digor"
+
+#: src/modules/Nebula.cpp:275
+msgid "Globular cluster"
+msgstr "Druilhad boulek"
+
+#: src/modules/Nebula.cpp:278
+msgid "Nebula"
+msgstr "Nivlenn"
+
+#: src/modules/Nebula.cpp:281
+msgid "Planetary nebula"
+msgstr "Nivlenn blanedennel"
+
+#: src/modules/Nebula.cpp:284
+msgid "Cluster associated with nebulosity"
+msgstr "Druilhad kenstaget d'ur nivlennad"
+
+#: src/modules/Nebula.cpp:287
+msgid "Unknown"
+msgstr "Dianav"
+
+#: src/modules/Nebula.cpp:290
+msgid "Undocumented type"
+msgstr "N'eo teuliaet ar seurt"
+
+#: src/modules/NebulaMgr.cpp:346
+#, qt-format
+msgid "Loading NGC catalog: %1/%2"
+msgstr "O kargañ ar c'hatalog NGC : %1/%2"
+
+#: src/modules/NebulaMgr.cpp:379
+msgid "Loading NGC catalog"
+msgstr "O kargañ ar c'hatalog NGC"
+
+#: src/modules/Planet.cpp:133 src/modules/StarWrapper.cpp:113
+#, qt-format
+msgid "Absolute Magnitude: %1"
+msgstr "Meurez dizave : %1"
+
+#: src/modules/Planet.cpp:140
+#, no-c-format, qt-format
+msgid "Distance: %1AU"
+msgstr "Pellder : %1AU"
+
+#: src/modules/Planet.cpp:144
+#, qt-format
+msgid "Apparent diameter: %1"
+msgstr "Treuzkiz hañvalat : %1"
+
+#: src/modules/StarWrapper.cpp:52 src/modules/StarWrapper.cpp:109
+#, qt-format
+msgid "Magnitude: <b>%1</b> (B-V: %2)"
+msgstr "Meurez : <b>%1</b> (B-V: %2)"
+
+#: src/modules/StarWrapper.cpp:119
+#, qt-format
+msgid "Spectral Type: %1"
+msgstr ""
+
+#: src/modules/StarWrapper.cpp:123
+#, qt-format
+msgid "Distance: %1 Light Years"
+msgstr ""
+
+#: src/modules/StarWrapper.cpp:126
+#, qt-format
+msgid "Parallax: %1\""
+msgstr ""
+
+#: src/modules/TextUI.cpp:63
+msgid "Set Location "
+msgstr "Termeniñ lec'hiadur "
+
+#: src/modules/TextUI.cpp:64
+msgid "Set Time "
+msgstr "Termeniñ an eur "
+
+#: src/modules/TextUI.cpp:65
+msgid "General "
+msgstr "Hollek "
+
+#: src/modules/TextUI.cpp:66
+msgid "Stars "
+msgstr "Stered "
+
+#: src/modules/TextUI.cpp:67
+msgid "Colors "
+msgstr "Livioù "
+
+#: src/modules/TextUI.cpp:68
+msgid "Effects "
+msgstr "Efedoù "
+
+#: src/modules/TextUI.cpp:69
+msgid "Scripts "
+msgstr "Skriptoù "
+
+#: src/modules/TextUI.cpp:70
+msgid "Administration "
+msgstr "Melestradur "
+
+#: src/modules/TextUI.cpp:73
+msgid "Latitude: "
+msgstr "Ledred : "
+
+#: src/modules/TextUI.cpp:74
+msgid "Longitude: "
+msgstr "Hedred : "
+
+#: src/modules/TextUI.cpp:75
+msgid "Altitude (m): "
+msgstr "Uhelder (m) : "
+
+#: src/modules/TextUI.cpp:76
+msgid "Solar System Body: "
+msgstr "Korf-oabl koskoriad an Heol "
+
+#: src/modules/TextUI.cpp:79
+msgid "Sky Time: "
+msgstr "Amzer sterennel : "
+
+#: src/modules/TextUI.cpp:80
+msgid "Set Time Zone: "
+msgstr "Termeniñ ar werzhid-eur "
+
+#: src/modules/TextUI.cpp:81
+msgid "Day keys: "
+msgstr "Stokelloù an deizioù : "
+
+#: src/modules/TextUI.cpp:82
+msgid "Calendar"
+msgstr "Deiziadur"
+
+#: src/modules/TextUI.cpp:83
+msgid "Sidereal"
+msgstr "Sterennel"
+
+#: src/modules/TextUI.cpp:84
+msgid "Preset Sky Time: "
+msgstr "Amzer sterennel raktermenet : "
+
+#: src/modules/TextUI.cpp:85
+msgid "Sky Time At Start-up: "
+msgstr "Amzer sterennel d'al loc'hañ : "
+
+#: src/modules/TextUI.cpp:86
+msgid "Actual Time"
+msgstr "Eur a-vremañ"
+
+#: src/modules/TextUI.cpp:87
+msgid "Preset Time"
+msgstr "Eur raktermenet"
+
+#: src/modules/TextUI.cpp:88
+msgid "Time Display Format: "
+msgstr "Mentrezh diskwel an eur : "
+
+#: src/modules/TextUI.cpp:89
+msgid "Date Display Format: "
+msgstr "Mentrezh diskwel an deiziad : "
+
+#: src/modules/TextUI.cpp:92
+msgid "Sky Culture: "
+msgstr "Sevenadur an oabl : "
+
+#: src/modules/TextUI.cpp:93
+msgid "Sky Language: "
+msgstr "Yezh an oabl : "
+
+#: src/modules/TextUI.cpp:96
+msgid "Show: "
+msgstr "Diskouez : "
+
+#: src/modules/TextUI.cpp:97
+msgid "Star Value Multiplier: "
+msgstr "Liesaer sked ar stered : "
+
+#: src/modules/TextUI.cpp:98
+msgid "Magnitude Sizing Multiplier: "
+msgstr "Liesaer ment a veurez : "
+
+#: src/modules/TextUI.cpp:99
+msgid "Maximum Magnitude to Label: "
+msgstr "Meurez uc'hek da dikedenniñ : "
+
+#: src/modules/TextUI.cpp:100
+msgid "Twinkling: "
+msgstr "Strinkellikat : "
+
+#: src/modules/TextUI.cpp:101
+msgid "Limiting Magnitude: "
+msgstr "Termeniñ ar meurez : "
+
+#: src/modules/TextUI.cpp:104
+msgid "Constellation Lines"
+msgstr "Linennoù ar steredegoù"
+
+#: src/modules/TextUI.cpp:105
+msgid "Constellation Names"
+msgstr "Anvioù ar steredegoù"
+
+#: src/modules/TextUI.cpp:106
+msgid "Constellation Art Intensity"
+msgstr "Sked tresadennoù ar steredegoù"
+
+#: src/modules/TextUI.cpp:107
+msgid "Constellation Boundaries"
+msgstr "Harzoù ar steredegoù"
+
+#: src/modules/TextUI.cpp:108
+msgid "Cardinal Points"
+msgstr "Ar pevar avel"
+
+#: src/modules/TextUI.cpp:109
+msgid "Planet Names"
+msgstr "Anvioù ar planedennoù"
+
+#: src/modules/TextUI.cpp:110
+msgid "Planet Orbits"
+msgstr "Kelc'htroioù ar planedennoù"
+
+#: src/modules/TextUI.cpp:111
+msgid "Planet Trails"
+msgstr "Stlejoù ar planedennoù"
+
+#: src/modules/TextUI.cpp:112
+msgid "Meridian Line"
+msgstr "Linenn an hedredenn"
+
+#: src/modules/TextUI.cpp:113
+msgid "Azimuthal Grid"
+msgstr "Kael-azimut"
+
+#: src/modules/TextUI.cpp:114
+msgid "Equatorial Grid"
+msgstr "Kael-gehederel"
+
+#: src/modules/TextUI.cpp:115
+msgid "Equator Line"
+msgstr "Linenn ar c'heheder"
+
+#: src/modules/TextUI.cpp:116
+msgid "Ecliptic Line"
+msgstr "Linenn an ekliptik"
+
+#: src/modules/TextUI.cpp:117
+msgid "Nebula Names"
+msgstr "Anvioù an nivlennoù"
+
+#: src/modules/TextUI.cpp:118
+msgid "Nebula Circles"
+msgstr "Nivlennoù kelc'hiet"
+
+#: src/modules/TextUI.cpp:121
+msgid "Light Pollution Luminance: "
+msgstr "Kreñvded ar saotradur goulaouek : "
+
+#: src/modules/TextUI.cpp:122
+msgid "Landscape: "
+msgstr "Gweledva : "
+
+#: src/modules/TextUI.cpp:123
+msgid "Manual zoom: "
+msgstr "Zoum dornel : "
+
+#: src/modules/TextUI.cpp:124
+msgid "Object Sizing Rule: "
+msgstr "Ment an elfennoù : "
+
+#: src/modules/TextUI.cpp:125
+msgid "Magnitude Scaling Multiplier: "
+msgstr "Liesaer meurez/ment : "
+
+#: src/modules/TextUI.cpp:126
+msgid "Milky Way intensity: "
+msgstr "Kreñvded goulaouek an Hent-sant-Jakez "
+
+#: src/modules/TextUI.cpp:127
+msgid "Maximum Nebula Magnitude to Label: "
+msgstr "Meurez uc'hek an nivlennoù da dikedenniñ : "
+
+#: src/modules/TextUI.cpp:128
+msgid "Zoom Duration: "
+msgstr "Padelezh ar zoum : "
+
+#: src/modules/TextUI.cpp:129
+msgid "Cursor Timeout: "
+msgstr "Termen anoberiegezh ar reti (biziañ) : "
+
+#: src/modules/TextUI.cpp:130
+msgid "Correct for light travel time: "
+msgstr "Reizhañ beaj e tizh ar gouloù : "
+
+#: src/modules/TextUI.cpp:133
+msgid "Local Script: "
+msgstr "Skriptoù lec'hel : "
+
+#: src/modules/TextUI.cpp:134
+msgid "CD/DVD Script: "
+msgstr "Skriptoù CD/DVD : "
+
+#: src/modules/TextUI.cpp:135
+msgid "USB Script: "
+msgstr "Skript USB : "
+
+#: src/modules/TextUI.cpp:136
+msgid "Arrow down to load list."
+msgstr "Bir an traoñ evit kargañ ar roll."
+
+#: src/modules/TextUI.cpp:137
+msgid "Select and exit to run."
+msgstr "Diuzañ ha kuitaat evit loc'hañ."
+
+#: src/modules/TextUI.cpp:140
+msgid "Load Default Configuration: "
+msgstr "Kargañ kefluniadur dre ziouer : "
+
+#: src/modules/TextUI.cpp:141
+msgid "Save Current Configuration as Default: "
+msgstr "Enrollañ ar c'hefluniadur a-vremañ evel kefluniadur dre ziouer : "
+
+#: src/modules/TextUI.cpp:142
+msgid "Shut Down: "
+msgstr "Lazhañ : "
+
+#: src/modules/TextUI.cpp:143
+msgid "Update me via Internet: "
+msgstr "Hizivaat dre ar Genrouedad : "
+
+#: src/modules/TextUI.cpp:144
+msgid "Set UI Locale: "
+msgstr "Termeniñ yezh ar c'hetal arveriad (UI) : "
+
+#: src/core/StelProjector.cpp:61
+msgid "Maximum FOV: "
+msgstr "Maezienn wel uc'hek : "
+
+#: src/core/StelProjectorClasses.cpp:25
+msgid "Perspective"
+msgstr "Sav-gwel"
+
+#: src/core/StelProjectorClasses.cpp:30
+msgid ""
+"Perspective projection keeps the horizon a straight line. The mathematical "
+"name for this projection method is <i>gnomonic projection</i>."
+msgstr ""
+"Ar banndres a bellwel a vir an dremmwel e linenn eeun. Anv jedoniezh evit ar "
+"banndres-mañ zo <i>banndres gnomonik</i>."
+
+#: src/core/StelProjectorClasses.cpp:63
+msgid "Equal Area"
+msgstr "Gorreenn gevatal"
+
+#: src/core/StelProjectorClasses.cpp:68
+msgid ""
+"The full name of this projection method is, <i>Lambert azimuthal equal-area "
+"projection</i>. It preserves the area but not the angle."
+msgstr ""
+"Anv klok ar banndres-mañ zo <i>banndres azimutel kevatal gant Lambert</i>. "
+"Mirout a ra ar  gorreoù, ne vir ket ar c'hornioù avat."
+
+#: src/core/StelProjectorClasses.cpp:111
+msgid "Stereographic"
+msgstr "Stereografik"
+
+#: src/core/StelProjectorClasses.cpp:116
+msgid ""
+"Stereographic projection is known since the antiquity and was originally "
+"known as the planisphere projection. It preserves the angles at which curves "
+"cross each other but it does not preserve area."
+msgstr ""
+
+#: src/core/StelProjectorClasses.cpp:150
+msgid "Fish-eye"
+msgstr "Lagad pesk"
+
+#: src/core/StelProjectorClasses.cpp:155
+msgid ""
+"In fish-eye projection, or <i>azimuthal equidistant projection</i>, straight "
+"lines become curves when they appear a large angular distance from the "
+"centre of the field of view (like the distortions seen with very wide angle "
+"camera lenses)."
+msgstr ""
+
+#: src/core/StelProjectorClasses.cpp:189
+msgid "Hammer-Aitoff"
+msgstr "Hammer-Aitoff"
+
+#: src/core/StelProjectorClasses.cpp:194
+msgid ""
+"The Hammer projection is an equal-area map projection, described by Ernst "
+"Hammer in 1892 and directly inspired by the Aitoff projection."
+msgstr ""
+
+#: src/core/StelProjectorClasses.cpp:230
+msgid "Cylinder"
+msgstr "Ruilhenn"
+
+#: src/core/StelProjectorClasses.cpp:235
+msgid ""
+"The full name of this projection mode is <i>cylindrical equidistant "
+"projection</i>. With this projection all parallels are equally spaced."
+msgstr ""
+"Anv klok ar banndres-mañ zo <i>banndres ruilhenn keitpell</i>. Gant ar "
+"banndres-mañ, esaouenn etre holl al ledredennoù zo ingal."
+
+#: src/core/StelProjectorClasses.cpp:277
+msgid "Mercator"
+msgstr "Mercator"
+
+#: src/core/StelProjectorClasses.cpp:282
+msgid ""
+"The mercator projection is one of the most used world map projection. It "
+"preserves direction and shapes but distorts size, in an increasing degree "
+"away from the equator."
+msgstr ""
+"Banndres Mercator zo unan eus ar re vuiañ implijet evit kartennoù ar bed. "
+"Mirout a ra an tuioù hag ar stummoù ; distummañ a ra an mentoù avat, dreist-"
+"holl pa vezer pell eus ar c'heheder."
+
+#: src/core/StelProjectorClasses.cpp:329
+msgid "Orthographic"
+msgstr "Ortografik"
+
+#: src/core/StelProjectorClasses.cpp:334
+msgid ""
+"Orthographic projection is related to perspective projection, but the point "
+"of perspective is set to an infinite distance."
+msgstr ""
+"Banndres ortografik zo damheñvel ouzh ar banndres a bellwel, met gant ar "
+"poent a bellwel lec'hiet en ur bellder anfin."
+
+#: src/core/StelObject.cpp:65
+#, qt-format
+msgid "RA/DE (J2000): %1/%2"
+msgstr "RA/DE (J2000): %1/%2"
+
+#: src/core/StelObject.cpp:72
+#, qt-format
+msgid "RA/DE (of date): %1/%2"
+msgstr "RA/DE (an deiziad): %1/%2"
+
+#: src/core/StelObject.cpp:80
+#, qt-format
+msgid "Hour angle/DE: %1/%2"
+msgstr "Korn eur/degel : %1/%2"
+
+#: src/core/StelObject.cpp:91
+#, qt-format
+msgid "Az/Alt: %1/%2"
+msgstr "Az/Uhel : %1/%2"
+
+#: src/gui/ConfigurationDialog.cpp:283
+msgid "Select screenshot directory"
+msgstr "Diuzañ ar c'havlec'h evit an tapadennoù-skramm"
+
+#: src/gui/ConfigurationDialog.cpp:448
+#, qt-format
+msgid "Startup FOV: %1%2"
+msgstr "Maezienn wel d'al loc'hañ : %1%2"
+
+#: src/gui/ConfigurationDialog.cpp:456
+#, qt-format
+msgid "Startup direction of view Az/Alt: %1/%2"
+msgstr "Tu ar gwel Azimut/Uhelder d'al loc'hañ : %1/%2"
+
+#: src/gui/ConfigurationDialog.cpp:492
+msgid "Authors"
+msgstr "Aozerien"
+
+#: src/gui/ConfigurationDialog.cpp:496 src/gui/ViewDialog.cpp:336
+msgid "Contact"
+msgstr "Darempred"
+
+#: src/gui/ConfigurationDialog.cpp:568
+msgid "Author"
+msgstr "Aozer"
+
+#: src/gui/ConfigurationDialog.cpp:569
+msgid "License"
+msgstr "Lañvaz"
+
+#: src/gui/ConfigurationDialog.cpp:600
+msgid "Running script: "
+msgstr "O seveniñ skript : "
+
+#: src/gui/ConfigurationDialog.cpp:607
+msgid "Running script: [none]"
+msgstr "O seveniñ skript : [netra]"
+
+#: src/gui/ConfigurationDialog.cpp:650
+msgid "Finished downloading all star catalogs!"
+msgstr "Echu eo pellgargañ an holl gatalogoù stered !"
+
+#: src/gui/ConfigurationDialog.cpp:657
+#, qt-format
+msgid "Get catalog %1 of %2"
+msgstr "Adtapout ar c'hatalog %1 diwar %2"
+
+#: src/gui/ConfigurationDialog.cpp:659
+#, qt-format
+msgid ""
+"Download size: %1MB\n"
+"Star count: %2 Million\n"
+"Magnitude range: %3 - %4"
+msgstr ""
+"Ment pellgargañ : %1MB\n"
+"Niver a stered : %2 Million\n"
+"Meurezioù : %3 - %4"
+
+#: src/gui/ConfigurationDialog.cpp:668
+msgid ""
+"Finished downloading new star catalogs!\n"
+"Restart Stellarium to display them."
+msgstr ""
+"Echu eo pellgargañ ar c'hatalog stered nevez !\n"
+"Adloc'hit Stellarium evit diskwel anezhañ."
+
+#: src/gui/ConfigurationDialog.cpp:706 src/gui/ConfigurationDialog.cpp:740
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"%2"
+msgstr ""
+"Fazi o pellgargañ %1 :\n"
+"%2"
+
+#: src/gui/ConfigurationDialog.cpp:711
+#, qt-format
+msgid ""
+"Downloading %1...\n"
+"(You can close this window.)"
+msgstr ""
+"O pellgargañ %1...\n"
+"(Gallout a rit serriñ ar prenestr-mañ)"
+
+#: src/gui/ConfigurationDialog.cpp:791
+msgid "Verifying file integrity..."
+msgstr "O wiriekaat anterinder ar restr..."
+
+#: src/gui/ConfigurationDialog.cpp:795
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"File is corrupted."
+msgstr ""
+"Fazi o pellgargañ %1 :\n"
+"Siek eo ar restr."
+
+#: src/gui/HelpDialog.cpp:51 src/gui/StelGuiItems.cpp:286
+#: src/gui/StelGuiItems.cpp:647
+msgid "Space"
+msgstr "Esaouiñ"
+
+#: src/gui/HelpDialog.cpp:52
+msgid "Arrow keys & left mouse drag"
+msgstr "Stokelloù tu ha risklañ ar bouton kleiz"
+
+#: src/gui/HelpDialog.cpp:53
+msgid "Page Up/Down"
+msgstr "Pajenn Nec'h/Traoñ"
+
+#: src/gui/HelpDialog.cpp:54
+msgid "CTRL + Up/Down"
+msgstr "CTRL + Nec'h/Traoñ"
+
+#: src/gui/HelpDialog.cpp:55
+msgid "Left click"
+msgstr "Klik kleiz"
+
+#: src/gui/HelpDialog.cpp:56
+msgid "Right click"
+msgstr "Klik dehou"
+
+#: src/gui/HelpDialog.cpp:57
+msgid "CTRL + Left click"
+msgstr "CTRL + klik kleiz"
+
+#: src/gui/HelpDialog.cpp:60 src/gui/StelGui.cpp:157
+msgid "Movement and Selection"
+msgstr "Luskad ha diuzad"
+
+#: src/gui/HelpDialog.cpp:61
+msgid "Pan view around the sky"
+msgstr "Gwel a-vras an oabl"
+
+#: src/gui/HelpDialog.cpp:62 src/gui/HelpDialog.cpp:63
+msgid "Zoom in/out"
+msgstr "Zoum +/-"
+
+#: src/gui/HelpDialog.cpp:64
+msgid "Select object"
+msgstr "Diuzañ un elfenn"
+
+#: src/gui/HelpDialog.cpp:65 src/gui/HelpDialog.cpp:67
+msgid "Clear selection"
+msgstr "Skarzañ an diuzad"
+
+#: src/gui/HelpDialog.cpp:70
+msgid "When a Script is Running"
+msgstr "Pa vez ur skript o seveniñ"
+
+#: src/gui/HelpDialog.cpp:71 src/gui/StelGui.cpp:136
+msgid "Slow down the script execution rate"
+msgstr "Gorrekaat tizh seveniñ ar skript"
+
+#: src/gui/HelpDialog.cpp:72 src/gui/StelGui.cpp:137
+msgid "Speed up the script execution rate"
+msgstr "Buanaat tizh seveniñ ar skript"
+
+#: src/gui/HelpDialog.cpp:73 src/gui/StelGui.cpp:138
+msgid "Set the normal script execution rate"
+msgstr "Seveniñ ar skript d'an tizh reizh"
+
+#: src/gui/HelpDialog.cpp:161
+msgid "Stellarium Help"
+msgstr "Skoazell Stellarium"
+
+#: src/gui/HelpDialog.cpp:162
+msgid "Keys"
+msgstr "Stokelloù"
+
+#: src/gui/HelpDialog.cpp:170
+msgid "Further Reading"
+msgstr "Muioc'h a ditouroù"
+
+#: src/gui/HelpDialog.cpp:171
+msgid ""
+"The following links are external web links, and will launch your web "
+"browser:\n"
+msgstr ""
+"Diavaez eo an ereoù a-heul, loc'hañ a raint ho merdeer Kenrouedad :\n"
+
+#: src/gui/HelpDialog.cpp:172
+msgid "The Stellarium User Guide"
+msgstr "Sturlevr implijout Stellarium"
+
+#. TRANSLATORS: The text between braces is the text of an HTML link.
+#: src/gui/HelpDialog.cpp:176
+msgid "{Frequently Asked Questions} about Stellarium.  Answers too."
+msgstr "{Foar Ar Goulennoù} diwar-benn Stellarium. Respontoù ivez."
+
+#. TRANSLATORS: The text between braces is the text of an HTML link.
+#: src/gui/HelpDialog.cpp:181
+msgid ""
+"{The Stellarium Wiki} - General information.  You can also find user-"
+"contributed landscapes and scripts here."
+msgstr ""
+"{Wiki Stellarium} - Titour hollek. Gallout a rit ivez kavout gweledvaoù ha "
+"skriptoù pourchaset gant an arveriaded."
+
+#. TRANSLATORS: The text between braces is the text of an HTML link.
+#: src/gui/HelpDialog.cpp:186
+msgid ""
+"{Support ticket system} - if you need help using Stellarium, post a support "
+"request here and we'll try to help."
+msgstr ""
+"{Sistem Tikedennoù skoazell } - m'ho peus ezhomm skoazell evit implijout "
+"Stellarium, kasit ur goulenn amañ ha klask a rimp da skoazell ac'hanoc'h."
+
+#. TRANSLATORS: The text between braces is the text of an HTML link.
+#: src/gui/HelpDialog.cpp:191
+msgid ""
+"{Bug reporting and feature request system} - if something doesn't work "
+"properly or is missing and is not listed in the tracker, you can open bug "
+"reports here."
+msgstr ""
+"{Danevell draen ha goulenn arc'hweladur} - ma'z eus un dra bennak ha ne ya "
+"ket en-dro mat pe o vankout ha n'eo ket heuliet, gallout a rit digeriñ un "
+"danevell draen amañ."
+
+#. TRANSLATORS: The text between braces is the text of an HTML link.
+#: src/gui/HelpDialog.cpp:196
+msgid "{Forums} - discuss Stellarium with other users."
+msgstr "{Foromoù} - breutait diwar-benn Stellarium gant arveriaded all"
+
+#: src/gui/HelpDialog.cpp:232 src/gui/HelpDialog.cpp:322
+#: src/gui/HelpDialog.cpp:324 src/gui/StelGui.cpp:176
+msgid "Miscellaneous"
+msgstr "Liesseurt"
+
+#: src/gui/HelpDialog.cpp:290
+msgid "Developers"
+msgstr "Diorroerien"
+
+#: src/gui/HelpDialog.cpp:291
+#, qt-format
+msgid "Project coordinator & lead developer: %1"
+msgstr "Kenurzhier raktres & diorroer pennañ : %1"
+
+#: src/gui/HelpDialog.cpp:292
+#, qt-format
+msgid "Doc author/developer: %1"
+msgstr "Teul aozer/diorroer : %1"
+
+#: src/gui/HelpDialog.cpp:293
+#, qt-format
+msgid "Graphic/other designer: %1"
+msgstr "Grafek/krouer all : %1"
+
+#: src/gui/HelpDialog.cpp:294 src/gui/HelpDialog.cpp:295
+#: src/gui/HelpDialog.cpp:297 src/gui/HelpDialog.cpp:298
+#, qt-format
+msgid "Developer: %1"
+msgstr "Diorroer : %1"
+
+#: src/gui/HelpDialog.cpp:296
+#, qt-format
+msgid "OSX Developer: %1"
+msgstr "Diorroer OSX : %1"
+
+#: src/gui/StelGui.cpp:94
+msgid "Display Options"
+msgstr "Diskouez dibarzhioù"
+
+#: src/gui/StelGui.cpp:95
+msgid "Constellation lines"
+msgstr "Linennoù ar steredegoù"
+
+#: src/gui/StelGui.cpp:96
+msgid "Constellation art"
+msgstr "Tresadennoù ar steredegoù"
+
+#: src/gui/StelGui.cpp:97
+msgid "Constellation labels"
+msgstr "Anvioù ar steredegoù"
+
+#: src/gui/StelGui.cpp:98
+msgid "Constellation boundaries"
+msgstr "Harzoù ar steredegoù"
+
+#: src/gui/StelGui.cpp:100 src/ui_viewDialog.h:1027
+msgid "Azimuthal grid"
+msgstr "Kael-azimut"
+
+#: src/gui/StelGui.cpp:101 src/ui_viewDialog.h:1025
+msgid "Equatorial grid"
+msgstr "Kael-gehederel"
+
+#: src/gui/StelGui.cpp:102 src/ui_viewDialog.h:1026
+msgid "Equatorial J2000 grid"
+msgstr "Kael-gehederel J2000"
+
+#: src/gui/StelGui.cpp:103
+msgid "Galactic grid"
+msgstr "Kael-c'halaksienn"
+
+#: src/gui/StelGui.cpp:104 src/ui_viewDialog.h:1030
+msgid "Ecliptic line"
+msgstr "Linenn an ekliptik"
+
+#: src/gui/StelGui.cpp:105 src/ui_viewDialog.h:1028
+msgid "Equator line"
+msgstr "Linenn kehederel"
+
+#: src/gui/StelGui.cpp:106 src/ui_viewDialog.h:1029
+msgid "Meridian line"
+msgstr "Linenn hedredel"
+
+#: src/gui/StelGui.cpp:107 src/ui_viewDialog.h:1031
+msgid "Cardinal points"
+msgstr "Ar pevar avel"
+
+#: src/gui/StelGui.cpp:109
+msgid "Ground"
+msgstr "Leur (douar)"
+
+#: src/gui/StelGui.cpp:110 src/ui_viewDialog.h:1009
+msgid "Atmosphere"
+msgstr "Aergelc'h"
+
+#: src/gui/StelGui.cpp:111
+msgid "Fog"
+msgstr "Latar"
+
+#: src/gui/StelGui.cpp:113 src/ui_viewDialog.h:1014
+msgid "Nebulas"
+msgstr "Nivlennoù"
+
+#: src/gui/StelGui.cpp:114
+msgid "Nebulas background images"
+msgstr "Skeudenn an nivlennoù e drekleur"
+
+#: src/gui/StelGui.cpp:115 src/ui_viewDialog.h:995 src/ui_viewDialog.h:1013
+msgid "Stars"
+msgstr "Stered"
+
+#: src/gui/StelGui.cpp:116
+msgid "Planets labels"
+msgstr "Anvioù ar planedennoù"
+
+#: src/gui/StelGui.cpp:117
+msgid "Planet orbits"
+msgstr "Kelc'htroioù ar planedennoù"
+
+#: src/gui/StelGui.cpp:119
+msgid "Night mode"
+msgstr "Mod noz"
+
+#: src/gui/StelGui.cpp:120
+msgid "Full-screen mode"
+msgstr "Skramm leun"
+
+#: src/gui/StelGui.cpp:121
+msgid "Flip scene horizontally"
+msgstr "Melezour a-blaen"
+
+#: src/gui/StelGui.cpp:122
+msgid "Flip scene vertically"
+msgstr "Melezour a-sonn"
+
+#: src/gui/StelGui.cpp:124
+msgid "Windows"
+msgstr "Prenistri"
+
+#: src/gui/StelGui.cpp:125
+msgid "Help window"
+msgstr "Prenestr skoazell"
+
+#: src/gui/StelGui.cpp:126
+msgid "Configuration window"
+msgstr "Prenestr kefluniañ"
+
+#: src/gui/StelGui.cpp:127
+msgid "Search window"
+msgstr "Prenestr klask"
+
+#: src/gui/StelGui.cpp:128
+msgid "Sky and viewing options window"
+msgstr "Prenestr kefluniañ an oabl hag ar gweled"
+
+#: src/gui/StelGui.cpp:129
+msgid "Date/time window"
+msgstr "Prenestr deiziad/eur"
+
+#: src/gui/StelGui.cpp:130
+msgid "Location window"
+msgstr "Prenestr lec'hiadur"
+
+#: src/gui/StelGui.cpp:132
+msgid "Script console window"
+msgstr "Prenestr skript"
+
+#: src/gui/StelGui.cpp:135 src/ui_dateTimeDialogGui.h:295
+msgid "Date and Time"
+msgstr "Deiziad & eur"
+
+#: src/gui/StelGui.cpp:139
+msgid "Decrease time speed"
+msgstr "Gorrekaat an amzer"
+
+#: src/gui/StelGui.cpp:140
+msgid "Increase time speed"
+msgstr "Buanaat an amzer"
+
+#: src/gui/StelGui.cpp:141
+msgid "Set normal time rate"
+msgstr "Termeniñ tizh an amzer reizh"
+
+#: src/gui/StelGui.cpp:142
+msgid "Decrease time speed (a little)"
+msgstr "Gorrekaat an amzer (un tammig)"
+
+#: src/gui/StelGui.cpp:143
+msgid "Increase time speed (a little)"
+msgstr "Buanaat an amzer (un tammig)"
+
+#: src/gui/StelGui.cpp:144
+msgid "Set time rate to zero"
+msgstr "Termeniñ tizh an amzer da zero"
+
+#: src/gui/StelGui.cpp:145
+msgid "Set time to now"
+msgstr "Distreiñ d'an eur a-vremañ"
+
+#: src/gui/StelGui.cpp:146
+msgid "Add 1 solar hour"
+msgstr "Ouzhpennañ 1 eur heol"
+
+#: src/gui/StelGui.cpp:147
+msgid "Subtract 1 solar hour"
+msgstr "Lemel 1 eur heol"
+
+#: src/gui/StelGui.cpp:148
+msgid "Add 1 solar day"
+msgstr "Ouzhpennañ 1 deiz heol"
+
+#: src/gui/StelGui.cpp:149
+msgid "Subtract 1 solar day"
+msgstr "Lemel 1 deiz heol"
+
+#: src/gui/StelGui.cpp:150
+msgid "Add 1 solar week"
+msgstr "Ouzhpennañ 1 sizhun heol"
+
+#: src/gui/StelGui.cpp:151
+msgid "Subtract 1 solar week"
+msgstr "Lemel 1 sizhun heol"
+
+#: src/gui/StelGui.cpp:152
+msgid "Add 1 sidereal day"
+msgstr "Ouzhpennañ 1 deiz sterennel"
+
+#: src/gui/StelGui.cpp:153
+msgid "Subtract 1 sidereal day"
+msgstr "Lemel 1 deiz sterennel"
+
+#: src/gui/StelGui.cpp:154
+msgid "Add 1 sidereal week"
+msgstr "Ouzhpennañ 1 sizhun sterennel"
+
+#: src/gui/StelGui.cpp:155
+msgid "Subtract 1 sidereal week"
+msgstr "Lemel 1 sizhun sterennel"
+
+#: src/gui/StelGui.cpp:158
+msgid "Center on selected object"
+msgstr "Kreizañ war an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:159
+msgid "Track object"
+msgstr "Heuliañ an elfenn"
+
+#: src/gui/StelGui.cpp:160
+msgid "Zoom in on selected object"
+msgstr "Zoomañ war an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:161
+msgid "Zoom out"
+msgstr "Dizoumañ"
+
+#: src/gui/StelGui.cpp:162
+msgid "Set home planet to selected planet"
+msgstr "Termeniñ ar blanedenn diuzet evel planedenn kêr"
+
+#: src/gui/StelGui.cpp:164
+msgid "Telescope Control"
+msgstr "Kontroll Teleskop"
+
+#: src/gui/StelGui.cpp:165
+msgid "Move telescope #0 to selected object"
+msgstr "Dilec'hiañ an teleskop #0 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:166
+msgid "Move telescope #1 to selected object"
+msgstr "Dilec'hiañ an teleskop #1 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:167
+msgid "Move telescope #2 to selected object"
+msgstr "Dilec'hiañ an teleskop #2 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:168
+msgid "Move telescope #3 to selected object"
+msgstr "Dilec'hiañ an teleskop #3 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:169
+msgid "Move telescope #4 to selected object"
+msgstr "Dilec'hiañ an teleskop #4 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:170
+msgid "Move telescope #5 to selected object"
+msgstr "Dilec'hiañ an teleskop #5 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:171
+msgid "Move telescope #6 to selected object"
+msgstr "Dilec'hiañ an teleskop #6 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:172
+msgid "Move telescope #7 to selected object"
+msgstr "Dilec'hiañ an teleskop #7 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:173
+msgid "Move telescope #8 to selected object"
+msgstr "Dilec'hiañ an teleskop #8 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:174
+msgid "Move telescope #9 to selected object"
+msgstr "Dilec'hiañ an teleskop #9 war-zu an elfenn diuzet"
+
+#: src/gui/StelGui.cpp:177
+msgid "Switch between equatorial and azimuthal mount"
+msgstr "Kemmañ ar plaen kehederel/azimutel"
+
+#: src/gui/StelGui.cpp:178
+msgid "Quit"
+msgstr "Kuitaat"
+
+#: src/gui/StelGui.cpp:179
+msgid "Save screenshot"
+msgstr "Enrollañ tapadenn-skramm"
+
+#: src/gui/StelGui.cpp:182
+msgid "Auto hide horizontal button bar"
+msgstr "Emguzhat ar varrenn vouton a-blaen"
+
+#: src/gui/StelGui.cpp:183
+msgid "Auto hide vertical button bar"
+msgstr "Emguzhat ar varrenn vouton a-sonn"
+
+#: src/gui/StelGui.cpp:184
+msgid "Toggle visibility of GUI"
+msgstr "(Di)Gweredekaat ar c'hetal grafek"
+
+#: src/gui/StelGuiItems.cpp:548
+#, no-c-format, qt-format
+msgid "%1m"
+msgstr "%1m"
+
+#: src/gui/ViewDialog.cpp:388
+msgid "No description"
+msgstr "Deskrivadur ebet"
+
+#: src/gui/ViewDialog.cpp:444
+msgid "No shooting stars"
+msgstr "Steredenn-dared ebet"
+
+#: src/gui/ViewDialog.cpp:447
+msgid "Normal rate"
+msgstr "Frekañs reizh"
+
+#: src/gui/ViewDialog.cpp:450
+msgid "Standard Perseids rate"
+msgstr ""
+
+#: src/gui/ViewDialog.cpp:453
+msgid "Exceptional Leonid rate"
+msgstr ""
+
+#: src/gui/ViewDialog.cpp:456
+msgid "Highest rate ever (1966 Leonids)"
+msgstr ""
+
+#: src/gui/LocationDialog.cpp:340
+msgid "New Location"
+msgstr "Lec'hiadur nevez"
+
+#: src/main.cpp:308
+msgid "This system does not support OpenGL."
+msgstr "Diembreget eo OpenGL gant ar reizhiad-mañ."
+
+#: src/translations.h:33
+msgid "Sun"
+msgstr "heol"
+
+#: src/translations.h:34
+msgid "Mercury"
+msgstr "Merc'her"
+
+#: src/translations.h:35
+msgid "Venus"
+msgstr "Gwener"
+
+#: src/translations.h:36
+msgid "Earth"
+msgstr "Douar"
+
+#: src/translations.h:37
+msgid "Moon"
+msgstr "Loar"
+
+#: src/translations.h:38
+msgid "Mars"
+msgstr "Meurzh"
+
+#: src/translations.h:39
+msgid "Deimos"
+msgstr "Deimos"
+
+#: src/translations.h:40
+msgid "Phobos"
+msgstr "Phobos"
+
+#: src/translations.h:41
+msgid "Jupiter"
+msgstr "Yaou"
+
+#: src/translations.h:42
+msgid "Io"
+msgstr "lo"
+
+#: src/translations.h:43
+msgid "Europa"
+msgstr "Europa"
+
+#: src/translations.h:44
+msgid "Ganymede"
+msgstr "Ganymede"
+
+#: src/translations.h:45
+msgid "Callisto"
+msgstr "Callisto"
+
+#: src/translations.h:46
+msgid "Saturn"
+msgstr "Sadorn"
+
+#: src/translations.h:47
+msgid "Mimas"
+msgstr "Mimas"
+
+#: src/translations.h:48
+msgid "Enceladus"
+msgstr "Enceladus"
+
+#: src/translations.h:49
+msgid "Tethys"
+msgstr "Tethys"
+
+#: src/translations.h:50
+msgid "Dione"
+msgstr "Dione"
+
+#: src/translations.h:51
+msgid "Rhea"
+msgstr "Rhea"
+
+#: src/translations.h:52
+msgid "Titan"
+msgstr "Titan"
+
+#: src/translations.h:53
+msgid "Hyperion"
+msgstr "Hyperion"
+
+#: src/translations.h:54
+msgid "Iapetus"
+msgstr "Iapetus"
+
+#: src/translations.h:55
+msgid "Phoebe"
+msgstr "Phoebe"
+
+#: src/translations.h:56
+msgid "Neptune"
+msgstr "Neizhan"
+
+#: src/translations.h:57
+msgid "Uranus"
+msgstr "Ouran"
+
+#: src/translations.h:58
+msgid "Pluto"
+msgstr "Ploudon"
+
+#: src/translations.h:59
+msgid "Charon"
+msgstr "Charon"
+
+#: src/translations.h:60
+msgid "Solar System Observer"
+msgstr "Arseller koskoriad an Heol"
+
+#: src/translations.h:63
+msgid "N"
+msgstr "H"
+
+#: src/translations.h:64
+msgid "S"
+msgstr "S"
+
+#: src/translations.h:65
+msgid "E"
+msgstr "R"
+
+#: src/translations.h:66
+msgid "W"
+msgstr "K"
+
+#: src/translations.h:69
+msgid "Aztec"
+msgstr ""
+
+#: src/translations.h:70
+msgid "Chinese"
+msgstr ""
+
+#: src/translations.h:71
+msgid "Egyptian"
+msgstr ""
+
+#: src/translations.h:72
+msgid "Inuit"
+msgstr ""
+
+#: src/translations.h:73
+msgid "Korean"
+msgstr ""
+
+#: src/translations.h:74
+msgid "Lakota"
+msgstr ""
+
+#: src/translations.h:75
+msgid "Maori"
+msgstr ""
+
+#: src/translations.h:76
+msgid "Navajo"
+msgstr ""
+
+#: src/translations.h:77
+msgid "Norse"
+msgstr ""
+
+#: src/translations.h:78
+msgid "Polynesian"
+msgstr ""
+
+#: src/translations.h:79
+msgid "Western"
+msgstr ""
+
+#: src/translations.h:80
+msgid "Tupi-Guarani"
+msgstr ""
+
+#: src/ui_dateTimeDialogGui.h:294 src/ui_helpDialogGui.h:259
+#: src/ui_locationDialogGui.h:387 src/ui_viewDialog.h:979
+#: src/ui_configurationDialog.h:746
+msgid "Form"
+msgstr ""
+
+#: src/ui_dateTimeDialogGui.h:297 src/ui_dateTimeDialogGui.h:298
+msgid "/"
+msgstr "/"
+
+#: src/ui_dateTimeDialogGui.h:299 src/ui_dateTimeDialogGui.h:300
+msgid ":"
+msgstr ":"
+
+#: src/ui_helpDialogGui.h:260 src/ui_helpDialogGui.h:266
+msgid "Help"
+msgstr "Skoazell"
+
+#: src/ui_helpDialogGui.h:268
+msgid "About"
+msgstr "A-zivout"
+
+#: src/ui_helpDialogGui.h:270
+msgid "Log"
+msgstr "Renabl"
+
+#: src/ui_helpDialogGui.h:273
+msgid "Refresh"
+msgstr "Adkargañ"
+
+#: src/ui_locationDialogGui.h:388
+msgid "Location"
+msgstr "Lec'hiadur"
+
+#: src/ui_locationDialogGui.h:392
+msgid "Current location information"
+msgstr "Titouroù war al lec'hiadur a-vremañ"
+
+#: src/ui_locationDialogGui.h:393
+msgid "Use as default"
+msgstr "Implijout dre ziouer"
+
+#: src/ui_locationDialogGui.h:394
+msgid "Delete"
+msgstr "Dilemel"
+
+#: src/ui_locationDialogGui.h:395
+msgid "Add to list"
+msgstr "Ouzhpennañ d'ar roll"
+
+#: src/ui_locationDialogGui.h:396
+msgid "Latitude:"
+msgstr "Ledred :"
+
+#: src/ui_locationDialogGui.h:398 src/ui_locationDialogGui.h:402
+msgid ""
+"You can enter values in decimal degrees, or using dms format, for example: "
+"+1d 12m 8s"
+msgstr ""
+
+#: src/ui_locationDialogGui.h:400
+msgid "Longitude:"
+msgstr "Hedred :"
+
+#: src/ui_locationDialogGui.h:404
+msgid "Altitude:"
+msgstr "Uhelder :"
+
+#: src/ui_locationDialogGui.h:406
+msgid "Enter the altitude in meter"
+msgstr "Bizskrivit an uhelder e metroù"
+
+#: src/ui_locationDialogGui.h:408
+msgid " m"
+msgstr " m"
+
+#: src/ui_locationDialogGui.h:409
+msgid "Name/City:"
+msgstr "Anv/Kêr"
+
+#: src/ui_locationDialogGui.h:410
+msgid "Country:"
+msgstr "Bro :"
+
+#: src/ui_locationDialogGui.h:411
+msgid "Planet:"
+msgstr "Planedenn :"
+
+#: src/ui_searchDialogGui.h:230 src/ui_searchDialogGui.h:231
+msgid "Find Object"
+msgstr "Klask elfenn"
+
+#: src/ui_searchDialogGui.h:236
+msgid "RA/Dec (J2000):"
+msgstr ""
+
+#: src/ui_viewDialog.h:980
+msgid "View"
+msgstr "Gwelet"
+
+#: src/ui_viewDialog.h:986
+msgid "Sky"
+msgstr "Oabl"
+
+#: src/ui_viewDialog.h:988
+msgid "Markings"
+msgstr ""
+
+#: src/ui_viewDialog.h:990
+msgid "Landscape"
+msgstr "Gweledva"
+
+#: src/ui_viewDialog.h:992
+msgid "Starlore"
+msgstr ""
+
+#: src/ui_viewDialog.h:996
+msgid "Absolute scale:"
+msgstr ""
+
+#: src/ui_viewDialog.h:997
+msgid "Relative scale:"
+msgstr ""
+
+#: src/ui_viewDialog.h:998
+msgid "Twinkle:"
+msgstr ""
+
+#: src/ui_viewDialog.h:1000
+msgid "Dim faint stars when a very bright object is visible"
+msgstr ""
+
+#: src/ui_viewDialog.h:1002
+msgid "Dynamic eye adaptation"
+msgstr ""
+
+#: src/ui_viewDialog.h:1003
+msgid "Planets and satellites"
+msgstr "Planedennoù hag adplanedennoù"
+
+#: src/ui_viewDialog.h:1004
+msgid "Show planets"
+msgstr "Diskouez planedennoù"
+
+#: src/ui_viewDialog.h:1005
+msgid "Show planet markers"
+msgstr ""
+
+#: src/ui_viewDialog.h:1006
+msgid "Show planet orbits"
+msgstr ""
+
+#: src/ui_viewDialog.h:1007
+msgid "Simulate light speed"
+msgstr ""
+
+#: src/ui_viewDialog.h:1008
+msgid "Scale Moon"
+msgstr ""
+
+#: src/ui_viewDialog.h:1010
+msgid "Show atmosphere"
+msgstr "Diskouez an aergelc'h"
+
+#: src/ui_viewDialog.h:1011
+msgid "Light pollution: "
+msgstr ""
+
+#: src/ui_viewDialog.h:1012
+msgid "Labels and Markers"
+msgstr ""
+
+#: src/ui_viewDialog.h:1015
+msgid "Planets"
+msgstr "Planedennoù"
+
+#: src/ui_viewDialog.h:1016
+msgid "Shooting Stars"
+msgstr "Stered-dared"
+
+#: src/ui_viewDialog.h:1017
+msgid "Hourly zenith rate:"
+msgstr ""
+
+#: src/ui_viewDialog.h:1018
+msgid "0"
+msgstr "0"
+
+#: src/ui_viewDialog.h:1019
+msgid "10"
+msgstr "10"
+
+#: src/ui_viewDialog.h:1020
+msgid "80"
+msgstr "80"
+
+#: src/ui_viewDialog.h:1021
+msgid "10000"
+msgstr "10000"
+
+#: src/ui_viewDialog.h:1022
+msgid "144000"
+msgstr "144000"
+
+#: src/ui_viewDialog.h:1024
+msgid "Celestial Sphere"
+msgstr "Sferenn oabl"
+
+#: src/ui_viewDialog.h:1032
+msgid "Constellations"
+msgstr "Steredegoù"
+
+#: src/ui_viewDialog.h:1033
+msgid "Show lines"
+msgstr "Diskouez al linennoù"
+
+#: src/ui_viewDialog.h:1034
+msgid "Show labels"
+msgstr "Diskouez an anvioù"
+
+#: src/ui_viewDialog.h:1035
+msgid "Show boundaries"
+msgstr "Diskouez an harzoù"
+
+#: src/ui_viewDialog.h:1036
+msgid "Show art"
+msgstr "Diskouez an tresadennoù"
+
+#: src/ui_viewDialog.h:1037
+msgid "Art brightness: "
+msgstr "Sked an tresadennoù : "
+
+#: src/ui_viewDialog.h:1038
+msgid "Projection"
+msgstr "Banndres"
+
+#: src/ui_viewDialog.h:1039 src/ui_viewDialog.h:1044 src/ui_viewDialog.h:1046
+#: src/ui_configurationDialog.h:853 src/ui_configurationDialog.h:864
+msgid "Options"
+msgstr "Dibarzhioù"
+
+#: src/ui_viewDialog.h:1040
+msgid "Show ground"
+msgstr "Diskouez al leur (douar)"
+
+#: src/ui_viewDialog.h:1041
+msgid "Show fog"
+msgstr "Diskouez al latar"
+
+#: src/ui_viewDialog.h:1042
+msgid "Use associated planet and position"
+msgstr "Implijout ar planedennoù ha lec'hiadurioù keñveriet"
+
+#: src/ui_viewDialog.h:1043
+msgid "Use this landscape as default"
+msgstr "Implijout ar gweledva-mañ dre ziouer"
+
+#: src/ui_viewDialog.h:1045
+msgid "Use this sky culture as default"
+msgstr ""
+
+#: src/ui_viewDialog.h:1047
+msgid "Visible"
+msgstr "Gwelus"
+
+#: src/ui_configurationDialog.h:747
+msgid "Configuration"
+msgstr "Kefluniadur"
+
+#: src/ui_configurationDialog.h:749
+msgid "Program language"
+msgstr ""
+
+#: src/ui_configurationDialog.h:750
+msgid "Selected object information"
+msgstr ""
+
+#: src/ui_configurationDialog.h:752
+msgid "Display all information available"
+msgstr ""
+
+#: src/ui_configurationDialog.h:754
+msgid "All available"
+msgstr ""
+
+#: src/ui_configurationDialog.h:756
+msgid "Display less information"
+msgstr ""
+
+#: src/ui_configurationDialog.h:758
+msgid "Short"
+msgstr ""
+
+#: src/ui_configurationDialog.h:760
+msgid "Display no information"
+msgstr ""
+
+#: src/ui_configurationDialog.h:762
+msgid "None"
+msgstr ""
+
+#: src/ui_configurationDialog.h:763
+msgid "Default options"
+msgstr "Dibarzhioù dre ziouer"
+
+#: src/ui_configurationDialog.h:765
+msgid ""
+"Save the settings you've changed this session to be the same the next time "
+"you start Stellarium"
+msgstr ""
+
+#: src/ui_configurationDialog.h:767
+msgid "Save settings"
+msgstr "Enrollañ arventennoù"
+
+#: src/ui_configurationDialog.h:769
+msgid "Restore the default settings that came with Stellarium"
+msgstr ""
+
+#: src/ui_configurationDialog.h:771
+msgid "Restore defaults"
+msgstr ""
+
+#: src/ui_configurationDialog.h:772
+msgid ""
+"Restoring default settings requires a restart of Stellarium. Saving all the "
+"current options includes the current FOV and direction of view for use at "
+"next startup."
+msgstr ""
+
+#: src/ui_configurationDialog.h:774
+msgid "The width of your view when Stellarium starts"
+msgstr ""
+
+#: src/ui_configurationDialog.h:776
+msgid "Startup FOV: XX"
+msgstr ""
+
+#: src/ui_configurationDialog.h:778
+msgid "The direction you're looking when Stellarium starts"
+msgstr ""
+
+#: src/ui_configurationDialog.h:780
+msgid "Startup direction of view: xxxx"
+msgstr ""
+
+#: src/ui_configurationDialog.h:781
+msgid "Control"
+msgstr ""
+
+#: src/ui_configurationDialog.h:783
+msgid "Allow keyboard to pan and zoom"
+msgstr ""
+
+#: src/ui_configurationDialog.h:785
+msgid "Enable keyboard navigation"
+msgstr ""
+
+#: src/ui_configurationDialog.h:787
+msgid "Allow mouse to pan (drag) and zoom (mousewheel)"
+msgstr ""
+
+#: src/ui_configurationDialog.h:789
+msgid "Enable mouse navigation"
+msgstr ""
+
+#: src/ui_configurationDialog.h:790
+msgid "Startup date and time"
+msgstr ""
+
+#: src/ui_configurationDialog.h:792
+msgid "Starts Stellarium at system clock date and time"
+msgstr ""
+
+#: src/ui_configurationDialog.h:794
+msgid "System date and time"
+msgstr ""
+
+#: src/ui_configurationDialog.h:796
+msgid ""
+"Sets the simulation time to the next instance of this time of day when "
+"Stellarium starts"
+msgstr ""
+
+#: src/ui_configurationDialog.h:798
+msgid "System date at:"
+msgstr ""
+
+#: src/ui_configurationDialog.h:800
+msgid "Use a specific date and time when Stellarium starts up"
+msgstr ""
+
+#: src/ui_configurationDialog.h:802
+msgid "Other:"
+msgstr ""
+
+#: src/ui_configurationDialog.h:803
+msgid "use current"
+msgstr ""
+
+#: src/ui_configurationDialog.h:804
+msgid "Other"
+msgstr ""
+
+#: src/ui_configurationDialog.h:806
+msgid "Hides the mouse cursor when inactive"
+msgstr ""
+
+#: src/ui_configurationDialog.h:808
+msgid "Mouse cursor timeout (seconds):"
+msgstr ""
+
+#: src/ui_configurationDialog.h:810
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr ""
+
+#: src/ui_configurationDialog.h:812
+msgid "Show flip buttons"
+msgstr ""
+
+#: src/ui_configurationDialog.h:813
+msgid "Planetarium options"
+msgstr ""
+
+#: src/ui_configurationDialog.h:815
+msgid ""
+"Spheric mirror distortion is used when projecting Stellarium onto a spheric "
+"mirror for low-cost planetarium systems."
+msgstr ""
+
+#: src/ui_configurationDialog.h:817
+msgid "Spheric mirror distortion"
+msgstr ""
+
+#: src/ui_configurationDialog.h:819
+msgid "Align labels with the horizon"
+msgstr ""
+
+#: src/ui_configurationDialog.h:821
+msgid "Gravity labels"
+msgstr ""
+
+#: src/ui_configurationDialog.h:823
+msgid ""
+"When enabled, the \"auto zoom out\" key will also set the initial viewing "
+"direction"
+msgstr ""
+
+#: src/ui_configurationDialog.h:825
+msgid "Auto zoom out returns to initial direction of view"
+msgstr ""
+
+#: src/ui_configurationDialog.h:827
+msgid "Mask out everything outside a central circle in the main view"
+msgstr ""
+
+#: src/ui_configurationDialog.h:829
+msgid "Disc viewport"
+msgstr "Lec'hiadur ar gantenn"
+
+#: src/ui_configurationDialog.h:831
+msgid "Hide other constellations when you click one"
+msgstr "Kuzhat ar steredegoù all pa glikit war unan"
+
+#: src/ui_configurationDialog.h:833
+msgid "Select single constellation"
+msgstr "Diuzañ ur steredeg hepken"
+
+#: src/ui_configurationDialog.h:834
+msgid "Screenshots"
+msgstr "Tapadennoù-skramm"
+
+#: src/ui_configurationDialog.h:835
+msgid "Screenshot Directory"
+msgstr "Teuliad an tapadennoù-skramm"
+
+#: src/ui_configurationDialog.h:837
+msgid "Invert colors"
+msgstr "Eilpennañ al livioù"
+
+#: src/ui_configurationDialog.h:838
+msgid "Star catalog updates"
+msgstr "Hizivadennoù ar c'hatalog stered"
+
+#: src/ui_configurationDialog.h:840
+msgid "Click here to start downloading"
+msgstr "Klikit amañ evit kregiñ gant ar pellgargañ"
+
+#: src/ui_configurationDialog.h:842
+msgid "Get catalog x of y"
+msgstr "Kaout ar c'hatalog x diwar y"
+
+#: src/ui_configurationDialog.h:843
+msgid "Download this file to view even more stars"
+msgstr "Pellgargañ ar restr-mañ evit gwelet muioc'h a stered c'hoazh"
+
+#: src/ui_configurationDialog.h:844
+msgid "xxx"
+msgstr "xxx"
+
+#: src/ui_configurationDialog.h:846
+msgid "Restart the download"
+msgstr "Adloc'hañ pellgargañ"
+
+#: src/ui_configurationDialog.h:848
+msgid "Retry"
+msgstr "Klask en-dro"
+
+#: src/ui_configurationDialog.h:850
+msgid "Stop the download. You can always restart it later"
+msgstr "Paouezañ pellgargañ. Gallout a rit adloc'hañ anezhañ diwezhatoc'h"
+
+#: src/ui_configurationDialog.h:852
+msgid "Cancel"
+msgstr "Nullañ"
+
+#: src/ui_configurationDialog.h:855
+msgid "Close window when script runs"
+msgstr "Serriñ ar prenestr pa vez ar skript o seveniñ"
+
+#: src/ui_configurationDialog.h:857
+msgid "Run the selected script"
+msgstr "Seveniñ ar skript diuzet"
+
+#: src/ui_configurationDialog.h:861
+msgid "Stop a running script"
+msgstr "Paouez ar skript diuzet"
+
+#: src/ui_configurationDialog.h:865
+msgid "Load at startup"
+msgstr "Kargañ d'al loc'hañ"
+
+#: src/ui_configurationDialog.h:866
+msgid "configure"
+msgstr "kefluniañ"
+
+#: src/ui_configurationDialog.h:871
+msgid "Main"
+msgstr "Pennañ"
+
+#: src/ui_configurationDialog.h:873
+msgid "Navigation"
+msgstr "Merdeiñ"
+
+#: src/ui_configurationDialog.h:875
+msgid "Tools"
+msgstr "Binvioù"
+
+#: src/ui_configurationDialog.h:877
+msgid "Scripts"
+msgstr "Skriptoù"
+
+#: src/ui_configurationDialog.h:879
+msgid "Plugins"
+msgstr "Enlugelladoù"

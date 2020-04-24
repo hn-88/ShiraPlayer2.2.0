@@ -1,0 +1,3530 @@
+# Japanese translation for stellarium
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the stellarium package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: stellarium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-08 11:59+0200\n"
+"PO-Revision-Date: 2015-03-08 12:03+0200\n"
+"Last-Translator: Asaf Yurdakul <asafyurdakul@gmail.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-03-31 16:53+0000\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: src/modules/LandscapeMgr.cpp:146 src/translations.h:64
+msgid "N"
+msgstr "北"
+
+#: src/modules/LandscapeMgr.cpp:147 src/translations.h:65
+msgid "S"
+msgstr "南"
+
+#: src/modules/LandscapeMgr.cpp:148 src/translations.h:66
+msgid "E"
+msgstr "東"
+
+#: src/modules/LandscapeMgr.cpp:149 src/translations.h:67
+msgid "W"
+msgstr "西"
+
+#: src/modules/LandscapeMgr.cpp:511
+msgid "Author: "
+msgstr "作者: "
+
+#: src/modules/LandscapeMgr.cpp:514
+msgid "Location: "
+msgstr "場所: "
+
+#: src/modules/LandscapeMgr.cpp:519
+#, qt-format
+msgid ", %1 m"
+msgstr ", %1 m"
+
+#: src/modules/LandscapeMgr.cpp:522
+msgid "Planet: "
+msgstr "猿の惑星 "
+
+#: src/modules/Nebula.cpp:93
+#, qt-format
+msgid "Type: <b>%1</b>"
+msgstr "種類: <b>%1</b>"
+
+#: src/modules/Nebula.cpp:96 src/modules/Planet.cpp:172
+#, qt-format
+msgid "Magnitude: <b>%1</b>"
+msgstr "等級: <b>%1</b>"
+
+#: src/modules/Nebula.cpp:101
+#, qt-format
+msgid "Size: %1"
+msgstr "大きさ: %1"
+
+#: src/modules/Nebula.cpp:271 src/catalogpages/messierwindow.cpp:64
+msgid "Galaxy"
+msgstr "銀河系"
+
+#: src/modules/Nebula.cpp:274 src/catalogpages/messierwindow.cpp:67
+msgid "Open cluster"
+msgstr "散開星団"
+
+#: src/modules/Nebula.cpp:277 src/catalogpages/messierwindow.cpp:70
+msgid "Globular cluster"
+msgstr "球状星団"
+
+#: src/modules/Nebula.cpp:280 src/catalogpages/messierwindow.cpp:73
+msgid "Nebula"
+msgstr "星雲"
+
+#: src/modules/Nebula.cpp:283 src/catalogpages/messierwindow.cpp:76
+msgid "Planetary nebula"
+msgstr "惑星状星雲"
+
+#: src/modules/Nebula.cpp:286 src/catalogpages/messierwindow.cpp:79
+msgid "Cluster associated with nebulosity"
+msgstr "星雲を伴う星団"
+
+#: src/modules/Nebula.cpp:289
+msgid "Unknown"
+msgstr "不明"
+
+#: src/modules/Nebula.cpp:292
+msgid "Undocumented type"
+msgstr "未登録"
+
+#: src/modules/Planet.cpp:175 src/modules/StarWrapper.cpp:115
+#, qt-format
+msgid "Absolute Magnitude: %1"
+msgstr "絶対等級: %1"
+
+#: src/modules/Planet.cpp:182
+#, no-c-format, qt-format
+msgid "Distance: %1AU"
+msgstr "距離: %1天文単位"
+
+#: src/modules/Planet.cpp:186
+#, qt-format
+msgid "Apparent diameter: %1"
+msgstr "見かけの直径: %1"
+
+#: src/modules/StarWrapper.cpp:54 src/modules/StarWrapper.cpp:111
+#, qt-format
+msgid "Magnitude: <b>%1</b> (B-V: %2)"
+msgstr "等級: <b>%1</b> (B-V: %2)"
+
+#: src/modules/StarWrapper.cpp:121
+#, qt-format
+msgid "Spectral Type: %1"
+msgstr "表面温度による分類: %1"
+
+#: src/modules/StarWrapper.cpp:125
+#, qt-format
+msgid "Distance: %1 Light Years"
+msgstr "距離: %1 光年"
+
+#: src/modules/StarWrapper.cpp:128
+#, qt-format
+msgid "Parallax: %1\""
+msgstr "両眼視差: %1\""
+
+#: src/modules/TextUI.cpp:63
+msgid "Set Location "
+msgstr "場所の指定 "
+
+#: src/modules/TextUI.cpp:64
+msgid "Set Time "
+msgstr "時刻の設定 "
+
+#: src/modules/TextUI.cpp:65
+msgid "General "
+msgstr "一般 "
+
+#: src/modules/TextUI.cpp:66
+msgid "Stars "
+msgstr "恒星 "
+
+#: src/modules/TextUI.cpp:67
+msgid "Colors "
+msgstr "色 "
+
+#: src/modules/TextUI.cpp:68
+msgid "Effects "
+msgstr "効果 "
+
+#: src/modules/TextUI.cpp:69
+msgid "Scripts "
+msgstr "スクリプト "
+
+#: src/modules/TextUI.cpp:70
+msgid "Administration "
+msgstr "管理 "
+
+#: src/modules/TextUI.cpp:73
+msgid "Latitude: "
+msgstr "緯度 : "
+
+#: src/modules/TextUI.cpp:74
+msgid "Longitude: "
+msgstr "経度 : "
+
+#: src/modules/TextUI.cpp:75
+msgid "Altitude (m): "
+msgstr "高さ(m): "
+
+#: src/modules/TextUI.cpp:76
+msgid "Solar System Body: "
+msgstr "太陽系惑星、天体: "
+
+#: src/modules/TextUI.cpp:79
+msgid "Sky Time: "
+msgstr "天の時間 : "
+
+#: src/modules/TextUI.cpp:80
+msgid "Set Time Zone: "
+msgstr "タイムゾーンの設定 : "
+
+#: src/modules/TextUI.cpp:81
+msgid "Day keys: "
+msgstr "デイキー："
+
+#: src/modules/TextUI.cpp:82
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: src/modules/TextUI.cpp:83
+msgid "Sidereal"
+msgstr "恒星時"
+
+#: src/modules/TextUI.cpp:84
+msgid "Preset Sky Time: "
+msgstr "天の時間の設定 : "
+
+#: src/modules/TextUI.cpp:85
+msgid "Sky Time At Start-up: "
+msgstr "開始時の天の時間 : "
+
+#: src/modules/TextUI.cpp:86
+msgid "Actual Time"
+msgstr "現在の時刻"
+
+#: src/modules/TextUI.cpp:87
+msgid "Preset Time"
+msgstr "設定された時刻"
+
+#: src/modules/TextUI.cpp:88
+msgid "Time Display Format: "
+msgstr "時間表示形式 : "
+
+#: src/modules/TextUI.cpp:89
+msgid "Date Display Format: "
+msgstr "日付表示形式 : "
+
+#: src/modules/TextUI.cpp:92
+msgid "Sky Culture: "
+msgstr "星座の地域: "
+
+#: src/modules/TextUI.cpp:93
+msgid "Sky Language: "
+msgstr "天体名の言語: "
+
+#: src/modules/TextUI.cpp:96
+msgid "Show: "
+msgstr "表示 : "
+
+#: src/modules/TextUI.cpp:97
+msgid "Star Value Multiplier: "
+msgstr "星の明るさの倍率: "
+
+#: src/modules/TextUI.cpp:98
+msgid "Magnitude Sizing Multiplier: "
+msgstr "等級による倍率 : "
+
+#: src/modules/TextUI.cpp:99
+msgid "Maximum Magnitude to Label: "
+msgstr "名前を表示する最大等級 "
+
+#: src/modules/TextUI.cpp:100
+msgid "Twinkling: "
+msgstr "星のまたたく量 : "
+
+#: src/modules/TextUI.cpp:101
+msgid "Limiting Magnitude: "
+msgstr "限界等級 "
+
+#: src/modules/TextUI.cpp:104
+msgid "Constellation Lines"
+msgstr "星座線"
+
+#: src/modules/TextUI.cpp:105
+msgid "Constellation Names"
+msgstr "星座名"
+
+#: src/modules/TextUI.cpp:106
+msgid "Constellation Art Intensity"
+msgstr "星座絵の明るさ"
+
+#: src/modules/TextUI.cpp:107
+msgid "Constellation Boundaries"
+msgstr "星座の境界線"
+
+#: src/modules/TextUI.cpp:108
+msgid "Cardinal Points"
+msgstr "方位"
+
+#: src/modules/TextUI.cpp:109
+msgid "Planet Names"
+msgstr "惑星の名前"
+
+#: src/modules/TextUI.cpp:110
+msgid "Planet Orbits"
+msgstr "惑星の軌道"
+
+#: src/modules/TextUI.cpp:111
+msgid "Planet Trails"
+msgstr "惑星の通った跡"
+
+#: src/modules/TextUI.cpp:112
+msgid "Meridian Line"
+msgstr "子午線"
+
+#: src/modules/TextUI.cpp:113
+msgid "Azimuthal Grid"
+msgstr "地平座標"
+
+#: src/modules/TextUI.cpp:114
+msgid "Equatorial Grid"
+msgstr "赤道座標"
+
+#: src/modules/TextUI.cpp:115
+msgid "Equator Line"
+msgstr "赤道線"
+
+#: src/modules/TextUI.cpp:116
+msgid "Ecliptic Line"
+msgstr "黄道線"
+
+#: src/modules/TextUI.cpp:117
+msgid "Nebula Names"
+msgstr "星雲の名前"
+
+#: src/modules/TextUI.cpp:118
+msgid "Nebula Circles"
+msgstr "星雲の円"
+
+#: src/modules/TextUI.cpp:121
+msgid "Light Pollution Luminance: "
+msgstr "光害の明るさ: "
+
+#: src/modules/TextUI.cpp:122
+msgid "Landscape: "
+msgstr "背景 : "
+
+#: src/modules/TextUI.cpp:123
+msgid "Manual zoom: "
+msgstr "手動ズーム : "
+
+#: src/modules/TextUI.cpp:124
+msgid "Object Sizing Rule: "
+msgstr "天体の大きさ設定 : "
+
+#: src/modules/TextUI.cpp:125
+msgid "Magnitude Scaling Multiplier: "
+msgstr "等級による倍率 "
+
+#: src/modules/TextUI.cpp:126
+msgid "Milky Way intensity: "
+msgstr "天の川の明るさ : "
+
+#: src/modules/TextUI.cpp:127
+msgid "Maximum Nebula Magnitude to Label: "
+msgstr "名前を表示する星雲・星団の最大等級 : "
+
+#: src/modules/TextUI.cpp:128
+msgid "Zoom Duration: "
+msgstr "ズーム時間 : "
+
+#: src/modules/TextUI.cpp:129
+msgid "Cursor Timeout: "
+msgstr "カーソル表示時間 : "
+
+#: src/modules/TextUI.cpp:130
+msgid "Correct for light travel time: "
+msgstr "現在位置を光の到達時間を計算してから表示する "
+
+#: src/modules/TextUI.cpp:133
+msgid "Local Script: "
+msgstr "ローカルスクリプト : "
+
+#: src/modules/TextUI.cpp:134
+msgid "CD/DVD Script: "
+msgstr "CD/DVD スクリプト : "
+
+#: src/modules/TextUI.cpp:135
+msgid "USB Script: "
+msgstr "USBスクリプト: "
+
+#: src/modules/TextUI.cpp:136
+msgid "Arrow down to load list."
+msgstr "↓キーで一覧を表示します。"
+
+#: src/modules/TextUI.cpp:137
+msgid "Select and exit to run."
+msgstr "選択しメニューを抜けるとスタートします。"
+
+#: src/modules/TextUI.cpp:140
+msgid "Load Default Configuration: "
+msgstr "標準の環境設定を再設定 : "
+
+#: src/modules/TextUI.cpp:141
+msgid "Save Current Configuration as Default: "
+msgstr "現在の設定を標準として保存 : "
+
+#: src/modules/TextUI.cpp:142
+msgid "Shut Down: "
+msgstr "終了 "
+
+#: src/modules/TextUI.cpp:143
+msgid "Update me via Internet: "
+msgstr "インターネットによる更新 : "
+
+#: src/modules/TextUI.cpp:144
+msgid "Set UI Locale: "
+msgstr "操作パネルの言語: "
+
+#: src/core/StelCore.cpp:539
+msgid "RA "
+msgstr "赤経"
+
+#: src/core/StelCore.cpp:540
+msgid "Dec "
+msgstr "赤緯"
+
+#: src/core/StelProjector.cpp:65
+msgid "Maximum FOV: "
+msgstr "最大視野 "
+
+#: src/core/StelProjectorClasses.cpp:26
+msgid "Perspective"
+msgstr "遠近"
+
+#: src/core/StelProjectorClasses.cpp:31
+msgid ""
+"Perspective projection keeps the horizon a straight line. The mathematical "
+"name for this projection method is <i>gnomonic projection</i>."
+msgstr ""
+"遠近は正確には透視図法とも言える。\r\n"
+"透視図法は遠近法を用いた投影法である。遠近法の基本は視点の前に置いた「投影"
+"面」に、それを通過する光を写し取ることであり、それは窓ガラスを通して見える光"
+"景を窓ガラス表面に直接描画することに似ている。ガラスに写し取られた図は3次元の"
+"光景を縮小し2次元平面上に変換したものとなる。"
+
+#: src/core/StelProjectorClasses.cpp:64
+msgid "Equal Area"
+msgstr "正積"
+
+#: src/core/StelProjectorClasses.cpp:69
+msgid ""
+"The full name of this projection method is, <i>Lambert azimuthal equal-area "
+"projection</i>. It preserves the area but not the angle."
+msgstr ""
+"ランベルト正積方位図法とは、地図投影法の一つである。方位図法の一種であり、か"
+"つ正積図法の性質を持つ。"
+
+#: src/core/StelProjectorClasses.cpp:109
+msgid "Stereographic"
+msgstr "ステレオ投影"
+
+#: src/core/StelProjectorClasses.cpp:114
+msgid ""
+"Stereographic projection is known since the antiquity and was originally "
+"known as the planisphere projection. It preserves the angles at which curves "
+"cross each other but it does not preserve area."
+msgstr ""
+"ステレオ投影は、球面を平面に投影する方法の一つ。写像は滑らかで、全単射であ"
+"る。また、角度が保存される等角写像である。一方、面積は保存されない。"
+
+#: src/core/StelProjectorClasses.cpp:146
+msgid "Fish-eye"
+msgstr "魚眼"
+
+#: src/core/StelProjectorClasses.cpp:151
+msgid ""
+"In fish-eye projection, or <i>azimuthal equidistant projection</i>, straight "
+"lines become curves when they appear a large angular distance from the "
+"centre of the field of view (like the distortions seen with very wide angle "
+"camera lenses)."
+msgstr ""
+"魚眼では画面の中心からの距離と角度が比例する<i>等距離射影方式</i>を採用してい"
+"る"
+
+#: src/core/StelProjectorClasses.cpp:183
+msgid "Hammer-Aitoff"
+msgstr "ハンメル図法"
+
+#: src/core/StelProjectorClasses.cpp:188
+msgid ""
+"The Hammer projection is an equal-area map projection, described by Ernst "
+"Hammer in 1892 and directly inspired by the Aitoff projection."
+msgstr ""
+"世界地図によく用いられる正積投影法のひとつ。ドイツのErnst Hammerが1892年に考"
+"案。赤道で接する平面に一定の手続きで投影した方位図法の一種で，横軸が縦軸の２"
+"倍の長さをもつ楕円の中に世界を収め，経緯線ともに湾曲し，その形は等距離図法の"
+"エートフ図法によく類似している。"
+
+#: src/core/StelProjectorClasses.cpp:224
+msgid "Cylinder"
+msgstr "円筒"
+
+#: src/core/StelProjectorClasses.cpp:229
+msgid ""
+"The full name of this projection mode is <i>cylindrical equidistant "
+"projection</i>. With this projection all parallels are equally spaced."
+msgstr ""
+"この投影法は正確には<i>正距円筒図法</i>という。緯経線が直角、等間隔に交差する"
+"ので方眼図法、正方形図法とも呼ばれる。"
+
+#: src/core/StelProjectorClasses.cpp:271
+msgid "Mercator"
+msgstr "メルカトル図法"
+
+#: src/core/StelProjectorClasses.cpp:276
+msgid ""
+"The mercator projection is one of the most used world map projection. It "
+"preserves direction and shapes but distorts size, in an increasing degree "
+"away from the equator."
+msgstr ""
+"1枚の長方形の中に世界全図を書き込む事ができ、経線からの角度が正しい等角図法で"
+"あるため、海図・航路用地図としてよく使われる。\r\n"
+"この図法の特長は、経度と緯度を格子状に配置させ、緯線と経線の比率を一定に保っ"
+"たもので、「地球を円筒に投射し、それを書き写したものを長方形に広げ、縦方向に"
+"必要に応じて局所的な拡大を加えたもの」と言える。そのため「正角円筒図法」と呼"
+"ばれる。"
+
+#: src/core/StelProjectorClasses.cpp:323
+msgid "Orthographic"
+msgstr "正投影図"
+
+#: src/core/StelProjectorClasses.cpp:328
+msgid ""
+"Orthographic projection is related to perspective projection, but the point "
+"of perspective is set to an infinite distance."
+msgstr "正投影図は遠近法に似ていますが視点は無限遠からになります。"
+
+#: src/core/StelObject.cpp:65
+#, qt-format
+msgid "RA/DE (J2000): %1/%2"
+msgstr "赤経/赤緯（J2000）: %1/%2"
+
+#: src/core/StelObject.cpp:72
+#, qt-format
+msgid "RA/DE (of date): %1/%2"
+msgstr "赤経/赤緯（日付）: %1/%2"
+
+#: src/core/StelObject.cpp:80
+#, qt-format
+msgid "Hour angle/DE: %1/%2"
+msgstr "時角: %1/%2"
+
+#: src/core/StelObject.cpp:91
+#, qt-format
+msgid "Az/Alt: %1/%2"
+msgstr "方位角/高度: %1/%2"
+
+#: src/gui/ConfigurationDialog.cpp:79 src/gui/ConfigurationDialog.cpp:171
+#: src/ui_configurationDialog.h:1281 src/ui_configurationDialog.h:1423
+msgid "Configuration"
+msgstr "環境設定"
+
+#: src/gui/ConfigurationDialog.cpp:80 src/ui_configurationDialog.h:1283
+msgid "Settings"
+msgstr "設定"
+
+#: src/gui/ConfigurationDialog.cpp:81 src/ui_configurationDialog.h:1284
+msgid "Program Language"
+msgstr "言語"
+
+#: src/gui/ConfigurationDialog.cpp:82 src/ui_configurationDialog.h:1285
+msgid "Fulldome File Path :"
+msgstr "Fulldomeファイルパス："
+
+#: src/gui/ConfigurationDialog.cpp:83 src/ui_configurationDialog.h:1290
+msgid "Flat Media Path :"
+msgstr "フラットメディアパス："
+
+#: src/gui/ConfigurationDialog.cpp:84 src/ui_configurationDialog.h:1295
+msgid "Projector Screen "
+msgstr "投影画面"
+
+#: src/gui/ConfigurationDialog.cpp:85 src/ui_configurationDialog.h:1296
+msgid "Left :"
+msgstr "左 :"
+
+#: src/gui/ConfigurationDialog.cpp:86 src/ui_configurationDialog.h:1297
+msgid "Top :"
+msgstr "上 :"
+
+#: src/gui/ConfigurationDialog.cpp:87 src/gui/ConfigurationDialog.cpp:90
+#: src/ui_configurationDialog.h:1298 src/ui_configurationDialog.h:1301
+msgid "Width :"
+msgstr "幅："
+
+#: src/gui/ConfigurationDialog.cpp:88 src/gui/ConfigurationDialog.cpp:91
+#: src/gui/ConfigurationDialog.cpp:93 src/ui_configurationDialog.h:1299
+#: src/ui_configurationDialog.h:1302 src/ui_configurationDialog.h:1304
+msgid "Height :"
+msgstr "高さ :"
+
+#: src/gui/ConfigurationDialog.cpp:89 src/ui_configurationDialog.h:1300
+msgid "Preview Screen"
+msgstr "プレビュー"
+
+#: src/gui/ConfigurationDialog.cpp:92 src/ui_configurationDialog.h:1303
+msgid "Console Screen"
+msgstr "コンソール画面"
+
+#: src/gui/ConfigurationDialog.cpp:94 src/ui_configurationDialog.h:1307
+msgid "Selected object information"
+msgstr "選択された天体の情報"
+
+#: src/gui/ConfigurationDialog.cpp:95 src/ui_configurationDialog.h:1309
+msgid "Display no information"
+msgstr "無表示"
+
+#: src/gui/ConfigurationDialog.cpp:96 src/ui_configurationDialog.h:1311
+msgid "None"
+msgstr "なし"
+
+#: src/gui/ConfigurationDialog.cpp:97 src/ui_configurationDialog.h:1313
+msgid "Display less information"
+msgstr "省略表示"
+
+#: src/gui/ConfigurationDialog.cpp:98 src/ui_configurationDialog.h:1315
+msgid "Short"
+msgstr "短い"
+
+#: src/gui/ConfigurationDialog.cpp:99 src/ui_configurationDialog.h:1317
+msgid "Display all information available"
+msgstr "全ての情報を表示する"
+
+#: src/gui/ConfigurationDialog.cpp:100 src/ui_configurationDialog.h:1319
+msgid "All available"
+msgstr "全選択可能"
+
+#: src/gui/ConfigurationDialog.cpp:101 src/ui_configurationDialog.h:1320
+msgid "Default options"
+msgstr "デフォルトオプション"
+
+#: src/gui/ConfigurationDialog.cpp:102 src/ui_configurationDialog.h:1322
+msgid ""
+"Save the settings you've changed this session to be the same the next time "
+"you start Stellarium"
+msgstr "現在の設定を標準の設定にする。"
+
+#: src/gui/ConfigurationDialog.cpp:103 src/ui_configurationDialog.h:1324
+msgid "Save settings"
+msgstr "設定の保存"
+
+#: src/gui/ConfigurationDialog.cpp:104 src/ui_configurationDialog.h:1326
+msgid "Restore the default settings that came with Stellarium"
+msgstr "設定初期化"
+
+#: src/gui/ConfigurationDialog.cpp:105 src/ui_configurationDialog.h:1328
+msgid "Restore defaults"
+msgstr "設定の初期化"
+
+#: src/gui/ConfigurationDialog.cpp:106 src/ui_configurationDialog.h:1329
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Restoring default settings requires a restart of ShiraPlayer. "
+"Saving all the current options for use at next startup.</span></p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">デフォルト設定を復元すると、ShiraPlayerを再起動する必要がありま"
+"す。次回の起動時に使用するために、現在のすべてのオプションを保存します。</"
+"span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:111 src/ui_configurationDialog.h:1335
+msgid "The width of your view when Stellarium starts"
+msgstr "起動時の視界"
+
+#: src/gui/ConfigurationDialog.cpp:112 src/ui_configurationDialog.h:1337
+msgid "Startup FOV: XX"
+msgstr "起動時の限界視野: XX"
+
+#: src/gui/ConfigurationDialog.cpp:113 src/ui_configurationDialog.h:1339
+msgid "The direction you're looking when Stellarium starts"
+msgstr "起動時の方位"
+
+#: src/gui/ConfigurationDialog.cpp:114 src/ui_configurationDialog.h:1341
+msgid "Startup direction of view: xxxx"
+msgstr "起動時の方位: xxxx"
+
+#: src/gui/ConfigurationDialog.cpp:115 src/ui_configurationDialog.h:1342
+msgid "Control"
+msgstr "[CTRL] キー"
+
+#: src/gui/ConfigurationDialog.cpp:116 src/ui_configurationDialog.h:1344
+msgid "Allow mouse to pan (drag) and zoom (mousewheel)"
+msgstr "マウスボタンでパン、ホイールでズーム"
+
+#: src/gui/ConfigurationDialog.cpp:117 src/ui_configurationDialog.h:1346
+msgid "Enable mouse navigation"
+msgstr "マウス操作を可能にする"
+
+#: src/gui/ConfigurationDialog.cpp:118 src/ui_configurationDialog.h:1348
+msgid "Allow keyboard to pan and zoom"
+msgstr "矢印でズームと位置の移動"
+
+#: src/gui/ConfigurationDialog.cpp:119 src/ui_configurationDialog.h:1350
+msgid "Enable keyboard navigation"
+msgstr "キーボード操作を可能にする"
+
+#: src/gui/ConfigurationDialog.cpp:120 src/ui_configurationDialog.h:1351
+msgid "Startup date and time"
+msgstr "起動時の日付と時刻"
+
+#: src/gui/ConfigurationDialog.cpp:121 src/ui_configurationDialog.h:1353
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Starts ShiraPlayer at system clock date and time</span></p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">システムクロックの日付と時刻にShiraPlayerを開始</span></p></"
+"body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:126 src/ui_configurationDialog.h:1359
+msgid "System date and time"
+msgstr "システムの現在日付と時刻"
+
+#: src/gui/ConfigurationDialog.cpp:127 src/ui_configurationDialog.h:1361
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Sets the simulation time to the next instance of this time of "
+"day when ShiraPlayer starts</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">ShiraPlayerの起動時に一日のこの時期の次のインスタンスにシミュレー"
+"ション時間を設定します。</span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:132 src/ui_configurationDialog.h:1367
+msgid "System date at:"
+msgstr "今日のこの時刻で起動"
+
+#: src/gui/ConfigurationDialog.cpp:133 src/ui_configurationDialog.h:1369
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Use a specific date and time when ShiraPlayer starts up</span></"
+"p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Use a specific date and time when ShiraPlayer starts up</span></"
+"p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:138 src/ui_configurationDialog.h:1375
+msgid "Other:"
+msgstr "その他:"
+
+#: src/gui/ConfigurationDialog.cpp:139 src/ui_configurationDialog.h:1376
+msgid "use current"
+msgstr "現在の設定を維持"
+
+#: src/gui/ConfigurationDialog.cpp:140 src/ui_configurationDialog.h:1377
+msgid "Other"
+msgstr "その他"
+
+#: src/gui/ConfigurationDialog.cpp:141 src/ui_configurationDialog.h:1379
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "上下左右切り替えボタンを下のメニューへ表示する"
+
+#: src/gui/ConfigurationDialog.cpp:142 src/ui_configurationDialog.h:1381
+msgid "Show flip buttons"
+msgstr "上下左右切り替えボタン表示"
+
+#: src/gui/ConfigurationDialog.cpp:143 src/ui_configurationDialog.h:1383
+msgid "Hides the mouse cursor when inactive"
+msgstr "マウスカーソルを時間と共に消す"
+
+#: src/gui/ConfigurationDialog.cpp:144 src/ui_configurationDialog.h:1385
+msgid "Mouse cursor timeout (seconds):"
+msgstr "カーソルを消すまでの時間"
+
+#: src/gui/ConfigurationDialog.cpp:145 src/ui_configurationDialog.h:1386
+msgid "Star catalog updates"
+msgstr "カタログのアップデート"
+
+#: src/gui/ConfigurationDialog.cpp:146 src/ui_configurationDialog.h:1388
+msgid "Click here to start downloading"
+msgstr "ダウンロード"
+
+#: src/gui/ConfigurationDialog.cpp:147 src/ui_configurationDialog.h:1390
+msgid "Get catalog x of y"
+msgstr "カタログをダウンロード"
+
+#: src/gui/ConfigurationDialog.cpp:148 src/ui_configurationDialog.h:1391
+msgid "Download this file to view even more stars"
+msgstr "カタログを追加する"
+
+#: src/gui/ConfigurationDialog.cpp:149 src/ui_configurationDialog.h:1392
+msgid "xxx"
+msgstr "xxx"
+
+#: src/gui/ConfigurationDialog.cpp:150 src/ui_configurationDialog.h:1394
+msgid "Restart the download"
+msgstr "再ダウンロード"
+
+#: src/gui/ConfigurationDialog.cpp:151 src/ui_configurationDialog.h:1396
+msgid "Retry"
+msgstr "再試行"
+
+#: src/gui/ConfigurationDialog.cpp:152 src/ui_configurationDialog.h:1398
+msgid "Stop the download. You can always restart it later"
+msgstr "ダウンロードの停止"
+
+#: src/gui/ConfigurationDialog.cpp:153 src/ui_configurationDialog.h:1400
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/gui/ConfigurationDialog.cpp:154 src/ui_configurationDialog.h:1401
+msgid "Planetarium options"
+msgstr "プラネタリウム設定"
+
+#: src/gui/ConfigurationDialog.cpp:155 src/ui_configurationDialog.h:1402
+msgid "Spherical mirror distortion"
+msgstr "球面鏡効果"
+
+#: src/gui/ConfigurationDialog.cpp:156 src/ui_configurationDialog.h:1403
+msgid "Stellarium base distortion"
+msgstr "Stellarium ベースの歪み"
+
+#: src/gui/ConfigurationDialog.cpp:157 src/ui_configurationDialog.h:1404
+msgid "Use Custom data file "
+msgstr "カスタム·データファイルを使用してください"
+
+#: src/gui/ConfigurationDialog.cpp:158 src/ui_configurationDialog.h:1405
+msgid "Custom File Name"
+msgstr "カスタムファイル名"
+
+#: src/gui/ConfigurationDialog.cpp:159 src/gui/servermanager.cpp:900
+#: src/ui_configurationDialog.h:1287 src/ui_configurationDialog.h:1292
+#: src/ui_configurationDialog.h:1407 src/ui_servermanager.h:1738
+msgid "Open Flat Media project file"
+msgstr "オープンフラットメディアプロジェクトファイル"
+
+#: src/gui/ConfigurationDialog.cpp:161 src/ui_configurationDialog.h:1410
+msgid "Custom data texture Mirror"
+msgstr "カスタムデータテクスチャミラー"
+
+#: src/gui/ConfigurationDialog.cpp:162 src/ui_configurationDialog.h:1411
+msgid "Vertical"
+msgstr "垂直"
+
+#: src/gui/ConfigurationDialog.cpp:163 src/ui_configurationDialog.h:1412
+msgid "Horizontal"
+msgstr "水平の"
+
+#: src/gui/ConfigurationDialog.cpp:164 src/ui_configurationDialog.h:1414
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Spheric mirror distortion is used when projecting ShiraPlayer "
+"onto a spheric mirror for low-cost planetarium systems.</span></p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">低コストのプラネタリウムシステム用球面ミラーにShiraPlayerを投影す"
+"る際に球面ミラー歪みが使用される。</span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:169 src/ui_configurationDialog.h:1420
+msgid "Apply Spheric mirror distortion"
+msgstr "当てはめる 球面鏡効果"
+
+#: src/gui/ConfigurationDialog.cpp:170 src/ui_configurationDialog.h:1421
+msgid "Fine-tune the distortion"
+msgstr "歪みを微調整"
+
+#: src/gui/ConfigurationDialog.cpp:172 src/ui_configurationDialog.h:1424
+msgid "Reset"
+msgstr "リセット"
+
+#: src/gui/ConfigurationDialog.cpp:173 src/gui/servermanager.cpp:899
+#: src/ui_configurationDialog.h:1425 src/ui_servermanager.h:1736
+msgid "Save"
+msgstr "保存"
+
+#: src/gui/ConfigurationDialog.cpp:174 src/gui/LocationDialog.cpp:65
+#: src/ui_locationDialogGui.h:392 src/ui_configurationDialog.h:1426
+msgid "Delete"
+msgstr "削除(D)"
+
+#: src/gui/ConfigurationDialog.cpp:175 src/ui_configurationDialog.h:1428
+msgid ""
+"When enabled, the \"auto zoom out\" key will also set the initial viewing "
+"direction"
+msgstr "自動ズームアウトボタンを押すと起動時の視野と方位へ戻る。"
+
+#: src/gui/ConfigurationDialog.cpp:176 src/ui_configurationDialog.h:1430
+msgid "Auto zoom out returns to initial direction of view"
+msgstr "自動視点、元の方位に戻す"
+
+#: src/gui/ConfigurationDialog.cpp:177 src/ui_configurationDialog.h:1432
+msgid "Align labels with the horizon"
+msgstr "表示を地平線と平行にする"
+
+#: src/gui/ConfigurationDialog.cpp:178 src/ui_configurationDialog.h:1434
+msgid "Gravity labels"
+msgstr "重力表示"
+
+#: src/gui/ConfigurationDialog.cpp:179 src/ui_configurationDialog.h:1436
+msgid "Mask out everything outside a central circle in the main view"
+msgstr "望遠鏡などで覗いたときのように円形の縁を表示する"
+
+#: src/gui/ConfigurationDialog.cpp:180 src/ui_configurationDialog.h:1438
+msgid "Disc viewport"
+msgstr "表示領域を円形に"
+
+#: src/gui/ConfigurationDialog.cpp:181 src/ui_configurationDialog.h:1440
+msgid "Hide other constellations when you click one"
+msgstr "星座の選択時に他を隠す"
+
+#: src/gui/ConfigurationDialog.cpp:182 src/ui_configurationDialog.h:1442
+msgid "Select single constellation"
+msgstr "一つの星座を選択"
+
+#: src/gui/ConfigurationDialog.cpp:183 src/ui_configurationDialog.h:1443
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
+#: src/gui/ConfigurationDialog.cpp:184 src/ui_configurationDialog.h:1444
+msgid "Invert colors"
+msgstr "色の反転"
+
+#: src/gui/ConfigurationDialog.cpp:185 src/ui_configurationDialog.h:1445
+msgid "Screenshot Directory"
+msgstr "SS保管場所"
+
+#: src/gui/ConfigurationDialog.cpp:187 src/gui/ConfigurationDialog.cpp:194
+#: src/gui/ViewDialog.cpp:152 src/gui/ViewDialog.cpp:159
+#: src/gui/ViewDialog.cpp:161 src/ui_viewDialog.h:1697
+#: src/ui_viewDialog.h:1704 src/ui_viewDialog.h:1706
+#: src/ui_configurationDialog.h:1447 src/ui_configurationDialog.h:1458
+msgid "Options"
+msgstr "設定"
+
+#: src/gui/ConfigurationDialog.cpp:189 src/ui_configurationDialog.h:1449
+msgid "Close window when script runs"
+msgstr "スクリプトの実行とともにウィンドウを閉じる"
+
+#: src/gui/ConfigurationDialog.cpp:190 src/ui_configurationDialog.h:1451
+msgid "Run the selected script"
+msgstr "選択したスクリプトを実行"
+
+#: src/gui/ConfigurationDialog.cpp:192 src/ui_configurationDialog.h:1455
+msgid "Stop a running script"
+msgstr "スクリプトを停止"
+
+#: src/gui/ConfigurationDialog.cpp:195 src/ui_configurationDialog.h:1459
+msgid "Load at startup"
+msgstr "開始時に実行"
+
+#: src/gui/ConfigurationDialog.cpp:196 src/ui_configurationDialog.h:1460
+msgid "configure"
+msgstr "設定"
+
+#: src/gui/ConfigurationDialog.cpp:199 src/ui_configurationDialog.h:1465
+msgid "Main"
+msgstr "主要設定"
+
+#: src/gui/ConfigurationDialog.cpp:201 src/ui_configurationDialog.h:1467
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: src/gui/ConfigurationDialog.cpp:203 src/ui_configurationDialog.h:1469
+msgid "Tools"
+msgstr "表示ツール"
+
+#: src/gui/ConfigurationDialog.cpp:205 src/ui_configurationDialog.h:1471
+msgid "Scripts"
+msgstr "スクリプト"
+
+#: src/gui/ConfigurationDialog.cpp:207 src/ui_configurationDialog.h:1473
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: src/gui/ConfigurationDialog.cpp:515
+msgid "Select screenshot directory"
+msgstr "SSの保管場所"
+
+#: src/gui/ConfigurationDialog.cpp:766
+msgid "Authors"
+msgstr "作者"
+
+#: src/gui/ConfigurationDialog.cpp:770 src/gui/ViewDialog.cpp:583
+msgid "Contact"
+msgstr "コンタクト"
+
+#: src/gui/ConfigurationDialog.cpp:842
+msgid "Author"
+msgstr "作者"
+
+#: src/gui/ConfigurationDialog.cpp:843
+msgid "License"
+msgstr "ライセンス"
+
+#: src/gui/ConfigurationDialog.cpp:874
+msgid "Running script: "
+msgstr "使用中のスクリプト "
+
+#: src/gui/ConfigurationDialog.cpp:881
+msgid "Running script: [none]"
+msgstr "スクリプト無選択"
+
+#: src/gui/ConfigurationDialog.cpp:924
+msgid "Finished downloading all star catalogs!"
+msgstr "カタログは全てダウンロードしちゃいました！"
+
+#: src/gui/ConfigurationDialog.cpp:933
+#, qt-format
+msgid "Get catalog %1 of %2"
+msgstr "カタログの更新を確認 %1 of %2"
+
+#: src/gui/ConfigurationDialog.cpp:937
+#, qt-format
+msgid ""
+"Download size: %1MB\n"
+"Star count: %2 Million\n"
+"Magnitude range: %3 - %4"
+msgstr ""
+"ダウンロードサイズ: %1MB\n"
+"星の数: %2 Million\n"
+"等級: %3 - %4"
+
+#: src/gui/ConfigurationDialog.cpp:952
+msgid ""
+"Finished downloading new star catalogs!\n"
+"Restart ShiraPlayer to display them."
+msgstr ""
+"新しいスターカタログのダウンロードが終了！それらを表示するためにShiraPlayerを"
+"再起動します。"
+
+#: src/gui/ConfigurationDialog.cpp:990 src/gui/ConfigurationDialog.cpp:1024
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"%2"
+msgstr ""
+"ダウンロード中にエラーが発生%1:\n"
+"%2"
+
+#: src/gui/ConfigurationDialog.cpp:995
+#, qt-format
+msgid ""
+"Downloading %1...\n"
+"(You can close this window.)"
+msgstr "ダウンロード中 %1..."
+
+#: src/gui/ConfigurationDialog.cpp:1075
+msgid "Verifying file integrity..."
+msgstr "ファイルの更新中..."
+
+#: src/gui/ConfigurationDialog.cpp:1079
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"File is corrupted."
+msgstr ""
+"ダウンロード中にエラーが発生%1:\n"
+"ファイルが破損しているか存在しません"
+
+#: src/gui/ConfigurationDialog.cpp:1130 src/gui/ConfigurationDialog.cpp:1146
+#: src/gui/ConfigurationDialog.cpp:1162 src/gui/StelGui.cpp:1098
+#: src/gui/ViewDialog.cpp:813 src/gui/ViewDialog.cpp:881
+#: src/gui/ViewDialog.cpp:1000 src/shiraplayerform.cpp:119
+#: src/shiraplayerform.cpp:156 src/gui/recordmanager.cpp:145
+#: src/gui/servermanager.cpp:1721 src/gui/servermanager.cpp:1850
+#: src/gui/servermanager.cpp:1896 src/gui/servermanager.cpp:2005
+#: src/previewutil/previewform.cpp:107 src/previewutil/previewform.cpp:187
+#: src/previewutil/previewform.cpp:203 src/previewutil/previewform.cpp:218
+#: src/previewutil/previewform.cpp:245
+msgid "Warning!"
+msgstr "警告！"
+
+#: src/gui/ConfigurationDialog.cpp:1131
+msgid "Reset Fine-Tune settings?"
+msgstr "微調整の設定をリセット？"
+
+#: src/gui/ConfigurationDialog.cpp:1147
+msgid "Save Fine-Tune settings?"
+msgstr "設定の微調整保存 ?"
+
+#: src/gui/ConfigurationDialog.cpp:1163
+msgid "Delete Fine-Tune settings?"
+msgstr "微調整の設定を削除しますか？"
+
+#: src/gui/HelpDialog.cpp:52 src/gui/StelGuiItems.cpp:284
+#: src/gui/StelGuiItems.cpp:639
+msgid "Space"
+msgstr "宇宙"
+
+#: src/gui/HelpDialog.cpp:53
+msgid "Arrow keys & left mouse drag"
+msgstr "矢印キーと左クリック"
+
+#: src/gui/HelpDialog.cpp:54
+msgid "Page Up/Down"
+msgstr "Page Up/Page Down　キー"
+
+#: src/gui/HelpDialog.cpp:55
+msgid "CTRL + Up/Down"
+msgstr "CTRL + ↑/↓"
+
+#: src/gui/HelpDialog.cpp:56
+msgid "Left click"
+msgstr "左クリック"
+
+#: src/gui/HelpDialog.cpp:57
+msgid "Right click"
+msgstr "右クリック"
+
+#: src/gui/HelpDialog.cpp:58
+msgid "CTRL + Left click"
+msgstr "CTRL + 左クリック"
+
+#: src/gui/HelpDialog.cpp:61 src/gui/StelGui.cpp:174
+msgid "Movement and Selection"
+msgstr "動きと選択"
+
+#: src/gui/HelpDialog.cpp:62
+msgid "Pan view around the sky"
+msgstr "クリックで掴む"
+
+#: src/gui/HelpDialog.cpp:63 src/gui/HelpDialog.cpp:64
+msgid "Zoom in/out"
+msgstr "ズーム＋/－"
+
+#: src/gui/HelpDialog.cpp:65
+msgid "Select object"
+msgstr "選択"
+
+#: src/gui/HelpDialog.cpp:66 src/gui/HelpDialog.cpp:68
+msgid "Clear selection"
+msgstr "選択解除"
+
+#: src/gui/HelpDialog.cpp:71
+msgid "When a Script is Running"
+msgstr "スクリプトの実行中に"
+
+#: src/gui/HelpDialog.cpp:72 src/gui/StelGui.cpp:153
+msgid "Slow down the script execution rate"
+msgstr "スクリプトのギロチンレートを遅める"
+
+#: src/gui/HelpDialog.cpp:73 src/gui/StelGui.cpp:154
+msgid "Speed up the script execution rate"
+msgstr "スクリプトのギロチンレートを早める"
+
+#: src/gui/HelpDialog.cpp:74 src/gui/StelGui.cpp:155
+msgid "Set the normal script execution rate"
+msgstr "スクリプトのギロチンレートにする"
+
+#: src/gui/HelpDialog.cpp:89 src/gui/HelpDialog.cpp:94
+#: src/gui/stellamanager.cpp:82 src/ui_helpDialogGui.h:259
+#: src/ui_helpDialogGui.h:265 src/ui_stellamanager.h:1018
+msgid "Help"
+msgstr "ヘルプ"
+
+#: src/gui/HelpDialog.cpp:96 src/ui_helpDialogGui.h:267
+msgid "About"
+msgstr "関連情報"
+
+#: src/gui/HelpDialog.cpp:98 src/ui_helpDialogGui.h:269
+msgid "Log"
+msgstr "ログ"
+
+#: src/gui/HelpDialog.cpp:100 src/ui_helpDialogGui.h:272
+msgid "Refresh"
+msgstr "更新"
+
+#: src/gui/HelpDialog.cpp:190
+msgid "Shiraplayer Help"
+msgstr "Shiraplayerヘルプ"
+
+#: src/gui/HelpDialog.cpp:191
+msgid "Keys"
+msgstr "キー"
+
+#: src/gui/HelpDialog.cpp:199
+msgid "www.sureyyasoft.com"
+msgstr "www.sureyyasoft.com"
+
+#: src/gui/HelpDialog.cpp:263 src/gui/HelpDialog.cpp:321
+#: src/gui/HelpDialog.cpp:323 src/gui/StelGui.cpp:193
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: src/gui/StelGui.cpp:104
+msgid "Display Options"
+msgstr "画面設定"
+
+#: src/gui/StelGui.cpp:105
+msgid "Constellation lines"
+msgstr "星座線"
+
+#: src/gui/StelGui.cpp:106
+msgid "Constellation art"
+msgstr "星座絵"
+
+#: src/gui/StelGui.cpp:107
+msgid "Constellation labels"
+msgstr "星座名"
+
+#: src/gui/StelGui.cpp:108
+msgid "Constellation boundaries"
+msgstr "星座の境界線"
+
+#: src/gui/StelGui.cpp:110 src/gui/ViewDialog.cpp:136 src/ui_viewDialog.h:1681
+msgid "Azimuthal grid"
+msgstr "方位角の表示"
+
+#: src/gui/StelGui.cpp:111 src/gui/ViewDialog.cpp:134 src/ui_viewDialog.h:1679
+msgid "Equatorial grid"
+msgstr "赤経/赤緯"
+
+#: src/gui/StelGui.cpp:112 src/gui/ViewDialog.cpp:135 src/ui_viewDialog.h:1680
+msgid "Equatorial J2000 grid"
+msgstr "赤経/赤緯　（J2000）"
+
+#: src/gui/StelGui.cpp:113
+msgid "Galactic grid"
+msgstr "銀河グリッド"
+
+#: src/gui/StelGui.cpp:114 src/gui/ViewDialog.cpp:139 src/ui_viewDialog.h:1684
+msgid "Ecliptic line"
+msgstr "黄道線"
+
+#: src/gui/StelGui.cpp:115 src/gui/ViewDialog.cpp:137 src/ui_viewDialog.h:1682
+msgid "Equator line"
+msgstr "天の赤道"
+
+#: src/gui/StelGui.cpp:116 src/gui/ViewDialog.cpp:138 src/ui_viewDialog.h:1683
+msgid "Meridian line"
+msgstr "子午線"
+
+#: src/gui/StelGui.cpp:117 src/gui/ViewDialog.cpp:140 src/ui_viewDialog.h:1685
+msgid "Cardinal points"
+msgstr "方位"
+
+#: src/gui/StelGui.cpp:119 src/gui/stellamanager.cpp:68
+#: src/ui_stellamanager.h:992
+msgid "Ground"
+msgstr "地表"
+
+#: src/gui/StelGui.cpp:120 src/gui/ViewDialog.cpp:128
+#: src/gui/stellamanager.cpp:67 src/ui_viewDialog.h:1673
+#: src/ui_stellamanager.h:991
+msgid "Atmosphere"
+msgstr "大気"
+
+#: src/gui/StelGui.cpp:121 src/gui/stellamanager.cpp:69
+#: src/ui_stellamanager.h:993
+msgid "Fog"
+msgstr "もや"
+
+#: src/gui/StelGui.cpp:123 src/gui/ViewDialog.cpp:118 src/ui_viewDialog.h:1663
+msgid "Nebulas"
+msgstr "星雲"
+
+#: src/gui/StelGui.cpp:124
+msgid "Nebulas background images"
+msgstr "星雲の背景"
+
+#: src/gui/StelGui.cpp:125 src/gui/ViewDialog.cpp:92
+#: src/gui/ViewDialog.cpp:117 src/ui_viewDialog.h:1637
+#: src/ui_viewDialog.h:1662
+msgid "Stars"
+msgstr "恒星"
+
+#: src/gui/StelGui.cpp:126 src/gui/stellamanager.cpp:65
+#: src/ui_stellamanager.h:989
+msgid "Star Labels"
+msgstr "星の名前"
+
+#: src/gui/StelGui.cpp:127 src/gui/ViewDialog.cpp:119
+#: src/gui/stellamanager.cpp:63 src/ui_viewDialog.h:1664
+#: src/ui_stellamanager.h:987
+msgid "Planets"
+msgstr "惑星"
+
+#: src/gui/StelGui.cpp:128
+msgid "Planets labels"
+msgstr "惑星をハイライト"
+
+#: src/gui/StelGui.cpp:129
+msgid "Planet orbits"
+msgstr "惑星軌道"
+
+#: src/gui/StelGui.cpp:130
+msgid "Planet trails"
+msgstr "たなびくの惑星"
+
+#: src/gui/StelGui.cpp:132
+msgid "Night mode"
+msgstr "夜間照明"
+
+#: src/gui/StelGui.cpp:134
+msgid "Flip scene horizontally"
+msgstr "左右の切り替え"
+
+#: src/gui/StelGui.cpp:135
+msgid "Flip scene vertically"
+msgstr "上下の切り替え"
+
+#: src/gui/StelGui.cpp:137
+msgid "Windows"
+msgstr "ウィンドウ"
+
+#: src/gui/StelGui.cpp:139
+msgid "Configuration window"
+msgstr "環境設定"
+
+#: src/gui/StelGui.cpp:141
+msgid "Sky and viewing options window"
+msgstr "空と見た目の設定"
+
+#: src/gui/StelGui.cpp:145
+msgid "Server Manager"
+msgstr "サーバー監督"
+
+#: src/gui/StelGui.cpp:152 src/ui_dateTimeDialogGui.h:381
+msgid "Date and Time"
+msgstr "日付と時刻"
+
+#: src/gui/StelGui.cpp:156
+msgid "Decrease time speed"
+msgstr "時間経過を遅く"
+
+#: src/gui/StelGui.cpp:157
+msgid "Increase time speed"
+msgstr "時間経過を早く"
+
+#: src/gui/StelGui.cpp:158
+msgid "Set normal time rate"
+msgstr "時間進行速度"
+
+#: src/gui/StelGui.cpp:159
+msgid "Decrease time speed (a little)"
+msgstr "時間進行速度の低下"
+
+#: src/gui/StelGui.cpp:160
+msgid "Increase time speed (a little)"
+msgstr "時間進行速度の増加"
+
+#: src/gui/StelGui.cpp:161
+msgid "Set time rate to zero"
+msgstr "時間の進み方をリセット"
+
+#: src/gui/StelGui.cpp:162
+msgid "Set time to now"
+msgstr "現在時刻へ設定"
+
+#: src/gui/StelGui.cpp:163
+msgid "Add 1 solar hour"
+msgstr "太陽時で1時間進む"
+
+#: src/gui/StelGui.cpp:164
+msgid "Subtract 1 solar hour"
+msgstr "太陽時で一時間戻る"
+
+#: src/gui/StelGui.cpp:165
+msgid "Add 1 solar day"
+msgstr "太陽時で一日進む"
+
+#: src/gui/StelGui.cpp:166
+msgid "Subtract 1 solar day"
+msgstr "太陽時で一日戻る"
+
+#: src/gui/StelGui.cpp:167
+msgid "Add 1 solar week"
+msgstr "太陽時で一週間進む"
+
+#: src/gui/StelGui.cpp:168
+msgid "Subtract 1 solar week"
+msgstr "太陽時で一週間戻る"
+
+#: src/gui/StelGui.cpp:169
+msgid "Add 1 sidereal day"
+msgstr "恒星時で一日進む"
+
+#: src/gui/StelGui.cpp:170
+msgid "Subtract 1 sidereal day"
+msgstr "恒星時で一日戻る"
+
+#: src/gui/StelGui.cpp:171
+msgid "Add 1 sidereal week"
+msgstr "恒星時で一週間進む"
+
+#: src/gui/StelGui.cpp:172
+msgid "Subtract 1 sidereal week"
+msgstr "恒星時で一週間戻る"
+
+#: src/gui/StelGui.cpp:175
+msgid "Center on selected object"
+msgstr "対象を画面中心へ"
+
+#: src/gui/StelGui.cpp:176
+msgid "Track object"
+msgstr "追尾"
+
+#: src/gui/StelGui.cpp:177
+msgid "Zoom in on selected object"
+msgstr "対象にズームイン"
+
+#: src/gui/StelGui.cpp:178
+msgid "Zoom out"
+msgstr "ズームアウト"
+
+#: src/gui/StelGui.cpp:179
+msgid "Set home planet to selected planet"
+msgstr "母性を選択した惑星にする"
+
+#: src/gui/StelGui.cpp:181
+msgid "Telescope Control"
+msgstr "望遠鏡のガイド"
+
+#: src/gui/StelGui.cpp:194
+msgid "Switch between equatorial and azimuthal mount"
+msgstr "赤道儀、経緯台"
+
+#: src/gui/StelGui.cpp:195 src/gui/servermanager.cpp:841
+#: src/ui_servermanager.h:1663
+msgid "Quit"
+msgstr "終了"
+
+#: src/gui/StelGui.cpp:199
+msgid "Auto hide horizontal button bar"
+msgstr "横メニューを自動で隠す"
+
+#: src/gui/StelGui.cpp:200
+msgid "Auto hide vertical button bar"
+msgstr "縦メニューを自動で隠す"
+
+#: src/gui/StelGui.cpp:201
+msgid "Toggle visibility of GUI"
+msgstr "GUIの透明度を変更"
+
+#: src/gui/StelGui.cpp:203
+msgid "Fade_on Fade_Off"
+msgstr "フェードオフにフェード"
+
+#: src/gui/StelGui.cpp:1099 src/shiraplayerform.cpp:157
+#: src/gui/servermanager.cpp:1722 src/previewutil/previewform.cpp:108
+#: src/previewutil/previewform.cpp:246
+msgid "Are you sure want to quit?"
+msgstr "終了しますか？"
+
+#: src/gui/StelGuiItems.cpp:540
+#, no-c-format, qt-format
+msgid "%1m"
+msgstr "%1m"
+
+#: src/gui/ViewDialog.cpp:74 src/ui_viewDialog.h:1618
+msgid "View"
+msgstr "表示"
+
+#: src/gui/ViewDialog.cpp:79 src/ui_viewDialog.h:1624
+msgid "Sky"
+msgstr "天空"
+
+#: src/gui/ViewDialog.cpp:81 src/ui_viewDialog.h:1626
+msgid "Markings"
+msgstr "表示方法"
+
+#: src/gui/ViewDialog.cpp:83 src/ui_viewDialog.h:1628
+msgid "Landscape"
+msgstr "背景"
+
+#: src/gui/ViewDialog.cpp:85 src/ui_viewDialog.h:1630
+msgid "Starlore"
+msgstr "星の文化"
+
+#: src/gui/ViewDialog.cpp:93 src/ui_viewDialog.h:1638
+msgid "Absolute scale:"
+msgstr "絶対値"
+
+#: src/gui/ViewDialog.cpp:94 src/ui_viewDialog.h:1639
+msgid "Relative scale:"
+msgstr "相対値"
+
+#: src/gui/ViewDialog.cpp:95 src/ui_viewDialog.h:1640
+msgid "Twinkle:"
+msgstr "またたき"
+
+#: src/gui/ViewDialog.cpp:97 src/ui_viewDialog.h:1642
+msgid "Dim faint stars when a very bright object is visible"
+msgstr "明るい天体の元、暗い天体を見えにくくする"
+
+#: src/gui/ViewDialog.cpp:99 src/ui_viewDialog.h:1644
+msgid "Dynamic eye adaptation"
+msgstr "明暗の再現"
+
+#: src/gui/ViewDialog.cpp:100 src/ui_viewDialog.h:1645
+msgid "Planets and satellites"
+msgstr "惑星と衛星"
+
+#: src/gui/ViewDialog.cpp:101 src/ui_viewDialog.h:1646
+msgid "Show planets"
+msgstr "惑星を表示"
+
+#: src/gui/ViewDialog.cpp:102 src/ui_viewDialog.h:1647
+msgid "Show planet markers"
+msgstr "惑星をマーク"
+
+#: src/gui/ViewDialog.cpp:103 src/ui_viewDialog.h:1648
+msgid "Show planet orbits"
+msgstr "惑星軌道の表示"
+
+#: src/gui/ViewDialog.cpp:104 src/ui_viewDialog.h:1649
+msgid "Simulate light speed"
+msgstr "光の到達時間の予測"
+
+#: src/gui/ViewDialog.cpp:105 src/ui_viewDialog.h:1650
+msgid "Scale Moon"
+msgstr "月の拡大"
+
+#: src/gui/ViewDialog.cpp:106 src/ui_viewDialog.h:1651
+msgid "Scale Planets-"
+msgstr "惑星の拡大"
+
+#: src/gui/ViewDialog.cpp:107 src/translations.h:37
+#: src/flybyutil/flybymanager.cpp:101 src/ui_viewDialog.h:1652
+#: src/ui_flybymanager.h:893
+msgid "Earth"
+msgstr "地球"
+
+#: src/gui/ViewDialog.cpp:108 src/translations.h:35
+#: src/flybyutil/flybymanager.cpp:105 src/ui_viewDialog.h:1653
+#: src/ui_flybymanager.h:901
+msgid "Mercury"
+msgstr "水星"
+
+#: src/gui/ViewDialog.cpp:109 src/translations.h:36
+#: src/flybyutil/flybymanager.cpp:97 src/ui_viewDialog.h:1654
+#: src/ui_flybymanager.h:885
+msgid "Venus"
+msgstr "金星"
+
+#: src/gui/ViewDialog.cpp:110 src/translations.h:39
+#: src/flybyutil/flybymanager.cpp:91 src/ui_viewDialog.h:1655
+#: src/ui_flybymanager.h:873
+msgid "Mars"
+msgstr "火星"
+
+#: src/gui/ViewDialog.cpp:111 src/translations.h:42
+#: src/flybyutil/flybymanager.cpp:87 src/ui_viewDialog.h:1656
+#: src/ui_flybymanager.h:865
+msgid "Jupiter"
+msgstr "木星"
+
+#: src/gui/ViewDialog.cpp:112 src/translations.h:47
+#: src/flybyutil/flybymanager.cpp:93 src/ui_viewDialog.h:1657
+#: src/ui_flybymanager.h:877
+msgid "Saturn"
+msgstr "土星"
+
+#: src/gui/ViewDialog.cpp:113 src/translations.h:59
+#: src/flybyutil/flybymanager.cpp:107 src/ui_viewDialog.h:1658
+#: src/ui_flybymanager.h:905
+msgid "Pluto"
+msgstr "冥王星"
+
+#: src/gui/ViewDialog.cpp:114 src/ui_viewDialog.h:1659
+msgid "Neptun"
+msgstr "海王星"
+
+#: src/gui/ViewDialog.cpp:115 src/translations.h:58
+#: src/flybyutil/flybymanager.cpp:103 src/ui_viewDialog.h:1660
+#: src/ui_flybymanager.h:897
+msgid "Uranus"
+msgstr "天王星"
+
+#: src/gui/ViewDialog.cpp:116 src/ui_viewDialog.h:1661
+msgid "Labels and Markers"
+msgstr "見やすく表示する"
+
+#: src/gui/ViewDialog.cpp:120 src/ui_viewDialog.h:1665
+msgid "Shooting Stars"
+msgstr "流れ星"
+
+#: src/gui/ViewDialog.cpp:121 src/ui_viewDialog.h:1666
+msgid "Hourly zenith rate:"
+msgstr "1時間あたりの流星の数"
+
+#: src/gui/ViewDialog.cpp:122 src/ui_viewDialog.h:1667
+msgid "0"
+msgstr "0"
+
+#: src/gui/ViewDialog.cpp:123 src/ui_viewDialog.h:1668
+msgid "10"
+msgstr "10"
+
+#: src/gui/ViewDialog.cpp:124 src/ui_viewDialog.h:1669
+msgid "80"
+msgstr "80"
+
+#: src/gui/ViewDialog.cpp:125 src/ui_viewDialog.h:1670
+msgid "10000"
+msgstr "10000"
+
+#: src/gui/ViewDialog.cpp:126 src/ui_viewDialog.h:1671
+msgid "144000"
+msgstr "144000"
+
+#: src/gui/ViewDialog.cpp:129 src/ui_viewDialog.h:1674
+msgid "Show atmosphere"
+msgstr "大気の表示"
+
+#: src/gui/ViewDialog.cpp:130 src/ui_viewDialog.h:1675
+msgid "Light pollution: "
+msgstr "光害 "
+
+#: src/gui/ViewDialog.cpp:131 src/ui_viewDialog.h:1676
+msgid "Show milkyway"
+msgstr "天の川を表示"
+
+#: src/gui/ViewDialog.cpp:132 src/ui_viewDialog.h:1677
+msgid "Milkyway intensity"
+msgstr "天の川の明るさ "
+
+#: src/gui/ViewDialog.cpp:133 src/ui_viewDialog.h:1678
+msgid "Celestial Sphere"
+msgstr "天球"
+
+#: src/gui/ViewDialog.cpp:141 src/previewutil/previewform.cpp:102
+#: src/ui_viewDialog.h:1686 src/ui_previewform.h:881
+msgid "Constellations"
+msgstr "星座"
+
+#: src/gui/ViewDialog.cpp:142 src/ui_viewDialog.h:1687
+msgid "Show lines"
+msgstr "星座線の表示"
+
+#: src/gui/ViewDialog.cpp:143 src/ui_viewDialog.h:1688
+msgid "Show labels"
+msgstr "名前の表示"
+
+#: src/gui/ViewDialog.cpp:144 src/ui_viewDialog.h:1689
+msgid "Show boundaries"
+msgstr "星座の境界線"
+
+#: src/gui/ViewDialog.cpp:145 src/ui_viewDialog.h:1690
+msgid "Show art"
+msgstr "星座絵の表示"
+
+#: src/gui/ViewDialog.cpp:146 src/ui_viewDialog.h:1691
+msgid "Art brightness: "
+msgstr "星座絵の明るさ"
+
+#: src/gui/ViewDialog.cpp:147 src/ui_viewDialog.h:1692
+msgid "Dome Show Informations"
+msgstr "ドームショーな情報"
+
+#: src/gui/ViewDialog.cpp:148 src/ui_viewDialog.h:1693
+msgid "Date-Time"
+msgstr "日付と時刻"
+
+#: src/gui/ViewDialog.cpp:149 src/gui/LocationDialog.cpp:61
+#: src/gui/stellamanager.cpp:77 src/ui_locationDialogGui.h:386
+#: src/ui_viewDialog.h:1694 src/ui_stellamanager.h:1009
+msgid "Location"
+msgstr "観測場所"
+
+#: src/gui/ViewDialog.cpp:150 src/ui_viewDialog.h:1695
+msgid "Selected Object Properties"
+msgstr "選択された天体の情報"
+
+#: src/gui/ViewDialog.cpp:151 src/ui_viewDialog.h:1696
+msgid "Projection"
+msgstr "投影法"
+
+#: src/gui/ViewDialog.cpp:153 src/ui_viewDialog.h:1698
+msgid "Show ground"
+msgstr "地表の表示"
+
+#: src/gui/ViewDialog.cpp:154 src/ui_viewDialog.h:1699
+msgid "Show fog"
+msgstr "霧の表示"
+
+#: src/gui/ViewDialog.cpp:155 src/ui_viewDialog.h:1700
+msgid "Use associated planet and position"
+msgstr "関連する惑星と位置を使う"
+
+#: src/gui/ViewDialog.cpp:156 src/ui_viewDialog.h:1701
+msgid "Use this landscape as default"
+msgstr "この場所を現在位置に設定する"
+
+#: src/gui/ViewDialog.cpp:157 src/gui/servermanager.cpp:849
+#: src/previewutil/previewform.cpp:100 src/ui_viewDialog.h:1702
+#: src/ui_previewform.h:868 src/ui_servermanager.h:1672
+msgid "Video"
+msgstr "ビデオ"
+
+#: src/gui/ViewDialog.cpp:158 src/ui_viewDialog.h:1703
+msgid "Picture"
+msgstr "絵"
+
+#: src/gui/ViewDialog.cpp:160 src/ui_viewDialog.h:1705
+msgid "Use this sky culture as default"
+msgstr "この文化を選択"
+
+#: src/gui/ViewDialog.cpp:162 src/ui_viewDialog.h:1707
+msgid "Visible"
+msgstr "表示"
+
+#: src/gui/ViewDialog.cpp:163 src/ui_viewDialog.h:1708
+msgid "Warping Settings"
+msgstr "設定の整経設定"
+
+#: src/gui/ViewDialog.cpp:165 src/ui_viewDialog.h:1710
+msgid "Save Warp Settings"
+msgstr "整経設定の保存"
+
+#: src/gui/ViewDialog.cpp:166 src/ui_viewDialog.h:1711
+msgid "Mode"
+msgstr "Mode"
+
+#: src/gui/ViewDialog.cpp:169 src/ui_viewDialog.h:1714
+msgid "Show Mode"
+msgstr "Show Mode"
+
+#: src/gui/ViewDialog.cpp:170 src/ui_viewDialog.h:1715
+msgid "Distortion Warp Mode"
+msgstr "Distortion Warp Mode"
+
+#: src/gui/ViewDialog.cpp:171 src/ui_viewDialog.h:1716
+msgid "Blend Warp Mode"
+msgstr "Blend Warp Mode"
+
+#: src/gui/ViewDialog.cpp:173 src/ui_viewDialog.h:1718
+msgid "Reset Warp"
+msgstr "Reset Warp"
+
+#: src/gui/ViewDialog.cpp:174 src/ui_viewDialog.h:1719
+msgid "FOV:"
+msgstr "FOV:"
+
+#: src/gui/ViewDialog.cpp:175 src/ui_viewDialog.h:1720
+#, qt-format
+msgid "Fov Width Rate(%0.1-1.0)"
+msgstr "FOV幅レート(%0.1-1.0)"
+
+#: src/gui/ViewDialog.cpp:176 src/ui_viewDialog.h:1721
+#, qt-format
+msgid "Fov Height Rate(%0.1-1.0)"
+msgstr "FOV身長レート(%0.1-1.0)"
+
+#: src/gui/ViewDialog.cpp:177 src/ui_viewDialog.h:1722
+msgid "Configure Clients"
+msgstr "Configure Clients"
+
+#: src/gui/ViewDialog.cpp:178 src/ui_viewDialog.h:1723
+msgid "Channel Settings"
+msgstr "Channel Settings"
+
+#: src/gui/ViewDialog.cpp:179 src/ui_viewDialog.h:1724
+msgid "Channel as Hostname"
+msgstr "ホスト名としてチャンネル"
+
+#: src/gui/ViewDialog.cpp:180 src/ui_viewDialog.h:1725
+msgid "Add"
+msgstr "加える"
+
+#: src/gui/ViewDialog.cpp:181 src/ui_viewDialog.h:1726
+msgid "Remove"
+msgstr "削除する"
+
+#: src/gui/ViewDialog.cpp:182 src/ui_viewDialog.h:1727
+msgid "Channel Properties"
+msgstr "チャネルプロパティ"
+
+#: src/gui/ViewDialog.cpp:183 src/ui_viewDialog.h:1728
+msgid "Width"
+msgstr "幅"
+
+#: src/gui/ViewDialog.cpp:184 src/ui_viewDialog.h:1729
+msgid "Height"
+msgstr "高さ"
+
+#: src/gui/ViewDialog.cpp:186 src/ui_viewDialog.h:1731
+msgid "Show Name"
+msgstr "Show Name"
+
+#: src/gui/ViewDialog.cpp:637
+msgid "No description"
+msgstr "記述がありません"
+
+#: src/gui/ViewDialog.cpp:705
+msgid "No shooting stars"
+msgstr "流れ星を消す"
+
+#: src/gui/ViewDialog.cpp:708
+msgid "Normal rate"
+msgstr "通常"
+
+#: src/gui/ViewDialog.cpp:711
+msgid "Standard Perseids rate"
+msgstr "通常のペルセウス流星群"
+
+#: src/gui/ViewDialog.cpp:714
+msgid "Exceptional Leonid rate"
+msgstr "しし座流星群の多いとき"
+
+#: src/gui/ViewDialog.cpp:717
+msgid "Highest rate ever (1966 Leonids)"
+msgstr "1966年のしし座流星群"
+
+#: src/gui/ViewDialog.cpp:813
+msgid "Are you sure want to save All Channel settings?"
+msgstr "あなたが確認し、すべてのチャネルの設定を保存したいですか？"
+
+#: src/gui/ViewDialog.cpp:881
+msgid "Are you sure want to remove selected Channel?"
+msgstr "Are you sure want to remove selected Channel?"
+
+#: src/gui/ViewDialog.cpp:1000
+msgid "Are you sure want to reset selected Warp setting?"
+msgstr "あなたが確認し、選択したワープの設定をリセットしたいか？"
+
+#: src/gui/LocationDialog.cpp:63 src/ui_locationDialogGui.h:390
+msgid "Current location information"
+msgstr "現在位置情報"
+
+#: src/gui/LocationDialog.cpp:64 src/ui_locationDialogGui.h:391
+msgid "Use as default"
+msgstr "標準として設定する"
+
+#: src/gui/LocationDialog.cpp:66 src/ui_locationDialogGui.h:393
+msgid "Add to list"
+msgstr "リストに追加する"
+
+#: src/gui/LocationDialog.cpp:67 src/ui_locationDialogGui.h:394
+msgid "Latitude:"
+msgstr "緯度:"
+
+#: src/gui/LocationDialog.cpp:68 src/gui/LocationDialog.cpp:70
+#: src/ui_locationDialogGui.h:396 src/ui_locationDialogGui.h:400
+msgid ""
+"You can enter values in decimal degrees, or using dms format, for example: "
+"+1d 12m 8s"
+msgstr ""
+"10進法での度数、またはdms形式を使用して値を入れることができます。例 +1d 12m "
+"8s"
+
+#: src/gui/LocationDialog.cpp:69 src/ui_locationDialogGui.h:398
+msgid "Longitude:"
+msgstr "経度:"
+
+#: src/gui/LocationDialog.cpp:71 src/ui_locationDialogGui.h:402
+msgid "Altitude:"
+msgstr "高さ :"
+
+#: src/gui/LocationDialog.cpp:72 src/ui_locationDialogGui.h:404
+msgid "Enter the altitude in meter"
+msgstr "高度をメートル法で入力"
+
+#: src/gui/LocationDialog.cpp:73 src/ui_locationDialogGui.h:406
+msgid " m"
+msgstr " ㍍"
+
+#: src/gui/LocationDialog.cpp:74 src/ui_locationDialogGui.h:407
+msgid "Name/City:"
+msgstr "都市の名前"
+
+#: src/gui/LocationDialog.cpp:75 src/ui_locationDialogGui.h:408
+msgid "Country:"
+msgstr "国:"
+
+#: src/gui/LocationDialog.cpp:76 src/ui_locationDialogGui.h:409
+msgid "Planet:"
+msgstr "惑星"
+
+#: src/gui/LocationDialog.cpp:377
+msgid "New Location"
+msgstr "新しい場所"
+
+#: src/gui/ScriptConsole.cpp:56
+msgid "Script console"
+msgstr "スクリプト"
+
+#: src/gui/ScriptConsole.cpp:57
+msgid "load script from file"
+msgstr "ファイルからのロードスクリプト"
+
+#: src/gui/ScriptConsole.cpp:58
+msgid "Ctrl+O"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:59
+msgid "save script to file"
+msgstr "スクリプトをファイルに保存する"
+
+#: src/gui/ScriptConsole.cpp:60
+msgid "Ctrl+S"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:62
+msgid "clear script"
+msgstr "明確なスクリプト"
+
+#: src/gui/ScriptConsole.cpp:63
+msgid "pre-process script using SSC preprocessor"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:64
+msgid "SSC"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:66
+msgid "pre-process script using STS preprocessor"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:67
+msgid "STS"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:69
+msgid "quickly load and run a utility script"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:71
+msgid "run script"
+msgstr "実行するスクリプト"
+
+#: src/gui/ScriptConsole.cpp:72
+msgid "Ctrl+Return"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:74
+msgid "stop script"
+msgstr "停止スクリプト"
+
+#: src/gui/ScriptConsole.cpp:75
+msgid "Ctrl+C"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:76
+msgid ""
+"QTabBar::tab {\n"
+"\tmin-height: 28px;\n"
+"}"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:79 src/gui/servermanager.cpp:847
+#: src/previewutil/previewform.cpp:94 src/ui_previewform.h:864
+#: src/ui_servermanager.h:1670
+msgid "Script"
+msgstr "スクリプト"
+
+#: src/gui/ScriptConsole.cpp:80
+msgid "Output"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:82
+msgid "Cursor position"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:83
+msgid "R:0 C:0"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:84
+msgid "Include dir:"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:85 src/presenter/qimagepropwidget.cpp:714
+#: src/presenter/qimagepropwidget.cpp:716
+#: src/presenter/qimagepropwidget.cpp:719
+#: src/presenter/qimagepropwidget.cpp:721
+#: src/presenter/qimagepropwidget.cpp:723
+#: src/presenter/qimagepropwidget.cpp:725 src/ui_qimagepropwidget.h:1227
+#: src/ui_qimagepropwidget.h:1231 src/ui_qimagepropwidget.h:1238
+#: src/ui_qimagepropwidget.h:1242 src/ui_qimagepropwidget.h:1246
+#: src/ui_qimagepropwidget.h:1250
+msgid "..."
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:106
+msgid "quickrun..."
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:107
+msgid "selected text"
+msgstr "選択したテキスト"
+
+#: src/gui/ScriptConsole.cpp:108
+msgid "clear text"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:109
+msgid "clear images"
+msgstr "鮮明な画像"
+
+#: src/gui/ScriptConsole.cpp:110
+msgid "natural"
+msgstr "自然の"
+
+#: src/gui/ScriptConsole.cpp:111
+msgid "starchart"
+msgstr ""
+
+#: src/main.cpp:340
+msgid "This system does not support OpenGL."
+msgstr "現在のシステムは Open GL に対応していません"
+
+#: src/shiraplayerform.cpp:90
+msgid "Window List"
+msgstr "ウィンドウ リスト"
+
+#: src/shiraplayerform.cpp:92 src/shiraplayerform.cpp:126
+msgid "Media Manager"
+msgstr "メディアマネージャー"
+
+#: src/shiraplayerform.cpp:94 src/shiraplayerform.cpp:130
+msgid "Preview Window"
+msgstr "プレビュー画面"
+
+#: src/shiraplayerform.cpp:96 src/shiraplayerform.cpp:113
+#: src/shiraplayerform.cpp:135
+msgid "Configration Window"
+msgstr "環境設定"
+
+#: src/shiraplayerform.cpp:97 src/shiraplayerform.cpp:114
+#: src/shiraplayerform.cpp:137
+msgid "View Options Window"
+msgstr "表示"
+
+#: src/shiraplayerform.cpp:101 src/shiraplayerform.cpp:115
+#: src/shiraplayerform.cpp:145
+msgid "Script Console"
+msgstr "スクリプト"
+
+#: src/shiraplayerform.cpp:104 src/shiraplayerform.cpp:150
+msgid "Projector Settings"
+msgstr "投影画面"
+
+#: src/shiraplayerform.cpp:107 src/shiraplayerform.cpp:153
+#: src/previewutil/previewform.cpp:85 src/previewutil/previewform.cpp:86
+#: src/ui_previewform.h:844 src/ui_previewform.h:877
+msgid "Exit"
+msgstr "終了"
+
+#: src/shiraplayerform.cpp:119 src/previewutil/previewform.cpp:187
+#: src/previewutil/previewform.cpp:203 src/previewutil/previewform.cpp:218
+msgid "Please complete flyby operations first!"
+msgstr "最初のフライバイ操作を完了してください！"
+
+#: src/shiraplayerform.cpp:128
+msgid "Media Record Manager"
+msgstr "メディア·レコードマネージャー"
+
+#: src/shiraplayerform.cpp:139
+msgid "Search Window"
+msgstr "検索ウィンドウ"
+
+#: src/shiraplayerform.cpp:141
+msgid "Date/Time Window"
+msgstr "日付/時刻"
+
+#: src/shiraplayerform.cpp:143
+msgid "Location Window"
+msgstr "場所ウィンドウ"
+
+#: src/shiraplayerform.cpp:147
+msgid "Help Window"
+msgstr "ヘルプウィンドウ"
+
+#: src/translations.h:34 src/flybyutil/flybymanager.cpp:95
+#: src/ui_flybymanager.h:881
+msgid "Sun"
+msgstr "太陽"
+
+#: src/translations.h:38 src/flybyutil/flybymanager.cpp:99
+#: src/ui_flybymanager.h:889
+msgid "Moon"
+msgstr "月"
+
+#: src/translations.h:40
+msgid "Deimos"
+msgstr "ダイモス"
+
+#: src/translations.h:41
+msgid "Phobos"
+msgstr "フォボス"
+
+#: src/translations.h:43
+msgid "Io"
+msgstr "イオ"
+
+#: src/translations.h:44
+msgid "Europa"
+msgstr "エウロパ"
+
+#: src/translations.h:45
+msgid "Ganymede"
+msgstr "ガニメデ"
+
+#: src/translations.h:46
+msgid "Callisto"
+msgstr "カリスト"
+
+#: src/translations.h:48
+msgid "Mimas"
+msgstr "ミマス"
+
+#: src/translations.h:49
+msgid "Enceladus"
+msgstr "エンケラドス"
+
+#: src/translations.h:50
+msgid "Tethys"
+msgstr "テティス"
+
+#: src/translations.h:51
+msgid "Dione"
+msgstr "ディオーネ"
+
+#: src/translations.h:52
+msgid "Rhea"
+msgstr "レア"
+
+#: src/translations.h:53
+msgid "Titan"
+msgstr "タイタン"
+
+#: src/translations.h:54
+msgid "Hyperion"
+msgstr "ヒペリオン"
+
+#: src/translations.h:55
+msgid "Iapetus"
+msgstr "イアペトゥス"
+
+#: src/translations.h:56
+msgid "Phoebe"
+msgstr "フェーベ"
+
+#: src/translations.h:57 src/flybyutil/flybymanager.cpp:89
+#: src/ui_flybymanager.h:869
+msgid "Neptune"
+msgstr "海王星"
+
+#: src/translations.h:60
+msgid "Charon"
+msgstr "カロン"
+
+#: src/translations.h:61
+msgid "Solar System Observer"
+msgstr "太陽系の外から"
+
+#: src/translations.h:70
+msgid "Aztec"
+msgstr "アズテック"
+
+#: src/translations.h:71
+msgid "Chinese"
+msgstr "中国"
+
+#: src/translations.h:72
+msgid "Egyptian"
+msgstr "エジプト"
+
+#: src/translations.h:73
+msgid "Inuit"
+msgstr "イヌイット"
+
+#: src/translations.h:74
+msgid "Korean"
+msgstr "韓国"
+
+#: src/translations.h:75
+msgid "Lakota"
+msgstr "ラコタ"
+
+#: src/translations.h:76
+msgid "Maori"
+msgstr "マオリ"
+
+#: src/translations.h:77
+msgid "Navajo"
+msgstr "ナバホ"
+
+#: src/translations.h:78
+msgid "Norse"
+msgstr "北欧"
+
+#: src/translations.h:79
+msgid "Polynesian"
+msgstr "ポリネシア"
+
+#: src/translations.h:80
+msgid "Western"
+msgstr "西洋"
+
+#: src/translations.h:81
+msgid "Tupi-Guarani"
+msgstr "トゥピ・グアラニー語"
+
+#: src/gui/recordmanager.cpp:106 src/ui_recordmanager.h:305
+msgid "Record Window"
+msgstr "録音する窓"
+
+#: src/gui/recordmanager.cpp:107 src/gui/servermanager.cpp:880
+#: src/presenter/qimagepropwidget.cpp:680 src/ui_recordmanager.h:307
+#: src/ui_servermanager.h:1704 src/ui_qimagepropwidget.h:1170
+msgid "Properties"
+msgstr "プロパティ"
+
+#: src/gui/recordmanager.cpp:108 src/gui/servermanager.cpp:902
+#: src/ui_recordmanager.h:308 src/ui_servermanager.h:1744
+msgid "File Name:"
+msgstr "ファイル名前 :"
+
+#: src/gui/recordmanager.cpp:109 src/ui_recordmanager.h:309
+msgid "Select File"
+msgstr "選ファイル"
+
+#: src/gui/recordmanager.cpp:110 src/ui_recordmanager.h:310
+msgid "FPS : "
+msgstr "FPS : "
+
+#: src/gui/recordmanager.cpp:111 src/ui_recordmanager.h:311
+msgid "Stopped"
+msgstr "停止"
+
+#: src/gui/recordmanager.cpp:112 src/ui_recordmanager.h:313
+msgid "Rec"
+msgstr "記録"
+
+#: src/gui/recordmanager.cpp:113 src/gui/servermanager.cpp:882
+#: src/gui/servermanager.cpp:1250 src/ui_recordmanager.h:314
+#: src/ui_servermanager.h:1707
+msgid "Pause"
+msgstr "ポーズ"
+
+#: src/gui/recordmanager.cpp:114 src/gui/servermanager.cpp:883
+#: src/flybyutil/flybymanager.cpp:153 src/ui_recordmanager.h:315
+#: src/ui_servermanager.h:1708
+msgid "Stop"
+msgstr "ストップ"
+
+#: src/gui/recordmanager.cpp:115 src/gui/servermanager.cpp:837
+#: src/ui_recordmanager.h:316 src/ui_servermanager.h:1659
+msgid "UnLicensed Use.."
+msgstr "UnLicensed Use.."
+
+#: src/gui/recordmanager.cpp:116 src/ui_recordmanager.h:317
+msgid "Register Module"
+msgstr "登録モジュール"
+
+#: src/gui/recordmanager.cpp:145
+msgid "This file is exist.Do you want to overwrite?"
+msgstr "このファイルが存在している。あなたが上書きしますか？"
+
+#: src/gui/recordmanager.cpp:151 src/gui/recordmanager.cpp:157
+#: src/gui/servermanager.cpp:1770
+msgid "Error"
+msgstr "誤差"
+
+#: src/gui/recordmanager.cpp:151 src/gui/recordmanager.cpp:157
+msgid "Please select a file to record! Record is cancelled."
+msgstr "録音するファイルを選択してください！レコードがキャンセルされます。"
+
+#: src/gui/servermanager.cpp:385 src/gui/servermanager.cpp:424
+msgid "Size: "
+msgstr "大きさ:"
+
+#: src/gui/servermanager.cpp:438 src/gui/servermanager.cpp:485
+msgid "Opacity: "
+msgstr "不透明度："
+
+#: src/gui/servermanager.cpp:478
+msgid "Opacity: 0.00"
+msgstr "不透明度：0.00"
+
+#: src/gui/servermanager.cpp:480
+msgid "Opacity: 1.00"
+msgstr "不透明度： 1.00"
+
+#: src/gui/servermanager.cpp:834 src/previewutil/previewform.cpp:287
+#, qt-format
+msgid "%0-Manager Window"
+msgstr "%0-マネージャー"
+
+#: src/gui/servermanager.cpp:836 src/ui_servermanager.h:1658
+msgid "ShiraPlayer Version :"
+msgstr "ShiraPlayerバージョン："
+
+#: src/gui/servermanager.cpp:838 src/ui_qlisansform.h:194
+#: src/ui_servermanager.h:1660
+msgid "Register"
+msgstr "登録"
+
+#: src/gui/servermanager.cpp:839 src/ui_servermanager.h:1661
+msgid "Init - Fade On/Off"
+msgstr "初期フェードオン/オフ"
+
+#: src/gui/servermanager.cpp:840 src/gui/stellamanager.cpp:80
+#: src/previewutil/previewform.cpp:84 src/ui_stellamanager.h:1014
+#: src/ui_previewform.h:843 src/ui_servermanager.h:1662
+msgid "Night View"
+msgstr "ナイトビュー"
+
+#: src/gui/servermanager.cpp:842 src/ui_servermanager.h:1664
+msgid "Time Server"
+msgstr "時間サーバー"
+
+#: src/gui/servermanager.cpp:843 src/ui_servermanager.h:1665
+msgid "FTP Server"
+msgstr "FTPサーバー"
+
+#: src/gui/servermanager.cpp:851 src/previewutil/previewform.cpp:92
+#: src/ui_previewform.h:848 src/ui_servermanager.h:1674
+msgid "Fisheye Image"
+msgstr "魚眼画像"
+
+#: src/gui/servermanager.cpp:853 src/previewutil/previewform.cpp:96
+#: src/ui_previewform.h:876 src/ui_servermanager.h:1676
+msgid "Flat Media"
+msgstr "フラットメディア"
+
+#: src/gui/servermanager.cpp:855 src/ui_servermanager.h:1678
+msgid "Admin"
+msgstr "管理"
+
+#: src/gui/servermanager.cpp:857 src/previewutil/previewform.cpp:88
+#: src/ui_previewform.h:852 src/ui_servermanager.h:1680
+msgid "Stellarium"
+msgstr "Stellarium"
+
+#: src/gui/servermanager.cpp:859 src/previewutil/previewform.cpp:79
+#: src/ui_previewform.h:838 src/ui_servermanager.h:1683
+msgid "Apply"
+msgstr "つける"
+
+#: src/gui/servermanager.cpp:860 src/ui_servermanager.h:1684
+msgid "Live Mode"
+msgstr "生でモード"
+
+#: src/gui/servermanager.cpp:861 src/ui_servermanager.h:1685
+msgid "Favorites"
+msgstr "お気に入り"
+
+#: src/gui/servermanager.cpp:862 src/ui_servermanager.h:1686
+msgid "Apply Favorites"
+msgstr "お気に入りの適用"
+
+#: src/gui/servermanager.cpp:863 src/ui_servermanager.h:1687
+msgid "Stop Favorites"
+msgstr "お気に入りを停止します"
+
+#: src/gui/servermanager.cpp:864 src/ui_servermanager.h:1688
+msgid "High Video Performance"
+msgstr "ハイパフォーマンス"
+
+#: src/gui/servermanager.cpp:865 src/ui_servermanager.h:1689
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S : With this function software use GPU "
+"processors.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">It needs high level display card.</span></p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S : With this function software use GPU "
+"processors.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">これは、高レベルのディスプレイカードを必要とす"
+"る。</span></p></body></html>"
+
+#: src/gui/servermanager.cpp:871 src/ui_servermanager.h:1695
+msgid "Skip Next Frame"
+msgstr "次のフレームヘスキップ"
+
+#: src/gui/servermanager.cpp:872 src/ui_servermanager.h:1696
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S :If we hit the lower bound, we skip next "
+"frame</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">PS：下限になると次のフレームにスキップする</"
+"span></p></body></html>"
+
+#: src/gui/servermanager.cpp:877 src/ui_servermanager.h:1701
+msgid "Show Video FPS"
+msgstr "ショービデオFPS"
+
+#: src/gui/servermanager.cpp:878 src/ui_servermanager.h:1702
+msgid "Prewarped"
+msgstr "プリワーピング"
+
+#: src/gui/servermanager.cpp:879 src/ui_servermanager.h:1703
+msgid "Refresh List"
+msgstr "更新"
+
+#: src/gui/servermanager.cpp:881 src/flybyutil/flybymanager.cpp:222
+#: src/ui_servermanager.h:1706
+msgid "Start"
+msgstr "スタート"
+
+#: src/gui/servermanager.cpp:884 src/ui_servermanager.h:1709
+msgid "Status"
+msgstr "Status"
+
+#: src/gui/servermanager.cpp:885 src/ui_servermanager.h:1710
+msgid "Volume"
+msgstr "音量"
+
+#: src/gui/servermanager.cpp:886 src/gui/servermanager.cpp:895
+#: src/ui_servermanager.h:1711 src/ui_servermanager.h:1722
+msgid "Send Media to Terminals"
+msgstr ""
+
+#: src/gui/servermanager.cpp:887 src/ui_servermanager.h:1712
+msgid "PushButton-2"
+msgstr ""
+
+#: src/gui/servermanager.cpp:888 src/ui_servermanager.h:1713
+msgid "PushButton"
+msgstr ""
+
+#: src/gui/servermanager.cpp:889 src/ui_servermanager.h:1714
+msgid "Fade Time:"
+msgstr "フェードタイム:"
+
+#: src/gui/servermanager.cpp:890 src/ui_servermanager.h:1715
+msgid "sec"
+msgstr "秒間"
+
+#: src/gui/servermanager.cpp:891 src/ui_servermanager.h:1716
+msgid "Cross Fade"
+msgstr ""
+
+#: src/gui/servermanager.cpp:892 src/ui_servermanager.h:1717
+msgid "Show with Daylight"
+msgstr "デイライトで表示する"
+
+#: src/gui/servermanager.cpp:893 src/ui_servermanager.h:1718
+msgid "Clear Frame"
+msgstr "クリアフレーム"
+
+#: src/gui/servermanager.cpp:896 src/ui_servermanager.h:1724
+msgid "New Flat Media project file"
+msgstr "新しいフラットメディアプロジェクトファイル"
+
+#: src/gui/servermanager.cpp:897 src/ui_servermanager.h:1729
+msgid "New"
+msgstr "新規"
+
+#: src/gui/servermanager.cpp:898 src/ui_servermanager.h:1731
+msgid "Save Flat Media project file"
+msgstr "プロジェクトファイルフラットメディアを保存"
+
+#: src/gui/servermanager.cpp:901 src/ui_servermanager.h:1743
+msgid "Load"
+msgstr "読み込み"
+
+#: src/gui/servermanager.cpp:903 src/ui_servermanager.h:1745
+msgid "Admin PCs and Projectors"
+msgstr ""
+
+#: src/gui/servermanager.cpp:904 src/ui_servermanager.h:1746
+msgid "Projector Controls"
+msgstr "投影管理"
+
+#: src/gui/servermanager.cpp:905 src/ui_servermanager.h:1747
+msgid "Power On"
+msgstr ""
+
+#: src/gui/servermanager.cpp:906 src/ui_servermanager.h:1748
+msgid "Power Off"
+msgstr ""
+
+#: src/gui/servermanager.cpp:907 src/ui_servermanager.h:1749
+msgid "Blank"
+msgstr ""
+
+#: src/gui/servermanager.cpp:908 src/ui_servermanager.h:1750
+msgid "Display"
+msgstr "画面"
+
+#: src/gui/servermanager.cpp:909 src/ui_servermanager.h:1751
+msgid "Client Computers"
+msgstr ""
+
+#: src/gui/servermanager.cpp:910 src/ui_servermanager.h:1752
+msgid "Power On All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:911 src/ui_servermanager.h:1753
+msgid "Refresh All"
+msgstr "陳列"
+
+#: src/gui/servermanager.cpp:912 src/ui_servermanager.h:1754
+msgid "Close All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:913 src/ui_servermanager.h:1755
+msgid "Update All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:914 src/ui_servermanager.h:1760
+msgid ""
+"Clear\n"
+"All"
+msgstr ""
+"クリア\n"
+"すべて"
+
+#: src/gui/servermanager.cpp:915 src/ui_servermanager.h:1762
+msgid "Color Palette"
+msgstr "色パレット"
+
+#: src/gui/servermanager.cpp:916 src/ui_servermanager.h:1763
+msgid "Stroke Size"
+msgstr "あなたストローク"
+
+#: src/gui/servermanager.cpp:917 src/ui_servermanager.h:1764
+msgid "Opacity"
+msgstr "不透明"
+
+#: src/gui/servermanager.cpp:1107 src/gui/servermanager.cpp:1445
+#: src/gui/servermanager.cpp:1452
+msgid "Warning"
+msgstr "警告"
+
+#: src/gui/servermanager.cpp:1107 src/gui/servermanager.cpp:1445
+msgid "Please select a media file!"
+msgstr "メディアファイルを選択してください！"
+
+#: src/gui/servermanager.cpp:1250
+msgid "Continue"
+msgstr "続ける"
+
+#: src/gui/servermanager.cpp:1318
+#, qt-format
+msgid ""
+"Current Time: %1 \n"
+"Total Time: %2 Video FPS: %3"
+msgstr ""
+"現在の時刻： %1 \n"
+"トータル時間：%2 ビデオ FPS: %3"
+
+#: src/gui/servermanager.cpp:1433 src/gui/servermanager.cpp:1577
+#: src/gui/servermanager.cpp:1614 src/gui/servermanager.cpp:1626
+#: src/gui/servermanager.cpp:1650
+msgid "Information"
+msgstr "報告"
+
+#: src/gui/servermanager.cpp:1434
+msgid "Do you want to send media file to all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1452
+msgid "Please select a frame file!"
+msgstr "フレームファイルを選択してください！"
+
+#: src/gui/servermanager.cpp:1578
+msgid "Do you want to send program update files to all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1615
+msgid "Do you want to restart program on all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1627
+msgid "Do you want to shutdown all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1651
+msgid "Do you want to shutdown all projectors?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1686
+msgid "Flat Media Library : Drag and drop into the Active Images window"
+msgstr ""
+"フラットメディアライブラリ：ドラッグして、アクティブなイメージウィンドウにド"
+"ロップします"
+
+#: src/gui/servermanager.cpp:1704
+msgid "Default Display Properties"
+msgstr "デフォルトの画面のプロパティ"
+
+#: src/gui/servermanager.cpp:1753
+msgid "Load Presentation File"
+msgstr "ロード·プレゼンテーションファイル"
+
+#: src/gui/servermanager.cpp:1755
+msgid "Presentation Files(*.xml)"
+msgstr "プレゼンテーションファイル（*。XML）"
+
+#: src/gui/servermanager.cpp:1770
+msgid "Wrong ShiraPlayer Flat Present project file!"
+msgstr "間違っShiraPlayerフラット現状のプロジェクトファイル！"
+
+#: src/gui/servermanager.cpp:1850
+msgid "Are you sure want to save available Presentations ?"
+msgstr "あなたは確信して利用可能なプレゼンテーションを保存したい？"
+
+#: src/gui/servermanager.cpp:1896
+msgid ""
+"Active Images not saved.\n"
+"Do you want to save as a Presentation?"
+msgstr ""
+"アクティブな画像は保存されません。\n"
+"あなたがプレゼンテーションとして保存しますか？"
+
+#: src/gui/servermanager.cpp:2006
+msgid "Clear All?"
+msgstr "すべてクリア？"
+
+#: src/gui/stellamanager.cpp:55 src/ui_stellamanager.h:971
+msgid ""
+"Equatorial\n"
+"Grid"
+msgstr ""
+"赤道座標\n"
+"グリッド"
+
+#: src/gui/stellamanager.cpp:56 src/ui_stellamanager.h:973
+msgid ""
+"Azimuthal\n"
+"Grid"
+msgstr ""
+"方位\n"
+"グリッド"
+
+#: src/gui/stellamanager.cpp:57 src/ui_stellamanager.h:975
+msgid ""
+"Ecliptic\n"
+"Line"
+msgstr ""
+"黄道\n"
+"ライン"
+
+#: src/gui/stellamanager.cpp:58 src/ui_stellamanager.h:977
+msgid ""
+"Meridian\n"
+"Line"
+msgstr ""
+"子午線\n"
+"ライン"
+
+#: src/gui/stellamanager.cpp:59 src/ui_stellamanager.h:979
+msgid ""
+"Constellation\n"
+"Lines"
+msgstr "星座線"
+
+#: src/gui/stellamanager.cpp:60 src/ui_stellamanager.h:981
+msgid ""
+"Constellation\n"
+"Labels"
+msgstr "星座名"
+
+#: src/gui/stellamanager.cpp:61 src/ui_stellamanager.h:983
+msgid ""
+"Constellation\n"
+"Arts"
+msgstr "星座"
+
+#: src/gui/stellamanager.cpp:62 src/ui_stellamanager.h:985
+msgid ""
+"Constellation \n"
+"Boundaries"
+msgstr "星座の境界線"
+
+#: src/gui/stellamanager.cpp:64 src/ui_stellamanager.h:988
+msgid "Nebulae"
+msgstr "星雲"
+
+#: src/gui/stellamanager.cpp:66 src/ui_stellamanager.h:990
+msgid "Satellites"
+msgstr "衛星"
+
+#: src/gui/stellamanager.cpp:70 src/previewutil/previewform.cpp:87
+#: src/ui_stellamanager.h:995 src/ui_previewform.h:850
+msgid "B1"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:71 src/ui_stellamanager.h:997
+msgid "Date Time"
+msgstr "日付と時刻"
+
+#: src/gui/stellamanager.cpp:72 src/previewutil/previewform.cpp:99
+#: src/ui_stellamanager.h:999 src/ui_previewform.h:866
+msgid "B2"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:73 src/ui_stellamanager.h:1001
+msgid "Search"
+msgstr "検索"
+
+#: src/gui/stellamanager.cpp:74 src/previewutil/previewform.cpp:91
+#: src/ui_stellamanager.h:1003 src/ui_previewform.h:846
+msgid "B3"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:75 src/ui_stellamanager.h:1005
+msgid "Go To"
+msgstr "に行く"
+
+#: src/gui/stellamanager.cpp:76 src/previewutil/previewform.cpp:95
+#: src/ui_stellamanager.h:1007 src/ui_previewform.h:874
+msgid "B4"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:78 src/previewutil/previewform.cpp:93
+#: src/ui_stellamanager.h:1011 src/ui_previewform.h:862
+msgid "B5"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:79 src/ui_stellamanager.h:1013
+msgid "Record"
+msgstr "記録"
+
+#: src/gui/stellamanager.cpp:81 src/previewutil/previewform.cpp:89
+#: src/ui_stellamanager.h:1016 src/ui_previewform.h:854
+msgid "B6"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:674 src/ui_qimagepropwidget.h:1162
+msgid "Display Properties"
+msgstr "画面設定"
+
+#: src/presenter/qimagepropwidget.cpp:676 src/ui_qimagepropwidget.h:1164
+msgid "Video Control"
+msgstr "映像制御"
+
+#: src/presenter/qimagepropwidget.cpp:678 src/ui_qimagepropwidget.h:1168
+msgid "image"
+msgstr "イメージ"
+
+#: src/presenter/qimagepropwidget.cpp:679 src/ui_qimagepropwidget.h:1169
+msgid "File Name"
+msgstr "ファイル名"
+
+#: src/presenter/qimagepropwidget.cpp:681 src/ui_qimagepropwidget.h:1171
+msgid "Resize %"
+msgstr "リサイズ"
+
+#: src/presenter/qimagepropwidget.cpp:682 src/ui_qimagepropwidget.h:1172
+msgid "Azimuth"
+msgstr "方位角"
+
+#: src/presenter/qimagepropwidget.cpp:683 src/ui_qimagepropwidget.h:1173
+msgid "Altitude"
+msgstr "高さ"
+
+#: src/presenter/qimagepropwidget.cpp:684 src/ui_qimagepropwidget.h:1174
+msgid "Fade In/Out"
+msgstr "Fade In/Out"
+
+#: src/presenter/qimagepropwidget.cpp:685 src/ui_qimagepropwidget.h:1175
+msgid "On Sky"
+msgstr "スカイ"
+
+#: src/presenter/qimagepropwidget.cpp:686 src/ui_qimagepropwidget.h:1176
+msgid "On Dome"
+msgstr "ドーム"
+
+#: src/presenter/qimagepropwidget.cpp:687 src/ui_qimagepropwidget.h:1178
+msgid "Rotate"
+msgstr "回転する"
+
+#: src/presenter/qimagepropwidget.cpp:688 src/ui_qimagepropwidget.h:1179
+msgid "lblFlatPath"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:689 src/ui_qimagepropwidget.h:1180
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Flat Path :</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">フラットパス：</span></p></body></html>"
+
+#: src/presenter/qimagepropwidget.cpp:694 src/ui_qimagepropwidget.h:1185
+msgid "Video Properties"
+msgstr "ビデオのプロパティ"
+
+#: src/presenter/qimagepropwidget.cpp:695 src/ui_qimagepropwidget.h:1186
+msgid "Contrast"
+msgstr "コントラスト"
+
+#: src/presenter/qimagepropwidget.cpp:696 src/ui_qimagepropwidget.h:1187
+msgid "Brightness"
+msgstr "明るさ"
+
+#: src/presenter/qimagepropwidget.cpp:697 src/ui_qimagepropwidget.h:1188
+msgid "Saturation"
+msgstr "彩度"
+
+#: src/presenter/qimagepropwidget.cpp:698 src/ui_qimagepropwidget.h:1190
+msgid "Current frame time"
+msgstr "現在のフレーム時間"
+
+#: src/presenter/qimagepropwidget.cpp:699 src/ui_qimagepropwidget.h:1193
+msgid "Sets the IN mark at the current time"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:700 src/ui_qimagepropwidget.h:1195
+msgid "Mark IN"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:701 src/ui_qimagepropwidget.h:1196
+#, fuzzy
+msgid "I"
+msgstr "イオ"
+
+#: src/presenter/qimagepropwidget.cpp:702 src/ui_qimagepropwidget.h:1198
+msgid "Resets the IN mark at the start of file."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:703 src/ui_qimagepropwidget.h:1201
+msgid "Sets the OUT mark at the current time"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:704 src/ui_qimagepropwidget.h:1203
+msgid "Mark OUT"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:705 src/ui_qimagepropwidget.h:1204
+msgid "O"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:706 src/ui_qimagepropwidget.h:1206
+msgid "Reset the OUT mark at the end of file."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:707 src/ui_qimagepropwidget.h:1209
+msgid "Time line"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:708 src/ui_qimagepropwidget.h:1212
+msgid "Placement of the mark IN"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:709 src/ui_qimagepropwidget.h:1215
+msgid "Placement of the mark OUT"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:710 src/ui_qimagepropwidget.h:1218
+msgid "Start / stops updating"
+msgstr "スタート/ストップ"
+
+#: src/presenter/qimagepropwidget.cpp:711 src/ui_qimagepropwidget.h:1221
+msgid "Starts / stops updating"
+msgstr "更新を停止/起動します"
+
+#: src/presenter/qimagepropwidget.cpp:712 src/ui_qimagepropwidget.h:1223
+msgid "Play"
+msgstr "遊ぶ"
+
+#: src/presenter/qimagepropwidget.cpp:713 src/ui_qimagepropwidget.h:1225
+msgid "Jump backward to movie start."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:715 src/ui_qimagepropwidget.h:1229
+msgid "Jump backward"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:717
+#: src/presenter/qimagepropwidget.cpp:718 src/ui_qimagepropwidget.h:1233
+#: src/ui_qimagepropwidget.h:1236
+msgid "Pause/resume play"
+msgstr "ポーズ/再開プレイ"
+
+#: src/presenter/qimagepropwidget.cpp:720 src/ui_qimagepropwidget.h:1240
+msgid "Step by 1 frame"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:722 src/ui_qimagepropwidget.h:1244
+msgid "Jump forward"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:724 src/ui_qimagepropwidget.h:1248
+msgid "Loop to mark-in playback"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:726
+#: src/presenter/qimagepropwidget.cpp:733 src/ui_qimagepropwidget.h:1252
+#: src/ui_qimagepropwidget.h:1261
+msgid "Play speed"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:727 src/ui_qimagepropwidget.h:1254
+msgid "1/4"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:728 src/ui_qimagepropwidget.h:1255
+msgid "1/3"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:729 src/ui_qimagepropwidget.h:1256
+msgid "1/2"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:730 src/ui_qimagepropwidget.h:1257
+msgid "1x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:731 src/ui_qimagepropwidget.h:1258
+msgid "2x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:732 src/ui_qimagepropwidget.h:1259
+msgid "3x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:734 src/ui_qimagepropwidget.h:1263
+msgid "A"
+msgstr ""
+
+#: src/presenter/qplayimagewidget.cpp:107
+msgid "Active Images"
+msgstr "アクティブイメージ"
+
+#: src/previewutil/previewform.cpp:75 src/ui_previewform.h:833
+msgid "Control and Preview Window"
+msgstr "コントロールプレビュー"
+
+#: src/previewutil/previewform.cpp:76 src/ui_previewform.h:834
+msgid "Selected Object Information"
+msgstr "選択された天体の情報"
+
+#: src/previewutil/previewform.cpp:77 src/ui_previewform.h:836
+msgid "Real Time"
+msgstr "現在の時刻"
+
+#: src/previewutil/previewform.cpp:78 src/ui_previewform.h:837
+msgid "Fade On/Off"
+msgstr "薄れる オン/オフ"
+
+#: src/previewutil/previewform.cpp:80 src/ui_previewform.h:839
+msgid "With Fade Effect"
+msgstr "フェード効果を持つ"
+
+#: src/previewutil/previewform.cpp:81 src/ui_previewform.h:840
+msgid ""
+"Lock \n"
+"Mouse-Key\n"
+"Client"
+msgstr ""
+
+#: src/previewutil/previewform.cpp:90 src/ui_previewform.h:856
+msgid "Sky Writer"
+msgstr "スカイライター"
+
+#: src/previewutil/previewform.cpp:97 src/ui_previewform.h:858
+msgid "B7"
+msgstr ""
+
+#: src/previewutil/previewform.cpp:98 src/ui_previewform.h:860
+msgid "Flyby Planets"
+msgstr "惑星フライバイ"
+
+#: src/previewutil/previewform.cpp:101 src/ui_previewform.h:872
+msgid "Messier Catalog"
+msgstr "メシエカタログ"
+
+#: src/flybyutil/flybymanager.cpp:59 src/flybyutil/flybymanager.cpp:148
+#: src/ui_flybymanager.h:832
+msgid "Start Tracking"
+msgstr "追跡を開始します"
+
+#: src/flybyutil/flybymanager.cpp:60 src/ui_flybymanager.h:833
+msgid "Velocity :"
+msgstr "速度："
+
+#: src/flybyutil/flybymanager.cpp:61 src/ui_flybymanager.h:834
+msgid "font: 14pt \"MS Shell Dlg 2\";"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:62 src/ui_flybymanager.h:835
+msgid "Altitude :"
+msgstr "高さ :"
+
+#: src/flybyutil/flybymanager.cpp:63 src/ui_flybymanager.h:836
+msgid "Show Orbits"
+msgstr "軌道の表示"
+
+#: src/flybyutil/flybymanager.cpp:64 src/ui_flybymanager.h:837
+msgid "Show Atm"
+msgstr "大気の表示"
+
+#: src/flybyutil/flybymanager.cpp:65 src/ui_flybymanager.h:838
+msgid ""
+"Date Time\n"
+"Flow Rate:"
+msgstr "時間のレート"
+
+#: src/flybyutil/flybymanager.cpp:68 src/ui_dateTimeDialogGui.h:395
+#: src/ui_flybymanager.h:842
+msgid "Time Flow"
+msgstr "レート"
+
+#: src/flybyutil/flybymanager.cpp:69 src/ui_dateTimeDialogGui.h:396
+#: src/ui_flybymanager.h:843
+msgid "  1x(Real Time)"
+msgstr "  1x( 実時間 )"
+
+#: src/flybyutil/flybymanager.cpp:70 src/ui_dateTimeDialogGui.h:397
+#: src/ui_flybymanager.h:844
+msgid "  30x"
+msgstr "  30x"
+
+#: src/flybyutil/flybymanager.cpp:71 src/ui_dateTimeDialogGui.h:398
+#: src/ui_flybymanager.h:845
+msgid "  300x"
+msgstr "  300x"
+
+#: src/flybyutil/flybymanager.cpp:72 src/ui_dateTimeDialogGui.h:399
+#: src/ui_flybymanager.h:846
+msgid "  3000x"
+msgstr "  3000x"
+
+#: src/flybyutil/flybymanager.cpp:73 src/ui_dateTimeDialogGui.h:400
+#: src/ui_flybymanager.h:847
+msgid "  30000x"
+msgstr "  30000x"
+
+#: src/flybyutil/flybymanager.cpp:74 src/ui_dateTimeDialogGui.h:401
+#: src/ui_flybymanager.h:848
+msgid "Discrete Time Steps"
+msgstr "個別時間"
+
+#: src/flybyutil/flybymanager.cpp:75 src/ui_dateTimeDialogGui.h:402
+#: src/ui_flybymanager.h:849
+msgid "  seconds"
+msgstr "  秒"
+
+#: src/flybyutil/flybymanager.cpp:76 src/ui_dateTimeDialogGui.h:403
+#: src/ui_flybymanager.h:850
+msgid "  minutes"
+msgstr "  分"
+
+#: src/flybyutil/flybymanager.cpp:77 src/ui_dateTimeDialogGui.h:404
+#: src/ui_flybymanager.h:851
+msgid "  hours"
+msgstr "  時"
+
+#: src/flybyutil/flybymanager.cpp:78 src/ui_dateTimeDialogGui.h:405
+#: src/ui_flybymanager.h:852
+msgid "  days"
+msgstr "  日"
+
+#: src/flybyutil/flybymanager.cpp:79 src/ui_dateTimeDialogGui.h:406
+#: src/ui_flybymanager.h:853
+msgid "  years"
+msgstr "  年"
+
+#: src/flybyutil/flybymanager.cpp:81 src/ui_flybymanager.h:855
+msgid "Outer Planets"
+msgstr "外惑星"
+
+#: src/flybyutil/flybymanager.cpp:82 src/ui_flybymanager.h:856
+msgid "Inner Planets"
+msgstr "内惑星"
+
+#: src/flybyutil/flybymanager.cpp:83 src/ui_flybymanager.h:858
+msgid "FLYBY-SS"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:84 src/ui_flybymanager.h:860
+msgid "Solar System"
+msgstr "太陽系惑星"
+
+#: src/flybyutil/flybymanager.cpp:85 src/flybyutil/flybymanager.cpp:226
+#: src/flybyutil/flybymanager.cpp:251 src/ui_flybymanager.h:861
+msgid "Prepare for flyby"
+msgstr "フライバイの準備"
+
+#: src/flybyutil/flybymanager.cpp:86 src/ui_flybymanager.h:863
+msgid "FLYBY-Jupiter"
+msgstr "FLYBY-Jupiter"
+
+#: src/flybyutil/flybymanager.cpp:88 src/ui_flybymanager.h:867
+msgid "FLYBY-Neptune"
+msgstr "FLYBY-Neptune"
+
+#: src/flybyutil/flybymanager.cpp:90 src/ui_flybymanager.h:871
+msgid "FLYBY-Mars"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:92 src/ui_flybymanager.h:875
+msgid "FLYBY-Saturn"
+msgstr "FLYBY-Saturn"
+
+#: src/flybyutil/flybymanager.cpp:94 src/ui_flybymanager.h:879
+msgid "FLYBY-Sun"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:96 src/ui_flybymanager.h:883
+msgid "FLYBY-Venus"
+msgstr "FLYBY-Venus"
+
+#: src/flybyutil/flybymanager.cpp:98 src/ui_flybymanager.h:887
+msgid "FLYBY-Moon"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:100 src/ui_flybymanager.h:891
+msgid "FLYBY-Earth"
+msgstr "FLYBY-Earth"
+
+#: src/flybyutil/flybymanager.cpp:102 src/ui_flybymanager.h:895
+msgid "FLYBY-Uranus"
+msgstr "FLYBY-Uranus"
+
+#: src/flybyutil/flybymanager.cpp:104 src/ui_flybymanager.h:899
+msgid "FLYBY-Mercury"
+msgstr "FLYBY-Mercury"
+
+#: src/flybyutil/flybymanager.cpp:106 src/ui_flybymanager.h:903
+msgid "FLYBY-Pluto"
+msgstr "FLYBY-Pluto"
+
+#: src/flybyutil/flybymanager.cpp:161 src/flybyutil/flybymanager.cpp:266
+#, qt-format
+msgid "Altitude: %0 km"
+msgstr "高さ:%0 km"
+
+#: src/flybyutil/flybymanager.cpp:192
+#, qt-format
+msgid "Velocity: %0 km/s"
+msgstr "速度：%0 km/s"
+
+#: src/flybyutil/flybymanager.cpp:239
+msgid "Go Home"
+msgstr "家に帰る"
+
+#: src/catalogpages/messierwindow.cpp:39 src/ui_messierwindow.h:132
+msgid "Move to Object"
+msgstr "移動"
+
+#: src/catalogpages/messierwindow.cpp:40 src/ui_messierwindow.h:133
+msgid "Hide Landscape && Atmosphere"
+msgstr "地表と大気を隠す"
+
+#: src/catalogpages/messierwindow.cpp:41 src/ui_messierwindow.h:134
+msgid "Hide All"
+msgstr "すべて隠す"
+
+#: src/catalogpages/constellationwindow.cpp:357
+msgid "Line Color :"
+msgstr "ラインカラー："
+
+#: src/catalogpages/constellationwindow.cpp:370
+msgid "Line Width :"
+msgstr "線幅："
+
+#: src/catalogpages/constellationwindow.cpp:385
+msgid "Art Brightness :"
+msgstr "星座絵の明るさ :"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Spring Const.\n"
+"All On"
+msgstr "春の星座"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Summer Const.\n"
+"All On"
+msgstr "夏の星座"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Autumn Const.\n"
+"All On"
+msgstr "秋の星座"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Winter Const.\n"
+"All On"
+msgstr "冬の星座"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Change\n"
+"Art->Line"
+msgstr "星座線"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid ""
+"Ecliptical\n"
+"Const."
+msgstr "黄道１２星座"
+
+#: src/catalogpages/constellationwindow.cpp:415
+msgid "All Const."
+msgstr "すべての星座"
+
+#: src/ui_dateTimeDialogGui.h:380 src/ui_helpDialogGui.h:258
+#: src/ui_locationDialogGui.h:385 src/ui_viewDialog.h:1617
+#: src/ui_configurationDialog.h:1280 src/ui_stellamanager.h:970
+#: src/ui_splashScreen.h:80 src/ui_previewform.h:832 src/ui_flybymanager.h:831
+#: src/ui_servermanager.h:1654 src/ui_messierwindow.h:131
+#: src/ui_constellationwindow.h:87
+msgid "Form"
+msgstr "フォーム"
+
+#: src/ui_dateTimeDialogGui.h:383 src/ui_dateTimeDialogGui.h:384
+msgid "/"
+msgstr "/"
+
+#: src/ui_dateTimeDialogGui.h:385 src/ui_dateTimeDialogGui.h:386
+msgid ":"
+msgstr ":"
+
+#: src/ui_dateTimeDialogGui.h:392
+msgid "Flow Rate"
+msgstr "レート"
+
+#: src/ui_searchDialogGui.h:237 src/ui_searchDialogGui.h:238
+msgid "Find Object"
+msgstr "天体を検索"
+
+#: src/ui_searchDialogGui.h:241
+msgid "Move"
+msgstr "移動"
+
+#: src/ui_searchDialogGui.h:244
+msgid "RA/Dec (J2000):"
+msgstr "赤経/赤緯（J2000）:"
+
+#: src/ui_viewDialog.h:1632
+msgid "Sky Items"
+msgstr "スカイ項目"
+
+#: src/ui_viewDialog.h:1634
+msgid "Warping"
+msgstr "整経"
+
+#: src/ui_configurationDialog.h:1422
+msgid "Start with Fine-tune"
+msgstr ""
+
+#: src/ui_recordmanager.h:304
+msgid "Dialog"
+msgstr "ダイアログ"
+
+#: src/ui_qlisansform.h:192
+msgid "Lisans Kodu Ver"
+msgstr "輸出ライセンスコード"
+
+#: src/ui_qlisansform.h:193 src/ui_splashScreen.h:82
+msgid "User Name:"
+msgstr "ユーザー名："
+
+#: src/ui_qlisansform.h:195
+msgid "Date:"
+msgstr "日付："
+
+#: src/ui_qlisansform.h:196
+msgid "License Code:"
+msgstr "ライセンスコード"
+
+#: src/ui_qlisansform.h:197
+msgid "The user name must be no more then 20 characters."
+msgstr "ユーザー名は20文字以下である必要があります。"
+
+#: src/ui_qlisansform.h:198
+msgid "License Dialog"
+msgstr "ライセンスダイアログ"
+
+#: src/ui_splashScreen.h:83
+msgid "ver :"
+msgstr "バージョン："
+
+#: src/ui_splashScreen.h:84
+msgid "for Hakoniwa"
+msgstr ""
+
+#: src/ui_previewform.h:870
+msgid "B8"
+msgstr ""
+
+#: src/ui_previewform.h:879
+msgid "B9"
+msgstr ""
+
+#: src/ui_servermanager.h:1655
+msgid "Stellarium-Manager Window"
+msgstr "ステラリウムマネージャー"
+
+#: src/ui_qimagepropwidget.h:1157
+msgid "QImagePropWidget"
+msgstr ""
+
+#~ msgid "Loading catalog %1 from file %2"
+#~ msgstr "カタログのロード中 %1 ファイル %2"
+
+#~ msgid "Loading NGC catalog: %1/%2"
+#~ msgstr "NGCカタログのロード中．．．: %1/%2"
+
+#~ msgid "Loading NGC catalog"
+#~ msgstr "NGCカタログのロード中・・・"
+
+#~ msgid "Startup FOV: %1%2"
+#~ msgstr "起動時の視野: %1%2"
+
+#~ msgid "Startup direction of view Az/Alt: %1/%2"
+#~ msgstr "起動時の方位: %1/%2"
+
+#~ msgid "Further Reading"
+#~ msgstr "細かな表示"
+
+#~ msgid ""
+#~ "The following links are external web links, and will launch your web "
+#~ "browser:\n"
+#~ msgstr ""
+#~ "このリンクはインターネット経由で外部へと接続します。ウェブブラウザが起ち上"
+#~ "がります。\n"
+
+#~ msgid "{Frequently Asked Questions} about Stellarium.  Answers too."
+#~ msgstr "FAQ　よく聞く質問"
+
+#~ msgid ""
+#~ "{The Stellarium Wiki} - General information.  You can also find user-"
+#~ "contributed landscapes and scripts here."
+#~ msgstr "{The Stellarium Wiki}　- ウィキ、大まかな情報の表示。"
+
+#~ msgid ""
+#~ "{Support ticket system} - if you need help using Stellarium, post a "
+#~ "support request here and we'll try to help."
+#~ msgstr "{Support ticket system} - ここで質問メールを受け付けています。"
+
+#~ msgid ""
+#~ "{Bug reporting and feature request system} - if something doesn't work "
+#~ "properly or is missing and is not listed in the tracker, you can open bug "
+#~ "reports here."
+#~ msgstr "{バグ、機能追加の要望} - などはこちらからどうぞ。"
+
+#~ msgid "{Forums} - discuss Stellarium with other users."
+#~ msgstr "{Forums} -掲示板"
+
+#~ msgid "Developers"
+#~ msgstr "開発者のサイト"
+
+#~ msgid "Project coordinator & lead developer: %1"
+#~ msgstr "Project coordinator & lead developer: %1"
+
+#~ msgid "Doc author/developer: %1"
+#~ msgstr "Doc author/developer: %1"
+
+#~ msgid "Graphic/other designer: %1"
+#~ msgstr "Graphic/other designer: %1"
+
+#~ msgid "Developer: %1"
+#~ msgstr "Developer: %1"
+
+#~ msgid "OSX Developer: %1"
+#~ msgstr "OSX Developer: %1"
+
+#~ msgid "Full-screen mode"
+#~ msgstr "全画面表示"
+
+#~ msgid "Move telescope #0 to selected object"
+#~ msgstr "望遠鏡 #0 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #1 to selected object"
+#~ msgstr "望遠鏡 #1 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #2 to selected object"
+#~ msgstr "望遠鏡 #2 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #3 to selected object"
+#~ msgstr "望遠鏡 #3 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #4 to selected object"
+#~ msgstr "望遠鏡 #4 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #5 to selected object"
+#~ msgstr "望遠鏡 #5 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #6 to selected object"
+#~ msgstr "望遠鏡 #6 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #7 to selected object"
+#~ msgstr "望遠鏡 #7 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #8 to selected object"
+#~ msgstr "望遠鏡 #8 で選択中の天体をガイドする"
+
+#~ msgid "Move telescope #9 to selected object"
+#~ msgstr "望遠鏡 #9 で選択中の天体をガイドする"
+
+#~ msgid "Save screenshot"
+#~ msgstr "スクリーンショットを保存します"
+
+#~ msgid ""
+#~ "Restoring default settings requires a restart of Stellarium. Saving all "
+#~ "the current options includes the current FOV and direction of view for "
+#~ "use at next startup."
+#~ msgstr ""
+#~ "設定の初期化はプログラムの再起動が必要になります。視野や方位は保存されま"
+#~ "す。"
+
+#~ msgid "Starts Stellarium at system clock date and time"
+#~ msgstr "現在時刻で起動する"
+
+#~ msgid ""
+#~ "Sets the simulation time to the next instance of this time of day when "
+#~ "Stellarium starts"
+#~ msgstr "次の起動からこの時間で固定して表示を開始する。"
+
+#~ msgid "Use a specific date and time when Stellarium starts up"
+#~ msgstr "起動時の日付と時刻を固定する"
+
+#~ msgid ""
+#~ "Spheric mirror distortion is used when projecting Stellarium onto a "
+#~ "spheric mirror for low-cost planetarium systems."
+#~ msgstr "球面へ投影する時に球面効果を出す。"

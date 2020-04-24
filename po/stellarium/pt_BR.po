@@ -1,0 +1,3497 @@
+# Portuguese (Brazil) translation for stellarium
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the stellarium package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: stellarium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-03 21:39+0200\n"
+"PO-Revision-Date: 2015-02-03 22:01+0200\n"
+"Last-Translator: Asaf Yurdakul <asafyurdakul@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <pt_BR@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-03-31 16:53+0000\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: src/modules/LandscapeMgr.cpp:144 src/translations.h:64
+msgid "N"
+msgstr "N"
+
+#: src/modules/LandscapeMgr.cpp:145 src/translations.h:65
+msgid "S"
+msgstr "S"
+
+#: src/modules/LandscapeMgr.cpp:146 src/translations.h:66
+msgid "E"
+msgstr "L"
+
+#: src/modules/LandscapeMgr.cpp:147 src/translations.h:67
+msgid "W"
+msgstr "O"
+
+#: src/modules/LandscapeMgr.cpp:509
+msgid "Author: "
+msgstr "Autor: "
+
+#: src/modules/LandscapeMgr.cpp:512
+msgid "Location: "
+msgstr "Localidade: "
+
+#: src/modules/LandscapeMgr.cpp:517
+#, qt-format
+msgid ", %1 m"
+msgstr ", %1 m"
+
+#: src/modules/LandscapeMgr.cpp:520
+msgid "Planet: "
+msgstr "Planeta "
+
+#: src/modules/Nebula.cpp:93
+#, qt-format
+msgid "Type: <b>%1</b>"
+msgstr "Tipo: <b>%1</b>"
+
+#: src/modules/Nebula.cpp:96 src/modules/Planet.cpp:172
+#, qt-format
+msgid "Magnitude: <b>%1</b>"
+msgstr "Magnitude: <b>%1</b>"
+
+#: src/modules/Nebula.cpp:101
+#, qt-format
+msgid "Size: %1"
+msgstr "Tamanho: %1"
+
+#: src/modules/Nebula.cpp:271 src/catalogpages/messierwindow.cpp:60
+msgid "Galaxy"
+msgstr "Galáxia"
+
+#: src/modules/Nebula.cpp:274 src/catalogpages/messierwindow.cpp:63
+msgid "Open cluster"
+msgstr "Aglomerado aberto de estrelas"
+
+#: src/modules/Nebula.cpp:277 src/catalogpages/messierwindow.cpp:66
+msgid "Globular cluster"
+msgstr "Aglomerado globular"
+
+#: src/modules/Nebula.cpp:280 src/catalogpages/messierwindow.cpp:69
+msgid "Nebula"
+msgstr "Nebulosa"
+
+#: src/modules/Nebula.cpp:283 src/catalogpages/messierwindow.cpp:72
+msgid "Planetary nebula"
+msgstr "Nebulosa planetária"
+
+#: src/modules/Nebula.cpp:286 src/catalogpages/messierwindow.cpp:75
+msgid "Cluster associated with nebulosity"
+msgstr "Aglomerado associado com nebulosidade"
+
+#: src/modules/Nebula.cpp:289
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: src/modules/Nebula.cpp:292
+msgid "Undocumented type"
+msgstr "Tipo não documentado"
+
+#: src/modules/Planet.cpp:175 src/modules/StarWrapper.cpp:115
+#, qt-format
+msgid "Absolute Magnitude: %1"
+msgstr "Grandeza Absoluta %1"
+
+#: src/modules/Planet.cpp:182
+#, no-c-format, qt-format
+msgid "Distance: %1AU"
+msgstr "Distância: %1AU"
+
+#: src/modules/Planet.cpp:186
+#, qt-format
+msgid "Apparent diameter: %1"
+msgstr "Diâmetro aparente: %1"
+
+#: src/modules/StarWrapper.cpp:54 src/modules/StarWrapper.cpp:111
+#, qt-format
+msgid "Magnitude: <b>%1</b> (B-V: %2)"
+msgstr "Magnitude: <b>%1</b> (B-V: %2)"
+
+#: src/modules/StarWrapper.cpp:121
+#, qt-format
+msgid "Spectral Type: %1"
+msgstr "Tipo espectral: %1"
+
+#: src/modules/StarWrapper.cpp:125
+#, qt-format
+msgid "Distance: %1 Light Years"
+msgstr "Distância: %1 Anos Luz"
+
+#: src/modules/StarWrapper.cpp:128
+#, qt-format
+msgid "Parallax: %1\""
+msgstr "Paralaxe: %1"
+
+#: src/modules/TextUI.cpp:63
+msgid "Set Location "
+msgstr "Defina a localização "
+
+#: src/modules/TextUI.cpp:64
+msgid "Set Time "
+msgstr "Acerte a hora "
+
+#: src/modules/TextUI.cpp:65
+msgid "General "
+msgstr "Geral "
+
+#: src/modules/TextUI.cpp:66
+msgid "Stars "
+msgstr "Estrelas "
+
+#: src/modules/TextUI.cpp:67
+msgid "Colors "
+msgstr "Cores "
+
+#: src/modules/TextUI.cpp:68
+msgid "Effects "
+msgstr "Efeitos "
+
+#: src/modules/TextUI.cpp:69
+msgid "Scripts "
+msgstr "Scripts "
+
+#: src/modules/TextUI.cpp:70
+msgid "Administration "
+msgstr "Administração "
+
+#: src/modules/TextUI.cpp:73
+msgid "Latitude: "
+msgstr "Latitude: "
+
+#: src/modules/TextUI.cpp:74
+msgid "Longitude: "
+msgstr "Longitude: "
+
+#: src/modules/TextUI.cpp:75
+msgid "Altitude (m): "
+msgstr "Altitude (m): "
+
+#: src/modules/TextUI.cpp:76
+msgid "Solar System Body: "
+msgstr "Corpo do sistema solar: "
+
+#: src/modules/TextUI.cpp:79
+msgid "Sky Time: "
+msgstr "Hora celeste: "
+
+#: src/modules/TextUI.cpp:80
+msgid "Set Time Zone: "
+msgstr "Defina o fuso horário: "
+
+#: src/modules/TextUI.cpp:81
+msgid "Day keys: "
+msgstr "Dia chave: "
+
+#: src/modules/TextUI.cpp:82
+msgid "Calendar"
+msgstr "Calendário"
+
+#: src/modules/TextUI.cpp:83
+msgid "Sidereal"
+msgstr "Sideral"
+
+#: src/modules/TextUI.cpp:84
+msgid "Preset Sky Time: "
+msgstr "Hora celeste pré-definida: "
+
+#: src/modules/TextUI.cpp:85
+msgid "Sky Time At Start-up: "
+msgstr "Hora celeste ao iniciar: "
+
+#: src/modules/TextUI.cpp:86
+msgid "Actual Time"
+msgstr "Hora atual"
+
+#: src/modules/TextUI.cpp:87
+msgid "Preset Time"
+msgstr "Hora pré-definida"
+
+#: src/modules/TextUI.cpp:88
+msgid "Time Display Format: "
+msgstr "Formato de exibição das horas: "
+
+#: src/modules/TextUI.cpp:89
+msgid "Date Display Format: "
+msgstr "Formato de exibição da data: "
+
+#: src/modules/TextUI.cpp:92
+msgid "Sky Culture: "
+msgstr "Cultura celeste: "
+
+#: src/modules/TextUI.cpp:93
+msgid "Sky Language: "
+msgstr "Idioma dos elementos do céu: "
+
+#: src/modules/TextUI.cpp:96
+msgid "Show: "
+msgstr "Mostrar: "
+
+#: src/modules/TextUI.cpp:97
+msgid "Star Value Multiplier: "
+msgstr "Valor múltiplo estrelar "
+
+#: src/modules/TextUI.cpp:98
+msgid "Magnitude Sizing Multiplier: "
+msgstr "Multiplicador do tamanho de magnitude: "
+
+#: src/modules/TextUI.cpp:99
+msgid "Maximum Magnitude to Label: "
+msgstr "Magnitude máxima para exibir legenda: "
+
+#: src/modules/TextUI.cpp:100
+msgid "Twinkling: "
+msgstr "Cintilância: "
+
+#: src/modules/TextUI.cpp:101
+msgid "Limiting Magnitude: "
+msgstr "Limitando Magnitude "
+
+#: src/modules/TextUI.cpp:104
+msgid "Constellation Lines"
+msgstr ""
+"Linhas das \n"
+"constelações"
+
+#: src/modules/TextUI.cpp:105
+msgid "Constellation Names"
+msgstr ""
+"Nomes das\n"
+" constelações"
+
+#: src/modules/TextUI.cpp:106
+msgid "Constellation Art Intensity"
+msgstr ""
+"Intensidade das imagens\n"
+" das constelações"
+
+#: src/modules/TextUI.cpp:107
+msgid "Constellation Boundaries"
+msgstr ""
+"Limites \n"
+"das constelações"
+
+#: src/modules/TextUI.cpp:108
+msgid "Cardinal Points"
+msgstr "Pontos Cardiais"
+
+#: src/modules/TextUI.cpp:109
+msgid "Planet Names"
+msgstr "Nomes dos planetas"
+
+#: src/modules/TextUI.cpp:110
+msgid "Planet Orbits"
+msgstr "Órbitas dos planetas"
+
+#: src/modules/TextUI.cpp:111
+msgid "Planet Trails"
+msgstr "Trilhas dos planetas"
+
+#: src/modules/TextUI.cpp:112
+msgid "Meridian Line"
+msgstr "Linha meridiana"
+
+#: src/modules/TextUI.cpp:113
+msgid "Azimuthal Grid"
+msgstr "Grade Azimutal"
+
+#: src/modules/TextUI.cpp:114
+msgid "Equatorial Grid"
+msgstr "Grade Equatorial"
+
+#: src/modules/TextUI.cpp:115
+msgid "Equator Line"
+msgstr "Linha do equador"
+
+#: src/modules/TextUI.cpp:116
+msgid "Ecliptic Line"
+msgstr "Linha Eclíptica"
+
+#: src/modules/TextUI.cpp:117
+msgid "Nebula Names"
+msgstr "Nomes das nebulosas"
+
+#: src/modules/TextUI.cpp:118
+msgid "Nebula Circles"
+msgstr "Círculos das nebulosas"
+
+#: src/modules/TextUI.cpp:121
+msgid "Light Pollution Luminance: "
+msgstr "Poluição Luminosa "
+
+#: src/modules/TextUI.cpp:122
+msgid "Landscape: "
+msgstr "Paisagem: "
+
+#: src/modules/TextUI.cpp:123
+msgid "Manual zoom: "
+msgstr "Zoom manual: "
+
+#: src/modules/TextUI.cpp:124
+msgid "Object Sizing Rule: "
+msgstr "Regra para o dimensionamento do objeto: "
+
+#: src/modules/TextUI.cpp:125
+msgid "Magnitude Scaling Multiplier: "
+msgstr "Escala Múltipla de Magnitude "
+
+#: src/modules/TextUI.cpp:126
+msgid "Milky Way intensity: "
+msgstr "Intensidade da Via Láctea: "
+
+#: src/modules/TextUI.cpp:127
+msgid "Maximum Nebula Magnitude to Label: "
+msgstr "Magnitude máxima da nebulosa para exibir legenda: "
+
+#: src/modules/TextUI.cpp:128
+msgid "Zoom Duration: "
+msgstr "Duração do zoom: "
+
+#: src/modules/TextUI.cpp:129
+msgid "Cursor Timeout: "
+msgstr "Tempo limite do cursor: "
+
+#: src/modules/TextUI.cpp:130
+msgid "Correct for light travel time: "
+msgstr "Corrigir para tempo de viagem da luz "
+
+#: src/modules/TextUI.cpp:133
+msgid "Local Script: "
+msgstr "Script local: "
+
+#: src/modules/TextUI.cpp:134
+msgid "CD/DVD Script: "
+msgstr "Script de CD/DVD: "
+
+#: src/modules/TextUI.cpp:135
+msgid "USB Script: "
+msgstr "Script USB "
+
+#: src/modules/TextUI.cpp:136
+msgid "Arrow down to load list."
+msgstr "Seta para baixo para carregar a lista."
+
+#: src/modules/TextUI.cpp:137
+msgid "Select and exit to run."
+msgstr "Selecione e saia para executar."
+
+#: src/modules/TextUI.cpp:140
+msgid "Load Default Configuration: "
+msgstr "Carregar configuração padrão: "
+
+#: src/modules/TextUI.cpp:141
+msgid "Save Current Configuration as Default: "
+msgstr "Salvar configuração atual como padrão: "
+
+#: src/modules/TextUI.cpp:142
+msgid "Shut Down: "
+msgstr "Desligar: "
+
+#: src/modules/TextUI.cpp:143
+msgid "Update me via Internet: "
+msgstr "Atualize-me via Internet: "
+
+#: src/modules/TextUI.cpp:144
+msgid "Set UI Locale: "
+msgstr "Configurar localização UI: "
+
+#: src/core/StelProjector.cpp:65
+msgid "Maximum FOV: "
+msgstr "FOV máximo:"
+
+#: src/core/StelProjectorClasses.cpp:26
+msgid "Perspective"
+msgstr "Perspectiva"
+
+#: src/core/StelProjectorClasses.cpp:31
+msgid ""
+"Perspective projection keeps the horizon a straight line. The mathematical "
+"name for this projection method is <i>gnomonic projection</i>."
+msgstr ""
+"Projeção de Perspectiva mantem o horizonte em uma linha reta. O nome "
+"matemático para este método de projeção é <i>Projeção gnomônica</i>"
+
+#: src/core/StelProjectorClasses.cpp:64
+msgid "Equal Area"
+msgstr "Area Igual"
+
+#: src/core/StelProjectorClasses.cpp:69
+msgid ""
+"The full name of this projection method is, <i>Lambert azimuthal equal-area "
+"projection</i>. It preserves the area but not the angle."
+msgstr ""
+"O nome completo deste método de projeção é <i>Projeção azimutal de área "
+"equivalente de Lambert</i>. Preserva a area mas não o ângulo."
+
+#: src/core/StelProjectorClasses.cpp:109
+msgid "Stereographic"
+msgstr "Estereográfica"
+
+#: src/core/StelProjectorClasses.cpp:114
+msgid ""
+"Stereographic projection is known since the antiquity and was originally "
+"known as the planisphere projection. It preserves the angles at which curves "
+"cross each other but it does not preserve area."
+msgstr ""
+"Projeção estereográfica é conhecida desde a antiguidade e foi originalmente "
+"conhecida como projeção planisférica. Preserva os ângulos nos quais as "
+"curvas se cruzam mas não preserva a área."
+
+#: src/core/StelProjectorClasses.cpp:146
+msgid "Fish-eye"
+msgstr "Olho de peixe (visão oval)"
+
+#: src/core/StelProjectorClasses.cpp:151
+msgid ""
+"In fish-eye projection, or <i>azimuthal equidistant projection</i>, straight "
+"lines become curves when they appear a large angular distance from the "
+"centre of the field of view (like the distortions seen with very wide angle "
+"camera lenses)."
+msgstr ""
+"Na projeção olho de peixe ou <i> projeção azimutal equidistante</i> linhas "
+"retas tornam-se curvas quando aparecem em uma grande distância angular do "
+"centro do campo de visão (como distorções vistas com lentes de cameras de "
+"amplo ângulo)."
+
+#: src/core/StelProjectorClasses.cpp:183
+msgid "Hammer-Aitoff"
+msgstr ""
+
+#: src/core/StelProjectorClasses.cpp:188
+msgid ""
+"The Hammer projection is an equal-area map projection, described by Ernst "
+"Hammer in 1892 and directly inspired by the Aitoff projection."
+msgstr ""
+"A projeção do martelo é um mapa de projeção em área igual, descrito por "
+"Ernst Martelo em 1892 e inspirado diretamente pela projeção Aitoff."
+
+#: src/core/StelProjectorClasses.cpp:224
+msgid "Cylinder"
+msgstr "Cilindro"
+
+#: src/core/StelProjectorClasses.cpp:229
+msgid ""
+"The full name of this projection mode is <i>cylindrical equidistant "
+"projection</i>. With this projection all parallels are equally spaced."
+msgstr ""
+"O nome completo deste modo de projeção é <i>projeção cilindrica "
+"equidistante</i>. Com esta projeção, todos os paralelos são igualmente "
+"separados."
+
+#: src/core/StelProjectorClasses.cpp:271
+msgid "Mercator"
+msgstr "Mercador"
+
+#: src/core/StelProjectorClasses.cpp:276
+msgid ""
+"The mercator projection is one of the most used world map projection. It "
+"preserves direction and shapes but distorts size, in an increasing degree "
+"away from the equator."
+msgstr ""
+"A Projeção de Mercador é uma das mais utilizadas projeções de mapas do "
+"mundo. Preserva a direção e formas mas distorçe o tamanho, em um grau "
+"crescente distante da linha do equador."
+
+#: src/core/StelProjectorClasses.cpp:323
+msgid "Orthographic"
+msgstr "Ortográfica"
+
+#: src/core/StelProjectorClasses.cpp:328
+msgid ""
+"Orthographic projection is related to perspective projection, but the point "
+"of perspective is set to an infinite distance."
+msgstr ""
+"Projeção Ortográfica está relacionada à projeção de perspectiva, mas o ponto "
+"da perspectiva é definida para uma distância infinita."
+
+#: src/core/StelObject.cpp:65
+#, qt-format
+msgid "RA/DE (J2000): %1/%2"
+msgstr "RA/DE (J2000): %1/%2"
+
+#: src/core/StelObject.cpp:72
+#, qt-format
+msgid "RA/DE (of date): %1/%2"
+msgstr "Ascenção/Declinação(data): %1%2"
+
+#: src/core/StelObject.cpp:80
+#, qt-format
+msgid "Hour angle/DE: %1/%2"
+msgstr "Hora angular/Declinação: %1%2"
+
+#: src/core/StelObject.cpp:91
+#, qt-format
+msgid "Az/Alt: %1/%2"
+msgstr "Az/Alt: %1/%2"
+
+#: src/gui/ConfigurationDialog.cpp:79 src/gui/ConfigurationDialog.cpp:171
+#: src/ui_configurationDialog.h:1281 src/ui_configurationDialog.h:1423
+msgid "Configuration"
+msgstr "Configuração"
+
+#: src/gui/ConfigurationDialog.cpp:80 src/ui_configurationDialog.h:1283
+msgid "Settings"
+msgstr "Configurações"
+
+#: src/gui/ConfigurationDialog.cpp:81 src/ui_configurationDialog.h:1284
+msgid "Program Language"
+msgstr "Idioma do programa"
+
+#: src/gui/ConfigurationDialog.cpp:82 src/ui_configurationDialog.h:1285
+msgid "Fulldome File Path :"
+msgstr "Fulldome Caminho do arquivo:"
+
+#: src/gui/ConfigurationDialog.cpp:83 src/ui_configurationDialog.h:1290
+msgid "Flat Media Path :"
+msgstr "Caminho da mídia Flat:"
+
+#: src/gui/ConfigurationDialog.cpp:84 src/ui_configurationDialog.h:1295
+msgid "Projector Screen "
+msgstr "Tela de projeção"
+
+#: src/gui/ConfigurationDialog.cpp:85 src/ui_configurationDialog.h:1296
+msgid "Left :"
+msgstr "Esquerdo :"
+
+#: src/gui/ConfigurationDialog.cpp:86 src/ui_configurationDialog.h:1297
+msgid "Top :"
+msgstr "Top:"
+
+#: src/gui/ConfigurationDialog.cpp:87 src/gui/ConfigurationDialog.cpp:90
+#: src/ui_configurationDialog.h:1298 src/ui_configurationDialog.h:1301
+msgid "Width :"
+msgstr "Largura:"
+
+#: src/gui/ConfigurationDialog.cpp:88 src/gui/ConfigurationDialog.cpp:91
+#: src/gui/ConfigurationDialog.cpp:93 src/ui_configurationDialog.h:1299
+#: src/ui_configurationDialog.h:1302 src/ui_configurationDialog.h:1304
+msgid "Height :"
+msgstr "Altura:"
+
+#: src/gui/ConfigurationDialog.cpp:89 src/ui_configurationDialog.h:1300
+msgid "Preview Screen"
+msgstr "Visualização em tela"
+
+#: src/gui/ConfigurationDialog.cpp:92 src/ui_configurationDialog.h:1303
+msgid "Console Screen"
+msgstr "Console tela"
+
+#: src/gui/ConfigurationDialog.cpp:94 src/ui_configurationDialog.h:1307
+msgid "Selected object information"
+msgstr "Informação do objeto selecionado"
+
+#: src/gui/ConfigurationDialog.cpp:95 src/ui_configurationDialog.h:1309
+msgid "Display no information"
+msgstr "Não exibir nenhuma informação"
+
+#: src/gui/ConfigurationDialog.cpp:96 src/ui_configurationDialog.h:1311
+msgid "None"
+msgstr "Nenhum"
+
+#: src/gui/ConfigurationDialog.cpp:97 src/ui_configurationDialog.h:1313
+msgid "Display less information"
+msgstr "Exibir menos infomrações"
+
+#: src/gui/ConfigurationDialog.cpp:98 src/ui_configurationDialog.h:1315
+msgid "Short"
+msgstr "Curto"
+
+#: src/gui/ConfigurationDialog.cpp:99 src/ui_configurationDialog.h:1317
+msgid "Display all information available"
+msgstr "Exibir todas as informações disponíveis"
+
+#: src/gui/ConfigurationDialog.cpp:100 src/ui_configurationDialog.h:1319
+msgid "All available"
+msgstr "Todos disponíveis"
+
+#: src/gui/ConfigurationDialog.cpp:101 src/ui_configurationDialog.h:1320
+msgid "Default options"
+msgstr "Opções padrão"
+
+#: src/gui/ConfigurationDialog.cpp:102 src/ui_configurationDialog.h:1322
+msgid ""
+"Save the settings you've changed this session to be the same the next time "
+"you start Stellarium"
+msgstr ""
+"Salvar as configurações que você alterou nesta sessão para elas serem "
+"carregadas da próxima vez que você iniciar o Stellarium"
+
+#: src/gui/ConfigurationDialog.cpp:103 src/ui_configurationDialog.h:1324
+msgid "Save settings"
+msgstr "Salvar configurações"
+
+#: src/gui/ConfigurationDialog.cpp:104 src/ui_configurationDialog.h:1326
+msgid "Restore the default settings that came with Stellarium"
+msgstr "Restaurar as configurações padrão do Stellarium"
+
+#: src/gui/ConfigurationDialog.cpp:105 src/ui_configurationDialog.h:1328
+msgid "Restore defaults"
+msgstr "Restaurar padrão"
+
+#: src/gui/ConfigurationDialog.cpp:106 src/ui_configurationDialog.h:1329
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Restoring default settings requires a restart of ShiraPlayer. "
+"Saving all the current options for use at next startup.</span></p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Restauração das configurações padrão requer a reinicialização do "
+"ShiraPlayer. Salvando todas as opções atuais para uso na próxima "
+"inicialização.</span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:111 src/ui_configurationDialog.h:1335
+msgid "The width of your view when Stellarium starts"
+msgstr "A largura da visualização quando o Stellarium iniciar"
+
+#: src/gui/ConfigurationDialog.cpp:112 src/ui_configurationDialog.h:1337
+msgid "Startup FOV: XX"
+msgstr "Inicialização do FOV: XX"
+
+#: src/gui/ConfigurationDialog.cpp:113 src/ui_configurationDialog.h:1339
+msgid "The direction you're looking when Stellarium starts"
+msgstr "A direção para a qual você está observando quando o Stellarium iniciar"
+
+#: src/gui/ConfigurationDialog.cpp:114 src/ui_configurationDialog.h:1341
+msgid "Startup direction of view: xxxx"
+msgstr "Direção de visualização na Inicialização: xxxx"
+
+#: src/gui/ConfigurationDialog.cpp:115 src/ui_configurationDialog.h:1342
+msgid "Control"
+msgstr "Controle"
+
+#: src/gui/ConfigurationDialog.cpp:116 src/ui_configurationDialog.h:1344
+msgid "Allow mouse to pan (drag) and zoom (mousewheel)"
+msgstr ""
+"Permitir visão panorâmica(arrastar) e zoom( botão deslizante) com o mouse"
+
+#: src/gui/ConfigurationDialog.cpp:117 src/ui_configurationDialog.h:1346
+msgid "Enable mouse navigation"
+msgstr "Habilitar navegação com o mouse"
+
+#: src/gui/ConfigurationDialog.cpp:118 src/ui_configurationDialog.h:1348
+msgid "Allow keyboard to pan and zoom"
+msgstr "Permitir visão panorâmica e zoom no teclado"
+
+#: src/gui/ConfigurationDialog.cpp:119 src/ui_configurationDialog.h:1350
+msgid "Enable keyboard navigation"
+msgstr "Habilitar navegação pelo teclado"
+
+#: src/gui/ConfigurationDialog.cpp:120 src/ui_configurationDialog.h:1351
+msgid "Startup date and time"
+msgstr "Data e hora na inicialização"
+
+#: src/gui/ConfigurationDialog.cpp:121 src/ui_configurationDialog.h:1353
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Starts ShiraPlayer at system clock date and time</span></p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Inicia ShiraPlayer no sistema de data e hora do relógio</span></"
+"p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:126 src/ui_configurationDialog.h:1359
+msgid "System date and time"
+msgstr "Data e hora do sistema"
+
+#: src/gui/ConfigurationDialog.cpp:127 src/ui_configurationDialog.h:1361
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Sets the simulation time to the next instance of this time of "
+"day when ShiraPlayer starts</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Define o tempo de simulação para a próxima instância de esta "
+"hora do dia, quando começa ShiraPlayer</span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:132 src/ui_configurationDialog.h:1367
+msgid "System date at:"
+msgstr "Data do sistema:"
+
+#: src/gui/ConfigurationDialog.cpp:133 src/ui_configurationDialog.h:1369
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Use a specific date and time when ShiraPlayer starts up</span></"
+"p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Use uma data e hora específica quando ShiraPlayer arranca</"
+"span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:138 src/ui_configurationDialog.h:1375
+msgid "Other:"
+msgstr "Outros:"
+
+#: src/gui/ConfigurationDialog.cpp:139 src/ui_configurationDialog.h:1376
+msgid "use current"
+msgstr "Usar o atual"
+
+#: src/gui/ConfigurationDialog.cpp:140 src/ui_configurationDialog.h:1377
+msgid "Other"
+msgstr "Outro"
+
+#: src/gui/ConfigurationDialog.cpp:141 src/ui_configurationDialog.h:1379
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Variar entre botões de giro vertical e horizontal"
+
+#: src/gui/ConfigurationDialog.cpp:142 src/ui_configurationDialog.h:1381
+msgid "Show flip buttons"
+msgstr "Mostrar botões de giro"
+
+#: src/gui/ConfigurationDialog.cpp:143 src/ui_configurationDialog.h:1383
+msgid "Hides the mouse cursor when inactive"
+msgstr "Oculta o ponteiro do mouse quando inativo"
+
+#: src/gui/ConfigurationDialog.cpp:144 src/ui_configurationDialog.h:1385
+msgid "Mouse cursor timeout (seconds):"
+msgstr "Tempo do cursor do mouse (segundos)"
+
+#: src/gui/ConfigurationDialog.cpp:145 src/ui_configurationDialog.h:1386
+msgid "Star catalog updates"
+msgstr "Atualizações do catálogo de estrelas"
+
+#: src/gui/ConfigurationDialog.cpp:146 src/ui_configurationDialog.h:1388
+msgid "Click here to start downloading"
+msgstr "Clique aqui para iniciar o download"
+
+#: src/gui/ConfigurationDialog.cpp:147 src/ui_configurationDialog.h:1390
+msgid "Get catalog x of y"
+msgstr "Obter ctálogo x de y"
+
+#: src/gui/ConfigurationDialog.cpp:148 src/ui_configurationDialog.h:1391
+msgid "Download this file to view even more stars"
+msgstr "Baixar este arquivo para visualizar mais estrelas ainda"
+
+#: src/gui/ConfigurationDialog.cpp:149 src/ui_configurationDialog.h:1392
+msgid "xxx"
+msgstr "xxx"
+
+#: src/gui/ConfigurationDialog.cpp:150 src/ui_configurationDialog.h:1394
+msgid "Restart the download"
+msgstr "Reiniciar o download"
+
+#: src/gui/ConfigurationDialog.cpp:151 src/ui_configurationDialog.h:1396
+msgid "Retry"
+msgstr "Repetir"
+
+#: src/gui/ConfigurationDialog.cpp:152 src/ui_configurationDialog.h:1398
+msgid "Stop the download. You can always restart it later"
+msgstr "Parar o download. Você poderá reiniciá-lo mais tarde"
+
+#: src/gui/ConfigurationDialog.cpp:153 src/ui_configurationDialog.h:1400
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/gui/ConfigurationDialog.cpp:154 src/ui_configurationDialog.h:1401
+msgid "Planetarium options"
+msgstr "Opções planetárias"
+
+#: src/gui/ConfigurationDialog.cpp:155 src/ui_configurationDialog.h:1402
+msgid "Spherical mirror distortion"
+msgstr "Distorção de espelho esférico"
+
+#: src/gui/ConfigurationDialog.cpp:156 src/ui_configurationDialog.h:1403
+msgid "Stellarium base distortion"
+msgstr "Stellarium distorção da base"
+
+#: src/gui/ConfigurationDialog.cpp:157 src/ui_configurationDialog.h:1404
+msgid "Use Custom data file "
+msgstr "Use arquivo de dados personalizada"
+
+#: src/gui/ConfigurationDialog.cpp:158 src/ui_configurationDialog.h:1405
+msgid "Custom File Name"
+msgstr "Nome feito sob encomenda do Arquivo"
+
+#: src/gui/ConfigurationDialog.cpp:159 src/gui/servermanager.cpp:896
+#: src/ui_configurationDialog.h:1287 src/ui_configurationDialog.h:1292
+#: src/ui_configurationDialog.h:1407 src/ui_servermanager.h:1723
+msgid "Open Flat Media project file"
+msgstr "Abrir arquivo de projeto Plano de Mídia"
+
+#: src/gui/ConfigurationDialog.cpp:161 src/ui_configurationDialog.h:1410
+msgid "Custom data texture Mirror"
+msgstr "Personalizado textura dados Espelho"
+
+#: src/gui/ConfigurationDialog.cpp:162 src/ui_configurationDialog.h:1411
+msgid "Vertical"
+msgstr "Vertical"
+
+#: src/gui/ConfigurationDialog.cpp:163 src/ui_configurationDialog.h:1412
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: src/gui/ConfigurationDialog.cpp:164 src/ui_configurationDialog.h:1414
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Spheric mirror distortion is used when projecting ShiraPlayer "
+"onto a spheric mirror for low-cost planetarium systems.</span></p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Distorção espelho esférico é utilizado quando projetando "
+"ShiraPlayer em um espelho esférico para os sistemas planetários de baixo "
+"custo.</span></p></body></html>"
+
+#: src/gui/ConfigurationDialog.cpp:169 src/ui_configurationDialog.h:1420
+msgid "Apply Spheric mirror distortion"
+msgstr "Aplicar distorção espelho Spheric"
+
+#: src/gui/ConfigurationDialog.cpp:170 src/ui_configurationDialog.h:1421
+msgid "Fine-tune the distortion"
+msgstr "Ajuste a distorção"
+
+#: src/gui/ConfigurationDialog.cpp:172 src/ui_configurationDialog.h:1424
+msgid "Reset"
+msgstr "Restabelecer"
+
+#: src/gui/ConfigurationDialog.cpp:173 src/gui/servermanager.cpp:895
+#: src/ui_configurationDialog.h:1425 src/ui_servermanager.h:1721
+msgid "Save"
+msgstr "Salvar"
+
+#: src/gui/ConfigurationDialog.cpp:174 src/gui/LocationDialog.cpp:65
+#: src/ui_locationDialogGui.h:392 src/ui_configurationDialog.h:1426
+msgid "Delete"
+msgstr "Excluir"
+
+#: src/gui/ConfigurationDialog.cpp:175 src/ui_configurationDialog.h:1428
+msgid ""
+"When enabled, the \"auto zoom out\" key will also set the initial viewing "
+"direction"
+msgstr ""
+"Quando abilitado, o botão de \"Zoom out automático\" também direcionará a "
+"visão inicial"
+
+#: src/gui/ConfigurationDialog.cpp:176 src/ui_configurationDialog.h:1430
+msgid "Auto zoom out returns to initial direction of view"
+msgstr "Zoom out automático retorna para a direção da visão inicial"
+
+#: src/gui/ConfigurationDialog.cpp:177 src/ui_configurationDialog.h:1432
+msgid "Align labels with the horizon"
+msgstr "Alinhar nomes com o horizonte"
+
+#: src/gui/ConfigurationDialog.cpp:178 src/ui_configurationDialog.h:1434
+msgid "Gravity labels"
+msgstr "Indicadores de gravidade"
+
+#: src/gui/ConfigurationDialog.cpp:179 src/ui_configurationDialog.h:1436
+msgid "Mask out everything outside a central circle in the main view"
+msgstr ""
+"Mascarar o que estiver fora do círculo central na visualização principal"
+
+#: src/gui/ConfigurationDialog.cpp:180 src/ui_configurationDialog.h:1438
+msgid "Disc viewport"
+msgstr "Visão em Disco"
+
+#: src/gui/ConfigurationDialog.cpp:181 src/ui_configurationDialog.h:1440
+msgid "Hide other constellations when you click one"
+msgstr "Esconder outras constelações ao clicá-las"
+
+#: src/gui/ConfigurationDialog.cpp:182 src/ui_configurationDialog.h:1442
+msgid "Select single constellation"
+msgstr "Selecionar constelação única"
+
+#: src/gui/ConfigurationDialog.cpp:183 src/ui_configurationDialog.h:1443
+msgid "Screenshots"
+msgstr "Capturas de Tela"
+
+#: src/gui/ConfigurationDialog.cpp:184 src/ui_configurationDialog.h:1444
+msgid "Invert colors"
+msgstr "Inverter cores"
+
+#: src/gui/ConfigurationDialog.cpp:185 src/ui_configurationDialog.h:1445
+msgid "Screenshot Directory"
+msgstr "Diretório de capturas de tela"
+
+#: src/gui/ConfigurationDialog.cpp:187 src/gui/ConfigurationDialog.cpp:194
+#: src/gui/ViewDialog.cpp:152 src/gui/ViewDialog.cpp:159
+#: src/gui/ViewDialog.cpp:161 src/ui_viewDialog.h:1697
+#: src/ui_viewDialog.h:1704 src/ui_viewDialog.h:1706
+#: src/ui_configurationDialog.h:1447 src/ui_configurationDialog.h:1458
+msgid "Options"
+msgstr "Opções"
+
+#: src/gui/ConfigurationDialog.cpp:189 src/ui_configurationDialog.h:1449
+msgid "Close window when script runs"
+msgstr "Fechar janela quando o script rodar"
+
+#: src/gui/ConfigurationDialog.cpp:190 src/ui_configurationDialog.h:1451
+msgid "Run the selected script"
+msgstr "Rodar o script selecionado"
+
+#: src/gui/ConfigurationDialog.cpp:192 src/ui_configurationDialog.h:1455
+msgid "Stop a running script"
+msgstr "Parar o script rodando"
+
+#: src/gui/ConfigurationDialog.cpp:195 src/ui_configurationDialog.h:1459
+msgid "Load at startup"
+msgstr "Carregar na inicialização"
+
+#: src/gui/ConfigurationDialog.cpp:196 src/ui_configurationDialog.h:1460
+msgid "configure"
+msgstr "configurar"
+
+#: src/gui/ConfigurationDialog.cpp:199 src/ui_configurationDialog.h:1465
+msgid "Main"
+msgstr "Principal"
+
+#: src/gui/ConfigurationDialog.cpp:201 src/ui_configurationDialog.h:1467
+msgid "Navigation"
+msgstr "Navegação"
+
+#: src/gui/ConfigurationDialog.cpp:203 src/ui_configurationDialog.h:1469
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: src/gui/ConfigurationDialog.cpp:205 src/ui_configurationDialog.h:1471
+msgid "Scripts"
+msgstr "Scripts"
+
+#: src/gui/ConfigurationDialog.cpp:207 src/ui_configurationDialog.h:1473
+msgid "Plugins"
+msgstr "Plugins"
+
+#: src/gui/ConfigurationDialog.cpp:515
+msgid "Select screenshot directory"
+msgstr "Selecione o diretório da captura de tela"
+
+#: src/gui/ConfigurationDialog.cpp:766
+msgid "Authors"
+msgstr "Autores"
+
+#: src/gui/ConfigurationDialog.cpp:770 src/gui/ViewDialog.cpp:583
+msgid "Contact"
+msgstr "Contato"
+
+#: src/gui/ConfigurationDialog.cpp:842
+msgid "Author"
+msgstr "Autor"
+
+#: src/gui/ConfigurationDialog.cpp:843
+msgid "License"
+msgstr "Licença"
+
+#: src/gui/ConfigurationDialog.cpp:874
+msgid "Running script: "
+msgstr "Rodando script: "
+
+#: src/gui/ConfigurationDialog.cpp:881
+msgid "Running script: [none]"
+msgstr "Rodando script: [nenhum]"
+
+#: src/gui/ConfigurationDialog.cpp:924
+msgid "Finished downloading all star catalogs!"
+msgstr "Donwload encerrado de todos os catálogos de estrelas!"
+
+#: src/gui/ConfigurationDialog.cpp:933
+#, qt-format
+msgid "Get catalog %1 of %2"
+msgstr "Pegar catálogo %1 de %2"
+
+#: src/gui/ConfigurationDialog.cpp:937
+#, qt-format
+msgid ""
+"Download size: %1MB\n"
+"Star count: %2 Million\n"
+"Magnitude range: %3 - %4"
+msgstr ""
+"Tamanho do download: %1MB\n"
+"Quantidade de estrelas:%2 Million\n"
+"Intervalo de magnitude: %3 - %4"
+
+#: src/gui/ConfigurationDialog.cpp:952
+msgid ""
+"Finished downloading new star catalogs!\n"
+"Restart ShiraPlayer to display them."
+msgstr ""
+"Terminar de baixar novos catálogos de estrelas!\n"
+" Reinicie ShiraPlayer para exibi-los."
+
+#: src/gui/ConfigurationDialog.cpp:990 src/gui/ConfigurationDialog.cpp:1024
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"%2"
+msgstr ""
+"Erro ao baixar %1:\n"
+"%2"
+
+#: src/gui/ConfigurationDialog.cpp:995
+#, qt-format
+msgid ""
+"Downloading %1...\n"
+"(You can close this window.)"
+msgstr ""
+"Baixando %1...\n"
+"(Você pode fechar essa janela.)"
+
+#: src/gui/ConfigurationDialog.cpp:1075
+msgid "Verifying file integrity..."
+msgstr "Verificando integridade do arquivo..."
+
+#: src/gui/ConfigurationDialog.cpp:1079
+#, qt-format
+msgid ""
+"Error downloading %1:\n"
+"File is corrupted."
+msgstr ""
+"Erro ao baixar %1:\n"
+"Arquivo está corrompido."
+
+#: src/gui/ConfigurationDialog.cpp:1130 src/gui/ConfigurationDialog.cpp:1146
+#: src/gui/ConfigurationDialog.cpp:1162 src/gui/StelGui.cpp:1098
+#: src/gui/ViewDialog.cpp:813 src/gui/ViewDialog.cpp:881
+#: src/gui/ViewDialog.cpp:1000 src/shiraplayerform.cpp:119
+#: src/shiraplayerform.cpp:156 src/gui/recordmanager.cpp:145
+#: src/gui/servermanager.cpp:1717 src/gui/servermanager.cpp:1846
+#: src/gui/servermanager.cpp:1892 src/gui/servermanager.cpp:2001
+#: src/previewutil/previewform.cpp:107 src/previewutil/previewform.cpp:187
+#: src/previewutil/previewform.cpp:203 src/previewutil/previewform.cpp:218
+#: src/previewutil/previewform.cpp:240
+msgid "Warning!"
+msgstr "Aviso!"
+
+#: src/gui/ConfigurationDialog.cpp:1131
+msgid "Reset Fine-Tune settings?"
+msgstr "Redefinir as configurações afinar?"
+
+#: src/gui/ConfigurationDialog.cpp:1147
+msgid "Save Fine-Tune settings?"
+msgstr "Salvar configurações de ajuste fino?"
+
+#: src/gui/ConfigurationDialog.cpp:1163
+msgid "Delete Fine-Tune settings?"
+msgstr "Excluir configurações afinar?"
+
+#: src/gui/HelpDialog.cpp:52 src/gui/StelGuiItems.cpp:284
+#: src/gui/StelGuiItems.cpp:639
+msgid "Space"
+msgstr "Espaço"
+
+#: src/gui/HelpDialog.cpp:53
+msgid "Arrow keys & left mouse drag"
+msgstr "Setas do teclado e pressionar e segurar botão esquerdo do mouse"
+
+#: src/gui/HelpDialog.cpp:54
+msgid "Page Up/Down"
+msgstr "Page Up/Down"
+
+#: src/gui/HelpDialog.cpp:55
+msgid "CTRL + Up/Down"
+msgstr "CTRL + Cima/baixo"
+
+#: src/gui/HelpDialog.cpp:56
+msgid "Left click"
+msgstr "Clique com o botão esquerdo"
+
+#: src/gui/HelpDialog.cpp:57
+msgid "Right click"
+msgstr "Clique com o botão direito"
+
+#: src/gui/HelpDialog.cpp:58
+msgid "CTRL + Left click"
+msgstr "CTRL + clique esquerdo"
+
+#: src/gui/HelpDialog.cpp:61 src/gui/StelGui.cpp:174
+msgid "Movement and Selection"
+msgstr "Movimentar e Selecionar"
+
+#: src/gui/HelpDialog.cpp:62
+msgid "Pan view around the sky"
+msgstr "Visão panorâmica do céu"
+
+#: src/gui/HelpDialog.cpp:63 src/gui/HelpDialog.cpp:64
+msgid "Zoom in/out"
+msgstr "Aproximar/Afastar Zoom"
+
+#: src/gui/HelpDialog.cpp:65
+msgid "Select object"
+msgstr "Selecionar objeto"
+
+#: src/gui/HelpDialog.cpp:66 src/gui/HelpDialog.cpp:68
+msgid "Clear selection"
+msgstr "Limpar seleção"
+
+#: src/gui/HelpDialog.cpp:71
+msgid "When a Script is Running"
+msgstr "Quando um Script estiver sendo executado"
+
+#: src/gui/HelpDialog.cpp:72 src/gui/StelGui.cpp:153
+msgid "Slow down the script execution rate"
+msgstr "Desacelerar a taxa de execução de scripts"
+
+#: src/gui/HelpDialog.cpp:73 src/gui/StelGui.cpp:154
+msgid "Speed up the script execution rate"
+msgstr "Acelerar a taxa de execução de scripts"
+
+#: src/gui/HelpDialog.cpp:74 src/gui/StelGui.cpp:155
+msgid "Set the normal script execution rate"
+msgstr "Definir taxa normal de execução de script"
+
+#: src/gui/HelpDialog.cpp:89 src/gui/HelpDialog.cpp:94
+#: src/gui/stellamanager.cpp:82 src/ui_helpDialogGui.h:259
+#: src/ui_helpDialogGui.h:265 src/ui_stellamanager.h:1018
+msgid "Help"
+msgstr "Ajuda"
+
+#: src/gui/HelpDialog.cpp:96 src/ui_helpDialogGui.h:267
+msgid "About"
+msgstr "Sobre"
+
+#: src/gui/HelpDialog.cpp:98 src/ui_helpDialogGui.h:269
+msgid "Log"
+msgstr "Log"
+
+#: src/gui/HelpDialog.cpp:100 src/ui_helpDialogGui.h:272
+msgid "Refresh"
+msgstr "Atualizar"
+
+#: src/gui/HelpDialog.cpp:190
+msgid "Shiraplayer Help"
+msgstr "Shiraplayer Ajuda"
+
+#: src/gui/HelpDialog.cpp:191
+msgid "Keys"
+msgstr "Teclas"
+
+#: src/gui/HelpDialog.cpp:199
+msgid "www.sureyyasoft.com"
+msgstr "www.sureyyasoft.com"
+
+#: src/gui/HelpDialog.cpp:263 src/gui/HelpDialog.cpp:321
+#: src/gui/HelpDialog.cpp:323 src/gui/StelGui.cpp:193
+msgid "Miscellaneous"
+msgstr "Variados"
+
+#: src/gui/StelGui.cpp:104
+msgid "Display Options"
+msgstr "Opções de exibição"
+
+#: src/gui/StelGui.cpp:105
+msgid "Constellation lines"
+msgstr ""
+"Linhas \n"
+"de Constelações"
+
+#: src/gui/StelGui.cpp:106
+msgid "Constellation art"
+msgstr ""
+"Imagens \n"
+"das constelações"
+
+#: src/gui/StelGui.cpp:107
+msgid "Constellation labels"
+msgstr ""
+"Nome das \n"
+"constelações"
+
+#: src/gui/StelGui.cpp:108
+msgid "Constellation boundaries"
+msgstr ""
+"Fronteiras\n"
+" da Constelação"
+
+#: src/gui/StelGui.cpp:110 src/gui/ViewDialog.cpp:136 src/ui_viewDialog.h:1681
+msgid "Azimuthal grid"
+msgstr "Projeção azimutal"
+
+#: src/gui/StelGui.cpp:111 src/gui/ViewDialog.cpp:134 src/ui_viewDialog.h:1679
+msgid "Equatorial grid"
+msgstr "Grade equatorial"
+
+#: src/gui/StelGui.cpp:112 src/gui/ViewDialog.cpp:135 src/ui_viewDialog.h:1680
+msgid "Equatorial J2000 grid"
+msgstr "Grade equatorial J2000"
+
+#: src/gui/StelGui.cpp:113
+msgid "Galactic grid"
+msgstr "Grade Galactic"
+
+#: src/gui/StelGui.cpp:114 src/gui/ViewDialog.cpp:139 src/ui_viewDialog.h:1684
+msgid "Ecliptic line"
+msgstr "Linha eclíptica"
+
+#: src/gui/StelGui.cpp:115 src/gui/ViewDialog.cpp:137 src/ui_viewDialog.h:1682
+msgid "Equator line"
+msgstr "Linha do equador"
+
+#: src/gui/StelGui.cpp:116 src/gui/ViewDialog.cpp:138 src/ui_viewDialog.h:1683
+msgid "Meridian line"
+msgstr "Linha meridiana"
+
+#: src/gui/StelGui.cpp:117 src/gui/ViewDialog.cpp:140 src/ui_viewDialog.h:1685
+msgid "Cardinal points"
+msgstr "Pontos cardiais"
+
+#: src/gui/StelGui.cpp:119 src/gui/stellamanager.cpp:68
+#: src/ui_stellamanager.h:992
+msgid "Ground"
+msgstr "Superfície"
+
+#: src/gui/StelGui.cpp:120 src/gui/ViewDialog.cpp:128
+#: src/gui/stellamanager.cpp:67 src/ui_viewDialog.h:1673
+#: src/ui_stellamanager.h:991
+msgid "Atmosphere"
+msgstr "Atmosfera"
+
+#: src/gui/StelGui.cpp:121 src/gui/stellamanager.cpp:69
+#: src/ui_stellamanager.h:993
+msgid "Fog"
+msgstr "Névoa"
+
+#: src/gui/StelGui.cpp:123 src/gui/ViewDialog.cpp:118 src/ui_viewDialog.h:1663
+msgid "Nebulas"
+msgstr "Nebulosas [N]"
+
+#: src/gui/StelGui.cpp:124
+msgid "Nebulas background images"
+msgstr "Imagens de fundo das nebulosas"
+
+#: src/gui/StelGui.cpp:125 src/gui/ViewDialog.cpp:92
+#: src/gui/ViewDialog.cpp:117 src/ui_viewDialog.h:1637
+#: src/ui_viewDialog.h:1662
+msgid "Stars"
+msgstr "Estrelas"
+
+#: src/gui/StelGui.cpp:126 src/gui/stellamanager.cpp:65
+#: src/ui_stellamanager.h:989
+msgid "Star Labels"
+msgstr "Etiquetas da estrela"
+
+#: src/gui/StelGui.cpp:127 src/gui/ViewDialog.cpp:119
+#: src/gui/stellamanager.cpp:63 src/ui_viewDialog.h:1664
+#: src/ui_stellamanager.h:987
+msgid "Planets"
+msgstr "Planetas"
+
+#: src/gui/StelGui.cpp:128
+msgid "Planets labels"
+msgstr "Identificação do Planeta"
+
+#: src/gui/StelGui.cpp:129
+msgid "Planet orbits"
+msgstr "Órbitas planetárias"
+
+#: src/gui/StelGui.cpp:130
+msgid "Planet trails"
+msgstr "Trilhas dos planetas"
+
+#: src/gui/StelGui.cpp:132
+msgid "Night mode"
+msgstr "Modo noturno"
+
+#: src/gui/StelGui.cpp:134
+msgid "Flip scene horizontally"
+msgstr "Inverter horizontalmente"
+
+#: src/gui/StelGui.cpp:135
+msgid "Flip scene vertically"
+msgstr "Inverter verticalmente"
+
+#: src/gui/StelGui.cpp:137
+msgid "Windows"
+msgstr "Janelas"
+
+#: src/gui/StelGui.cpp:139
+msgid "Configuration window"
+msgstr "Janela de configuração"
+
+#: src/gui/StelGui.cpp:141
+msgid "Sky and viewing options window"
+msgstr "Janela de opções para Céu e Visualização"
+
+#: src/gui/StelGui.cpp:145
+msgid "Server Manager"
+msgstr "Gerenciador do Servidor"
+
+#: src/gui/StelGui.cpp:152 src/ui_dateTimeDialogGui.h:381
+msgid "Date and Time"
+msgstr "Data & Hora"
+
+#: src/gui/StelGui.cpp:156
+msgid "Decrease time speed"
+msgstr "Diminuir velocidade do tempo [J]"
+
+#: src/gui/StelGui.cpp:157
+msgid "Increase time speed"
+msgstr "Aumentar velocidade do tempo [L]"
+
+#: src/gui/StelGui.cpp:158
+msgid "Set normal time rate"
+msgstr "Definir taxa normal de tempo"
+
+#: src/gui/StelGui.cpp:159
+msgid "Decrease time speed (a little)"
+msgstr "Diminuir a velocidade do tempo (um pouco)"
+
+#: src/gui/StelGui.cpp:160
+msgid "Increase time speed (a little)"
+msgstr "Aumentar a velocidade do tempo (um pouco)"
+
+#: src/gui/StelGui.cpp:161
+msgid "Set time rate to zero"
+msgstr "Definir a taxa de tempo para zero"
+
+#: src/gui/StelGui.cpp:162
+msgid "Set time to now"
+msgstr "Definir para hora atual"
+
+#: src/gui/StelGui.cpp:163
+msgid "Add 1 solar hour"
+msgstr "Adicionar uma hora solar"
+
+#: src/gui/StelGui.cpp:164
+msgid "Subtract 1 solar hour"
+msgstr "Voltar uma hora solar"
+
+#: src/gui/StelGui.cpp:165
+msgid "Add 1 solar day"
+msgstr "Adicionar um dia solar"
+
+#: src/gui/StelGui.cpp:166
+msgid "Subtract 1 solar day"
+msgstr "Voltar um dia solar"
+
+#: src/gui/StelGui.cpp:167
+msgid "Add 1 solar week"
+msgstr "Adicionar uma semana solar"
+
+#: src/gui/StelGui.cpp:168
+msgid "Subtract 1 solar week"
+msgstr "Voltar uma semana solar"
+
+#: src/gui/StelGui.cpp:169
+msgid "Add 1 sidereal day"
+msgstr "Adicionar um dia sideral"
+
+#: src/gui/StelGui.cpp:170
+msgid "Subtract 1 sidereal day"
+msgstr "Voltar um dia sideral"
+
+#: src/gui/StelGui.cpp:171
+msgid "Add 1 sidereal week"
+msgstr "Adicionar uma semana sideral"
+
+#: src/gui/StelGui.cpp:172
+msgid "Subtract 1 sidereal week"
+msgstr "Voltar uma semana sideral"
+
+#: src/gui/StelGui.cpp:175
+msgid "Center on selected object"
+msgstr "Centralizar objeto selecionado"
+
+#: src/gui/StelGui.cpp:176
+msgid "Track object"
+msgstr "Seguir objeto"
+
+#: src/gui/StelGui.cpp:177
+msgid "Zoom in on selected object"
+msgstr "Ampliar objeto selecionado"
+
+#: src/gui/StelGui.cpp:178
+msgid "Zoom out"
+msgstr "Afastar"
+
+#: src/gui/StelGui.cpp:179
+msgid "Set home planet to selected planet"
+msgstr "Definir planeta atual como padrão"
+
+#: src/gui/StelGui.cpp:181
+msgid "Telescope Control"
+msgstr "Controle do telescópio"
+
+#: src/gui/StelGui.cpp:194
+msgid "Switch between equatorial and azimuthal mount"
+msgstr "Trocar entre montagem equatorial e azimutal"
+
+#: src/gui/StelGui.cpp:195 src/gui/servermanager.cpp:837
+#: src/ui_servermanager.h:1648
+msgid "Quit"
+msgstr "Sair"
+
+#: src/gui/StelGui.cpp:199
+msgid "Auto hide horizontal button bar"
+msgstr "Auto ocultar a barra de botões horizontal"
+
+#: src/gui/StelGui.cpp:200
+msgid "Auto hide vertical button bar"
+msgstr "Auto ocultar a barra de botões vertical"
+
+#: src/gui/StelGui.cpp:201
+msgid "Toggle visibility of GUI"
+msgstr "Alterne a visibilidade de GUI"
+
+#: src/gui/StelGui.cpp:203
+msgid "Fade_on Fade_Off"
+msgstr ""
+
+#: src/gui/StelGui.cpp:1099 src/shiraplayerform.cpp:157
+#: src/gui/servermanager.cpp:1718 src/previewutil/previewform.cpp:108
+#: src/previewutil/previewform.cpp:241
+msgid "Are you sure want to quit?"
+msgstr "Tem certeza que deseja sair?"
+
+#: src/gui/StelGuiItems.cpp:540
+#, no-c-format, qt-format
+msgid "%1m"
+msgstr "%1m"
+
+#: src/gui/ViewDialog.cpp:74 src/ui_viewDialog.h:1618
+msgid "View"
+msgstr "Visão"
+
+#: src/gui/ViewDialog.cpp:79 src/ui_viewDialog.h:1624
+msgid "Sky"
+msgstr "Céu"
+
+#: src/gui/ViewDialog.cpp:81 src/ui_viewDialog.h:1626
+msgid "Markings"
+msgstr "Marcações"
+
+#: src/gui/ViewDialog.cpp:83 src/ui_viewDialog.h:1628
+msgid "Landscape"
+msgstr "Paisagem"
+
+#: src/gui/ViewDialog.cpp:85 src/ui_viewDialog.h:1630
+msgid "Starlore"
+msgstr "Cultura Estelar"
+
+#: src/gui/ViewDialog.cpp:93 src/ui_viewDialog.h:1638
+msgid "Absolute scale:"
+msgstr "Escala absoluta:"
+
+#: src/gui/ViewDialog.cpp:94 src/ui_viewDialog.h:1639
+msgid "Relative scale:"
+msgstr "Escala relativa:"
+
+#: src/gui/ViewDialog.cpp:95 src/ui_viewDialog.h:1640
+msgid "Twinkle:"
+msgstr "Cintilação das estrelas"
+
+#: src/gui/ViewDialog.cpp:97 src/ui_viewDialog.h:1642
+msgid "Dim faint stars when a very bright object is visible"
+msgstr ""
+"Diminuir brilho das estrelas quando um objeto mais brilhante estiver visível"
+
+#: src/gui/ViewDialog.cpp:99 src/ui_viewDialog.h:1644
+msgid "Dynamic eye adaptation"
+msgstr "Adaptação de olho dinâmico"
+
+#: src/gui/ViewDialog.cpp:100 src/ui_viewDialog.h:1645
+msgid "Planets and satellites"
+msgstr "Planetas e satélites"
+
+#: src/gui/ViewDialog.cpp:101 src/ui_viewDialog.h:1646
+msgid "Show planets"
+msgstr "Mostrar planetas"
+
+#: src/gui/ViewDialog.cpp:102 src/ui_viewDialog.h:1647
+msgid "Show planet markers"
+msgstr "Mostrar macadores dos planetas"
+
+#: src/gui/ViewDialog.cpp:103 src/ui_viewDialog.h:1648
+msgid "Show planet orbits"
+msgstr "Mostrar órbitas dos planetas"
+
+#: src/gui/ViewDialog.cpp:104 src/ui_viewDialog.h:1649
+msgid "Simulate light speed"
+msgstr "Simular velocidade da luz"
+
+#: src/gui/ViewDialog.cpp:105 src/ui_viewDialog.h:1650
+msgid "Scale Moon"
+msgstr "Escala Lunar"
+
+#: src/gui/ViewDialog.cpp:106 src/ui_viewDialog.h:1651
+msgid "Scale Planets-"
+msgstr "Escala Planets-"
+
+#: src/gui/ViewDialog.cpp:107 src/translations.h:37
+#: src/flybyutil/flybymanager.cpp:101 src/ui_viewDialog.h:1652
+#: src/ui_flybymanager.h:893
+msgid "Earth"
+msgstr "Terra"
+
+#: src/gui/ViewDialog.cpp:108 src/translations.h:35
+#: src/flybyutil/flybymanager.cpp:105 src/ui_viewDialog.h:1653
+#: src/ui_flybymanager.h:901
+msgid "Mercury"
+msgstr "Mercúrio"
+
+#: src/gui/ViewDialog.cpp:109 src/translations.h:36
+#: src/flybyutil/flybymanager.cpp:97 src/ui_viewDialog.h:1654
+#: src/ui_flybymanager.h:885
+msgid "Venus"
+msgstr "Vênus"
+
+#: src/gui/ViewDialog.cpp:110 src/translations.h:39
+#: src/flybyutil/flybymanager.cpp:91 src/ui_viewDialog.h:1655
+#: src/ui_flybymanager.h:873
+msgid "Mars"
+msgstr "Marte"
+
+#: src/gui/ViewDialog.cpp:111 src/translations.h:42
+#: src/flybyutil/flybymanager.cpp:87 src/ui_viewDialog.h:1656
+#: src/ui_flybymanager.h:865
+msgid "Jupiter"
+msgstr "Júpiter"
+
+#: src/gui/ViewDialog.cpp:112 src/translations.h:47
+#: src/flybyutil/flybymanager.cpp:93 src/ui_viewDialog.h:1657
+#: src/ui_flybymanager.h:877
+msgid "Saturn"
+msgstr "Saturno"
+
+#: src/gui/ViewDialog.cpp:113 src/translations.h:59
+#: src/flybyutil/flybymanager.cpp:107 src/ui_viewDialog.h:1658
+#: src/ui_flybymanager.h:905
+msgid "Pluto"
+msgstr "Plutão"
+
+#: src/gui/ViewDialog.cpp:114 src/ui_viewDialog.h:1659
+msgid "Neptun"
+msgstr "Netuno"
+
+#: src/gui/ViewDialog.cpp:115 src/translations.h:58
+#: src/flybyutil/flybymanager.cpp:103 src/ui_viewDialog.h:1660
+#: src/ui_flybymanager.h:897
+msgid "Uranus"
+msgstr "Urano"
+
+#: src/gui/ViewDialog.cpp:116 src/ui_viewDialog.h:1661
+msgid "Labels and Markers"
+msgstr "Nomes e marcadores"
+
+#: src/gui/ViewDialog.cpp:120 src/ui_viewDialog.h:1665
+msgid "Shooting Stars"
+msgstr "Estrelas cadentes"
+
+#: src/gui/ViewDialog.cpp:121 src/ui_viewDialog.h:1666
+msgid "Hourly zenith rate:"
+msgstr "Progressão horária do Zênite"
+
+#: src/gui/ViewDialog.cpp:122 src/ui_viewDialog.h:1667
+msgid "0"
+msgstr "0"
+
+#: src/gui/ViewDialog.cpp:123 src/ui_viewDialog.h:1668
+msgid "10"
+msgstr "10"
+
+#: src/gui/ViewDialog.cpp:124 src/ui_viewDialog.h:1669
+msgid "80"
+msgstr "80"
+
+#: src/gui/ViewDialog.cpp:125 src/ui_viewDialog.h:1670
+msgid "10000"
+msgstr "10000"
+
+#: src/gui/ViewDialog.cpp:126 src/ui_viewDialog.h:1671
+msgid "144000"
+msgstr "144000"
+
+#: src/gui/ViewDialog.cpp:129 src/ui_viewDialog.h:1674
+msgid "Show atmosphere"
+msgstr "Mostrar Atmosfera"
+
+#: src/gui/ViewDialog.cpp:130 src/ui_viewDialog.h:1675
+msgid "Light pollution: "
+msgstr "Poluição luminosa "
+
+#: src/gui/ViewDialog.cpp:131 src/ui_viewDialog.h:1676
+msgid "Show milkyway"
+msgstr "Mostrar Via Láctea"
+
+#: src/gui/ViewDialog.cpp:132 src/ui_viewDialog.h:1677
+msgid "Milkyway intensity"
+msgstr "Intensidade da Via Láctea: "
+
+#: src/gui/ViewDialog.cpp:133 src/ui_viewDialog.h:1678
+msgid "Celestial Sphere"
+msgstr "Esfera celestial"
+
+#: src/gui/ViewDialog.cpp:141 src/ui_viewDialog.h:1686
+msgid "Constellations"
+msgstr "Constelações"
+
+#: src/gui/ViewDialog.cpp:142 src/ui_viewDialog.h:1687
+msgid "Show lines"
+msgstr "Mostrar linhas"
+
+#: src/gui/ViewDialog.cpp:143 src/ui_viewDialog.h:1688
+msgid "Show labels"
+msgstr "Mostrar rótulos"
+
+#: src/gui/ViewDialog.cpp:144 src/ui_viewDialog.h:1689
+msgid "Show boundaries"
+msgstr "Mostrar limites"
+
+#: src/gui/ViewDialog.cpp:145 src/ui_viewDialog.h:1690
+msgid "Show art"
+msgstr "Mostrar imagens"
+
+#: src/gui/ViewDialog.cpp:146 src/ui_viewDialog.h:1691
+msgid "Art brightness: "
+msgstr "Brilho artistico "
+
+#: src/gui/ViewDialog.cpp:147 src/ui_viewDialog.h:1692
+msgid "Dome Show Informations"
+msgstr "Dome Mostrar Informações"
+
+#: src/gui/ViewDialog.cpp:148 src/ui_viewDialog.h:1693
+msgid "Date-Time"
+msgstr "Data & Hora"
+
+#: src/gui/ViewDialog.cpp:149 src/gui/LocationDialog.cpp:61
+#: src/gui/stellamanager.cpp:77 src/ui_locationDialogGui.h:386
+#: src/ui_viewDialog.h:1694 src/ui_stellamanager.h:1009
+msgid "Location"
+msgstr "Localização"
+
+#: src/gui/ViewDialog.cpp:150 src/ui_viewDialog.h:1695
+msgid "Selected Object Properties"
+msgstr "Propriedades objeto selecionado"
+
+#: src/gui/ViewDialog.cpp:151 src/ui_viewDialog.h:1696
+msgid "Projection"
+msgstr "Projeção:"
+
+#: src/gui/ViewDialog.cpp:153 src/ui_viewDialog.h:1698
+msgid "Show ground"
+msgstr "Mostrar superfície"
+
+#: src/gui/ViewDialog.cpp:154 src/ui_viewDialog.h:1699
+msgid "Show fog"
+msgstr "Mostrar Neblina"
+
+#: src/gui/ViewDialog.cpp:155 src/ui_viewDialog.h:1700
+msgid "Use associated planet and position"
+msgstr "Usar planeta associado e posição"
+
+#: src/gui/ViewDialog.cpp:156 src/ui_viewDialog.h:1701
+msgid "Use this landscape as default"
+msgstr "Usar esta paisagem como padrão"
+
+#: src/gui/ViewDialog.cpp:157 src/gui/servermanager.cpp:845
+#: src/previewutil/previewform.cpp:100 src/ui_viewDialog.h:1702
+#: src/ui_previewform.h:827 src/ui_servermanager.h:1657
+msgid "Video"
+msgstr "Vídeo"
+
+#: src/gui/ViewDialog.cpp:158 src/ui_viewDialog.h:1703
+msgid "Picture"
+msgstr "Quadro"
+
+#: src/gui/ViewDialog.cpp:160 src/ui_viewDialog.h:1705
+msgid "Use this sky culture as default"
+msgstr "Usar esta cultura do céu como padrão"
+
+#: src/gui/ViewDialog.cpp:162 src/ui_viewDialog.h:1707
+msgid "Visible"
+msgstr "Visível"
+
+#: src/gui/ViewDialog.cpp:163 src/ui_viewDialog.h:1708
+msgid "Warping Settings"
+msgstr "Entortar Configurações"
+
+#: src/gui/ViewDialog.cpp:165 src/ui_viewDialog.h:1710
+msgid "Save Warp Settings"
+msgstr "Salvar configurações urdidura"
+
+#: src/gui/ViewDialog.cpp:166 src/ui_viewDialog.h:1711
+msgid "Mode"
+msgstr "Mode"
+
+#: src/gui/ViewDialog.cpp:169 src/ui_viewDialog.h:1714
+msgid "Show Mode"
+msgstr "Show Mode"
+
+#: src/gui/ViewDialog.cpp:170 src/ui_viewDialog.h:1715
+msgid "Distortion Warp Mode"
+msgstr "Distortion Warp Mode"
+
+#: src/gui/ViewDialog.cpp:171 src/ui_viewDialog.h:1716
+msgid "Blend Warp Mode"
+msgstr "Blend Warp Mode"
+
+#: src/gui/ViewDialog.cpp:173 src/ui_viewDialog.h:1718
+msgid "Reset Warp"
+msgstr "Reset Warp"
+
+#: src/gui/ViewDialog.cpp:174 src/ui_viewDialog.h:1719
+msgid "FOV:"
+msgstr "FOV:"
+
+#: src/gui/ViewDialog.cpp:175 src/ui_viewDialog.h:1720
+#, qt-format
+msgid "Fov Width Rate(%0.1-1.0)"
+msgstr "Fov Largura Taxa(%0.1-1.0)"
+
+#: src/gui/ViewDialog.cpp:176 src/ui_viewDialog.h:1721
+#, qt-format
+msgid "Fov Height Rate(%0.1-1.0)"
+msgstr "Fov Altura Taxa(%0.1-1.0)"
+
+#: src/gui/ViewDialog.cpp:177 src/ui_viewDialog.h:1722
+msgid "Configure Clients"
+msgstr "Configurar Clientes"
+
+#: src/gui/ViewDialog.cpp:178 src/ui_viewDialog.h:1723
+msgid "Channel Settings"
+msgstr "Salvar configurações"
+
+#: src/gui/ViewDialog.cpp:179 src/ui_viewDialog.h:1724
+msgid "Channel as Hostname"
+msgstr "Channel como Hostname"
+
+#: src/gui/ViewDialog.cpp:180 src/ui_viewDialog.h:1725
+msgid "Add"
+msgstr "Adicionar"
+
+#: src/gui/ViewDialog.cpp:181 src/ui_viewDialog.h:1726
+msgid "Remove"
+msgstr "Remover"
+
+#: src/gui/ViewDialog.cpp:182 src/ui_viewDialog.h:1727
+msgid "Channel Properties"
+msgstr "Propriedades do Canal"
+
+#: src/gui/ViewDialog.cpp:183 src/ui_viewDialog.h:1728
+msgid "Width"
+msgstr "Largura"
+
+#: src/gui/ViewDialog.cpp:184 src/ui_viewDialog.h:1729
+msgid "Height"
+msgstr "Altura"
+
+#: src/gui/ViewDialog.cpp:186 src/ui_viewDialog.h:1731
+msgid "Show Name"
+msgstr "Mostrar imagens"
+
+#: src/gui/ViewDialog.cpp:637
+msgid "No description"
+msgstr "Nenhuma descrição"
+
+#: src/gui/ViewDialog.cpp:705
+msgid "No shooting stars"
+msgstr "Sem estrelas cadentes"
+
+#: src/gui/ViewDialog.cpp:708
+msgid "Normal rate"
+msgstr "Taxa normal"
+
+#: src/gui/ViewDialog.cpp:711
+msgid "Standard Perseids rate"
+msgstr "Taxa Padrão de Perseides"
+
+#: src/gui/ViewDialog.cpp:714
+msgid "Exceptional Leonid rate"
+msgstr "Taxa excepcional de Leonídeos"
+
+#: src/gui/ViewDialog.cpp:717
+msgid "Highest rate ever (1966 Leonids)"
+msgstr "Taxa mais alta de todas (1966 Leonídeos)"
+
+#: src/gui/ViewDialog.cpp:813
+msgid "Are you sure want to save All Channel settings?"
+msgstr ""
+"Tem certeza que deseja para salvar as configurações de todos os canais?"
+
+#: src/gui/ViewDialog.cpp:881
+#, fuzzy
+msgid "Are you sure want to remove selected Channel?"
+msgstr "Definir planeta atual como padrão"
+
+#: src/gui/ViewDialog.cpp:1000
+msgid "Are you sure want to reset selected Warp setting?"
+msgstr "Tem certeza que deseja redefinir configuração urdidura selecionados?"
+
+#: src/gui/LocationDialog.cpp:63 src/ui_locationDialogGui.h:390
+msgid "Current location information"
+msgstr "Informação da localidade atual"
+
+#: src/gui/LocationDialog.cpp:64 src/ui_locationDialogGui.h:391
+msgid "Use as default"
+msgstr "Usar como padrão"
+
+#: src/gui/LocationDialog.cpp:66 src/ui_locationDialogGui.h:393
+msgid "Add to list"
+msgstr "Adicionar à lista"
+
+#: src/gui/LocationDialog.cpp:67 src/ui_locationDialogGui.h:394
+msgid "Latitude:"
+msgstr "Latitude:"
+
+#: src/gui/LocationDialog.cpp:68 src/gui/LocationDialog.cpp:70
+#: src/ui_locationDialogGui.h:396 src/ui_locationDialogGui.h:400
+msgid ""
+"You can enter values in decimal degrees, or using dms format, for example: "
+"+1d 12m 8s"
+msgstr ""
+"Você pode entrar com valores de graus decimais ou usar o formato DMS (+1d "
+"12m 8s)"
+
+#: src/gui/LocationDialog.cpp:69 src/ui_locationDialogGui.h:398
+msgid "Longitude:"
+msgstr "Longitude:"
+
+#: src/gui/LocationDialog.cpp:71 src/ui_locationDialogGui.h:402
+msgid "Altitude:"
+msgstr "Altitude:"
+
+#: src/gui/LocationDialog.cpp:72 src/ui_locationDialogGui.h:404
+msgid "Enter the altitude in meter"
+msgstr "Entre com a altitude em metros"
+
+#: src/gui/LocationDialog.cpp:73 src/ui_locationDialogGui.h:406
+msgid " m"
+msgstr " m"
+
+#: src/gui/LocationDialog.cpp:74 src/ui_locationDialogGui.h:407
+msgid "Name/City:"
+msgstr "Nome/Cidade"
+
+#: src/gui/LocationDialog.cpp:75 src/ui_locationDialogGui.h:408
+msgid "Country:"
+msgstr "Pais:"
+
+#: src/gui/LocationDialog.cpp:76 src/ui_locationDialogGui.h:409
+msgid "Planet:"
+msgstr "Planeta"
+
+#: src/gui/LocationDialog.cpp:377
+msgid "New Location"
+msgstr "Nova Localização"
+
+#: src/gui/ScriptConsole.cpp:56
+msgid "Script console"
+msgstr "Consola Script"
+
+#: src/gui/ScriptConsole.cpp:57
+msgid "load script from file"
+msgstr "script de carregamento de arquivo"
+
+#: src/gui/ScriptConsole.cpp:58
+msgid "Ctrl+O"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:59
+msgid "save script to file"
+msgstr "salvar script para arquivar"
+
+#: src/gui/ScriptConsole.cpp:60
+msgid "Ctrl+S"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:62
+msgid "clear script"
+msgstr "escrito de forma clara"
+
+#: src/gui/ScriptConsole.cpp:63
+msgid "pre-process script using SSC preprocessor"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:64
+msgid "SSC"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:66
+msgid "pre-process script using STS preprocessor"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:67
+msgid "STS"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:69
+msgid "quickly load and run a utility script"
+msgstr "carregar e executar um script utilitário rapidamente"
+
+#: src/gui/ScriptConsole.cpp:71
+msgid "run script"
+msgstr "run script"
+
+#: src/gui/ScriptConsole.cpp:72
+msgid "Ctrl+Return"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:74
+msgid "stop script"
+msgstr "script de interrupção"
+
+#: src/gui/ScriptConsole.cpp:75
+msgid "Ctrl+C"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:76
+msgid ""
+"QTabBar::tab {\n"
+"\tmin-height: 28px;\n"
+"}"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:79 src/gui/servermanager.cpp:843
+#: src/previewutil/previewform.cpp:94 src/ui_previewform.h:823
+#: src/ui_servermanager.h:1655
+msgid "Script"
+msgstr "Escrita"
+
+#: src/gui/ScriptConsole.cpp:80
+msgid "Output"
+msgstr "Saída"
+
+#: src/gui/ScriptConsole.cpp:82
+msgid "Cursor position"
+msgstr "posição do cursor"
+
+#: src/gui/ScriptConsole.cpp:83
+msgid "R:0 C:0"
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:84
+msgid "Include dir:"
+msgstr "Incluir dir:"
+
+#: src/gui/ScriptConsole.cpp:85 src/presenter/qimagepropwidget.cpp:714
+#: src/presenter/qimagepropwidget.cpp:716
+#: src/presenter/qimagepropwidget.cpp:719
+#: src/presenter/qimagepropwidget.cpp:721
+#: src/presenter/qimagepropwidget.cpp:723
+#: src/presenter/qimagepropwidget.cpp:725 src/ui_qimagepropwidget.h:1227
+#: src/ui_qimagepropwidget.h:1231 src/ui_qimagepropwidget.h:1238
+#: src/ui_qimagepropwidget.h:1242 src/ui_qimagepropwidget.h:1246
+#: src/ui_qimagepropwidget.h:1250
+msgid "..."
+msgstr ""
+
+#: src/gui/ScriptConsole.cpp:106
+msgid "quickrun..."
+msgstr "corrida rápida..."
+
+#: src/gui/ScriptConsole.cpp:107
+msgid "selected text"
+msgstr "texto selecionado"
+
+#: src/gui/ScriptConsole.cpp:108
+msgid "clear text"
+msgstr "texto claro"
+
+#: src/gui/ScriptConsole.cpp:109
+msgid "clear images"
+msgstr "imagens claras"
+
+#: src/gui/ScriptConsole.cpp:110
+msgid "natural"
+msgstr "natural"
+
+#: src/gui/ScriptConsole.cpp:111
+msgid "starchart"
+msgstr "carta de estrela"
+
+#: src/main.cpp:340
+msgid "This system does not support OpenGL."
+msgstr "Este Sistema não suporta OpenGL"
+
+#: src/shiraplayerform.cpp:90
+msgid "Window List"
+msgstr "Lista de Janelas"
+
+#: src/shiraplayerform.cpp:92 src/shiraplayerform.cpp:126
+msgid "Media Manager"
+msgstr "Gerenciador do Mídia"
+
+#: src/shiraplayerform.cpp:94 src/shiraplayerform.cpp:130
+msgid "Preview Window"
+msgstr "Janela de visualização"
+
+#: src/shiraplayerform.cpp:96 src/shiraplayerform.cpp:113
+#: src/shiraplayerform.cpp:135
+msgid "Configration Window"
+msgstr "Janela de configuração"
+
+#: src/shiraplayerform.cpp:97 src/shiraplayerform.cpp:114
+#: src/shiraplayerform.cpp:137
+msgid "View Options Window"
+msgstr "Ver Opções Janela"
+
+#: src/shiraplayerform.cpp:101 src/shiraplayerform.cpp:115
+#: src/shiraplayerform.cpp:145
+msgid "Script Console"
+msgstr "Console Script"
+
+#: src/shiraplayerform.cpp:104 src/shiraplayerform.cpp:150
+#, fuzzy
+msgid "Projector Settings"
+msgstr "Tela de projeção"
+
+#: src/shiraplayerform.cpp:107 src/shiraplayerform.cpp:153
+#: src/previewutil/previewform.cpp:85 src/previewutil/previewform.cpp:86
+#: src/ui_previewform.h:807 src/ui_previewform.h:836
+msgid "Exit"
+msgstr "Saída"
+
+#: src/shiraplayerform.cpp:119 src/previewutil/previewform.cpp:187
+#: src/previewutil/previewform.cpp:203 src/previewutil/previewform.cpp:218
+msgid "Please complete flyby operations first!"
+msgstr "Por favor, preencha as operações do voo rasante primeiro!"
+
+#: src/shiraplayerform.cpp:128
+msgid "Media Record Manager"
+msgstr "Gerenciador do Mídia Grave"
+
+#: src/shiraplayerform.cpp:139
+msgid "Search Window"
+msgstr "Janela de pesquisa"
+
+#: src/shiraplayerform.cpp:141
+msgid "Date/Time Window"
+msgstr "Janela de Data/Hora"
+
+#: src/shiraplayerform.cpp:143
+msgid "Location Window"
+msgstr "Janela de Localização"
+
+#: src/shiraplayerform.cpp:147
+msgid "Help Window"
+msgstr "Janela de ajuda"
+
+#: src/translations.h:34 src/flybyutil/flybymanager.cpp:95
+#: src/ui_flybymanager.h:881
+msgid "Sun"
+msgstr "Sol"
+
+#: src/translations.h:38 src/flybyutil/flybymanager.cpp:99
+#: src/ui_flybymanager.h:889
+msgid "Moon"
+msgstr "Lua"
+
+#: src/translations.h:40
+msgid "Deimos"
+msgstr "Deimos"
+
+#: src/translations.h:41
+msgid "Phobos"
+msgstr "Fobos"
+
+#: src/translations.h:43
+msgid "Io"
+msgstr "Io"
+
+#: src/translations.h:44
+msgid "Europa"
+msgstr "Europa"
+
+#: src/translations.h:45
+msgid "Ganymede"
+msgstr "Ganimedes"
+
+#: src/translations.h:46
+msgid "Callisto"
+msgstr "Calisto"
+
+#: src/translations.h:48
+msgid "Mimas"
+msgstr "Mimas"
+
+#: src/translations.h:49
+msgid "Enceladus"
+msgstr "Enceladus"
+
+#: src/translations.h:50
+msgid "Tethys"
+msgstr "Tethys"
+
+#: src/translations.h:51
+msgid "Dione"
+msgstr "Dione"
+
+#: src/translations.h:52
+msgid "Rhea"
+msgstr "Réia"
+
+#: src/translations.h:53
+msgid "Titan"
+msgstr "Titã"
+
+#: src/translations.h:54
+msgid "Hyperion"
+msgstr "Hyperion"
+
+#: src/translations.h:55
+msgid "Iapetus"
+msgstr "Jápeto"
+
+#: src/translations.h:56
+msgid "Phoebe"
+msgstr "Phoebe"
+
+#: src/translations.h:57 src/flybyutil/flybymanager.cpp:89
+#: src/ui_flybymanager.h:869
+msgid "Neptune"
+msgstr "Netuno"
+
+#: src/translations.h:60
+msgid "Charon"
+msgstr "Caronte"
+
+#: src/translations.h:61
+msgid "Solar System Observer"
+msgstr "Observador do Sistema Solar"
+
+#: src/translations.h:70
+msgid "Aztec"
+msgstr "Asteca"
+
+#: src/translations.h:71
+msgid "Chinese"
+msgstr "Chinês"
+
+#: src/translations.h:72
+msgid "Egyptian"
+msgstr "Egípcio"
+
+#: src/translations.h:73
+msgid "Inuit"
+msgstr "Inuit"
+
+#: src/translations.h:74
+msgid "Korean"
+msgstr "Coreano"
+
+#: src/translations.h:75
+msgid "Lakota"
+msgstr "Lakota"
+
+#: src/translations.h:76
+msgid "Maori"
+msgstr "Maori"
+
+#: src/translations.h:77
+msgid "Navajo"
+msgstr "Navajo"
+
+#: src/translations.h:78
+msgid "Norse"
+msgstr "Norueguês"
+
+#: src/translations.h:79
+msgid "Polynesian"
+msgstr "Polinésio"
+
+#: src/translations.h:80
+msgid "Western"
+msgstr "Ocidental"
+
+#: src/translations.h:81
+msgid "Tupi-Guarani"
+msgstr "Tupi-Guarani"
+
+#: src/gui/recordmanager.cpp:106 src/ui_recordmanager.h:305
+msgid "Record Window"
+msgstr "Registro do Windows"
+
+#: src/gui/recordmanager.cpp:107 src/gui/servermanager.cpp:876
+#: src/presenter/qimagepropwidget.cpp:680 src/ui_recordmanager.h:307
+#: src/ui_servermanager.h:1689 src/ui_qimagepropwidget.h:1170
+msgid "Properties"
+msgstr "Propriedades"
+
+#: src/gui/recordmanager.cpp:108 src/gui/servermanager.cpp:898
+#: src/ui_recordmanager.h:308 src/ui_servermanager.h:1729
+msgid "File Name:"
+msgstr "Nome do arquivo:"
+
+#: src/gui/recordmanager.cpp:109 src/ui_recordmanager.h:309
+msgid "Select File"
+msgstr "Selecione Arquivo"
+
+#: src/gui/recordmanager.cpp:110 src/ui_recordmanager.h:310
+msgid "FPS : "
+msgstr ""
+
+#: src/gui/recordmanager.cpp:111 src/ui_recordmanager.h:311
+msgid "Stopped"
+msgstr "Parou"
+
+#: src/gui/recordmanager.cpp:112 src/ui_recordmanager.h:313
+msgid "Rec"
+msgstr "Registro"
+
+#: src/gui/recordmanager.cpp:113 src/gui/servermanager.cpp:878
+#: src/gui/servermanager.cpp:1246 src/ui_recordmanager.h:314
+#: src/ui_servermanager.h:1692
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/gui/recordmanager.cpp:114 src/gui/servermanager.cpp:879
+#: src/flybyutil/flybymanager.cpp:153 src/ui_recordmanager.h:315
+#: src/ui_servermanager.h:1693
+msgid "Stop"
+msgstr "Pare"
+
+#: src/gui/recordmanager.cpp:115 src/gui/servermanager.cpp:833
+#: src/ui_recordmanager.h:316 src/ui_servermanager.h:1644
+msgid "UnLicensed Use.."
+msgstr "Uso não licenciado .."
+
+#: src/gui/recordmanager.cpp:116 src/ui_recordmanager.h:317
+msgid "Register Module"
+msgstr "Registrar Module"
+
+#: src/gui/recordmanager.cpp:145
+msgid "This file is exist.Do you want to overwrite?"
+msgstr "Este arquivo é exist.Do você deseja substituir?"
+
+#: src/gui/recordmanager.cpp:151 src/gui/recordmanager.cpp:157
+#: src/gui/servermanager.cpp:1766
+msgid "Error"
+msgstr "Erro"
+
+#: src/gui/recordmanager.cpp:151 src/gui/recordmanager.cpp:157
+msgid "Please select a file to record! Record is cancelled."
+msgstr "Por favor, selecione um arquivo para gravar! Registro será cancelado."
+
+#: src/gui/servermanager.cpp:382 src/gui/servermanager.cpp:421
+msgid "Size: "
+msgstr "Tamanho"
+
+#: src/gui/servermanager.cpp:435 src/gui/servermanager.cpp:482
+msgid "Opacity: "
+msgstr "Opacidade:"
+
+#: src/gui/servermanager.cpp:475
+msgid "Opacity: 0.00"
+msgstr "Opacidade: 0.00"
+
+#: src/gui/servermanager.cpp:477
+msgid "Opacity: 1.00"
+msgstr "Opacidade: 1.00"
+
+#: src/gui/servermanager.cpp:830 src/previewutil/previewform.cpp:280
+#, qt-format
+msgid "%0-Manager Window"
+msgstr "%0-Window Manager"
+
+#: src/gui/servermanager.cpp:832 src/ui_servermanager.h:1643
+msgid "ShiraPlayer Version :"
+msgstr "ShiraPlayer Versão:"
+
+#: src/gui/servermanager.cpp:834 src/ui_qlisansform.h:194
+#: src/ui_servermanager.h:1645
+msgid "Register"
+msgstr "Cadastre-se"
+
+#: src/gui/servermanager.cpp:835 src/ui_servermanager.h:1646
+msgid "Init - Fade On/Off"
+msgstr "Inicial - Desvanecer On/Off"
+
+#: src/gui/servermanager.cpp:836 src/gui/stellamanager.cpp:80
+#: src/previewutil/previewform.cpp:84 src/ui_stellamanager.h:1014
+#: src/ui_previewform.h:806 src/ui_servermanager.h:1647
+msgid "Night View"
+msgstr "Escuridão Vista"
+
+#: src/gui/servermanager.cpp:838 src/ui_servermanager.h:1649
+msgid "Time Server"
+msgstr ""
+
+#: src/gui/servermanager.cpp:839 src/ui_servermanager.h:1650
+msgid "FTP Server"
+msgstr ""
+
+#: src/gui/servermanager.cpp:847 src/previewutil/previewform.cpp:92
+#: src/ui_previewform.h:811 src/ui_servermanager.h:1659
+msgid "Fisheye Image"
+msgstr "Fisheye imagem"
+
+#: src/gui/servermanager.cpp:849 src/previewutil/previewform.cpp:96
+#: src/ui_previewform.h:831 src/ui_servermanager.h:1661
+msgid "Flat Media"
+msgstr "Plano de Mídia"
+
+#: src/gui/servermanager.cpp:851 src/ui_servermanager.h:1663
+msgid "Admin"
+msgstr ""
+
+#: src/gui/servermanager.cpp:853 src/previewutil/previewform.cpp:88
+#: src/ui_previewform.h:815 src/ui_servermanager.h:1665
+msgid "Stellarium"
+msgstr "Stellarium"
+
+#: src/gui/servermanager.cpp:855 src/previewutil/previewform.cpp:79
+#: src/ui_previewform.h:801 src/ui_servermanager.h:1668
+msgid "Apply"
+msgstr "aplicar"
+
+#: src/gui/servermanager.cpp:856 src/ui_servermanager.h:1669
+msgid "Live Mode"
+msgstr "Modo Ao Vivo"
+
+#: src/gui/servermanager.cpp:857 src/ui_servermanager.h:1670
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: src/gui/servermanager.cpp:858 src/ui_servermanager.h:1671
+msgid "Apply Favorites"
+msgstr "Aplicar Favoritos"
+
+#: src/gui/servermanager.cpp:859 src/ui_servermanager.h:1672
+msgid "Stop Favorites"
+msgstr "Pare Favoritos"
+
+#: src/gui/servermanager.cpp:860 src/ui_servermanager.h:1673
+msgid "High Video Performance"
+msgstr "Alto atuação Vídeo"
+
+#: src/gui/servermanager.cpp:861 src/ui_servermanager.h:1674
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S : With this function software use GPU "
+"processors.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">It needs high level display card.</span></p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S : With this function software use GPU "
+"processors.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">Ele precisa de placa de vídeo de alto nível.</"
+"span></p></body></html>"
+
+#: src/gui/servermanager.cpp:867 src/ui_servermanager.h:1680
+msgid "Skip Next Frame"
+msgstr "Ir Próximo Quadro"
+
+#: src/gui/servermanager.cpp:868 src/ui_servermanager.h:1681
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">P.S :If we hit the lower bound, we skip next "
+"frame</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt; color:#ff0000;\">PS: Se atingirmos o limite inferior, pulamos "
+"próximo quadro</span></p></body></html>"
+
+#: src/gui/servermanager.cpp:873 src/ui_servermanager.h:1686
+msgid "Show Video FPS"
+msgstr "Espetáculo Vídeo FPS"
+
+#: src/gui/servermanager.cpp:874 src/ui_servermanager.h:1687
+msgid "Prewarped"
+msgstr "Prewarped"
+
+#: src/gui/servermanager.cpp:875 src/ui_servermanager.h:1688
+msgid "Refresh List"
+msgstr "Atualizar lista"
+
+#: src/gui/servermanager.cpp:877 src/flybyutil/flybymanager.cpp:222
+#: src/ui_servermanager.h:1691
+msgid "Start"
+msgstr "Começo"
+
+#: src/gui/servermanager.cpp:880 src/ui_servermanager.h:1694
+msgid "Status"
+msgstr "Estado"
+
+#: src/gui/servermanager.cpp:881 src/ui_servermanager.h:1695
+msgid "Volume"
+msgstr "Volume"
+
+#: src/gui/servermanager.cpp:882 src/gui/servermanager.cpp:891
+#: src/ui_servermanager.h:1696 src/ui_servermanager.h:1707
+msgid "Send Media to Terminals"
+msgstr ""
+
+#: src/gui/servermanager.cpp:883 src/ui_servermanager.h:1697
+msgid "PushButton-2"
+msgstr ""
+
+#: src/gui/servermanager.cpp:884 src/ui_servermanager.h:1698
+msgid "PushButton"
+msgstr ""
+
+#: src/gui/servermanager.cpp:885 src/ui_servermanager.h:1699
+msgid "Fade Time:"
+msgstr "Desvanecer Period:"
+
+#: src/gui/servermanager.cpp:886 src/ui_servermanager.h:1700
+msgid "sec"
+msgstr "segundos"
+
+#: src/gui/servermanager.cpp:887 src/ui_servermanager.h:1701
+msgid "Cross Fade"
+msgstr ""
+
+#: src/gui/servermanager.cpp:888 src/ui_servermanager.h:1702
+msgid "Show with Daylight"
+msgstr "Show com Daylight"
+
+#: src/gui/servermanager.cpp:889 src/ui_servermanager.h:1703
+msgid "Clear Frame"
+msgstr "Limpar Frame"
+
+#: src/gui/servermanager.cpp:892 src/ui_servermanager.h:1709
+msgid "New Flat Media project file"
+msgstr "Novo arquivo de projeto Plano de Mídia"
+
+#: src/gui/servermanager.cpp:893 src/ui_servermanager.h:1714
+msgid "New"
+msgstr "Novo"
+
+#: src/gui/servermanager.cpp:894 src/ui_servermanager.h:1716
+msgid "Save Flat Media project file"
+msgstr "Salvar arquivo de projeto Plano de Mídia"
+
+#: src/gui/servermanager.cpp:897 src/ui_servermanager.h:1728
+msgid "Load"
+msgstr "Carga"
+
+#: src/gui/servermanager.cpp:899 src/ui_servermanager.h:1730
+msgid "Admin PCs and Projectors"
+msgstr ""
+
+#: src/gui/servermanager.cpp:900 src/ui_servermanager.h:1731
+msgid "Projector Controls"
+msgstr "Controles para Projetores"
+
+#: src/gui/servermanager.cpp:901 src/ui_servermanager.h:1732
+msgid "Power On"
+msgstr ""
+
+#: src/gui/servermanager.cpp:902 src/ui_servermanager.h:1733
+msgid "Power Off"
+msgstr ""
+
+#: src/gui/servermanager.cpp:903 src/ui_servermanager.h:1734
+msgid "Blank"
+msgstr ""
+
+#: src/gui/servermanager.cpp:904 src/ui_servermanager.h:1735
+msgid "Display"
+msgstr "Exibição"
+
+#: src/gui/servermanager.cpp:905 src/ui_servermanager.h:1736
+msgid "Client Computers"
+msgstr ""
+
+#: src/gui/servermanager.cpp:906 src/ui_servermanager.h:1737
+msgid "Power On All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:907 src/ui_servermanager.h:1738
+msgid "Refresh All"
+msgstr "Atualizar tudo"
+
+#: src/gui/servermanager.cpp:908 src/ui_servermanager.h:1739
+msgid "Close All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:909 src/ui_servermanager.h:1740
+msgid "Update All"
+msgstr ""
+
+#: src/gui/servermanager.cpp:910 src/ui_servermanager.h:1745
+msgid ""
+"Clear\n"
+"All"
+msgstr ""
+"Limpar\n"
+"Tudo"
+
+#: src/gui/servermanager.cpp:911 src/ui_servermanager.h:1747
+msgid "Color Palette"
+msgstr "Paleta de cores"
+
+#: src/gui/servermanager.cpp:912 src/ui_servermanager.h:1748
+msgid "Stroke Size"
+msgstr "Curso Tamanho"
+
+#: src/gui/servermanager.cpp:913 src/ui_servermanager.h:1749
+msgid "Opacity"
+msgstr "Opacidade"
+
+#: src/gui/servermanager.cpp:1103 src/gui/servermanager.cpp:1441
+#: src/gui/servermanager.cpp:1448
+msgid "Warning"
+msgstr "Advertência"
+
+#: src/gui/servermanager.cpp:1103 src/gui/servermanager.cpp:1441
+msgid "Please select a media file!"
+msgstr "Por favor, selecione um arquivo de mídia!"
+
+#: src/gui/servermanager.cpp:1246
+msgid "Continue"
+msgstr "Continuar"
+
+#: src/gui/servermanager.cpp:1314
+#, qt-format
+msgid ""
+"Current Time: %1 \n"
+"Total Time: %2 Video FPS: %3"
+msgstr ""
+"Hora atual: %1 \n"
+"Tempo total: %2 Video FPS: %3"
+
+#: src/gui/servermanager.cpp:1429 src/gui/servermanager.cpp:1573
+#: src/gui/servermanager.cpp:1610 src/gui/servermanager.cpp:1622
+#: src/gui/servermanager.cpp:1646
+msgid "Information"
+msgstr "Informações"
+
+#: src/gui/servermanager.cpp:1430
+msgid "Do you want to send media file to all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1448
+msgid "Please select a frame file!"
+msgstr "Por favor, selecione um arquivo de quadro!"
+
+#: src/gui/servermanager.cpp:1574
+msgid "Do you want to send program update files to all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1611
+msgid "Do you want to restart program on all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1623
+msgid "Do you want to shutdown all terminals?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1647
+msgid "Do you want to shutdown all projectors?"
+msgstr ""
+
+#: src/gui/servermanager.cpp:1682
+msgid "Flat Media Library : Drag and drop into the Active Images window"
+msgstr "Plano Mediateca: Arraste e solte na janela de imagens ativas"
+
+#: src/gui/servermanager.cpp:1700
+msgid "Default Display Properties"
+msgstr "Propriedades de vídeo padrão"
+
+#: src/gui/servermanager.cpp:1749
+msgid "Load Presentation File"
+msgstr "Carga Apresentação Arquivo"
+
+#: src/gui/servermanager.cpp:1751
+msgid "Presentation Files(*.xml)"
+msgstr "Apresentação arquivos (*. xml)"
+
+#: src/gui/servermanager.cpp:1766
+msgid "Wrong ShiraPlayer Flat Present project file!"
+msgstr "Errado arquivo de projeto atual ShiraPlayer Plano!"
+
+#: src/gui/servermanager.cpp:1846
+msgid "Are you sure want to save available Presentations ?"
+msgstr "Tem certeza que deseja salvar Apresentações disponíveis?"
+
+#: src/gui/servermanager.cpp:1892
+msgid ""
+"Active Images not saved.\n"
+"Do you want to save as a Presentation?"
+msgstr ""
+"Imagens de ativos não salvos.\n"
+"Você deseja salvar como uma apresentação?"
+
+#: src/gui/servermanager.cpp:2002
+msgid "Clear All?"
+msgstr "Limpar Tudo?"
+
+#: src/gui/stellamanager.cpp:55 src/ui_stellamanager.h:971
+msgid ""
+"Equatorial\n"
+"Grid"
+msgstr ""
+"Grade\n"
+"Equatorial"
+
+#: src/gui/stellamanager.cpp:56 src/ui_stellamanager.h:973
+msgid ""
+"Azimuthal\n"
+"Grid"
+msgstr ""
+"Grade\n"
+" Azimutal"
+
+#: src/gui/stellamanager.cpp:57 src/ui_stellamanager.h:975
+msgid ""
+"Ecliptic\n"
+"Line"
+msgstr "Linha Eclíptica"
+
+#: src/gui/stellamanager.cpp:58 src/ui_stellamanager.h:977
+msgid ""
+"Meridian\n"
+"Line"
+msgstr "Linha meridiana"
+
+#: src/gui/stellamanager.cpp:59 src/ui_stellamanager.h:979
+msgid ""
+"Constellation\n"
+"Lines"
+msgstr ""
+"Linhas \n"
+"das constelações"
+
+#: src/gui/stellamanager.cpp:60 src/ui_stellamanager.h:981
+msgid ""
+"Constellation\n"
+"Labels"
+msgstr ""
+"Nome \n"
+"das constelações"
+
+#: src/gui/stellamanager.cpp:61 src/ui_stellamanager.h:983
+msgid ""
+"Constellation\n"
+"Arts"
+msgstr "Constelações"
+
+#: src/gui/stellamanager.cpp:62 src/ui_stellamanager.h:985
+msgid ""
+"Constellation \n"
+"Boundaries"
+msgstr ""
+"Limites \n"
+"das constelações"
+
+#: src/gui/stellamanager.cpp:64 src/ui_stellamanager.h:988
+msgid "Nebulae"
+msgstr "Nebulosa"
+
+#: src/gui/stellamanager.cpp:66 src/ui_stellamanager.h:990
+msgid "Satellites"
+msgstr "Satélites"
+
+#: src/gui/stellamanager.cpp:70 src/previewutil/previewform.cpp:87
+#: src/ui_stellamanager.h:995 src/ui_previewform.h:813
+msgid "B1"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:71 src/ui_stellamanager.h:997
+msgid "Date Time"
+msgstr "Data & Hora"
+
+#: src/gui/stellamanager.cpp:72 src/previewutil/previewform.cpp:99
+#: src/ui_stellamanager.h:999 src/ui_previewform.h:825
+msgid "B2"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:73 src/ui_stellamanager.h:1001
+msgid "Search"
+msgstr "Pesquisa"
+
+#: src/gui/stellamanager.cpp:74 src/previewutil/previewform.cpp:91
+#: src/ui_stellamanager.h:1003 src/ui_previewform.h:809
+msgid "B3"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:75 src/ui_stellamanager.h:1005
+msgid "Go To"
+msgstr "Ir para o"
+
+#: src/gui/stellamanager.cpp:76 src/previewutil/previewform.cpp:95
+#: src/ui_stellamanager.h:1007 src/ui_previewform.h:829
+msgid "B4"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:78 src/previewutil/previewform.cpp:93
+#: src/ui_stellamanager.h:1011 src/ui_previewform.h:821
+msgid "B5"
+msgstr ""
+
+#: src/gui/stellamanager.cpp:79 src/ui_stellamanager.h:1013
+msgid "Record"
+msgstr "Registro"
+
+#: src/gui/stellamanager.cpp:81 src/previewutil/previewform.cpp:89
+#: src/ui_stellamanager.h:1016 src/ui_previewform.h:833
+msgid "B6"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:674 src/ui_qimagepropwidget.h:1162
+msgid "Display Properties"
+msgstr "Propriedades de Vídeo"
+
+#: src/presenter/qimagepropwidget.cpp:676 src/ui_qimagepropwidget.h:1164
+msgid "Video Control"
+msgstr "Controle de vídeo"
+
+#: src/presenter/qimagepropwidget.cpp:678 src/ui_qimagepropwidget.h:1168
+msgid "image"
+msgstr "imagem"
+
+#: src/presenter/qimagepropwidget.cpp:679 src/ui_qimagepropwidget.h:1169
+msgid "File Name"
+msgstr "Nome do arquivo"
+
+#: src/presenter/qimagepropwidget.cpp:681 src/ui_qimagepropwidget.h:1171
+msgid "Resize %"
+msgstr "Redimensionar%"
+
+#: src/presenter/qimagepropwidget.cpp:682 src/ui_qimagepropwidget.h:1172
+msgid "Azimuth"
+msgstr "Azimute"
+
+#: src/presenter/qimagepropwidget.cpp:683 src/ui_qimagepropwidget.h:1173
+msgid "Altitude"
+msgstr "Altitude"
+
+#: src/presenter/qimagepropwidget.cpp:684 src/ui_qimagepropwidget.h:1174
+msgid "Fade In/Out"
+msgstr "Desvanecer In/Out"
+
+#: src/presenter/qimagepropwidget.cpp:685 src/ui_qimagepropwidget.h:1175
+msgid "On Sky"
+msgstr "No Céu"
+
+#: src/presenter/qimagepropwidget.cpp:686 src/ui_qimagepropwidget.h:1176
+msgid "On Dome"
+msgstr "Na Cúpula"
+
+#: src/presenter/qimagepropwidget.cpp:687 src/ui_qimagepropwidget.h:1178
+msgid "Rotate"
+msgstr "Rodar"
+
+#: src/presenter/qimagepropwidget.cpp:688 src/ui_qimagepropwidget.h:1179
+msgid "lblFlatPath"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:689 src/ui_qimagepropwidget.h:1180
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Flat Path :</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Caminho Flat:</span></p></body></html>"
+
+#: src/presenter/qimagepropwidget.cpp:694 src/ui_qimagepropwidget.h:1185
+msgid "Video Properties"
+msgstr "Propriedades de Vídeo"
+
+#: src/presenter/qimagepropwidget.cpp:695 src/ui_qimagepropwidget.h:1186
+msgid "Contrast"
+msgstr "Contrastar"
+
+#: src/presenter/qimagepropwidget.cpp:696 src/ui_qimagepropwidget.h:1187
+msgid "Brightness"
+msgstr "Brilho"
+
+#: src/presenter/qimagepropwidget.cpp:697 src/ui_qimagepropwidget.h:1188
+msgid "Saturation"
+msgstr "Saturação"
+
+#: src/presenter/qimagepropwidget.cpp:698 src/ui_qimagepropwidget.h:1190
+msgid "Current frame time"
+msgstr "Tempo quadro atual"
+
+#: src/presenter/qimagepropwidget.cpp:699 src/ui_qimagepropwidget.h:1193
+msgid "Sets the IN mark at the current time"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:700 src/ui_qimagepropwidget.h:1195
+msgid "Mark IN"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:701 src/ui_qimagepropwidget.h:1196
+#, fuzzy
+msgid "I"
+msgstr "Io"
+
+#: src/presenter/qimagepropwidget.cpp:702 src/ui_qimagepropwidget.h:1198
+msgid "Resets the IN mark at the start of file."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:703 src/ui_qimagepropwidget.h:1201
+msgid "Sets the OUT mark at the current time"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:704 src/ui_qimagepropwidget.h:1203
+msgid "Mark OUT"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:705 src/ui_qimagepropwidget.h:1204
+msgid "O"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:706 src/ui_qimagepropwidget.h:1206
+msgid "Reset the OUT mark at the end of file."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:707 src/ui_qimagepropwidget.h:1209
+msgid "Time line"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:708 src/ui_qimagepropwidget.h:1212
+msgid "Placement of the mark IN"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:709 src/ui_qimagepropwidget.h:1215
+msgid "Placement of the mark OUT"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:710 src/ui_qimagepropwidget.h:1218
+#, fuzzy
+msgid "Start / stops updating"
+msgstr "Atualizações do catálogo de estrelas"
+
+#: src/presenter/qimagepropwidget.cpp:711 src/ui_qimagepropwidget.h:1221
+#, fuzzy
+msgid "Starts / stops updating"
+msgstr "Atualizações do catálogo de estrelas"
+
+#: src/presenter/qimagepropwidget.cpp:712 src/ui_qimagepropwidget.h:1223
+msgid "Play"
+msgstr "Jogar"
+
+#: src/presenter/qimagepropwidget.cpp:713 src/ui_qimagepropwidget.h:1225
+msgid "Jump backward to movie start."
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:715 src/ui_qimagepropwidget.h:1229
+msgid "Jump backward"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:717
+#: src/presenter/qimagepropwidget.cpp:718 src/ui_qimagepropwidget.h:1233
+#: src/ui_qimagepropwidget.h:1236
+msgid "Pause/resume play"
+msgstr "Pausa / retomar a reprodução"
+
+#: src/presenter/qimagepropwidget.cpp:720 src/ui_qimagepropwidget.h:1240
+msgid "Step by 1 frame"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:722 src/ui_qimagepropwidget.h:1244
+msgid "Jump forward"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:724 src/ui_qimagepropwidget.h:1248
+msgid "Loop to mark-in playback"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:726
+#: src/presenter/qimagepropwidget.cpp:733 src/ui_qimagepropwidget.h:1252
+#: src/ui_qimagepropwidget.h:1261
+msgid "Play speed"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:727 src/ui_qimagepropwidget.h:1254
+msgid "1/4"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:728 src/ui_qimagepropwidget.h:1255
+msgid "1/3"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:729 src/ui_qimagepropwidget.h:1256
+msgid "1/2"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:730 src/ui_qimagepropwidget.h:1257
+msgid "1x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:731 src/ui_qimagepropwidget.h:1258
+msgid "2x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:732 src/ui_qimagepropwidget.h:1259
+msgid "3x"
+msgstr ""
+
+#: src/presenter/qimagepropwidget.cpp:734 src/ui_qimagepropwidget.h:1263
+msgid "A"
+msgstr ""
+
+#: src/presenter/qplayimagewidget.cpp:107
+msgid "Active Images"
+msgstr "Imagens de ativos"
+
+#: src/previewutil/previewform.cpp:75 src/ui_previewform.h:796
+msgid "Control and Preview Window"
+msgstr "Controle e Janela de visualização"
+
+#: src/previewutil/previewform.cpp:76 src/ui_previewform.h:797
+msgid "Selected Object Information"
+msgstr "Informação do objeto selecionado"
+
+#: src/previewutil/previewform.cpp:77 src/ui_previewform.h:799
+msgid "Real Time"
+msgstr "Hora atual"
+
+#: src/previewutil/previewform.cpp:78 src/ui_previewform.h:800
+msgid "Fade On/Off"
+msgstr "Desvanece-On / Off"
+
+#: src/previewutil/previewform.cpp:80 src/ui_previewform.h:802
+msgid "With Fade Effect"
+msgstr "Com efeito fade"
+
+#: src/previewutil/previewform.cpp:81 src/ui_previewform.h:803
+msgid ""
+"Lock \n"
+"Mouse-Key\n"
+"Client"
+msgstr ""
+
+#: src/previewutil/previewform.cpp:90 src/ui_previewform.h:835
+msgid "Sky Writer"
+msgstr "Sky Escritor"
+
+#: src/previewutil/previewform.cpp:97 src/ui_previewform.h:817
+msgid "B7"
+msgstr ""
+
+#: src/previewutil/previewform.cpp:98 src/ui_previewform.h:819
+msgid "Flyby Planets"
+msgstr ""
+"Demonstração \n"
+"aérea Planets"
+
+#: src/previewutil/previewform.cpp:101 src/ui_previewform.h:840
+msgid "Messier Catalog"
+msgstr "Messier Catalog"
+
+#: src/flybyutil/flybymanager.cpp:59 src/flybyutil/flybymanager.cpp:148
+#: src/ui_flybymanager.h:832
+msgid "Start Tracking"
+msgstr "Iniciar Rastreamento"
+
+#: src/flybyutil/flybymanager.cpp:60 src/ui_flybymanager.h:833
+msgid "Velocity :"
+msgstr "Velocidade:"
+
+#: src/flybyutil/flybymanager.cpp:61 src/ui_flybymanager.h:834
+msgid "font: 14pt \"MS Shell Dlg 2\";"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:62 src/ui_flybymanager.h:835
+msgid "Altitude :"
+msgstr "Altitude:"
+
+#: src/flybyutil/flybymanager.cpp:63 src/ui_flybymanager.h:836
+msgid "Show Orbits"
+msgstr "Mostrar Órbitas"
+
+#: src/flybyutil/flybymanager.cpp:64 src/ui_flybymanager.h:837
+msgid "Show Atm"
+msgstr "Mostrar Atmosfera"
+
+#: src/flybyutil/flybymanager.cpp:65 src/ui_flybymanager.h:838
+msgid ""
+"Date Time\n"
+"Flow Rate:"
+msgstr ""
+"Data Hora\n"
+"Vazão:"
+
+#: src/flybyutil/flybymanager.cpp:68 src/ui_dateTimeDialogGui.h:395
+#: src/ui_flybymanager.h:842
+msgid "Time Flow"
+msgstr "Tempo de Fluxo"
+
+#: src/flybyutil/flybymanager.cpp:69 src/ui_dateTimeDialogGui.h:396
+#: src/ui_flybymanager.h:843
+msgid "  1x(Real Time)"
+msgstr "  1x(Tempo Real)"
+
+#: src/flybyutil/flybymanager.cpp:70 src/ui_dateTimeDialogGui.h:397
+#: src/ui_flybymanager.h:844
+msgid "  30x"
+msgstr "  30x"
+
+#: src/flybyutil/flybymanager.cpp:71 src/ui_dateTimeDialogGui.h:398
+#: src/ui_flybymanager.h:845
+msgid "  300x"
+msgstr "  300x"
+
+#: src/flybyutil/flybymanager.cpp:72 src/ui_dateTimeDialogGui.h:399
+#: src/ui_flybymanager.h:846
+msgid "  3000x"
+msgstr "  3000x"
+
+#: src/flybyutil/flybymanager.cpp:73 src/ui_dateTimeDialogGui.h:400
+#: src/ui_flybymanager.h:847
+msgid "  30000x"
+msgstr "  30000x"
+
+#: src/flybyutil/flybymanager.cpp:74 src/ui_dateTimeDialogGui.h:401
+#: src/ui_flybymanager.h:848
+msgid "Discrete Time Steps"
+msgstr "Discreta Tempo Passos"
+
+#: src/flybyutil/flybymanager.cpp:75 src/ui_dateTimeDialogGui.h:402
+#: src/ui_flybymanager.h:849
+msgid "  seconds"
+msgstr "  segundos"
+
+#: src/flybyutil/flybymanager.cpp:76 src/ui_dateTimeDialogGui.h:403
+#: src/ui_flybymanager.h:850
+msgid "  minutes"
+msgstr "  atas"
+
+#: src/flybyutil/flybymanager.cpp:77 src/ui_dateTimeDialogGui.h:404
+#: src/ui_flybymanager.h:851
+msgid "  hours"
+msgstr "  horas"
+
+#: src/flybyutil/flybymanager.cpp:78 src/ui_dateTimeDialogGui.h:405
+#: src/ui_flybymanager.h:852
+msgid "  days"
+msgstr "  dias"
+
+#: src/flybyutil/flybymanager.cpp:79 src/ui_dateTimeDialogGui.h:406
+#: src/ui_flybymanager.h:853
+msgid "  years"
+msgstr "  anos"
+
+#: src/flybyutil/flybymanager.cpp:81 src/ui_flybymanager.h:855
+msgid "Outer Planets"
+msgstr "Planetas exterior"
+
+#: src/flybyutil/flybymanager.cpp:82 src/ui_flybymanager.h:856
+msgid "Inner Planets"
+msgstr "Planetas interiores"
+
+#: src/flybyutil/flybymanager.cpp:83 src/ui_flybymanager.h:858
+msgid "FLYBY-SS"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:84 src/ui_flybymanager.h:860
+msgid "Solar System"
+msgstr "Sistema Solar"
+
+#: src/flybyutil/flybymanager.cpp:85 src/flybyutil/flybymanager.cpp:226
+#: src/flybyutil/flybymanager.cpp:250 src/ui_flybymanager.h:861
+msgid "Prepare for flyby"
+msgstr "Prepare-se para sobrevôo"
+
+#: src/flybyutil/flybymanager.cpp:86 src/ui_flybymanager.h:863
+msgid "FLYBY-Jupiter"
+msgstr "FLYBY-Jupiter"
+
+#: src/flybyutil/flybymanager.cpp:88 src/ui_flybymanager.h:867
+msgid "FLYBY-Neptune"
+msgstr "FLYBY-Neptune"
+
+#: src/flybyutil/flybymanager.cpp:90 src/ui_flybymanager.h:871
+msgid "FLYBY-Mars"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:92 src/ui_flybymanager.h:875
+msgid "FLYBY-Saturn"
+msgstr "FLYBY-Saturn"
+
+#: src/flybyutil/flybymanager.cpp:94 src/ui_flybymanager.h:879
+msgid "FLYBY-Sun"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:96 src/ui_flybymanager.h:883
+msgid "FLYBY-Venus"
+msgstr "FLYBY-Venus"
+
+#: src/flybyutil/flybymanager.cpp:98 src/ui_flybymanager.h:887
+msgid "FLYBY-Moon"
+msgstr ""
+
+#: src/flybyutil/flybymanager.cpp:100 src/ui_flybymanager.h:891
+msgid "FLYBY-Earth"
+msgstr "FLYBY-Earth"
+
+#: src/flybyutil/flybymanager.cpp:102 src/ui_flybymanager.h:895
+msgid "FLYBY-Uranus"
+msgstr "FLYBY-Uranus"
+
+#: src/flybyutil/flybymanager.cpp:104 src/ui_flybymanager.h:899
+msgid "FLYBY-Mercury"
+msgstr "FLYBY-Mercury"
+
+#: src/flybyutil/flybymanager.cpp:106 src/ui_flybymanager.h:903
+msgid "FLYBY-Pluto"
+msgstr "FLYBY-Pluto"
+
+#: src/flybyutil/flybymanager.cpp:161 src/flybyutil/flybymanager.cpp:264
+#, qt-format
+msgid "Altitude: %0 km"
+msgstr "Altitude: %0 km"
+
+#: src/flybyutil/flybymanager.cpp:192
+#, qt-format
+msgid "Velocity: %0 km/s"
+msgstr "Velocidade: %0 km/s"
+
+#: src/flybyutil/flybymanager.cpp:239
+msgid "Go Home"
+msgstr "Ir Casa"
+
+#: src/ui_dateTimeDialogGui.h:380 src/ui_helpDialogGui.h:258
+#: src/ui_locationDialogGui.h:385 src/ui_viewDialog.h:1617
+#: src/ui_configurationDialog.h:1280 src/ui_stellamanager.h:970
+#: src/ui_splashScreen.h:80 src/ui_previewform.h:795 src/ui_flybymanager.h:831
+#: src/ui_servermanager.h:1639 src/ui_messierwindow.h:131
+msgid "Form"
+msgstr "Formulário"
+
+#: src/ui_dateTimeDialogGui.h:383 src/ui_dateTimeDialogGui.h:384
+msgid "/"
+msgstr "/"
+
+#: src/ui_dateTimeDialogGui.h:385 src/ui_dateTimeDialogGui.h:386
+msgid ":"
+msgstr ":"
+
+#: src/ui_dateTimeDialogGui.h:392
+msgid "Flow Rate"
+msgstr "Vazão"
+
+#: src/ui_searchDialogGui.h:237 src/ui_searchDialogGui.h:238
+msgid "Find Object"
+msgstr "Encontrar objeto"
+
+#: src/ui_searchDialogGui.h:241
+msgid "Move"
+msgstr "Mudança"
+
+#: src/ui_searchDialogGui.h:244
+msgid "RA/Dec (J2000):"
+msgstr "RA/Dec (J2000)"
+
+#: src/ui_viewDialog.h:1632
+msgid "Sky Items"
+msgstr "Itens Sky"
+
+#: src/ui_viewDialog.h:1634
+msgid "Warping"
+msgstr "Empenamento"
+
+#: src/ui_configurationDialog.h:1422
+msgid "Start with Fine-tune"
+msgstr ""
+
+#: src/ui_recordmanager.h:304
+msgid "Dialog"
+msgstr "Diálogo"
+
+#: src/ui_qlisansform.h:192
+msgid "Lisans Kodu Ver"
+msgstr ""
+
+#: src/ui_qlisansform.h:193 src/ui_splashScreen.h:82
+msgid "User Name:"
+msgstr "Nome de usuário:"
+
+#: src/ui_qlisansform.h:195
+msgid "Date:"
+msgstr "Data:"
+
+#: src/ui_qlisansform.h:196
+msgid "License Code:"
+msgstr "Licença Código:"
+
+#: src/ui_qlisansform.h:197
+msgid "The user name must be no more then 20 characters."
+msgstr "O nome de usuário deve ser não mais que 20 caracteres."
+
+#: src/ui_qlisansform.h:198
+msgid "License Dialog"
+msgstr "Licença de diálogo"
+
+#: src/ui_splashScreen.h:83
+msgid "ver :"
+msgstr "ver :"
+
+#: src/ui_splashScreen.h:84
+msgid "for Hakoniwa"
+msgstr ""
+
+#: src/ui_previewform.h:838
+msgid "B8"
+msgstr ""
+
+#: src/ui_servermanager.h:1640
+msgid "Stellarium-Manager Window"
+msgstr "Stellarium-Window Manager"
+
+#: src/ui_qimagepropwidget.h:1157
+msgid "QImagePropWidget"
+msgstr ""
+
+#: src/ui_messierwindow.h:132
+msgid "Move to Object"
+msgstr ""
+
+#: src/ui_messierwindow.h:133
+msgid "Hide Landscape && Atmosphere"
+msgstr ""
+
+#: src/ui_messierwindow.h:134
+msgid "Hide All"
+msgstr "Ocultar tudo"
+
+#~ msgid "Loading catalog %1 from file %2"
+#~ msgstr "Carregando catálogo %1 do arquivo %2"
+
+#~ msgid "Loading NGC catalog: %1/%2"
+#~ msgstr "Carregando Catálogo NGC: %1/%2"
+
+#~ msgid "Startup FOV: %1%2"
+#~ msgstr "Inicialização do FOV: %1%2"
+
+#~ msgid "Startup direction of view Az/Alt: %1/%2"
+#~ msgstr "Direção da visualização na inicialização Az/Alt: %1/%2"
+
+#~ msgid "Further Reading"
+#~ msgstr "Leitura posterior"
+
+#~ msgid ""
+#~ "The following links are external web links, and will launch your web "
+#~ "browser:\n"
+#~ msgstr ""
+#~ "O links seguintes são de sites externos e irão abrir no seu navegador de "
+#~ "internet\n"
+
+#~ msgid "{Frequently Asked Questions} about Stellarium.  Answers too."
+#~ msgstr "{Perguntas frequentes} sobre Stellarium. Respostas também."
+
+#~ msgid ""
+#~ "{The Stellarium Wiki} - General information.  You can also find user-"
+#~ "contributed landscapes and scripts here."
+#~ msgstr ""
+#~ "{Stellarium Wiki} - Informações gerais. Você também pode encontrar planos "
+#~ "de fundo de usuários contribuintes e scripts aqui."
+
+#~ msgid ""
+#~ "{Support ticket system} - if you need help using Stellarium, post a "
+#~ "support request here and we'll try to help."
+#~ msgstr ""
+#~ "{Sistema de requisição de suporte} - Se você precisa de ajuda usando o  "
+#~ "Stellarium, submeta uma requisição de suporte aqui e tentaremos ajudar."
+
+#~ msgid "{Forums} - discuss Stellarium with other users."
+#~ msgstr "{Fórums} - Discuta o Stellarium com outros usuários."
+
+#~ msgid "Developers"
+#~ msgstr "Desenvolvedores"
+
+#~ msgid "Project coordinator & lead developer: %1"
+#~ msgstr "Coordenador do projeto e principal desenvolvedor: %1"
+
+#~ msgid "Doc author/developer: %1"
+#~ msgstr "Doc autor/desenvolvedor: %1"
+
+#~ msgid "Graphic/other designer: %1"
+#~ msgstr "Gráfico/outra decoração: %1"
+
+#~ msgid "Developer: %1"
+#~ msgstr "Desenvolvedor: %1"
+
+#~ msgid "OSX Developer: %1"
+#~ msgstr "Desenvolvedor OSX: %1"
+
+#~ msgid "Full-screen mode"
+#~ msgstr "Modo tela cheia"
+
+#~ msgid "Move telescope #0 to selected object"
+#~ msgstr "Mover telescópio #0 ao objeto selecionado"
+
+#~ msgid "Move telescope #1 to selected object"
+#~ msgstr "Mover telescópio #1 ao objeto selecionado"
+
+#~ msgid "Move telescope #2 to selected object"
+#~ msgstr "Mover telescópio #2 ao objeto selecionado"
+
+#~ msgid "Move telescope #3 to selected object"
+#~ msgstr "Mover telescópio #3 ao objeto selecionado"
+
+#~ msgid "Move telescope #4 to selected object"
+#~ msgstr "Mover telescópio #4 ao objeto selecionado"
+
+#~ msgid "Move telescope #5 to selected object"
+#~ msgstr "Mover telescópio #5 ao objeto selecionado"
+
+#~ msgid "Move telescope #6 to selected object"
+#~ msgstr "Mover telescópio #6 ao objeto selecionado"
+
+#~ msgid "Move telescope #7 to selected object"
+#~ msgstr "Mover telescópio #7 ao objeto selecionado"
+
+#~ msgid "Move telescope #8 to selected object"
+#~ msgstr "Mover telescópio #8 ao objeto selecionado"
+
+#~ msgid "Move telescope #9 to selected object"
+#~ msgstr "Mover telescópio #9 ao objeto selecionado"
+
+#~ msgid "Save screenshot"
+#~ msgstr "Salvar captura de tela"
+
+#~ msgid ""
+#~ "Restoring default settings requires a restart of Stellarium. Saving all "
+#~ "the current options includes the current FOV and direction of view for "
+#~ "use at next startup."
+#~ msgstr ""
+#~ "A restauração das configurações padrão requer o reinício do Stellarium. "
+#~ "Salvando todas as opções atuais inclui o FOV atual e a direcção de "
+#~ "visualização para utilizar na próxima inicialização."
+
+#~ msgid "Starts Stellarium at system clock date and time"
+#~ msgstr "Iniciar o Stellarium com a data e hora do sistema"
+
+#~ msgid ""
+#~ "Sets the simulation time to the next instance of this time of day when "
+#~ "Stellarium starts"
+#~ msgstr ""
+#~ "Configurar a velocidade de simulação quando o Stellarium for iniciado "
+#~ "novamente"
+
+#~ msgid "Use a specific date and time when Stellarium starts up"
+#~ msgstr "Usar data e hora específica quando o programa iniciar"
+
+#~ msgid ""
+#~ "Spheric mirror distortion is used when projecting Stellarium onto a "
+#~ "spheric mirror for low-cost planetarium systems."
+#~ msgstr ""
+#~ "Distorção do espelho esférico é usada quando projeta-se o programa em um "
+#~ "espelho esférico para telescópios de baixo custo."

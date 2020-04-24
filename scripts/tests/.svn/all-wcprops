@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/stellarium/!svn/ver/5169/trunk/stellarium/scripts/tests
+END
+sky_image1.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4514/trunk/stellarium/scripts/tests/sky_image1.ssc
+END
+sky_image2.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4476/trunk/stellarium/scripts/tests/sky_image2.ssc
+END
+sky_image3.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4476/trunk/stellarium/scripts/tests/sky_image3.ssc
+END
+sky_cultures.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5169/trunk/stellarium/scripts/tests/sky_cultures.ssc
+END
+sky_image4.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4476/trunk/stellarium/scripts/tests/sky_image4.ssc
+END
+real_time.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4580/trunk/stellarium/scripts/tests/real_time.ssc
+END
+audiotest.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/3998/trunk/stellarium/scripts/tests/audiotest.ssc
+END
+screen_image1.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4467/trunk/stellarium/scripts/tests/screen_image1.ssc
+END
+labels.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/4464/trunk/stellarium/scripts/tests/labels.ssc
+END
+get_view_data.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4568/trunk/stellarium/scripts/tests/get_view_data.ssc
+END
+screen_image2.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4467/trunk/stellarium/scripts/tests/screen_image2.ssc
+END
+status_label.inc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4568/trunk/stellarium/scripts/tests/status_label.inc
+END
+screen_image3.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4467/trunk/stellarium/scripts/tests/screen_image3.ssc
+END
+screen_image4.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4471/trunk/stellarium/scripts/tests/screen_image4.ssc
+END
+screen_image5.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4473/trunk/stellarium/scripts/tests/screen_image5.ssc
+END
+audiotest.wav
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/3998/trunk/stellarium/scripts/tests/audiotest.wav
+END
+goto.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/4579/trunk/stellarium/scripts/tests/goto.ssc
+END
+exit_test.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4476/trunk/stellarium/scripts/tests/exit_test.ssc
+END
+audiotest.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/3998/trunk/stellarium/scripts/tests/audiotest.mp3
+END
+state.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/stellarium/!svn/ver/4653/trunk/stellarium/scripts/tests/state.ssc
+END
+timer.ssc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/stellarium/!svn/ver/4467/trunk/stellarium/scripts/tests/timer.ssc
+END
+audiotest.ogg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/3998/trunk/stellarium/scripts/tests/audiotest.ogg
+END
