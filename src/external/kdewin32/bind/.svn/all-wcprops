@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/bind
+END
+inet_ntop.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/bind/inet_ntop.c
+END
+inet_pton.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/bind/inet_pton.c
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/bind/COPYRIGHT
+END

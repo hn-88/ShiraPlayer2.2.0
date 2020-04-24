@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5894/trunk/stellarium/src/external/glues_stel/source
+END
+glues_mipmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/stellarium/!svn/ver/5894/trunk/stellarium/src/external/glues_stel/source/glues_mipmap.c
+END
+glues.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/5892/trunk/stellarium/src/external/glues_stel/source/glues.h
+END
+glues_mipmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/stellarium/!svn/ver/5892/trunk/stellarium/src/external/glues_stel/source/glues_mipmap.h
+END
+glues_error.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/stellarium/!svn/ver/5892/trunk/stellarium/src/external/glues_stel/source/glues_error.c
+END
+glues_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/stellarium/!svn/ver/5410/trunk/stellarium/src/external/glues_stel/source/glues_error.h
+END

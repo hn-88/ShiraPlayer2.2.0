@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/stellarium/!svn/ver/5625/trunk/stellarium/src/external/kdewin32
+END
+ocidl.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/ocidl.h
+END
+inet.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/inet.c
+END
+pwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/pwd.h
+END
+realpath.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/realpath.c
+END
+netdb.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/netdb.h
+END
+langinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/langinfo.h
+END
+byteswap.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/byteswap.h
+END
+uname.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/uname.c
+END
+fcntl.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/fcntl.c
+END
+string.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/string.c
+END
+strptime.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/strptime.c
+END
+fcntl.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/fcntl.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/string.h
+END
+oleidl.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/oleidl.h
+END
+syslog.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/syslog.c
+END
+objfwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/objfwd.h
+END
+stdlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/stdlib.c
+END
+fsync.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/fsync.c
+END
+dirent.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/dirent.c
+END
+syslog.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/syslog.h
+END
+unknwn.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/unknwn.h
+END
+stdlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/stdlib.h
+END
+olectl.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/olectl.h
+END
+resource.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/resource.c
+END
+stdio.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/stdio.h
+END
+grp.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/grp.c
+END
+dirent.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/dirent.h
+END
+grp.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/grp.h
+END
+uuids.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/uuids.h
+END
+time.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4961/trunk/stellarium/src/external/kdewin32/time.c
+END
+strings.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/strings.h
+END
+basetyps.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/basetyps.h
+END
+nl_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/nl_types.h
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/time.h
+END
+docobj.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/docobj.h
+END
+unistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5625/trunk/stellarium/src/external/kdewin32/unistd.c
+END
+objidl.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/objidl.h
+END
+mshtml.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/mshtml.h
+END
+wchar.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/wchar.h
+END
+comcat.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/comcat.h
+END
+unistd.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5625/trunk/stellarium/src/external/kdewin32/unistd.h
+END
+signal.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/signal.c
+END
+ifaddrs.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/ifaddrs.h
+END
+signal.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/signal.h
+END
+errno.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/errno.c
+END
+nl_langinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/nl_langinfo.c
+END
+net.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/net.c
+END
+getenv.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/getenv.c
+END
+mmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/mmap.c
+END
+errno.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/errno.h
+END
+pwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/pwd.c
+END
+oaidl.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/oaidl.h
+END

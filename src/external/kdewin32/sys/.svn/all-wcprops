@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys
+END
+uio.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/uio.h
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/time.h
+END
+wait.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/wait.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/types.h
+END
+unistd.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/unistd.h
+END
+ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/ioctl.h
+END
+stat.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/stat.h
+END
+utsname.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/utsname.h
+END
+signal.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/signal.h
+END
+select.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/select.h
+END
+times.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/times.h
+END
+un.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/un.h
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/resource.h
+END
+socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/socket.h
+END
+mman.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4127/trunk/stellarium/src/external/kdewin32/sys/mman.h
+END
