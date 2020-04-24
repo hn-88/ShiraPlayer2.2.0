@@ -113,7 +113,7 @@ CHECK_FUNCTION_EXISTS(snprintf HAVE_SNPRINTF)
 ########### Others ###########
 # Activate translation with gettext
 SET(RELEASE_BUILD 1 CACHE BOOL "Flag this build as an official release.")
-SET(ENABLE_NLS 1 CACHE BOOL "Define whether program translation should be supported.")
+SET(ENABLE_NLS 0 CACHE BOOL "Define whether program translation should be supported.")
 
 # Activate sound support
 SET(ENABLE_SOUND 1 CACHE BOOL "Define whether sound support should be activated, options are.")
