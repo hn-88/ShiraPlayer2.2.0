@@ -1,0 +1,25 @@
+//
+// Name: Total Lunar Eclispe
+// License: Public Domain
+// Author: Matthew Gates
+// Description: Attempt to re-implement simple script from the old
+//              scripting engine.  Each old style command is shown
+//              first as a command with OLD: at the start of the line
+//              to help users of the old scripting engine learn how
+//              to use the new one.
+//
+
+core.wait(1);
+core.clear("natural");
+LandscapeMgr.setFlagLandscape(false);
+LandscapeMgr.setFlagAtmosphere(false);
+LandscapeMgr.setFlagFog(false);
+core.wait(1);
+core.setDate("2004:05:04T17:51:00");
+core.selectObjectByName("Moon", false);
+StelMovementMgr.setFlagTracking(true);
+core.wait(2);
+StelMovementMgr.autoZoomIn(2);
+core.wait(2);
+core.setTimeRate(250);
+

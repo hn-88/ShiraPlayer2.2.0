@@ -1,0 +1,2011 @@
+// Author: Qam1
+// Name: Solar system screensaver
+// License: Public Domain
+// Description: Screensaver of various happenings in the Solar System 
+
+
+// This is the pause in seconds between each event
+// feel free to change to your likeing
+
+spd = 10;
+
+// 
+
+// Number of Events
+l = 72;
+
+StelSkyDrawer.setFlagLuminanceAdaptation(false);
+SolarSystem.setLabelsAmount(20);   	
+SolarSystem.setFlagMoonScale(4);   	
+
+id = new Array(length=l);
+for(i=1; i<l+1; i++)
+{
+id[i] = i;
+}
+
+// mix 'em up - A Swap command would be nice
+for(i=0; i<1000; i++)
+{
+var r = Math.floor(Math.random()*l)+1;
+var rr = Math.floor(Math.random()*l)+1;
+
+
+s = id[r];
+ss = id[rr];
+
+id[r] = ss;
+id[rr] = s;
+
+}
+
+r = 0
+
+while (1)
+{
+
+r = r + 1
+if (r==l+1)
+{
+r = 1
+}
+
+if (id[r] == 1)
+{
+// Venus - Pleiades conjunction
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2036-04-04T01:04:47", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*4)+1;
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Venus passes through the Pleiades cluster 4/4/2036"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#05A8F4");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 2)
+{
+// Jupiter - Saturn Conjunction 12/21/2020
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2020-12-21T22:34:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(32, 1);
+
+d = "Jupiter - Saturn Conjunction 12/21/2020"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#96AA22");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 3)
+{
+// Mars - Closest Approach in 65,000 Years 08/27/2003
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2003-08-27T05:09:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Mars", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(61, 1);
+
+
+d = "Mars - Closest Approach in 65000 Years 08/27/2003"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FF0000");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 4)
+{
+// Jupiter - Closest opposition of 21st Century 10/07/2046
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2046-10-07T03:39:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(61, 1);
+
+
+d = "Jupiter - Closest opposition of 21st Century 10/07/2046"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#CC7802");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 5)
+{
+// Jupiter - Uranus Opposition Together 9/21/2010
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2010-09-21T03:39:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(22, 1);
+
+
+d = "Jupiter - Uranus come into Opposition on the same day 9/21/2010"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#74A82C");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 6)
+{
+// Neptune best 10/29/2041
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2041-10-29T05:00:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Neptune", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(22, 1);
+
+d = "Neptune's Closest Opposition of 21st Century 10/29/2041"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#0E2FFC");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 7)
+{
+// Mars - Antares 10/29/2041
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2127-08-02T02:00:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Mars", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(22, 1);
+
+d = "Mars comes within 0.8 degrees of Antares 08/02/2127"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#D81B0B");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 8)
+{
+// Uranus opposition 03/14/2051
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2051-03-14T02:00:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Uranus", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(32, 1);
+
+d = "Uranus' Closest Opposition of the 21st Century 03/14/2051"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#41BA17");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 9)
+{
+// Saturn opposition 12/24/2032
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2032-12-24T02:00:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = false);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.03, 1);
+
+d = "Saturn's best ring view of the 21st century 12/24/2032"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#DEE267");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 10)
+{
+// Pluto Perihelion 9/15/2237
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2237-09-15T01:50:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Pluto", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(38, 1);
+
+d = "Pluto's Next Perihelion 9/15/2237"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#2677DE");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 11)
+{
+// Uranus - Neptune Conjunction 8/19/1993
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("1993-08-19T01:50:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Neptune", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(17, 1);
+
+d = "Uranus - Neptune Conjunction 8/19/1993"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#2F04FA");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 12)
+{
+// Smiley
+SolarSystem.setFlagMoonScale(4);   	
+StelSkyDrawer.setFlagLuminanceAdaptation(true);
+core.setObserverLocation(151.12, -33.52, 64, 1, "", "Earth");
+core.setDate("2008-12-01T09:45:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = false);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*4)+3;
+StelMovementMgr.zoomTo(pick*5, 1);
+
+d = "The Sydney Smile --> Venus-Jupiter-Moon 12/1/2008"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFFFFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+StelSkyDrawer.setFlagLuminanceAdaptation(false);
+}
+
+if (id[r] == 13)
+{
+// Pluto Aphelion
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2114-02-19T01:45:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Pluto", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(28, 1);
+
+d = "Pluto's Next Aphelion 2/19/2114"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#52D1FC");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 14)
+{
+// 5 Planet Grouping 2040
+core.setObserverLocation(-0.39, 4.50, 26, 1, "", "Earth");
+core.setDate("2040-09-08T18:41:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Moon", pointer = true);
+var pick = Math.floor(Math.random()*6);
+if (pick == 0)
+{
+core.selectObjectByName("Mercury", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 4)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+if (pick == 5)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(31, 1);
+
+d = "Five planet and Moon Grouping 9/8/2040"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#C6CCFA");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 15)
+{
+// Jupiter & Regulus
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2038-11-20T09:30:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(10, 1);
+
+d = "Jupiter and Regulus Conjunction 11/20/2038"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#E6B823");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 16)
+{
+// Brightest full moon 21st century
+SolarSystem.setFlagMoonScale(0);   	
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2052-12-06T04:41:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Moon", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*4)+1
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Brightest Full Moon of the 21st Century 12/6/2052"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FAFAFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setFlagMoonScale(4);   	
+}
+
+if (id[r] == 17)
+{
+// 2002 Planet Grouping 
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2002-05-06T01:15:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Vesta", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*5);
+if (pick == 0)
+{
+core.selectObjectByName("Mercury", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+if (pick == 4)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+StelMovementMgr.zoomTo(60, 1);
+
+d = "Planetary Grouping 5/6/2002"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#791BC9");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 18)
+{
+// Jupiter Spread
+core.setObserverLocation(-175.33, 44.24, 1126, 1, "", "Earth");
+core.setDate("2012-11-23T16:00:07", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Jupiter", false);
+
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*5);
+if (pick == 0)
+{
+core.selectObjectByName("Callisto", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Io", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Europa", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Ganymede", pointer = true);
+}
+
+StelMovementMgr.zoomTo(0.355, 1);
+
+d = "All 4 Galilean Satellites at their Extreme Elongations at the same time 11/23/2012"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#791B77");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 19)
+{
+// Neptune - Pluto Opposition 9/16/2383
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2383-09-16T06:00:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Neptune", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Pluto", pointer = true);
+SolarSystem.setLabelsAmount(18);   	
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(32, 1);
+
+d = "The Next Neptune - Pluto Conjunction 9/16/2383"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#616898");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 20)
+{
+// Nice Grouping 4/5/2060
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2060-04-06T00:30:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+var pick = Math.floor(Math.random()*3);
+if (pick == 0)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(14, 1);
+
+d = "Just a nice grouping of Venus, Jupiter, Saturn and the Pleiades 4/5/2060"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#BD2CB0");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 21)
+{
+// Uranus, Neptune and Pluto Conjunction  9/16/3367
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("3367-09-17T06:14:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("HIP 18724", pointer = false);
+StelMovementMgr.setFlagTracking(true);
+
+core.selectObjectByName("Neptune", pointer = true);
+var pick = Math.floor(Math.random()*3);
+if (pick == 0)
+{
+core.selectObjectByName("Pluto", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+StelMovementMgr.zoomTo(31, 1);
+
+SolarSystem.setLabelsAmount(18);   	
+d = "Uranus, Neptune and Pluto Conjunction 9/17/3367"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#0CDDFC");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 22)
+{
+// Venus - Jupiter   9/14/2123
+core.setObserverLocation(49.00, -27.50, 26, 1, "", "Earth");
+core.setDate("2123-09-14T15:25:12", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.02,1);
+
+SolarSystem.setLabelsAmount(18);   	
+d = "Venus  Occultation of Jupiter 9/14/2123"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#CCDDFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 23)
+{
+// Jupiter's Moons - Triple Transit
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2003-01-17T23:39:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.02, 1);
+var pick = Math.floor(Math.random()*4);
+if (pick == 1)
+{
+core.selectObjectByName("Io", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Europa", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Callisto", pointer = true);
+}
+d = "Triple Jupiter Moon Transit 1/17/2003"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#CC7802");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r]  == 24)
+{
+// Jupiter - Mars   12/02/2223
+core.setObserverLocation(94.61, 44.50, 26, 1, "", "Earth");
+core.setDate("2223-12-02T12:33:15", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*2);
+StelMovementMgr.zoomTo(0.03,1);
+
+if (pick == 1)
+{
+StelMovementMgr.zoomTo(0.0136,1);
+
+}
+SolarSystem.setLabelsAmount(18);   	
+d = "Mars Occultation of Jupiter 12/02/2223"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FF0700");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 25)
+{
+// Saturn - Mars   07/09/3332
+core.setObserverLocation(-50.00, 44.50, 26, 1, "", "Earth");
+core.setDate("3332-07-10T00:37:15", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+StelMovementMgr.zoomTo(0.03,1);
+
+}
+if (pick == 1)
+{
+StelMovementMgr.zoomTo(0.0136,1);
+
+}
+SolarSystem.setLabelsAmount(18);   	
+d = "Mars Occultation of Saturn 07/09/3332"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFAA00");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 26)
+{
+// Saturn's Moons - Quadruple Transit
+
+core.setObserverLocation(-137.39, 40.50, 1126, 1, "", "Earth");
+core.setDate("2009-02-24T13:18:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.009, 1);
+var pick = Math.floor(Math.random()*5);
+if (pick == 1)
+{
+core.selectObjectByName("Enceladus", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Dione", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Titan", pointer = true);
+}
+if (pick == 4)
+{
+core.selectObjectByName("Mimas", pointer = true);
+}
+d = "An Incredible Quadruple Saturn Moon Transit 2/24/2009"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#F1FBD9");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 27)
+{
+// Venus - Regulus 10/1/2041
+core.setObserverLocation(100.90, 44.24, 126, 1, "", "Earth");
+core.setDate("2044-10-01T21:57:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.02, 1);
+
+var pick = Math.floor(Math.random()*12);
+pick = pick +1;
+pick = pick/100;
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Venus Occultation of Regulus 10/01/2044"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFDDFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 28)
+{
+// Jupiter - Saturn 4523
+core.setObserverLocation(-337.33, -20.00, 26, 1, "", "Earth");
+core.setDate("4523-03-09T03:34:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 1)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*2) +1;
+pick = pick / 2; 
+pick = pick /10;
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Jupiter - Saturn Closest Great Conjunction in 5000 years 3/09/4523"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#A29165");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r]  == 29)
+{
+// Mars - Jupiter - Saturn - Pluto Conjunction 3/26/2020
+core.setObserverLocation(-73.71, 45.24, 1126, 1, "", "Earth");
+core.setDate("2020-03-26T09:16:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*4);
+if (pick == 0)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+
+if (pick == 1)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+
+if (pick == 2)
+{
+core.selectObjectByName("Pluto", pointer = true);
+}
+
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(37, 1);
+
+d = "Saturn - Mars - Pluto - Jupiter Grouping 3/26/2020"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#47B75D");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 30)
+{
+// 4 Planet Grouping 2010
+core.setObserverLocation(-73.71, 7.50, 26, 1, "", "Earth");
+core.setDate("2010-08-13T00:01:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Moon", pointer = true);
+var pick = Math.floor(Math.random()*5);
+if (pick == 0)
+{
+core.selectObjectByName("Mercury", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+var pick = Math.floor(Math.random()*30)+44;
+
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Four planet and Moon Grouping 8/13/2010"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#A95F3A");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 31)
+{
+// Jupiter - Mars Conjunction Opposition 2/19/2027
+
+core.setObserverLocation(3.71, 44.24, 1126, 1, "", "Earth");
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+core.setDate("2027-02-10T00:34:07", "utc");
+}
+if (pick == 1)
+{
+core.selectObjectByName("Mars", pointer = true);
+core.setDate("2027-02-19T00:34:07", "utc");
+}
+
+LandscapeMgr.setFlagAtmosphere(true);
+
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(44, 1);
+
+d = "Mars and Jupiter come into opposition within 10 days of each other 02/10/2027 + 02/19/2027"
+txt1 = LabelMgr.labelScreen(d, 200, 20, false, 18, "#FF2F00");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 32)
+{
+// Voyager II - 8/20/1977
+
+core.setObserverLocation(25.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("1977-08-20T13:13:07", "utc");
+var pick = Math.floor(Math.random()*4);
+core.selectObjectByName("Mercury", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+if (pick == 0)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Neptune", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+
+SolarSystem.setLabelsAmount(20);   	
+LandscapeMgr.setFlagAtmosphere(true);
+
+StelMovementMgr.zoomTo(163, 1);
+
+d = "Planets at Voyager II launch 8/20/1977"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#002F00");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 33)
+{
+// Mars & Saturn & Antares 
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2016-08-24T01:50:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+var pick = Math.floor(Math.random()*3);
+if (pick == 0)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("HIP 80763", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(42, 1);
+
+d = "Mars - Saturn - Antares 8/24/2024"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FF1B00");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 34)
+{
+// Mars - Closest (although not as close) to Earth since 2003  7/27/2018
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2018-07-27T05:09:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Mars", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(51, 1);
+
+
+d = "Mars closest (although not as close) to Earth since 2003 - 7/27/2018"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FF0F00");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 35)
+{
+// Earth - Mars from Mercury
+core.setObserverLocation(-72.9, 49.5, 26, 1, "", "Mercury");
+core.setDate("2022-11-29T20:25:07", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Mars", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.0145, 1);
+
+d = "Earth Occultation of Mars from Mercury 11/29/2022"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#0AAFFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 36)
+{
+// Total Eclipse of the sun by Europa from Ganymede 
+core.setObserverLocation(-143.6015, -55.5, 26, 1, "", "Ganymede");
+core.setDate("2015-03-28T18:30:46", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Europa", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*3)+1.5;
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Total Eclipse of the sun by Europa from Ganymede 3/28/2015"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFFF07");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 37)
+{
+// Earth from Venus 
+core.setObserverLocation(-84.7, 40.3, 50000, 1, "", "Venus");
+core.setDate("2093-12-17T12:00:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*6)+2;
+StelMovementMgr.zoomTo(pick*pick, 1);
+
+d = "Earth's Brightest 21st Century opposition from Venus "
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#0070FF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setLabelsAmount(20);   
+}
+
+if (id[r] == 38)
+{
+// Earth from Mars 
+core.setObserverLocation(-75.67, 34.49, 17, 1, "", "Mars");
+core.setDate("2084-08-12T17:25:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(67, 1);
+
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+StelMovementMgr.zoomTo(7.39, 1);
+
+}
+d = "Earth's Greatest Illumination of the 21st Century as seen from Mars"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FF70FF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setLabelsAmount(20);   
+}
+
+if (id[r] == 39)
+{
+// Earth from Jupiter 
+core.setObserverLocation(-73.71, 44.24, 71492000, 1, "", "Jupiter");
+core.setDate("2058-07-15T11:52:07", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(34, 1);
+SolarSystem.setFlagOrbits(true);
+
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Earth", pointer = false);
+SolarSystem.setLabelsAmount(-20);   
+SolarSystem.setFlagOrbits(false);
+}
+d = "Earth's Greatest Elongation of the 21st Century as seen from Jupiter"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#A0FFFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setLabelsAmount(20);
+SolarSystem.setFlagOrbits(false);   
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 40)
+{
+// Grouping 2015
+
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2015-11-07T09:44:07", "utc");
+var pick = Math.floor(Math.random()*3);
+
+core.selectObjectByName("Venus", pointer = true);
+if (pick == 0)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+SolarSystem.setLabelsAmount(20);   	
+LandscapeMgr.setFlagAtmosphere(true);
+
+StelMovementMgr.zoomTo(63, 1);
+
+d = "Nice little morning planet Grouping 2015"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#A22F00");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 41)
+{
+// Earth from Saturn 
+core.setObserverLocation(-73.71, 9.24, 30268000, 1, "", "Saturn");
+core.setDate("2031-09-16T00:10:00", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(34, 1);
+SolarSystem.setFlagOrbits(true);
+
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Earth", pointer = false);
+SolarSystem.setLabelsAmount(-20);   
+SolarSystem.setFlagOrbits(false);
+}
+d = "Earth's Greatest Elongation of the 21st Century as seen from Saturn"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#A0FF07");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setLabelsAmount(20);
+SolarSystem.setFlagOrbits(false);   
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 42)
+{
+// Earth from Pluto 
+core.setObserverLocation(83.71, 45.24, 30268000, 1, "", "Pluto");
+core.setDate("2237-08-05T04:31:00", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+SolarSystem.setLabelsAmount(10);   
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(16, 1);
+SolarSystem.setFlagOrbits(true);
+
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+SolarSystem.setLabelsAmount(-20);   
+SolarSystem.setFlagOrbits(false);
+}
+d = "Earth's Greatest Elongation as seen from Pluto during it's next perihelion"
+txt1 = LabelMgr.labelScreen(d, 280, 15, false, 15, "#00FFFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setLabelsAmount(20);
+SolarSystem.setFlagOrbits(false);   
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 43)
+{
+// Saturn from Jupiter 11/2/2020
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Jupiter");
+core.setDate("2020-11-02T16:32:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(96.5, 1);
+
+d = "Saturn Opposition from Jupiter 11/02/2020"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFF6F8");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 44)
+{
+// Venus - Antares 10/19/2117
+core.setObserverLocation(-28.33, 34.50, 1126, 1, "", "Earth");
+core.setDate("2117-10-19T20:45:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*9)+1;
+pick = pick/10;
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Venus and Antares 0.050 degrees apart 10/17/2117"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#F1FFF8");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+if (id[r] == 45)
+{
+// Venus - Hyades 7/11/2028
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2028-07-11T08:11:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(34.2, 1);
+
+d = "Venus in Hyades 7/11/2028"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#F1AFF8");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 46)
+{
+// Jupiter - Saturn from Neptune
+core.setObserverLocation(-68.7, 57.5, 26, 1, "", "Neptune");
+core.setDate("2046-04-29T05:42:29", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 1)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*7) +1;
+pick = pick / 2; 
+pick = pick /100;
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Jupiter Occults Saturn as seen from Neptune 4/29/2046"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#A291FF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 47)
+{
+// Saturn - Earth from Venus   
+core.setObserverLocation(-51.28, 69.50, 50000, 1, "", "Venus");
+core.setDate("2032-01-12T10:07:51", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+var pick = Math.floor(Math.random()*3);
+if (pick == 0)
+{
+core.selectObjectByName("Earth", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*3);
+StelMovementMgr.zoomTo(0.0301,1);
+
+if (pick == 1)
+{
+StelMovementMgr.zoomTo(0.0149,1);
+
+}
+if (pick == 2)
+{
+StelMovementMgr.zoomTo(0.102,1);
+
+core.selectObjectByName("Saturn", pointer = true);
+}
+SolarSystem.setLabelsAmount(18);   	
+StelMovementMgr.setFlagTracking(true);
+
+d = "Earth Occultation of Saturn from Venus 1/12/2032"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#AAAAFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 48)
+{
+// 2048 Planet Grouping 
+core.setObserverLocation(-73.71, -40.24, 1126, 1, "", "Earth");
+core.setDate("2048-08-11T23:11:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Mercury", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*4);
+if (pick == 0)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Moon", pointer = true);
+}
+
+StelMovementMgr.zoomTo(20.1, 1);
+
+d = "Mercury - Venus - Uranus Triple Conjunction and Moon 8/11/2048"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#79FFC9");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 49)
+{
+// 3066 Planet Grouping 
+core.setObserverLocation(-73.71, -40.24, 1126, 1, "", "Earth");
+core.setDate("3066-05-14T10:28:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+var pick = Math.floor(Math.random()*4);
+if (pick == 0)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Moon", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(56.1, 1);
+
+d = "An extremely close (0.8 degrees) Venus - Mars - Jupiter Triple Conjunction 5/14/3066"
+txt1 = LabelMgr.labelScreen(d, 280, 18, false, 17, "#F9FFCF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 50)
+{
+// Venus - Spica 09/2/2197
+core.setObserverLocation(-179.90, 23.24, 126, 1, "", "Earth");
+core.setDate("2197-09-02T08:05:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.02, 1);
+
+var pick = Math.floor(Math.random()*12);
+pick = pick +1;
+pick = pick/100;
+StelMovementMgr.zoomTo(pick, 1);
+
+d = "Venus Occultation of Spica 9/02/2197"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#77DDFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 51)
+{
+// 5 Planet Grouping 3194
+core.setObserverLocation(-69.23, 8.50, 26, 1, "", "Earth");
+core.setDate("3194-06-04T09:28:44", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Moon", pointer = true);
+var pick = Math.floor(Math.random()*5);
+if (pick == 0)
+{
+core.selectObjectByName("Mercury", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+if (pick == 4)
+{
+core.selectObjectByName("Neptune", pointer = true);
+}
+
+StelMovementMgr.setFlagTracking(true);
+StelMovementMgr.zoomTo(23, 1);
+
+d = " 5 Planet Conjunction 6/4/3194"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#AAAAFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 52)
+{
+// Solar Eclipse with Saturn and Jupiter near by 05/11/2059
+SolarSystem.setFlagMoonScale(0);   	
+core.setObserverLocation(-116.75, -23.6666, 126, 1, "", "Earth");
+core.setDate("2059-05-11T18:28:19", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Moon", pointer = true);
+var pick = Math.floor(Math.random()*4);
+if (pick == 0)
+{
+core.selectObjectByName("Mercury", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(17.6, 1);
+
+d = "Solar Eclipse with Saturn and Jupiter near by 05/11/2059"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFDAFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setFlagMoonScale(0);   	
+}
+
+if (id[r] == 53)
+{
+// All 9 Planets lined up 8335
+core.setObserverLocation(-167.5, 44.5, 26, 1, "", "Sun");
+core.setDate("8335-04-03T04:03:07", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Mars", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+SolarSystem.setLabelsAmount(20);   
+
+var pick = Math.floor(Math.random()*9)+1;
+if (pick == 1)
+{
+core.selectObjectByName("Mercury", pointer = true);
+}
+if (pick == 2)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+if (pick == 3)
+{
+core.selectObjectByName("Earth", pointer = true);
+}
+if (pick == 5)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+if (pick == 6)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+if (pick == 7)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+if (pick == 8)
+{
+core.selectObjectByName("Neptune", pointer = true);
+}
+if (pick == 9)
+{
+core.selectObjectByName("Pluto", pointer = true);
+}
+StelMovementMgr.zoomTo(51, 1);
+
+d = "All planets lined up within 40 Degrees 4/3/8335"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFFFFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 54)
+{
+// Moon Transits Earth 7/6/2014
+core.setObserverLocation(-92.90, 40.25, 126, 1, "", "Mars");
+core.setDate("2014-07-06T01:36:52", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Earth", pointer = false);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.01, 1);
+
+var pick = Math.floor(Math.random()*2);
+if (pick == 1)
+{
+core.selectObjectByName("Moon", pointer = false);
+}
+d = "Moon Transits Earth as seen from Mars 7/06/2014"
+SolarSystem.setFlagMoonScale(0);   	
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#0F0FFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setFlagMoonScale(4);   	
+}
+
+if (id[r] == 55)
+{
+// Mars Transits Earth 12/2/2223
+core.setObserverLocation(173.6, 80.50, 126, 1, "", "Jupiter");
+core.setDate("2223-12-02T12:31:31", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Earth", pointer = false);
+var pick = Math.floor(Math.random()*2);
+if (pick == 1)
+{
+core.selectObjectByName("Mars", pointer = false);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.003, 1);
+
+d = "Mars Transits of Earth as seen from Jupiter 12/2/2223"
+SolarSystem.setFlagMoonScale(0);   	
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#7F0007");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LandscapeMgr.setFlagAtmosphere(true);
+
+LabelMgr.setLabelShow(txt1, false);
+SolarSystem.setFlagMoonScale(4);   	
+}
+
+if (id[r] == 56)
+{
+// Earth from Ceres 
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Ceres");
+core.setDate("2082-10-19T21:08:21", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+SolarSystem.setFlagOrbits(true);
+
+StelMovementMgr.zoomTo(41.9, 1);
+
+d = "Earth's Brightest 21st Century illumination from Ceres"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#70707F");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd)
+SolarSystem.setFlagOrbits(false);
+;
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+
+if (id[r] == 57)
+{
+// Earth from Moon 
+core.setObserverLocation(19.71, 39.0, 50, 1, "", "Moon");
+core.setDate("2023-01-21T20:57:30", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(12.9, 1);
+
+d = "The moon becomes completely new (thus the fullest Earth) within 4 minutes of Perigee "
+txt1 = LabelMgr.labelScreen(d, 220, 18, false, 15, "#FFFFFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd)
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 58)
+{
+// Mars and Pleiades 
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2038-02-05T23:57:30", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Mars", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(14.9, 1);
+
+d = "Mars Near the Pleiades 2/5/2038"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FF1101");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd)
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 59)
+{
+// Mars - Jupiter - Spica   07/29/2029
+core.setObserverLocation(0.00, 40.50, 26, 1, "", "Earth");
+core.setDate("2029-07-29T20:56:10", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Spica", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Mars", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+SolarSystem.setLabelsAmount(20);   
+StelMovementMgr.zoomTo(14.9, 1);
+	
+d = "Mars - Jupiter - Spica 07/29/2029"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFEE07");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 60)
+{
+// Uranus from Saturn 
+core.setObserverLocation(-73.71, 40.24, 30268000, 1, "", "Saturn");
+core.setDate("2032-07-20T17:27:30", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("HIP 27366", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+core.selectObjectByName("Uranus", pointer = true);
+StelMovementMgr.zoomTo(94.9, 1);
+
+d = "Urauns Opposition from Saturn 7/20/2032";
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#11FF01");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 61)
+{
+// Neptune from Urauns 
+core.setObserverLocation(-81.0, 69.25, 25559000, 1, "", "Uranus");
+core.setDate("2164-11-19T22:21:30", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Neptune", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(124, 1);
+
+d = "Neptune Opposition from Uranus 11/19/2164";
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#010FFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 62)
+{
+// Jupiter from Mars 
+core.setObserverLocation(-73.71, 45.25, 1176, 1, "", "Mars");
+core.setDate("2011-05-19T06:32:30", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(74, 1);
+
+d = "Jupiter closest 21st century opposition from Mars 5/19/2011";
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#F7714F");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 63)
+{
+// Earth from Mercury 
+core.setObserverLocation(141.80, 44.24, 7, 1, "", "Mercury");
+core.setDate("2061-05-31T04:00:30", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Earth", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(14, 1);
+
+d = "Earth closest 21st century opposition from Mercury 5/31/2061";
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#E03857");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 64)
+{
+// Mercury & Pluto 
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2016-01-30T11:19:30", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+SolarSystem.setLabelsAmount(20);   	
+core.selectObjectByName("Mercury", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Pluto", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(24.7, 1);
+
+d = "The Next Mercury - Pluto conjunction 1/30/2016";
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#BB4234");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+LandscapeMgr.setFlagAtmosphere(true);
+
+}
+
+if (id[r] == 65)
+{
+// Venus Transits Earth 12/2/2223
+core.setObserverLocation(73.6, 44.50, 1126, 1, "", "Mercury");
+core.setDate("2133-12-03T14:06:23", "utc");
+LandscapeMgr.setFlagAtmosphere(false);
+
+core.selectObjectByName("Earth", pointer = false);
+var pick = Math.floor(Math.random()*2);
+if (pick == 1)
+{
+core.selectObjectByName("Venus", pointer = false);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.0135, 1);
+
+d = "Venus Occults Earth as seen from Mercury 12/2/2223"
+SolarSystem.setFlagMoonScale(0);   	
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#A2C9FA");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LandscapeMgr.setFlagAtmosphere(true);
+
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 66)
+{
+// Venus & Saturn & Regulus 
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2036-10-02T08:50:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+var pick = Math.floor(Math.random()*3);
+if (pick == 0)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+if (pick == 1)
+{
+core.selectObjectByName("HIP 49669", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(9.2, 1);
+
+d = "Venus - Saturn and Regulus 10/2/2036"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#BF9150");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 67)
+{
+// Jupiter - Saturn - Moon - Spica Conjunction 4/16/2041
+
+core.setObserverLocation(-0.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2041-04-16T00:00:00", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Saturn", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(15, 1);
+
+d = "Jupiter - Saturn - Full Moon - Spica Grouping 4/16/2041"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#9FAA92");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 68)
+{
+// Jupiter - Venus Conjunction 2012
+
+core.setObserverLocation(-0.71, 44.24, 1126, 1, "", "Earth");
+core.setDate("2012-03-13T20:03:00", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Jupiter", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Venus", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(82, 1);
+
+d = "Jupiter - Venus Conjunction 3/13/2012"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#FFAFF2");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 69)
+{
+// Venus - Zavijava 2069
+
+core.setObserverLocation(-33.00, -69.5, 1126, 1, "", "Earth");
+core.setDate("2069-08-11T20:21:27", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Venus", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Zavijava", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(0.0387, 1);
+
+d = "Venus - Zavijava Conjunction 8/11/2069"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#AAAAFF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 70)
+{
+// Uranus - Neptune Conjunction 1/17/2165
+core.setObserverLocation(-73.71, 40.24, 1126, 1, "", "Earth");
+core.setDate("2165-01-17T21:59:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Neptune", pointer = true);
+var pick = Math.floor(Math.random()*2);
+if (pick == 0)
+{
+core.selectObjectByName("Uranus", pointer = true);
+}
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(15, 1);
+
+d = "The Next Uranus - Neptune Conjunction 1/17/2165"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 20, "#2104FF");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 71)
+{
+// Saturn from Jupiter 2/6/2060
+core.setObserverLocation(-73.71, 44.24, 1126, 1, "", "Jupiter");
+core.setDate("2060-02-06T03:10:07", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Saturn", pointer = true);
+StelMovementMgr.setFlagTracking(true);
+
+StelMovementMgr.zoomTo(66.5, 1);
+
+d = "Saturn Opposition from Jupiter 2/6/2060 (Closest of 21st century)"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 15, "#FFF6AA");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+if (id[r] == 72)
+{
+// Mars - Jupiter - Spica   07/29/2029
+core.setObserverLocation(-7.71, 40.50, 26, 1, "", "Earth");
+core.setDate("2556-09-30T00:00:10", "utc");
+LandscapeMgr.setFlagAtmosphere(true);
+
+core.selectObjectByName("Mars", pointer = true);
+var pick = Math.floor(Math.random()*3);
+if (pick == 0)
+{
+core.selectObjectByName("Jupiter", pointer = true);
+core.setDate("2556-10-11T00:00:10", "utc");
+}
+if (pick == 1)
+{
+core.selectObjectByName("Saturn", pointer = true);
+core.setDate("2556-10-07T00:00:10", "utc");
+}
+StelMovementMgr.setFlagTracking(true);
+
+SolarSystem.setLabelsAmount(20);   
+StelMovementMgr.zoomTo(44.9, 1);
+	
+d = "Mars - Jupiter - Saturn in Opposition within 11 days of each other 09/30/2556 + 10/07/2556 +10/11/2556"
+txt1 = LabelMgr.labelScreen(d, 280, 20, false, 15, "#EFEE01");
+LabelMgr.setLabelShow(txt1, true);
+core.wait(spd);
+LabelMgr.setLabelShow(txt1, false);
+}
+
+
+}
+
+
+
+
