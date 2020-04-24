@@ -24,10 +24,10 @@ SET(Satellites_SRCS
 SET(SatellitesDialog_UIS
   gui/satellitesDialog.ui
 )
-QT4_WRAP_UI(SatellitesDialog_UIS_H ${SatellitesDialog_UIS})
+QT5_WRAP_UI(SatellitesDialog_UIS_H ${SatellitesDialog_UIS})
 
 SET(Satellites_RES ../Satellites.qrc)
-QT4_ADD_RESOURCES(Satellites_RES_CXX ${Satellites_RES})
+QT5_ADD_RESOURCES(Satellites_RES_CXX ${Satellites_RES})
 
 # Add here all the files which require moc compilation
 # that is, all the headers with SIGNAL/SLOTS/PLUGIN_INTERFACE etc..
@@ -38,7 +38,7 @@ SET(Satellites_MOC_HDRS
 )
 
 # After this call, Satellites_MOC_SRCS = moc_Satellites.cxx
-QT4_WRAP_CPP(Satellites_MOC_SRCS ${Satellites_MOC_HDRS})
+QT5_WRAP_CPP(Satellites_MOC_SRCS ${Satellites_MOC_HDRS})
 
 SET(extLinkerOption ${QT_LIBRARIES} ${OPENGL_LIBRARIES} ${ICONV_LIBRARIES} ${INTL_LIBRARIES})
 
