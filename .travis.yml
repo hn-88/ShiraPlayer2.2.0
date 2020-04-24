@@ -1,0 +1,25 @@
+language: cpp
+# modified from https://github.com/hn-88/GL_warp2mp4/blob/master/.travis.yml 
+# and https://github.com/Stellarium/stellarium/blob/master/.travis.yml
+# and https://agateau.com/2019/building-qt-apps-with-travis-and-docker/
+
+dist: xenial
+
+compiler:
+  - gcc
+  
+before_install:
+  - sudo apt-get update
+
+install:
+
+   - sudo apt-get install -y cmake libgps-dev libpulse-dev libgl1-mesa-dev xvfb 
+   - sudo apt-get install -y ninja-build qt5-default qtbase5-dev qttools5-dev
+   
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script: 
+  - make 
