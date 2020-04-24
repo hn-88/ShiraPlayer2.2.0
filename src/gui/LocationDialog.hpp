@@ -1,0 +1,105 @@
+/*
+ * ShiraPlayer(TM)
+ * Copyright (C) 2008 Guillaume Chereau
+ * Copyright (C) 2011 Asaf Yurdakul
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ * ShiraPlayer is a trademark of Sureyyasoft.
+ */
+
+#ifndef _LOCATIONDIALOG_HPP_
+#define _LOCATIONDIALOG_HPP_
+
+#include <QObject>
+#include "StelDialog.hpp"
+
+class Ui_locationDialogForm;
+class QModelIndex;
+class StelLocation;
+
+class LocationDialog : public StelDialog
+{
+    Q_OBJECT
+public:
+    LocationDialog();
+    virtual ~LocationDialog();
+    void languageChanged();
+    //! Notify that the application style changed
+    void styleChanged();
+
+protected:
+    //! Initialize the dialog widgets and connect the signals/slots
+    virtual void createDialogContent();
+    virtual void prepareAsChild();
+    Ui_locationDialogForm* ui;
+
+private:
+    //! Set the values of all the fields from a location info
+    //! Also move the observer to this position
+    void setFieldsFromLocation(const StelLocation& loc);
+
+    //! Create a StelLocation instance from the fields
+    StelLocation locationFromFields() const;
+
+    //! True if the user is currently editing a new location
+    bool isEditingNew;
+
+    //! To be called when user edits any field
+    void reportEdit();
+
+    void disconnectEditSignals();
+    void connectEditSignals();
+
+    //! Update the map for the given location.
+    void setMapForLocation(const StelLocation& loc);
+
+private slots:
+    //! Update the widget to make sure it is synchrone if the location is changed programmatically
+    //! This function should be called repeatidly with e.g. a timer
+    void updateFromProgram();
+
+    //! Called when the map is clicked
+    void setPositionFromMap(double longitude, double latitude);
+
+    //! Called when the user activates an item from the list
+    void listItemActivated(const QModelIndex&);
+
+    //! Called when the planet/country name is manually changed
+    void comboBoxChanged(const QString& text);
+    //! Called when latitude/longitude/altitude is modified
+    void spinBoxChanged(int i=0);
+    //! Called when the location name is manually changed
+    void locationNameChanged(const QString&);
+
+    //! Called when the user clic on the add to list button
+    void addCurrentLocationToList();
+
+    //! Called when the user clic on the delete button
+    void deleteCurrentLocationFromList();
+
+    //! Called when the user wants to use the current location as default
+    void useAsDefaultClicked();
+
+    void on_visibleChanged(bool b);
+    void on_load(bool b);
+
+private:
+    QString lastPlanet;
+    bool lastVisionMode;
+
+public slots:
+    void retranslate();
+};
+
+#endif // _LOCATIONDIALOG_HPP_

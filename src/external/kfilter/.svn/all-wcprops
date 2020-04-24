@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/stellarium/!svn/ver/5893/trunk/stellarium/src/external/kfilter
+END
+kfilterdev.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/stellarium/!svn/ver/4022/trunk/stellarium/src/external/kfilter/kfilterdev.cpp
+END
+kgzipfilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/4022/trunk/stellarium/src/external/kfilter/kgzipfilter.h
+END
+klimitediodevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/4111/trunk/stellarium/src/external/kfilter/klimitediodevice.h
+END
+kfilterbase.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/4022/trunk/stellarium/src/external/kfilter/kfilterbase.h
+END
+karchive.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/4120/trunk/stellarium/src/external/kfilter/karchive.h
+END
+kzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/4111/trunk/stellarium/src/external/kfilter/kzip.h
+END
+kfilterdev.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/4022/trunk/stellarium/src/external/kfilter/kfilterdev.h
+END
+kgzipfilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/4022/trunk/stellarium/src/external/kfilter/kgzipfilter.cpp
+END
+klimitediodevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/stellarium/!svn/ver/4111/trunk/stellarium/src/external/kfilter/klimitediodevice.cpp
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/5084/trunk/stellarium/src/external/kfilter/readme.txt
+END
+kfilterbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/4022/trunk/stellarium/src/external/kfilter/kfilterbase.cpp
+END
+karchive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/5893/trunk/stellarium/src/external/kfilter/karchive.cpp
+END
+kzip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/5893/trunk/stellarium/src/external/kfilter/kzip.cpp
+END

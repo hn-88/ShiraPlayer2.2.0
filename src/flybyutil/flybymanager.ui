@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FlybyManager</class>
+ <widget class="QWidget" name="FlybyManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>1032</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widgetControls" native="true">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,0">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btnStart">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Start Tracking</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="verticalWidget" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="lblVelocity">
+              <property name="styleSheet">
+               <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Velocity :</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="velocitySlider">
+              <property name="styleSheet">
+               <string>font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+              </property>
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>8</number>
+              </property>
+              <property name="pageStep">
+               <number>1</number>
+              </property>
+              <property name="tracking">
+               <bool>true</bool>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="tickPosition">
+               <enum>QSlider::TicksBelow</enum>
+              </property>
+              <property name="tickInterval">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>6</number>
+         </property>
+         <property name="leftMargin">
+          <number>9</number>
+         </property>
+         <property name="topMargin">
+          <number>9</number>
+         </property>
+         <property name="rightMargin">
+          <number>9</number>
+         </property>
+         <property name="bottomMargin">
+          <number>9</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="lblAltitude">
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Altitude :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSlider" name="altitudeSlider">
+           <property name="maximum">
+            <number>15000</number>
+           </property>
+           <property name="singleStep">
+            <number>1</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>15</number>
+     </property>
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QFrame" name="controlsFrame">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="spacing">
+         <number>3</number>
+        </property>
+        <property name="leftMargin">
+         <number>3</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>3</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="btnOrbit">
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Show Orbits</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnAtm">
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Show Atm</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="horizontalFrame">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="btnAxis">
+             <property name="styleSheet">
+              <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+             </property>
+             <property name="text">
+              <string>Planet Axis</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnEquline">
+             <property name="styleSheet">
+              <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+             </property>
+             <property name="text">
+              <string>Equator Line</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="spacing">
+           <number>5</number>
+          </property>
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>MS Shell Dlg 2</family>
+              <pointsize>11</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Date Time
+Flow Rate:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>MS Shell Dlg 2</family>
+              <pointsize>11</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <property name="maxVisibleItems">
+             <number>13</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>Time Flow</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  1x(Real Time)</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  30x</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  300x</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  3000x</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  30000x</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Discrete Time Steps</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  seconds</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  minutes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  hours</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  days</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>  years</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QWidget" name="ssFrame" native="true">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QRadioButton" name="rdOuter">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Outer Planets</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rdInner">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Inner Planets</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="btnSolarSystem">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="accessibleName">
+           <string>FLYBY-SS</string>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Solar System</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/gui/planets/gui/planets/solar_system.png</normaloff>:/gui/planets/gui/planets/solar_system.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>91</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+          <property name="autoRaise">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QWidget" name="widget" native="true">
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <property name="bottomMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QCheckBox" name="chFullLight">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Fully illuminated</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QToolButton" name="btnHome">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>130</height>
+           </size>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Prepare for flyby</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/gui/planets/gui/planets/spaceship.png</normaloff>:/gui/planets/gui/planets/spaceship.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>91</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0">
+    <widget class="QWidget" name="planetsFrame" native="true">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <item row="1" column="3">
+       <widget class="QToolButton" name="btnJupiter">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Jupiter</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Jupiter</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/jupiter.png</normaloff>:/gui/planets/gui/planets/jupiter.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QToolButton" name="btnNeptune">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Neptune</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Neptune</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/neptun.png</normaloff>:/gui/planets/gui/planets/neptun.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QToolButton" name="btnMars">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Mars</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Mars</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/mars.png</normaloff>:/gui/planets/gui/planets/mars.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QToolButton" name="btnSaturn">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Saturn</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Saturn</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/saturn.png</normaloff>:/gui/planets/gui/planets/saturn.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QToolButton" name="btnSun">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Sun</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Sun</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/sun.png</normaloff>:/gui/planets/gui/planets/sun.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QToolButton" name="btnVenus">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Venus</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Venus</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/venus.png</normaloff>:/gui/planets/gui/planets/venus.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QToolButton" name="btnMoon">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Moon</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Moon</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/moon.png</normaloff>:/gui/planets/gui/planets/moon.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QToolButton" name="btnEarth">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Earth</string>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Earth</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/earth.png</normaloff>:/gui/planets/gui/planets/earth.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QToolButton" name="btnUranus">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::TabFocus</enum>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Uranus</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Uranus</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/uranus.png</normaloff>:/gui/planets/gui/planets/uranus.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QToolButton" name="btnMercury">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Mercury</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Mercury</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/merkur.png</normaloff>:/gui/planets/gui/planets/merkur.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QToolButton" name="btnPluto">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="accessibleName">
+         <string>FLYBY-Pluto</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QToolButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 14pt;	
+}
+
+QToolButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QToolButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Pluto</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../../data/mainRes.qrc">
+          <normaloff>:/gui/planets/gui/planets/pluto.png</normaloff>:/gui/planets/gui/planets/pluto.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../data/mainRes.qrc"/>
+ </resources>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

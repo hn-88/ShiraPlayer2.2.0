@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/stellarium/!svn/ver/6097/trunk/stellarium/src/gui
+END
+ViewDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/4678/trunk/stellarium/src/gui/ViewDialog.hpp
+END
+Dialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/stellarium/!svn/ver/3041/trunk/stellarium/src/gui/Dialog.cpp
+END
+Dialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/stellarium/!svn/ver/3391/trunk/stellarium/src/gui/Dialog.hpp
+END
+HelpDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/5892/trunk/stellarium/src/gui/HelpDialog.cpp
+END
+helpDialogGui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/4657/trunk/stellarium/src/gui/helpDialogGui.ui
+END
+StelGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/stellarium/!svn/ver/6094/trunk/stellarium/src/gui/StelGui.cpp
+END
+HelpDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/4623/trunk/stellarium/src/gui/HelpDialog.hpp
+END
+MapLabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/stellarium/!svn/ver/3564/trunk/stellarium/src/gui/MapLabel.cpp
+END
+StelGuiItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/6097/trunk/stellarium/src/gui/StelGuiItems.cpp
+END
+StelGui.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/stellarium/!svn/ver/5184/trunk/stellarium/src/gui/StelGui.hpp
+END
+configurationDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/5059/trunk/stellarium/src/gui/configurationDialog.ui
+END
+MapLabel.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/stellarium/!svn/ver/4156/trunk/stellarium/src/gui/MapLabel.hpp
+END
+scriptConsole.ui
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/4653/trunk/stellarium/src/gui/scriptConsole.ui
+END
+StelGuiItems.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/5562/trunk/stellarium/src/gui/StelGuiItems.hpp
+END
+StelDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/6018/trunk/stellarium/src/gui/StelDialog.cpp
+END
+AngleSpinBox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/5877/trunk/stellarium/src/gui/AngleSpinBox.cpp
+END
+StelDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/6018/trunk/stellarium/src/gui/StelDialog.hpp
+END
+AngleSpinBox.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/4287/trunk/stellarium/src/gui/AngleSpinBox.hpp
+END
+SkyGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/stellarium/!svn/ver/6087/trunk/stellarium/src/gui/SkyGui.cpp
+END
+dateTimeDialogGui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4383/trunk/stellarium/src/gui/dateTimeDialogGui.ui
+END
+DateTimeDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/6020/trunk/stellarium/src/gui/DateTimeDialog.cpp
+END
+SkyGui.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/stellarium/!svn/ver/5090/trunk/stellarium/src/gui/SkyGui.hpp
+END
+DateTimeDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/6018/trunk/stellarium/src/gui/DateTimeDialog.hpp
+END
+StelScriptSyntaxHighlighter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/6094/trunk/stellarium/src/gui/StelScriptSyntaxHighlighter.cpp
+END
+SearchDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/5335/trunk/stellarium/src/gui/SearchDialog.cpp
+END
+searchDialogGui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/4325/trunk/stellarium/src/gui/searchDialogGui.ui
+END
+viewDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/stellarium/!svn/ver/5796/trunk/stellarium/src/gui/viewDialog.ui
+END
+StelScriptSyntaxHighlighter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/stellarium/!svn/ver/6094/trunk/stellarium/src/gui/StelScriptSyntaxHighlighter.hpp
+END
+ConfigurationDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/6093/trunk/stellarium/src/gui/ConfigurationDialog.cpp
+END
+ScriptConsole.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/6094/trunk/stellarium/src/gui/ScriptConsole.cpp
+END
+LocationDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/5553/trunk/stellarium/src/gui/LocationDialog.cpp
+END
+locationDialogGui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/4673/trunk/stellarium/src/gui/locationDialogGui.ui
+END
+ViewDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/5604/trunk/stellarium/src/gui/ViewDialog.cpp
+END
+SearchDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/4308/trunk/stellarium/src/gui/SearchDialog.hpp
+END
+ConfigurationDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/6093/trunk/stellarium/src/gui/ConfigurationDialog.hpp
+END
+ScriptConsole.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/4653/trunk/stellarium/src/gui/ScriptConsole.hpp
+END
+LocationDialog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/4222/trunk/stellarium/src/gui/LocationDialog.hpp
+END

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/stellarium/!svn/ver/5760/trunk/stellarium/src/planetsephems
+END
+elliptic_to_rectangular.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/elliptic_to_rectangular.c
+END
+gust86.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/gust86.c
+END
+elp82b.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/1501/trunk/stellarium/src/planetsephems/elp82b.h
+END
+sideral_time.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/4124/trunk/stellarium/src/planetsephems/sideral_time.c
+END
+misc_stellplanet.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/misc_stellplanet.c
+END
+pluto.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/pluto.c
+END
+elliptic_to_rectangular.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/elliptic_to_rectangular.h
+END
+gust86.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/1730/trunk/stellarium/src/planetsephems/gust86.h
+END
+sideral_time.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/stellarium/!svn/ver/5760/trunk/stellarium/src/planetsephems/sideral_time.h
+END
+vsop87.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/4269/trunk/stellarium/src/planetsephems/vsop87.c
+END
+misc_stellplanet.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/misc_stellplanet.h
+END
+pluto.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/stellarium/!svn/ver/1501/trunk/stellarium/src/planetsephems/pluto.h
+END
+calc_interpolated_elements.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/calc_interpolated_elements.c
+END
+marssat.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/marssat.c
+END
+vsop87.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/1501/trunk/stellarium/src/planetsephems/vsop87.h
+END
+l1.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/5068/trunk/stellarium/src/planetsephems/l1.c
+END
+calc_interpolated_elements.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/stellarium/!svn/ver/1730/trunk/stellarium/src/planetsephems/calc_interpolated_elements.h
+END
+marssat.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/stellarium/!svn/ver/1730/trunk/stellarium/src/planetsephems/marssat.h
+END
+l1.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/1730/trunk/stellarium/src/planetsephems/l1.h
+END
+tass17.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/1763/trunk/stellarium/src/planetsephems/tass17.c
+END
+stellplanet.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/5017/trunk/stellarium/src/planetsephems/stellplanet.c
+END
+tass17.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/1730/trunk/stellarium/src/planetsephems/tass17.h
+END
+elp82b.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/stellarium/!svn/ver/4226/trunk/stellarium/src/planetsephems/elp82b.c
+END
+stellplanet.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/5017/trunk/stellarium/src/planetsephems/stellplanet.h
+END

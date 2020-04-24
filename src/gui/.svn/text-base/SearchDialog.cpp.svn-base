@@ -1,0 +1,400 @@
+/*
+ * Stellarium
+ * Copyright (C) 2008 Guillaume Chereau
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*/
+
+#include "Dialog.hpp"
+#include "SearchDialog.hpp"
+#include "ui_searchDialogGui.h"
+#include "StelApp.hpp"
+#include "StelCore.hpp"
+#include "StelObjectMgr.hpp"
+#include "StelModuleMgr.hpp"
+#include "StelMovementMgr.hpp"
+#include "StelNavigator.hpp"
+#include "StelUtils.hpp"
+
+#include <QTextEdit>
+#include <QLabel>
+#include <QString>
+#include <QStringList>
+#include <QDebug>
+#include <QFrame>
+
+#include "SimbadSearcher.hpp"
+
+// Start of members for class CompletionLabel
+CompletionLabel::CompletionLabel(QWidget* parent) : QLabel(parent), selectedIdx(0)
+{
+}
+
+CompletionLabel::~CompletionLabel()
+{
+}
+
+void CompletionLabel::setValues(const QStringList& v)
+{
+	values=v;
+	updateText();
+}
+
+void CompletionLabel::appendValues(const QStringList& v)
+{
+	values+=v;
+	updateText();
+}
+
+void CompletionLabel::clearValues()
+{
+	values.clear();
+	selectedIdx=0;
+	updateText();
+}
+
+QString CompletionLabel::getSelected()
+{
+	if (values.isEmpty())
+		return QString();
+	return values.at(selectedIdx);
+}
+
+void CompletionLabel::selectNext()
+{
+	++selectedIdx;
+	if (selectedIdx>=values.size())
+		selectedIdx=0;
+	updateText();
+}
+
+void CompletionLabel::selectPrevious()
+{
+	--selectedIdx;
+	if (selectedIdx<0)
+		selectedIdx = values.size()-1;
+	updateText();
+}
+
+void CompletionLabel::selectFirst()
+{
+	selectedIdx=0;
+	updateText();
+}
+
+void CompletionLabel::updateText()
+{
+	QString newText;
+
+	// Regenerate the list with the selected item in bold
+	for (int i=0;i<values.size();++i)
+	{
+		if (i==selectedIdx)
+			newText+="<b>"+values[i]+"</b>";
+		else
+			newText+=values[i];
+		if (i!=values.size()-1)
+			newText += ", ";
+	}
+	setText(newText);
+}
+
+// Start of members for class SearchDialog
+SearchDialog::SearchDialog() : simbadReply(NULL)
+{
+	ui = new Ui_searchDialogForm;
+	simbadSearcher = new SimbadSearcher(this);
+	objectMgr = GETSTELMODULE(StelObjectMgr);
+	Q_ASSERT(objectMgr);
+
+	greekLetters["alpha"] = QString(QChar(0x03B1));
+	greekLetters["beta"] = QString(QChar(0x03B2));
+	greekLetters["gamma"] = QString(QChar(0x03B3));
+	greekLetters["delta"] = QString(QChar(0x03B4));
+	greekLetters["epsilon"] = QString(QChar(0x03B5));
+	greekLetters["zeta"] = QString(QChar(0x03B6));
+	greekLetters["eta"] = QString(QChar(0x03B7));
+	greekLetters["theta"] = QString(QChar(0x03B8));
+	greekLetters["iota"] = QString(QChar(0x03B9));
+	greekLetters["kappa"] = QString(QChar(0x03BA));
+	greekLetters["lambda"] = QString(QChar(0x03BB));
+	greekLetters["mu"] = QString(QChar(0x03BC));
+	greekLetters["nu"] = QString(QChar(0x03BD));
+	greekLetters["xi"] = QString(QChar(0x03BE));
+	greekLetters["omicron"] = QString(QChar(0x03BF));
+	greekLetters["pi"] = QString(QChar(0x03C0));
+	greekLetters["rho"] = QString(QChar(0x03C1));
+	greekLetters["sigma"] = QString(QChar(0x03C3)); // second lower-case sigma shouldn't affect anything
+	greekLetters["tau"] = QString(QChar(0x03C4));
+	greekLetters["upsilon"] = QString(QChar(0x03C5));
+	greekLetters["phi"] = QString(QChar(0x03C6));
+	greekLetters["chi"] = QString(QChar(0x03C7));
+	greekLetters["psi"] = QString(QChar(0x03C8));
+	greekLetters["omega"] = QString(QChar(0x03C9));
+}
+
+SearchDialog::~SearchDialog()
+{
+	delete ui;
+	if (simbadReply)
+	{
+		simbadReply->deleteLater();
+		simbadReply = NULL;
+	}
+}
+
+void SearchDialog::languageChanged()
+{
+	if (dialog)
+	{
+		QString text(ui->lineEditSearchSkyObject->text());
+		ui->retranslateUi(dialog);
+		ui->lineEditSearchSkyObject->setText(text);
+	}
+}
+
+void SearchDialog::styleChanged()
+{
+	// Nothing for now
+}
+
+// Initialize the dialog widgets and connect the signals/slots
+void SearchDialog::createDialogContent()
+{
+	ui->setupUi(dialog);
+	setSimpleStyle(true);
+	connect(ui->closeStelWindow, SIGNAL(clicked()), this, SLOT(close()));
+	connect(ui->lineEditSearchSkyObject, SIGNAL(textChanged(const QString&)), this, SLOT(onTextChanged(const QString&)));
+	connect(ui->pushButtonGotoSearchSkyObject, SIGNAL(clicked()), this, SLOT(gotoObject()));
+	onTextChanged(ui->lineEditSearchSkyObject->text());
+	connect(ui->lineEditSearchSkyObject, SIGNAL(returnPressed()), this, SLOT(gotoObject()));
+	dialog->installEventFilter(this);
+	ui->RAAngleSpinBox->setDisplayFormat(AngleSpinBox::HMSLetters);
+	ui->DEAngleSpinBox->setDisplayFormat(AngleSpinBox::DMSSymbols);
+	ui->DEAngleSpinBox->setPrefixType(AngleSpinBox::NormalPlus);
+
+	// This simply doesn't work. Probably a Qt bug
+	ui->RAAngleSpinBox->setFocusPolicy(Qt::NoFocus);
+	ui->DEAngleSpinBox->setFocusPolicy(Qt::NoFocus);
+
+	connect(ui->RAAngleSpinBox, SIGNAL(valueChanged()), this, SLOT(manualPositionChanged()));
+	connect(ui->DEAngleSpinBox, SIGNAL(valueChanged()), this, SLOT(manualPositionChanged()));
+}
+
+void SearchDialog::setVisible(bool v)
+{
+	StelDialog::setVisible(v);
+
+	// Set the focus directly on the line edit
+	if (ui->lineEditSearchSkyObject->isVisible())
+		ui->lineEditSearchSkyObject->setFocus();
+}
+
+void SearchDialog::setSimpleStyle(bool b)
+{
+	ui->RAAngleSpinBox->setVisible(!b);
+	ui->DEAngleSpinBox->setVisible(!b);
+	ui->simbadStatusLabel->setVisible(false);
+	ui->raDecLabel->setVisible(!b);
+}
+
+void SearchDialog::manualPositionChanged()
+{
+	ui->completionLabel->clearValues();
+	StelMovementMgr* mvmgr = GETSTELMODULE(StelMovementMgr);
+	Vec3d pos;
+	StelUtils::spheToRect(ui->RAAngleSpinBox->valueRadians(), ui->DEAngleSpinBox->valueRadians(), pos);
+	mvmgr->setFlagTracking(false);
+	mvmgr->moveToJ2000(pos, 0.05);
+}
+
+void SearchDialog::onTextChanged(const QString& text)
+{
+	if (simbadReply)
+	{
+		disconnect(simbadReply, SIGNAL(statusChanged()), this, SLOT(onSimbadStatusChanged()));
+		delete simbadReply;
+		simbadReply=NULL;
+	}
+	simbadResults.clear();
+
+	QString trimmedText = text.trimmed().toLower();
+	if (trimmedText.isEmpty())
+	{
+		ui->completionLabel->clearValues();
+		ui->completionLabel->selectFirst();
+		ui->simbadStatusLabel->setText("");
+		ui->pushButtonGotoSearchSkyObject->setEnabled(false);
+	}
+	else
+	{
+		simbadReply = simbadSearcher->lookup(trimmedText, 3);
+		onSimbadStatusChanged();
+		connect(simbadReply, SIGNAL(statusChanged()), this, SLOT(onSimbadStatusChanged()));
+
+		QString greekText = substituteGreek(trimmedText);
+		QStringList matches;
+		if(greekText != trimmedText)
+		{
+			matches = objectMgr->listMatchingObjectsI18n(trimmedText, 3);
+			matches += objectMgr->listMatchingObjectsI18n(greekText, (5 - matches.size()));
+		}
+		else
+			matches = objectMgr->listMatchingObjectsI18n(trimmedText, 5);
+
+		ui->completionLabel->setValues(matches);
+		ui->completionLabel->selectFirst();
+
+		// Update push button enabled state
+		ui->pushButtonGotoSearchSkyObject->setEnabled(true);
+	}
+}
+
+// Called when the current simbad query status changes
+void SearchDialog::onSimbadStatusChanged()
+{
+	Q_ASSERT(simbadReply);
+	if (simbadReply->getCurrentStatus()==SimbadLookupReply::SimbadLookupErrorOccured)
+	{
+		ui->simbadStatusLabel->setText(QString("Simbad Lookup Error: ")+simbadReply->getErrorString());
+		if (ui->completionLabel->isEmpty())
+			ui->pushButtonGotoSearchSkyObject->setEnabled(false);
+	}
+	else
+	{
+		ui->simbadStatusLabel->setText(QString("Simbad Lookup: ")+simbadReply->getCurrentStatusString());
+		// Query not over, don't disable button
+		ui->pushButtonGotoSearchSkyObject->setEnabled(true);
+	}
+
+	if (simbadReply->getCurrentStatus()==SimbadLookupReply::SimbadLookupFinished)
+	{
+		simbadResults = simbadReply->getResults();
+		ui->completionLabel->appendValues(simbadResults.keys());
+		// Update push button enabled state
+		ui->pushButtonGotoSearchSkyObject->setEnabled(!ui->completionLabel->isEmpty());
+	}
+
+	if (simbadReply->getCurrentStatus()!=SimbadLookupReply::SimbadLookupQuerying)
+	{
+		disconnect(simbadReply, SIGNAL(statusChanged()), this, SLOT(onSimbadStatusChanged()));
+		delete simbadReply;
+		simbadReply=NULL;
+
+		// Update push button enabled state
+		// Update push button enabled state
+		ui->pushButtonGotoSearchSkyObject->setEnabled(!ui->completionLabel->isEmpty());
+	}
+}
+
+void SearchDialog::gotoObject()
+{
+	QString name = ui->completionLabel->getSelected();
+
+	if (name.isEmpty())
+		return;
+
+	StelMovementMgr* mvmgr = GETSTELMODULE(StelMovementMgr);
+	if (simbadResults.contains(name))
+	{
+		close();
+		Vec3d pos = simbadResults[name];
+		objectMgr->unSelect();
+		mvmgr->moveToJ2000(pos, mvmgr->getAutoMoveDuration());
+		ui->lineEditSearchSkyObject->clear();
+		ui->completionLabel->clearValues();
+	}
+	else if (objectMgr->findAndSelectI18n(name))
+	{
+		const QList<StelObjectP> newSelected = objectMgr->getSelectedObject();
+		if (!newSelected.empty())
+		{
+			close();
+			ui->lineEditSearchSkyObject->clear();
+			ui->completionLabel->clearValues();
+			// Can't point to home planet
+			if (newSelected[0]->getEnglishName()!=StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation().name)
+			{
+				mvmgr->moveToObject(newSelected[0], mvmgr->getAutoMoveDuration());
+				mvmgr->setFlagTracking(true);
+			}
+			else
+			{
+				GETSTELMODULE(StelObjectMgr)->unSelect();
+			}
+		}
+	}
+	simbadResults.clear();
+}
+
+bool SearchDialog::eventFilter(QObject *object, QEvent *event)
+{
+	if (event->type() == QEvent::KeyRelease)
+	{
+		QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
+
+		// Kludgy workaround for Qt focusPolicy bug. Get rid of this if
+		// they ever fix it.
+		if(keyEvent->key() == Qt::Key_Tab)
+			ui->lineEditSearchSkyObject->setFocus(Qt::OtherFocusReason);
+
+		if (keyEvent->key() == Qt::Key_Tab || keyEvent->key() == Qt::Key_Down)
+		{
+			ui->completionLabel->selectNext();
+			event->accept();
+			return true;
+		}
+		if (keyEvent->key() == Qt::Key_Up)
+		{
+			ui->completionLabel->selectPrevious();
+			event->accept();
+			return true;
+		}
+	}
+
+	return false;
+}
+
+QString SearchDialog::substituteGreek(const QString& keyString)
+{
+	if (!keyString.contains(' '))
+		return getGreekLetterByName(keyString);
+	else
+	{
+		QStringList nameComponents = keyString.split(" ", QString::SkipEmptyParts);
+		if(!nameComponents.empty())
+			nameComponents[0] = getGreekLetterByName(nameComponents[0]);
+		return nameComponents.join(" ");
+	}
+}
+
+QString SearchDialog::getGreekLetterByName(const QString& potentialGreekLetterName)
+{
+	if(greekLetters.contains(potentialGreekLetterName))
+		return greekLetters[potentialGreekLetterName.toLower()];
+
+	// There can be indices (e.g. "α1 Cen" instead of "α Cen A"), so strip
+	// any trailing digit.
+	int lastCharacterIndex = potentialGreekLetterName.length()-1;
+	if(potentialGreekLetterName.at(lastCharacterIndex).isDigit())
+	{
+		QChar digit = potentialGreekLetterName.at(lastCharacterIndex);
+		QString name = potentialGreekLetterName.left(lastCharacterIndex);
+		if(greekLetters.contains(name))
+			return greekLetters[name.toLower()] + digit;
+	}
+
+	return potentialGreekLetterName;
+}

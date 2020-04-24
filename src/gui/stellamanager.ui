@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StellaManagerForm</class>
+ <widget class="QWidget" name="StellaManagerForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>764</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_18">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMaximumSize</enum>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="wfistRow">
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <property name="bottomMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="btnEquitorialGrid">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Equatorial
+Grid</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/btEquatorialGrid-off.png</normaloff>:/graphicGui/gui/btEquatorialGrid-off.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnAzimuthalGrid">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Azimuthal
+Grid</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/btAzimuthalGrid-off.png</normaloff>:/graphicGui/gui/btAzimuthalGrid-off.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnEclipticLine">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Ecliptic
+Line</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnMeridianLine">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Meridian
+Line</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="wSecondRow">
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <property name="bottomMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="btnConstellationLines">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Constellation
+Lines</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/btConstellationLines-off.png</normaloff>:/graphicGui/gui/btConstellationLines-off.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnConstellationLabels">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Constellation
+Labels</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnConstellationArts">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Constellation
+Arts</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/btConstellationArt-off.png</normaloff>:/graphicGui/gui/btConstellationArt-off.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnConstellationBoundaries">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Constellation 
+Boundaries</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="wThirdRow">
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <property name="bottomMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_12">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_11">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btnPlanets">
+               <property name="styleSheet">
+                <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+               </property>
+               <property name="text">
+                <string>Planets</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../data/mainRes.qrc">
+                 <normaloff>:/graphicGui/gui/btPlanets-off.png</normaloff>:/graphicGui/gui/btPlanets-off.png</iconset>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="chSelectedPlanet">
+               <property name="styleSheet">
+                <string notr="true">QCheckBox { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QCheckBox:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QCheckBox:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+               </property>
+               <property name="text">
+                <string>Selected Label</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnNebulae">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Nebulae</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/btNebula-off.png</normaloff>:/graphicGui/gui/btNebula-off.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btnStarLabels">
+               <property name="styleSheet">
+                <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+               </property>
+               <property name="text">
+                <string>Star Labels</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../data/mainRes.qrc">
+                 <normaloff>:/graphicGui/gui/btCardinalPoints-off.png</normaloff>:/graphicGui/gui/btCardinalPoints-off.png</iconset>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="chSelectedStar">
+               <property name="styleSheet">
+                <string notr="true">QCheckBox { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QCheckBox:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QCheckBox:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+               </property>
+               <property name="text">
+                <string>Selected Label</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnSatllites">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Satellites</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../plugins/Satellites/Satellites.qrc">
+            <normaloff>:/satellites/satellite_hint.png</normaloff>:/satellites/satellite_hint.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="wFourthRow">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <property name="bottomMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="btnAtmosphere">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Atmosphere</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/btAtmosphere-off.png</normaloff>:/graphicGui/gui/btAtmosphere-off.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnGround">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Ground</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/btGround-off.png</normaloff>:/graphicGui/gui/btGround-off.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnFog">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Fog</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/fog-32.png</normaloff>:/graphicGui/gui/fog-32.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnCardinal">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Compass
+Points</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../../data/mainRes.qrc">
+            <normaloff>:/graphicGui/gui/2-off-location.png</normaloff>:/graphicGui/gui/2-off-location.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="wStar">
+       <layout class="QHBoxLayout" name="wStarRow">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <property name="leftMargin">
+         <number>9</number>
+        </property>
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <property name="rightMargin">
+         <number>9</number>
+        </property>
+        <property name="bottomMargin">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="verticalWidget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>350</width>
+            <height>84</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>350</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="lblFront">
+             <property name="font">
+              <font>
+               <family>MS Shell Dlg 2</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(135, 135, 135);
+</string>
+             </property>
+             <property name="text">
+              <string>Front Sky</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="horizontalFrame">
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="verticalFrame_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>135</width>
+                  <height>84</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>135</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <property name="spacing">
+                  <number>4</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="btnNorth">
+                   <property name="minimumSize">
+                    <size>
+                     <width>135</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>135</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+                   </property>
+                   <property name="text">
+                    <string>North</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnSouth">
+                   <property name="minimumSize">
+                    <size>
+                     <width>135</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>135</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+                   </property>
+                   <property name="text">
+                    <string>South</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="verticalFrame">
+                <property name="minimumSize">
+                 <size>
+                  <width>135</width>
+                  <height>84</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>135</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <property name="spacing">
+                  <number>4</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="btnEast">
+                   <property name="minimumSize">
+                    <size>
+                     <width>135</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>135</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+                   </property>
+                   <property name="text">
+                    <string>East</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnWest">
+                   <property name="minimumSize">
+                    <size>
+                     <width>135</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>135</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+                   </property>
+                   <property name="text">
+                    <string>West</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="verticalWidget_3" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>350</width>
+            <height>84</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>350</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <property name="spacing">
+            <number>4</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="horizontalFrame">
+             <layout class="QHBoxLayout" name="layoutbut">
+              <item>
+               <widget class="QPushButton" name="btnStarTrails">
+                <property name="minimumSize">
+                 <size>
+                  <width>135</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>135</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+                </property>
+                <property name="text">
+                 <string>Star Trails</string>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnStarMag">
+                <property name="minimumSize">
+                 <size>
+                  <width>135</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>135</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+                </property>
+                <property name="text">
+                 <string>Star Mag. Limit</string>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frameStarMag_2">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(135, 135, 135);</string>
+             </property>
+             <layout class="QHBoxLayout" name="frameStarMag">
+              <property name="spacing">
+               <number>6</number>
+              </property>
+              <item>
+               <widget class="QSlider" name="horizontalSlider">
+                <property name="minimum">
+                 <number>-20</number>
+                </property>
+                <property name="maximum">
+                 <number>65</number>
+                </property>
+                <property name="singleStep">
+                 <number>1</number>
+                </property>
+                <property name="value">
+                 <number>65</number>
+                </property>
+                <property name="sliderPosition">
+                 <number>65</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="invertedAppearance">
+                 <bool>false</bool>
+                </property>
+                <property name="invertedControls">
+                 <bool>false</bool>
+                </property>
+                <property name="tickPosition">
+                 <enum>QSlider::NoTicks</enum>
+                </property>
+                <property name="tickInterval">
+                 <number>0</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="labelMag">
+                <property name="minimumSize">
+                 <size>
+                  <width>60</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>60</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>MS Shell Dlg 2</family>
+                  <pointsize>12</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(135, 135, 135);</string>
+                </property>
+                <property name="text">
+                 <string>Mag. &gt;=</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="lblMag">
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>MS Shell Dlg 2</family>
+                  <pointsize>12</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(135, 135, 135);</string>
+                </property>
+                <property name="text">
+                 <string>6.5</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="wMain">
+       <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="0,0">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widgetStellaMain" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>435</width>
+            <height>325</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>500</height>
+           </size>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="widgetStella">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>433</width>
+                <height>361</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <layout class="QVBoxLayout" name="stellaLayout">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <property name="leftMargin">
+           <number>6</number>
+          </property>
+          <property name="topMargin">
+           <number>6</number>
+          </property>
+          <property name="rightMargin">
+           <number>6</number>
+          </property>
+          <property name="bottomMargin">
+           <number>6</number>
+          </property>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="btnRecord">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B5</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Record</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/mainWindow/gui/rec_started.png</normaloff>:/mainWindow/gui/rec_started.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="btnDateTime">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B1</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Date Time</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/1-off-time.png</normaloff>:/graphicGui/gui/1-off-time.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="btnPlanetZoom">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B7</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Planet Zoom</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/btPlanets-off.png</normaloff>:/graphicGui/gui/btPlanets-off.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="btnSearch">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B2</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Search</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/6-off-search.png</normaloff>:/graphicGui/gui/6-off-search.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="btnLocation">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B4</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Location</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/2-off-location.png</normaloff>:/graphicGui/gui/2-off-location.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QPushButton" name="btnHelp">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B6</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Help</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/9-off-help.png</normaloff>:/graphicGui/gui/9-off-help.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="btnNightView">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Night View</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/btNightView-off.png</normaloff>:/graphicGui/gui/btNightView-off.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="btnGoto">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B3</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Go To</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/goto.png</normaloff>:/graphicGui/gui/goto.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="btnLandscape">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B8</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Landscapes</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/btGround-off.png</normaloff>:/graphicGui/gui/btGround-off.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="btnIlluminate">
+            <property name="minimumSize">
+             <size>
+              <width>135</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>135</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="accessibleName">
+             <string>B9</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { 
+     border-style: inset;
+     border-width: 1px;
+     border-radius:5px;
+	 padding: 3px;
+     border-style: solid;
+     border-width: 1px;
+     border-radius:5px;
+     border-color: palette(button);
+	 padding: 3px;
+     font-size: 10pt;
+}
+
+QPushButton:checked { 
+     border-color: palette(dark);
+    background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 rgb(255, 255, 0), stop: 1 transparent );
+}
+
+QPushButton:pressed { 
+     border-color: palette(dark);
+     background-color: qradialgradient(cx: 0.7, cy: 1.4, fx: 0.7, fy: 1.9, radius: 1.5, stop: 0 palette(dark), stop: 1 transparent );
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>Illumination</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../data/mainRes.qrc">
+              <normaloff>:/graphicGui/gui/illum.png</normaloff>:/graphicGui/gui/illum.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../data/mainRes.qrc"/>
+  <include location="../../plugins/Satellites/Satellites.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnStarMag</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frameStarMag_2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>649</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

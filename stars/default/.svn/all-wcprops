@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/stellarium/!svn/ver/6091/trunk/stellarium/stars/default
+END
+defaultStarsConfig.json
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/stellarium/!svn/ver/5636/trunk/stellarium/stars/default/defaultStarsConfig.json
+END
+stars_0_0v0_1.cat
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/2291/trunk/stellarium/stars/default/stars_0_0v0_1.cat
+END
+name.fab
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/stellarium/!svn/ver/6091/trunk/stellarium/stars/default/name.fab
+END
+stars_1_0v0_1.cat
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/2291/trunk/stellarium/stars/default/stars_1_0v0_1.cat
+END
+stars_2_0v0_1.cat
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/2291/trunk/stellarium/stars/default/stars_2_0v0_1.cat
+END
+stars_hip_cids_0v0_0.cat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/stellarium/!svn/ver/2182/trunk/stellarium/stars/default/stars_hip_cids_0v0_0.cat
+END
+stars_hip_sp_0v0_0.cat
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/2182/trunk/stellarium/stars/default/stars_hip_sp_0v0_0.cat
+END
+stars_3_1v0_0.cat
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/stellarium/!svn/ver/2579/trunk/stellarium/stars/default/stars_3_1v0_0.cat
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/stellarium/!svn/ver/5629/trunk/stellarium/stars/default/CMakeLists.txt
+END

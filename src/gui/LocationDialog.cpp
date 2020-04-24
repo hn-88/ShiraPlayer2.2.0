@@ -1,0 +1,451 @@
+/*
+ * ShiraPlayer(TM)
+ * Copyright (C) 2008 Guillaume Chereau*
+ * Copyright (C) 2011 Asaf Yurdakul
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ * ShiraPlayer is a trademark of Sureyyasoft.
+ */
+
+#include "Dialog.hpp"
+#include "LocationDialog.hpp"
+#include "StelLocationMgr.hpp"
+#include "ui_locationDialogGui.h"
+#include "StelApp.hpp"
+#include "StelCore.hpp"
+#include "StelNavigator.hpp"
+#include "StelModuleMgr.hpp"
+#include "SolarSystem.hpp"
+#include "Planet.hpp"
+#include "StelFileMgr.hpp"
+#include "StelLocaleMgr.hpp"
+#include "StelGui.hpp"
+#include "StelGuiItems.hpp"
+#include "StelMainWindow.hpp"
+
+#include <QSettings>
+#include <QDebug>
+#include <QFrame>
+#include <QSortFilterProxyModel>
+#include <QTimer>
+#include <QStringListModel>
+
+LocationDialog::LocationDialog() : isEditingNew(false)
+{
+    ui = new Ui_locationDialogForm;
+    lastVisionMode = StelApp::getInstance().getVisionModeNight();
+}
+
+LocationDialog::~LocationDialog()
+{
+    delete ui;
+}
+
+void LocationDialog::languageChanged()
+{
+    //if (dialog)
+    //    ui->retranslateUi(dialog);
+    if (dialog)
+    {
+        ui->stelWindowTitle->setText(q_("Location"));
+        ui->closeStelWindow->setText(QString());
+        ui->groupBox->setTitle(q_("Current location information"));
+        ui->useAsDefaultLocationCheckBox->setText(q_("Use as default"));
+        ui->deleteLocationFromListPushButton->setText(q_("Delete"));
+        ui->addLocationToListPushButton->setText(q_("Add to list"));
+        ui->label_5->setText(q_("Latitude:"));
+        ui->latitudeSpinBox->setToolTip(q_("You can enter values in decimal degrees, or using dms format, for example: +1d 12m 8s"));
+        ui->label->setText(q_("Longitude:"));
+        ui->longitudeSpinBox->setToolTip(q_("You can enter values in decimal degrees, or using dms format, for example: +1d 12m 8s"));
+        ui->label_7->setText(q_("Altitude:"));
+        ui->altitudeSpinBox->setToolTip(q_("Enter the altitude in meter"));
+        ui->altitudeSpinBox->setSuffix(q_(" m"));
+        ui->label_3->setText(q_("Name/City:"));
+        ui->label_4->setText(q_("Country:"));
+        ui->label_6->setText(q_("Planet:"));
+    }
+}
+
+void LocationDialog::styleChanged()
+{
+    // Make the map red if needed
+    if (dialog)
+        setMapForLocation(StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation());
+}
+
+// Initialize the dialog widgets and connect the signals/slots
+void LocationDialog::createDialogContent()
+{
+    // We try to directly connect to the observer slots as much as we can
+    ui->setupUi(dialog);
+    
+    // Init the SpinBox entries
+    ui->longitudeSpinBox->setDisplayFormat(AngleSpinBox::DMSSymbols);
+    ui->longitudeSpinBox->setPrefixType(AngleSpinBox::Longitude);
+    ui->latitudeSpinBox->setDisplayFormat(AngleSpinBox::DMSSymbols);
+    ui->latitudeSpinBox->setPrefixType(AngleSpinBox::Latitude);
+    
+    QSortFilterProxyModel *proxyModel = new QSortFilterProxyModel(this);
+    proxyModel->setSourceModel((QAbstractItemModel*)StelApp::getInstance().getLocationMgr().getModelAll());
+    proxyModel->sort(0, Qt::AscendingOrder);
+    proxyModel->setFilterCaseSensitivity(Qt::CaseInsensitive);
+    ui->citiesListView->setModel(proxyModel);
+    
+    SolarSystem* ssystem = GETSTELMODULE(SolarSystem);
+    ui->planetNameComboBox->insertItems(0, ssystem->getAllPlanetEnglishNames());
+    
+    ui->countryNameComboBox->insertItems(0, StelLocaleMgr::getAllCountryNames());
+    
+    connect(ui->citySearchLineEdit, SIGNAL(textChanged(const QString&)), proxyModel, SLOT(setFilterWildcard(const QString&)));
+    connect(ui->citiesListView, SIGNAL(clicked(const QModelIndex&)), this, SLOT(listItemActivated(const QModelIndex&)));
+    
+    // Connect all the QT signals
+    connect(ui->closeStelWindow, SIGNAL(clicked()), this, SLOT(close()));
+    connect(ui->mapLabel, SIGNAL(positionChanged(double, double)), this, SLOT(setPositionFromMap(double, double)));
+    
+    connect(ui->addLocationToListPushButton, SIGNAL(clicked()), this, SLOT(addCurrentLocationToList()));
+    connect(ui->deleteLocationFromListPushButton, SIGNAL(clicked()), this, SLOT(deleteCurrentLocationFromList()));
+    
+    setFieldsFromLocation(StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation());
+    
+    const bool b = StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation().getID()
+            ==StelApp::getInstance().getCore()->getNavigator()->getDefaultLocationID();
+    ui->useAsDefaultLocationCheckBox->setChecked(b);
+    ui->useAsDefaultLocationCheckBox->setEnabled(!b);
+    connect(ui->useAsDefaultLocationCheckBox, SIGNAL(clicked()), this, SLOT(useAsDefaultClicked()));
+    
+    connectEditSignals();
+    
+    QTimer* refreshTimer = new QTimer(this);
+    connect(refreshTimer, SIGNAL(timeout()), this, SLOT(updateFromProgram()));
+    refreshTimer->start(200);
+    
+    ui->citySearchLineEdit->setFocus();
+    
+    //ASAF
+    connect(this,SIGNAL(visibleChanged(bool)),this, SLOT(on_visibleChanged(bool)));
+    connect(this,SIGNAL(load(bool)),this,SLOT(on_load(bool)));
+}
+void LocationDialog::prepareAsChild()
+{
+    ui->LocationBar->hide();
+}
+// Update the widget to make sure it is synchrone if the location is changed programmatically
+void LocationDialog::updateFromProgram()
+{
+    if (!dialog->isVisible())
+        return;
+    
+    // Check that the use as default check box needs to be updated
+    const bool b = StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation().getID() == StelApp::getInstance().getCore()->getNavigator()->getDefaultLocationID();
+    if (b!=ui->useAsDefaultLocationCheckBox->isChecked())
+    {
+        ui->useAsDefaultLocationCheckBox->setChecked(b);
+        ui->useAsDefaultLocationCheckBox->setEnabled(!b);
+    }
+    
+    // removing this check and return... we might have the location changed
+    // by a script or plugin, and as such we should update the map whenever the
+    // location window is visible.
+    if (isEditingNew==true)
+        return;
+    
+    const QString& key1 = StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation().getID();
+    const QString& key2 = locationFromFields().getID();
+    if (key1!=key2)
+    {
+        setFieldsFromLocation(StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation());
+    }
+}
+
+void LocationDialog::disconnectEditSignals()
+{
+    disconnect(ui->longitudeSpinBox, SIGNAL(valueChanged()), this, SLOT(spinBoxChanged()));
+    disconnect(ui->latitudeSpinBox, SIGNAL(valueChanged()), this, SLOT(spinBoxChanged()));
+    disconnect(ui->altitudeSpinBox, SIGNAL(valueChanged(int)), this, SLOT(spinBoxChanged(int)));
+    disconnect(ui->planetNameComboBox, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(comboBoxChanged(const QString&)));
+    disconnect(ui->countryNameComboBox, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(comboBoxChanged(const QString&)));
+    disconnect(ui->countryNameComboBox, SIGNAL(activated(const QString&)), this, SLOT(comboBoxChanged(const QString&)));
+    disconnect(ui->cityNameLineEdit, SIGNAL(textEdited(const QString&)), this, SLOT(locationNameChanged(const QString&)));
+}
+
+void LocationDialog::connectEditSignals()
+{
+    connect(ui->longitudeSpinBox, SIGNAL(valueChanged()), this, SLOT(spinBoxChanged()));
+    connect(ui->latitudeSpinBox, SIGNAL(valueChanged()), this, SLOT(spinBoxChanged()));
+    connect(ui->altitudeSpinBox, SIGNAL(valueChanged(int)), this, SLOT(spinBoxChanged(int)));
+    connect(ui->planetNameComboBox, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(comboBoxChanged(const QString&)));
+    connect(ui->countryNameComboBox, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(comboBoxChanged(const QString&)));
+    connect(ui->countryNameComboBox, SIGNAL(activated(const QString&)), this, SLOT(comboBoxChanged(const QString&)));
+    connect(ui->cityNameLineEdit, SIGNAL(textEdited(const QString&)), this, SLOT(locationNameChanged(const QString&)));
+}
+
+void LocationDialog::setFieldsFromLocation(const StelLocation& loc)
+{
+    // Deactivate edit signals
+    disconnectEditSignals();
+    
+    ui->cityNameLineEdit->setText(loc.name);
+    int idx = ui->countryNameComboBox->findText(loc.country);
+    if (idx==-1)
+    {
+        // Use France as default
+        ui->countryNameComboBox->findText("France", Qt::MatchCaseSensitive);
+    }
+    ui->countryNameComboBox->setCurrentIndex(idx);
+    
+    ui->longitudeSpinBox->setDegrees(loc.longitude);
+    ui->latitudeSpinBox->setDegrees(loc.latitude);
+    ui->altitudeSpinBox->setValue(loc.altitude);
+    idx = ui->planetNameComboBox->findText(loc.planetName, Qt::MatchCaseSensitive);
+    if (idx==-1)
+    {
+        // Use Earth as default
+        ui->planetNameComboBox->findText("Earth");
+    }
+    ui->planetNameComboBox->setCurrentIndex(idx);
+    setMapForLocation(loc);
+    
+    // Set pointer position
+    ui->mapLabel->setCursorPos(loc.longitude, loc.latitude);
+    
+    ui->deleteLocationFromListPushButton->setEnabled(StelApp::getInstance().getLocationMgr().canDeleteUserLocation(loc.getID()));
+    
+    // Reactivate edit signals
+    connectEditSignals();
+}
+
+// Update the map for the given location.
+void LocationDialog::setMapForLocation(const StelLocation& loc)
+{
+    // Avoids usless processing
+    if (lastPlanet==loc.planetName && lastVisionMode==StelApp::getInstance().getVisionModeNight())
+        return;
+    
+    QPixmap pixmap;
+    QString path;
+    // Try to set the proper planet map image
+    if (loc.planetName=="Earth")
+    {
+        // Special case for earth, we don't want to see the clouds
+        try
+        {
+            path = StelFileMgr::findFile("data/gui/world.png");
+        }
+        catch (std::runtime_error& e)
+        {
+            qWarning() << "ERROR - could not find planet map for " << loc.planetName << e.what();
+            return;
+        }
+        pixmap = QPixmap(path);
+    }
+    else
+    {
+        SolarSystem* ssm = GETSTELMODULE(SolarSystem);
+        PlanetP p = ssm->searchByEnglishName(loc.planetName);
+        if (p)
+        {
+            try
+            {
+                path = StelFileMgr::findFile("textures/"+p->getTextMapName());
+            }
+            catch (std::runtime_error& e)
+            {
+                qWarning() << "ERROR - could not find planet map for " << loc.planetName << e.what();
+                return;
+            }
+            pixmap = QPixmap(path);
+        }
+    }
+    
+    if (StelApp::getInstance().getVisionModeNight())
+    {
+        ui->mapLabel->setPixmap(StelButton::makeRed(pixmap));
+    }
+    else
+    {
+        ui->mapLabel->setPixmap(pixmap);
+    }
+    
+    // For caching
+    lastPlanet = loc.planetName;
+    lastVisionMode = StelApp::getInstance().getVisionModeNight();
+}
+
+// Create a StelLocation instance from the fields
+StelLocation LocationDialog::locationFromFields() const
+{
+    StelLocation loc;
+    loc.planetName = ui->planetNameComboBox->currentText();
+    loc.name = ui->cityNameLineEdit->text();
+    loc.latitude = ui->latitudeSpinBox->valueDegrees();
+    loc.longitude = ui->longitudeSpinBox->valueDegrees();
+    loc.altitude = ui->altitudeSpinBox->value();
+    loc.country = ui->countryNameComboBox->currentText();
+    return loc;
+}
+
+void LocationDialog::listItemActivated(const QModelIndex& index)
+{
+    isEditingNew=false;
+    ui->addLocationToListPushButton->setEnabled(false);
+    
+    StelLocation loc = StelApp::getInstance().getLocationMgr().locationForSmallString(index.data().toString());
+    
+    setFieldsFromLocation(loc);
+    StelApp::getInstance().getCore()->getNavigator()->moveObserverTo(loc, 0.);
+    
+    const bool b = loc.getID()==StelApp::getInstance().getCore()->getNavigator()->getDefaultLocationID();
+    ui->useAsDefaultLocationCheckBox->setChecked(b);
+    ui->useAsDefaultLocationCheckBox->setEnabled(!b);
+    //StelApp::getInstance().addNetworkCommand(QString("core.setObserverLocation(%0,%1,%2,1,'','").arg(loc.longitude).arg(loc.latitude).arg(loc.altitude)+loc.planetName+"');");
+    StelApp::getInstance().addNetworkCommand(QString("core.setObserverLocation('%0',1.").arg(loc.getID())+");");
+}
+
+void LocationDialog::setPositionFromMap(double longitude, double latitude)
+{
+    //qDebug()<< "Lon:"<<longitude<<"\nLat:"<<latitude;
+    reportEdit();
+    StelLocation loc = locationFromFields();
+    loc.latitude = latitude;
+    loc.longitude = longitude;
+    setFieldsFromLocation(loc);
+    StelApp::getInstance().getCore()->getNavigator()->moveObserverTo(loc, 0.);
+    
+    StelApp::getInstance().addNetworkCommand(QString("core.setObserverLocation(%0,%1,%2,1,'','").arg(longitude).arg(latitude).arg(loc.altitude)+ui->planetNameComboBox->currentText()+"');");
+}
+
+// Called when the planet name is changed by hand
+void LocationDialog::comboBoxChanged(const QString& text)
+{
+    reportEdit();
+    StelLocation loc = locationFromFields();
+    if (loc.planetName!=StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation().planetName)
+        setFieldsFromLocation(loc);
+    StelApp::getInstance().getCore()->getNavigator()->moveObserverTo(loc, 0.);
+    
+    StelApp::getInstance().addNetworkCommand(QString("core.setObserverLocation(%0,%1,%2,1,'','").arg(loc.longitude).arg(loc.latitude).arg(loc.altitude)+loc.planetName+"');");
+}
+
+void LocationDialog::spinBoxChanged(int i)
+{
+    reportEdit();
+    StelLocation loc = locationFromFields();
+    StelApp::getInstance().getCore()->getNavigator()->moveObserverTo(loc, 0.);
+    
+    StelApp::getInstance().addNetworkCommand(QString("core.setObserverLocation(%0,%1,%2,1,'','").arg(loc.longitude).arg(loc.latitude).arg(loc.altitude)+loc.planetName+"');");
+}
+
+// Called when the location name is manually changed
+void LocationDialog::locationNameChanged(const QString&)
+{
+    reportEdit();
+}
+
+void LocationDialog::reportEdit()
+{
+    if (isEditingNew==false)
+    {
+        // The user starts editing manually a field, this creates automatically a new location
+        // and allows to save it to the user locations list
+        isEditingNew=true;
+    }
+    
+    StelLocation loc = locationFromFields();
+    if (!StelApp::getInstance().getLocationMgr().canSaveUserLocation(loc))
+    {
+        if (ui->cityNameLineEdit->hasFocus())
+        {
+            // The user is editing the location name: don't change it!
+            ui->addLocationToListPushButton->setEnabled(false);
+            ui->deleteLocationFromListPushButton->setEnabled(false);
+            return;
+        }
+        else
+        {
+            ui->cityNameLineEdit->setText(q_("New Location"));
+            ui->cityNameLineEdit->selectAll();
+            loc = locationFromFields();
+        }
+    }
+    ui->addLocationToListPushButton->setEnabled(isEditingNew && StelApp::getInstance().getLocationMgr().canSaveUserLocation(loc));
+    ui->deleteLocationFromListPushButton->setEnabled(StelApp::getInstance().getLocationMgr().canDeleteUserLocation(loc.getID()));
+}
+
+// Called when the user clic on the save button
+void LocationDialog::addCurrentLocationToList()
+{
+    const StelLocation& loc = locationFromFields();
+    
+    //ASAF
+    if (StelMainWindow::getInstance().getIsServer())
+    {
+        QString str = QString("%0@%1@%2@%3@%4@%5").arg(loc.planetName)
+                .arg(loc.name)
+                .arg(loc.latitude)
+                .arg(loc.longitude)
+                .arg(loc.altitude)
+                .arg(loc.country);
+        StelApp::getInstance().getRsync()->sendChanges(RSYNC_COMMAND_SAVELOC,str);
+    }
+    
+    ui->citySearchLineEdit->clear();
+    StelApp::getInstance().getLocationMgr().saveUserLocation(loc);
+    isEditingNew=false;
+    ui->addLocationToListPushButton->setEnabled(false);
+    
+    const QAbstractItemModel* model = ui->citiesListView->model();
+    const QString id = loc.getID();
+    for (int i=0;i<model->rowCount();++i)
+    {
+        if (model->index(i,0).data()==id)
+        {
+            ui->citiesListView->scrollTo(model->index(i,0));
+            ui->citiesListView->selectionModel()->select(model->index(i,0), QItemSelectionModel::ClearAndSelect|QItemSelectionModel::Rows);
+            listItemActivated(model->index(i,0));
+            break;
+        }
+    }
+}
+
+// Called when the user wants to use the current location as default
+void LocationDialog::useAsDefaultClicked()
+{
+    StelApp::getInstance().getCore()->getNavigator()->setDefaultLocationID(StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation().getID());
+    const bool b = StelApp::getInstance().getCore()->getNavigator()->getCurrentLocation().getID()==
+            StelApp::getInstance().getCore()->getNavigator()->getDefaultLocationID();
+    ui->useAsDefaultLocationCheckBox->setChecked(b);
+    ui->useAsDefaultLocationCheckBox->setEnabled(!b);
+}
+
+// Called when the user clic on the delete button
+void LocationDialog::deleteCurrentLocationFromList()
+{
+    const StelLocation& loc = locationFromFields();
+    StelApp::getInstance().getLocationMgr().deleteUserLocation(loc.getID());
+}
+
+void LocationDialog::on_visibleChanged(bool b)
+{
+    StelApp::getInstance().isNetCom = false;
+}
+void LocationDialog::on_load(bool b)
+{
+    StelApp::getInstance().isNetCom = true;
+}
+
+void LocationDialog::retranslate()
+{
+    languageChanged();
+}
