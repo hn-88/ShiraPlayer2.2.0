@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/stellarium/!svn/ver/3721/trunk/stellarium/landscapes/mars
+END
+mars.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/stellarium/!svn/ver/3614/trunk/stellarium/landscapes/mars/mars.png
+END
+landscape.ini
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/stellarium/!svn/ver/3614/trunk/stellarium/landscapes/mars/landscape.ini
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/stellarium/!svn/ver/3721/trunk/stellarium/landscapes/mars/CMakeLists.txt
+END

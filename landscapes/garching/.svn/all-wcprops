@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/stellarium/!svn/ver/3077/trunk/stellarium/landscapes/garching
+END
+garching-ground3.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/stellarium/!svn/ver/2248/trunk/stellarium/landscapes/garching/garching-ground3.png
+END
+garching-gl1.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/2207/trunk/stellarium/landscapes/garching/garching-gl1.png
+END
+garching-gl2.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/2207/trunk/stellarium/landscapes/garching/garching-gl2.png
+END
+garching-gl3.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/2207/trunk/stellarium/landscapes/garching/garching-gl3.png
+END
+landscape.ini
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/stellarium/!svn/ver/3077/trunk/stellarium/landscapes/garching/landscape.ini
+END
+garching-gl4.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/stellarium/!svn/ver/2207/trunk/stellarium/landscapes/garching/garching-gl4.png
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/stellarium/!svn/ver/2263/trunk/stellarium/landscapes/garching/CMakeLists.txt
+END
