@@ -15,6 +15,8 @@ install:
 
    - sudo apt-get install -y cmake libgps-dev libpulse-dev libgl1-mesa-dev xvfb 
    - sudo apt-get install -y ninja-build qt5-default qtbase5-dev qttools5-dev
+   # https://forum.freecadweb.org/viewtopic.php?t=37036
+   - sudo apt-get install -y libqt5xmlpatterns5-dev
    
 before_script:
   - mkdir build
